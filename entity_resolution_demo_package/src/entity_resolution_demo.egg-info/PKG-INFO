@@ -1,0 +1,204 @@
+Metadata-Version: 2.4
+Name: entity-resolution-demo
+Version: 1.0.0
+Summary: A comprehensive educational prototype for entity resolution
+Home-page: https://github.com/entity-resolution-demo/entity-resolution-demo
+Author: Entity Resolution Demo Team
+Author-email: team@entityresolution.demo
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: tutorial
+Requires-Dist: jupyter>=1.0.0; extra == "tutorial"
+Requires-Dist: jupyterlab>=3.0.0; extra == "tutorial"
+Requires-Dist: nbformat>=5.0.0; extra == "tutorial"
+Requires-Dist: matplotlib>=3.0.0; extra == "tutorial"
+Requires-Dist: pandas>=1.0.0; extra == "tutorial"
+Requires-Dist: ipywidgets>=7.0.0; extra == "tutorial"
+Requires-Dist: graphviz>=0.20.0; extra == "tutorial"
+Requires-Dist: seaborn>=0.11.0; extra == "tutorial"
+Requires-Dist: plotly>=5.0.0; extra == "tutorial"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-python
+Dynamic: summary
+
+# Entity Resolution (Public Demo)
+
+Notebook-first demo repo for a blog series on **entity resolution** using **Elasticsearch semantic search** + **LLM judgment**.
+
+## Start here
+
+- **Onboarding (authoritative)**: `NEW_USERS_START_HERE.md`
+- **Notebooks (authoritative)**: `notebooks/01_entity_preparation_v3.ipynb` → `notebooks/05_ultimate_challenge_v3.ipynb`
+
+## Repo layout (public)
+
+- `notebooks/`: v3 notebooks + minimal starter datasets
+- `comprehensive_evaluation/data/`: tiered datasets (Tier 0–5)
+- `pipeline_state/`: generated outputs (plus `golden_standard.json`)
+- `entity_resolution_demo_package/`: installable Python package powering the notebooks
+
+## Quick run (high level)
+
+```bash
+cd entity_resolution_demo_package
+pip install -e .
+pip install -e ".[tutorial]"
+python setup_environment.py
+cd ..
+jupyter lab
+```
+
+Then open: `notebooks/01_entity_preparation_v3.ipynb`
+
+Launch Jupyter from the repo root; notebooks assume repo-root relative paths.
+
+---
+
+Private/authoring README content is preserved in `README_PRIVATE_FULL.md`.
+
+### **Learning Resources**
+- **Notebooks**: Interactive learning with real implementations
+- **Examples**: Command-line execution examples
+- **API Reference**: Component documentation
+
+## Requirements
+
+- Python 3.8 or higher
+- Elasticsearch 8.0 or higher
+- For LLM explanations: Any LLM API key (OpenAI, Anthropic, Google, etc.) or Elastic AI Assistant
+
+## Configuration
+
+The package looks for configuration in the following locations:
+
+1. Path specified in the `config_file` parameter
+2. `elasticsearch_config.yaml` in the current directory
+3. `config/elasticsearch_config.yaml` in the current directory
+4. `~/.entity_resolution/config.yaml`
+5. `/etc/entity_resolution/config.yaml`
+
+Example configuration:
+
+```yaml
+elasticsearch:
+  cloud_id: "your-cloud-id"
+  api_key: "your-api-key"
+
+entity_preparation:
+  enrichment:
+    use_wikipedia: true
+    max_context_length: 1000
+
+entity_matching:
+  matching:
+    match_threshold: 0.1
+    use_llm_explanations: true
+  llm:
+    provider: "openai"
+    model: "gpt-3.5-turbo"
+```
+
+## Examples
+
+See the [examples](entity_resolution_demo_package/examples/) directory for more examples of how to use the package.
+
+## Tutorial Notebook
+
+This package includes an interactive Jupyter notebook tutorial that guides you through the entity resolution process step by step. To use the tutorial:
+
+1. Install the package with tutorial dependencies:
+
+```bash
+pip install -e ".[tutorial]"
+```
+
+2. Set up the Jupyter kernel:
+
+```bash
+python setup_kernel.py
+```
+
+3. Configure your Elasticsearch connection:
+
+The tutorial requires a working Elasticsearch connection. Make sure to set these environment variables:
+
+```bash
+export ELASTIC_CLOUD_ID="your-cloud-id"
+export ELASTIC_API_KEY="your-api-key"
+```
+
+You can also create a `.env` file with these variables.
+
+3. Generate the tutorial notebook:
+
+```bash
+cd entity_resolution_demo_package
+python scripts/generate_tutorial.py
+```
+
+4. Open the notebook in Jupyter:
+
+```bash
+jupyter notebook entity_resolution_tutorial.ipynb
+```
+
+### Tutorial Dependencies
+
+The tutorial requires additional dependencies that are installed with the `tutorial` extras:
+
+- `jupyter`: For running the notebook
+- `nbformat`: For notebook generation
+- `matplotlib` and `pandas`: For visualizations
+- `ipywidgets`: For interactive elements
+- `graphviz`: For pipeline visualization (requires Graphviz executables)
+
+**Note about Graphviz**: The `graphviz` Python package is just a wrapper around the Graphviz executables, which need to be installed separately:
+
+- For macOS: `brew install graphviz`
+- For Ubuntu/Debian: `sudo apt-get install graphviz`
+- For Windows: Download from https://graphviz.org/download/ and add to PATH
+
+**Important**: Unlike the demo scripts, the tutorial notebook requires a working Elasticsearch connection and will exit with helpful error messages if the connection fails. This ensures you get a proper learning experience with real data processing.
+
+## Documentation
+
+For full documentation, visit the [docs](docs/) directory.
+
+### Advanced Topics
+
+- **LLM Integration Guide**: See `entity_resolution_demo_package/LLM_INTEGRATION_GUIDE.md` for detailed comparison of different LLM integration approaches
+- **Function Calling Optimization**: Learn about advanced LLM integration techniques in `notebooks/04_function_calling_optimization.ipynb`
+
+### Example Scripts
+
+The package includes several example scripts in `entity_resolution_demo_package/examples/`:
+
+**For End Users:**
+- `run_entity_preparation.py` - Standalone entity preparation workflow
+- `run_article_processing.py` - Standalone article processing workflow  
+- `run_full_pipeline.py` - Complete end-to-end pipeline (recommended starting point)
+
+**For Developers/Advanced Users:**
+- `llm_improvements_example.py` - A/B testing, implementation comparison, and migration tools for developers evaluating different LLM integration approaches
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

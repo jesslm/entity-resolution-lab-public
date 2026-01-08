@@ -1,0 +1,232 @@
+[
+  {
+    "id": "article_nicknames_001",
+    "title": "Nickname Variations Test",
+    "content": "Will Johnson attended the conference yesterday. Bill Johnson gave a presentation on technology. Billy Johnson also participated in the discussion.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Will Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Bill Johnson", 
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Billy Johnson",
+        "watch_list_entity": "William Johnson", 
+        "match_type": "nickname"
+      }
+    ],
+    "complexity": "medium",
+    "test_category": "nicknames"
+  },
+  {
+    "id": "article_titles_001",
+    "title": "Titles and Honorifics Test",
+    "content": "Sarah Williams conducted the research study. Dr. S. Williams published the findings. The medical professional emphasized patient care.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Sarah Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Dr. S. Williams",
+        "watch_list_entity": "Dr. Sarah Williams", 
+        "match_type": "title_variation"
+      }
+    ],
+    "complexity": "medium",
+    "test_category": "titles_honorifics"
+  },
+  {
+    "id": "article_semantic_context_001",
+    "title": "Russian Leader Context Test",
+    "content": "The Russian leader met with international officials to discuss global security. The Russian president emphasized the importance of diplomatic relations.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Russian president",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_semantic_context_002",
+    "title": "Chinese Leader Context Test",
+    "content": "The Chinese president announced new economic policies. The Chinese leader emphasized technological innovation and development.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Chinese president",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Chinese leader",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_semantic_context_003",
+    "title": "Company Context Test",
+    "content": "The electric car company announced new battery technology. The EV manufacturer is leading innovation in sustainable transportation.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "electric car company",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "EV manufacturer",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic_context"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_multilingual_001",
+    "title": "Multilingual Names Test",
+    "content": "The Russian president met with international leaders. Владимир Путин discussed global security issues.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Russian president",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Владимир Путин",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "multilingual"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "multilingual"
+  },
+  {
+    "id": "article_multilingual_002",
+    "title": "Multilingual Names Test 2",
+    "content": "The Chinese leader announced new policies. 习近平 emphasized economic development and technological innovation.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Chinese leader",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "习近平",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "multilingual"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "multilingual"
+  },
+  {
+    "id": "article_combined_001",
+    "title": "Combined Test Article 1",
+    "content": "Will Johnson met with Dr. Sarah Williams to discuss medical research. The Russian leader also participated in the international conference.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Will Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Dr. Sarah Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "combined"
+  },
+  {
+    "id": "article_combined_002",
+    "title": "Combined Test Article 2",
+    "content": "The Chinese president and Tesla CEO discussed electric vehicle technology. The EV manufacturer is expanding globally.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Chinese president",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Tesla CEO",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "EV manufacturer",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic_context"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "combined"
+  },
+  {
+    "id": "article_combined_003",
+    "title": "Combined Test Article 3",
+    "content": "Bill Johnson, a doctor, met with the Russian leader to discuss healthcare. The electric car company is also involved in medical technology.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Bill Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "electric car company",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic_context"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "combined"
+  }
+]

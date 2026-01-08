@@ -1,0 +1,31 @@
+{
+  "generated_at": "2025-10-08T11:47:58.987234",
+  "version": "5.0.0",
+  "description": "Tiered test data with multiple dataset sizes for progressive testing",
+  "tiers": {
+    "tier1": {
+      "description": "Minimal dataset for quick validation",
+      "entities": 5,
+      "articles": 10,
+      "use_case": "Quick validation and basic functionality testing"
+    },
+    "tier2": {
+      "description": "Small dataset for basic testing",
+      "entities": 15,
+      "articles": 20,
+      "use_case": "Basic testing and initial performance evaluation"
+    },
+    "tier3": {
+      "description": "Medium dataset for comprehensive testing",
+      "entities": 41,
+      "articles": 50,
+      "use_case": "Comprehensive testing and performance analysis"
+    },
+    "tier4": {
+      "description": "Large dataset for full evaluation",
+      "entities": 66,
+      "articles": 100,
+      "use_case": "Full evaluation and production readiness testing"
+    }
+  }
+}

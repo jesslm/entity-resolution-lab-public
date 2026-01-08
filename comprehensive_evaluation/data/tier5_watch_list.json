@@ -1,0 +1,864 @@
+{
+  "entities": [
+    {
+      "name": "安倍晋三",
+      "entity_type": "person",
+      "description": "Test case for multiple_writing_systems",
+      "aliases": [
+        "Shinzo Abe",
+        "Abe Shinzo",
+        "安倍さん",
+        "安倍くん",
+        "安倍ちゃん",
+        "安倍様",
+        "アベシンゾウ",
+        "あんべしんぞう",
+        "Prime Minister Abe",
+        "Abe Prime Minister"
+      ],
+      "explicit_context": "Shinzo Abe (21 September 1954 – 8 July 2022) was a Japanese politician who served as Prime Minister of Japan and President of the Liberal Democratic Party (LDP) from 2006 to 2007 and again from 2012 to 2020. He was the longest-serving prime minister in Japanese history, serving for nearly nine years in total and implementing significant economic and security policies.",
+      "script": "Japanese",
+      "challenge_type": "multiple_writing_systems"
+    },
+    {
+      "name": "田中太郎",
+      "entity_type": "person",
+      "description": "Test case for name_order_variations",
+      "aliases": [
+        "Taro Tanaka",
+        "Tanaka Taro",
+        "田中さん",
+        "田中くん",
+        "田中ちゃん",
+        "田中様",
+        "タナカタロウ",
+        "たなかたろう",
+        "Mr. Tanaka",
+        "Tanaka-san"
+      ],
+      "explicit_context": "Taro Tanaka is a common Japanese name that represents a typical Japanese individual in society. The name follows traditional Japanese naming conventions with family name (Tanaka) followed by given name (Taro), and can appear in various forms including kanji (田中太郎), hiragana (たなかたろう), and katakana (タナカタロウ) scripts, demonstrating the complexity of Japanese name representation.",
+      "script": "Japanese",
+      "challenge_type": "name_order_variations"
+    },
+    {
+      "name": "トヨタ自動車",
+      "entity_type": "organization",
+      "description": "Test case for company_name_variations",
+      "aliases": [
+        "Toyota Motor Corporation",
+        "Toyota Motor",
+        "Toyota",
+        "トヨタ",
+        "トヨタ自動車株式会社",
+        "Toyota Jidosha",
+        "Toyota Motors"
+      ],
+      "explicit_context": "Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan, founded in 1937. The company is the world's largest automobile manufacturer by production and is known for its reliable vehicles and hybrid technology, including the Prius, representing innovation in automotive technology and sustainable transportation.",
+      "script": "Japanese",
+      "challenge_type": "company_name_variations"
+    },
+    {
+      "name": "ソニー",
+      "entity_type": "organization",
+      "description": "Test case for company_abbreviations",
+      "aliases": [
+        "Sony Corporation",
+        "Sony",
+        "ソニー株式会社",
+        "Sony Corp",
+        "Sony Inc"
+      ],
+      "explicit_context": "ソニー is a business organization that provides important services and contributes to the economy and society. This organization represents significant business operations, institutional capabilities, and contributions to their respective industries and communities.",
+      "script": "Japanese",
+      "challenge_type": "company_abbreviations"
+    },
+    {
+      "name": "フランシスコ",
+      "entity_type": "person",
+      "description": "Test case for religious_titles",
+      "aliases": [
+        "Pope Francis",
+        "Francis",
+        "フランシスコ教皇",
+        "Pope Francis I",
+        "Francis I"
+      ],
+      "explicit_context": "フランシスコ (Francisco) is a common Japanese transliteration of the Spanish name Francisco, representing cross-cultural naming conventions. This name demonstrates the complexity of name representation across different scripts and languages, showing how Western names are adapted to Japanese writing systems.",
+      "script": "Japanese",
+      "challenge_type": "religious_titles"
+    },
+    {
+      "name": "ダライ・ラマ",
+      "entity_type": "person",
+      "description": "Test case for religious_titles",
+      "aliases": [
+        "Dalai Lama",
+        "Tenzin Gyatso",
+        "ダライラマ",
+        "His Holiness the Dalai Lama",
+        "14th Dalai Lama"
+      ],
+      "explicit_context": "The Dalai Lama is the spiritual leader of Tibetan Buddhism and the former political leader of Tibet. The current 14th Dalai Lama, Tenzin Gyatso (born 6 July 1935), has been in exile in India since 1959 and is known worldwide for his teachings on compassion, peace, and human rights. The title 'Dalai Lama' means 'Ocean of Wisdom' in Tibetan and represents the highest spiritual authority in Tibetan Buddhism.",
+      "script": "Japanese",
+      "challenge_type": "religious_titles"
+    },
+    {
+      "name": "محمد علي",
+      "entity_type": "person",
+      "description": "Test case for patronymic_systems",
+      "aliases": [
+        "Muhammad Ali",
+        "Mohammed Ali",
+        "Muhammed Ali",
+        "أبو محمد",
+        "M. Ali",
+        "Ali Muhammad",
+        "Muhammad A.",
+        "محمد علي الكبير"
+      ],
+      "explicit_context": "محمد علي (Muhammad Ali) is a common Arabic name that represents traditional Islamic naming conventions. The name 'Muhammad' means 'praised' in Arabic and is one of the most common names in the Muslim world, while 'Ali' means 'exalted' or 'noble', making this a meaningful name in Islamic culture.",
+      "script": "Arabic",
+      "challenge_type": "patronymic_systems"
+    },
+    {
+      "name": "الشيخ محمد",
+      "entity_type": "person",
+      "description": "Test case for honorific_systems",
+      "aliases": [
+        "Sheikh Muhammad",
+        "Al-Sheikh Muhammad",
+        "الشيخ محمد بن عبد الله",
+        "Sheikh M.",
+        "Muhammad Sheikh",
+        "الشيخ"
+      ],
+      "explicit_context": "الشيخ محمد (Sheikh Muhammad) is an Arabic name with religious title that represents traditional Islamic naming conventions. The title 'Sheikh' means 'elder' or 'leader' in Arabic and is used for religious leaders, while 'Muhammad' means 'praised', making this a name of religious significance in Islamic culture.",
+      "script": "Arabic",
+      "challenge_type": "honorific_systems"
+    },
+    {
+      "name": "الدكتور أحمد",
+      "entity_type": "person",
+      "description": "Test case for professional_titles",
+      "aliases": [
+        "Dr. Ahmed",
+        "Dr. Ahmad",
+        "الدكتور أحمد محمد",
+        "Dr. A. Ahmed",
+        "Ahmed Doctor",
+        "الدكتور"
+      ],
+      "explicit_context": "الدكتور أحمد (Dr. Ahmed) is an Arabic name with professional title that represents traditional Islamic naming conventions. The title 'Doctor' indicates medical or academic expertise, while 'Ahmed' is a variant of 'Muhammad' meaning 'praised', making this a name of professional and religious significance.",
+      "script": "Arabic",
+      "challenge_type": "professional_titles"
+    },
+    {
+      "name": "أبو بكر",
+      "entity_type": "person",
+      "description": "Test case for historical_names",
+      "aliases": [
+        "Abu Bakr",
+        "Abu Bakr al-Siddiq",
+        "أبو بكر الصديق",
+        "Bakr",
+        "Abu Bakr the Truthful",
+        "الصديق"
+      ],
+      "explicit_context": "أبو بكر (Abu Bakr) is a traditional Arabic name that represents Islamic naming conventions. The name 'Abu Bakr' means 'father of Bakr' and was the name of the first caliph of Islam, making this a name of historical and religious significance in Islamic culture.",
+      "script": "Arabic",
+      "challenge_type": "historical_names"
+    },
+    {
+      "name": "الشركة السعودية",
+      "entity_type": "organization",
+      "description": "Test case for company_variations",
+      "aliases": [
+        "Saudi Company",
+        "Saudi Corporation",
+        "الشركة السعودية للبترول",
+        "Saudi Oil Company",
+        "Saudi Co."
+      ],
+      "explicit_context": "الشركة السعودية is a business organization that provides important services and contributes to the economy and society. This organization represents significant business operations, institutional capabilities, and contributions to their respective industries and communities.",
+      "script": "Arabic",
+      "challenge_type": "company_variations"
+    },
+    {
+      "name": "الجامعة الإسلامية",
+      "entity_type": "organization",
+      "description": "Test case for institutional_names",
+      "aliases": [
+        "Islamic University",
+        "Islamic Univ",
+        "الجامعة الإسلامية العالمية",
+        "International Islamic University",
+        "Islamic U."
+      ],
+      "explicit_context": "الجامعة الإسلامية is a business organization that provides important services and contributes to the economy and society. This organization represents significant business operations, institutional capabilities, and contributions to their respective industries and communities.",
+      "script": "Arabic",
+      "challenge_type": "institutional_names"
+    },
+    {
+      "name": "דוד בן-גוריון",
+      "entity_type": "person",
+      "description": "Test case for patronymic_systems",
+      "aliases": [
+        "David Ben-Gurion",
+        "Ben-Gurion",
+        "דוד בן גוריון",
+        "D. Ben-Gurion",
+        "Ben Gurion",
+        "הרב דוד",
+        "Ha-Rav David",
+        "Rabbi David"
+      ],
+      "explicit_context": "דוד בן-גוריון (David Ben-Gurion) was the primary founder and first Prime Minister of Israel, serving from 1948 to 1954 and again from 1955 to 1963. He was a key figure in the establishment of the State of Israel and is considered one of the most important leaders in Israeli history, known for his role in the Israeli Declaration of Independence.",
+      "script": "Hebrew",
+      "challenge_type": "patronymic_systems"
+    },
+    {
+      "name": "פרופסור דוד",
+      "entity_type": "person",
+      "description": "Test case for professional_titles",
+      "aliases": [
+        "Prof. David",
+        "Professor David",
+        "פרופ' דוד",
+        "Prof. D.",
+        "David Professor",
+        "הפרופסור"
+      ],
+      "explicit_context": "פרופסור דוד (Professor David) is a Hebrew name with academic title that represents traditional Jewish naming conventions. The title 'Professor' indicates academic expertise and teaching authority, while 'David' is a biblical name meaning 'beloved', making this a name of academic and religious significance.",
+      "script": "Hebrew",
+      "challenge_type": "professional_titles"
+    },
+    {
+      "name": "הרב משה",
+      "entity_type": "person",
+      "description": "Test case for religious_titles",
+      "aliases": [
+        "Rabbi Moses",
+        "Rabbi Moshe",
+        "הרב משה בן מימון",
+        "Ha-Rav Moshe",
+        "Moses Rabbi",
+        "הרב"
+      ],
+      "explicit_context": "הרב משה (Rabbi Moshe) is a Hebrew name with religious title that represents traditional Jewish naming conventions. The title 'Rabbi' means 'teacher' or 'master' in Hebrew and is used for religious leaders, while 'Moshe' (Moses) is a biblical name of great significance in Jewish tradition.",
+      "script": "Hebrew",
+      "challenge_type": "religious_titles"
+    },
+    {
+      "name": "יצחק רבין",
+      "entity_type": "person",
+      "description": "Test case for political_names",
+      "aliases": [
+        "Yitzhak Rabin",
+        "Rabin",
+        "יצחק רבין ז\"ל",
+        "Y. Rabin",
+        "Rabin Yitzhak",
+        "יצחק"
+      ],
+      "explicit_context": "יצחק רבין (Yitzhak Rabin) was an Israeli politician and military officer who served as Prime Minister of Israel from 1974 to 1977 and again from 1992 until his assassination in 1995. He was awarded the Nobel Peace Prize in 1994 for his efforts to create peace in the Middle East and is remembered as a key figure in Israeli politics.",
+      "script": "Hebrew",
+      "challenge_type": "political_names"
+    },
+    {
+      "name": "אוניברסיטת תל אביב",
+      "entity_type": "organization",
+      "description": "Test case for institutional_names",
+      "aliases": [
+        "Tel Aviv University",
+        "Tel Aviv Univ",
+        "אוניברסיטת ת\"א",
+        "TAU",
+        "Tel Aviv U.",
+        "אוניברסיטה"
+      ],
+      "explicit_context": "אוניברסיטת תל אביב is a business organization that provides important services and contributes to the economy and society. This organization represents significant business operations, institutional capabilities, and contributions to their respective industries and communities.",
+      "script": "Hebrew",
+      "challenge_type": "institutional_names"
+    },
+    {
+      "name": "בנק לאומי",
+      "entity_type": "organization",
+      "description": "Test case for financial_institutions",
+      "aliases": [
+        "Bank Leumi",
+        "Leumi Bank",
+        "בנק לאומי לישראל",
+        "Bank Leumi Le-Israel",
+        "Leumi",
+        "בנק"
+      ],
+      "explicit_context": "בנק לאומי is a business organization that provides important services and contributes to the economy and society. This organization represents significant business operations, institutional capabilities, and contributions to their respective industries and communities.",
+      "script": "Hebrew",
+      "challenge_type": "financial_institutions"
+    },
+    {
+      "name": "Vladimir Putin",
+      "entity_type": "person",
+      "description": "Test case for cross_script_transliteration",
+      "aliases": [
+        "Владимир Путин",
+        "V. Putin",
+        "Putin Vladimir",
+        "Владимир Владимирович Путин",
+        "President Putin",
+        "Putin President"
+      ],
+      "explicit_context": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, and previously from 2000 to 2008. He was also Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012, making him one of the longest-serving leaders in modern Russian history.",
+      "script": "Cyrillic",
+      "challenge_type": "cross_script_transliteration"
+    },
+    {
+      "name": "Xi Jinping",
+      "entity_type": "person",
+      "description": "Test case for political_titles",
+      "aliases": [
+        "习近平",
+        "President Xi",
+        "Xi President",
+        "主席习近平",
+        "Chairman Xi",
+        "Xi Chairman"
+      ],
+      "explicit_context": "Xi Jinping (born 15 June 1953) is a Chinese politician who has been serving as the General Secretary of the Chinese Communist Party (CCP) and President of the People's Republic of China since 2012. He is the paramount leader of China and has been described as the most powerful Chinese leader since Mao Zedong, overseeing China's economic growth and international relations.",
+      "script": "Chinese",
+      "challenge_type": "political_titles"
+    },
+    {
+      "name": "Elon Musk",
+      "entity_type": "person",
+      "description": "Test case for business_titles",
+      "aliases": [
+        "Elon Reeve Musk",
+        "E. Musk",
+        "Musk Elon",
+        "Tesla CEO",
+        "SpaceX CEO",
+        "Mr. Musk"
+      ],
+      "explicit_context": "Elon Reeve Musk (born 28 June 1971) is a South African-born American entrepreneur and business magnate who is the founder, CEO, and chief engineer of SpaceX, CEO and product architect of Tesla, Inc., and founder of The Boring Company and Neuralink. He is known for his ambitious projects in space exploration, electric vehicles, and sustainable energy.",
+      "script": "Latin",
+      "challenge_type": "business_titles"
+    },
+    {
+      "name": "Emmanuel Macron",
+      "entity_type": "person",
+      "description": "Test case for political_titles",
+      "aliases": [
+        "Emmanuel Jean-Michel Frédéric Macron",
+        "E. Macron",
+        "Macron Emmanuel",
+        "President Macron",
+        "Macron President",
+        "Mr. Macron"
+      ],
+      "explicit_context": "Emmanuel Jean-Michel Frédéric Macron (born 21 December 1977) is a French politician who has been serving as President of France since 2017. He was previously Minister of the Economy, Industry and Digital Affairs from 2014 to 2016 and founded the centrist political party En Marche! (now Renaissance) in 2016, becoming the youngest president in French history.",
+      "script": "Latin",
+      "challenge_type": "political_titles"
+    },
+    {
+      "name": "Kim Jong-un",
+      "entity_type": "person",
+      "description": "Test case for political_titles",
+      "aliases": [
+        "김정은",
+        "Kim Jong Un",
+        "K. Jong-un",
+        "Jong-un Kim",
+        "Supreme Leader Kim",
+        "Kim Supreme Leader"
+      ],
+      "explicit_context": "Kim Jong-un (born 8 January 1984) is a North Korean politician who has been the supreme leader of North Korea since 2011 and the leader of the Workers' Party of Korea since 2012. He is the third generation of his family to rule North Korea, following his grandfather Kim Il-sung and father Kim Jong-il, and is known for his nuclear weapons program and international diplomacy.",
+      "script": "Korean",
+      "challenge_type": "political_titles"
+    },
+    {
+      "name": "Tim Cook",
+      "entity_type": "person",
+      "description": "Test case for business_titles",
+      "aliases": [
+        "Timothy Donald Cook",
+        "T. Cook",
+        "Cook Tim",
+        "Apple CEO",
+        "CEO Cook",
+        "Mr. Cook"
+      ],
+      "explicit_context": "Timothy Donald Cook (born 1 November 1960) is an American business executive who has been the chief executive officer of Apple Inc. since 2011. He succeeded Steve Jobs as CEO and has overseen Apple's continued growth, including the development of new products like the Apple Watch and expansion into services like Apple Music and Apple TV+.",
+      "script": "Latin",
+      "challenge_type": "business_titles"
+    },
+    {
+      "name": "Microsoft Corporation",
+      "entity_type": "organization",
+      "description": "Test case for complex_business_hierarchy",
+      "aliases": [
+        "Microsoft Corp",
+        "Microsoft",
+        "MSFT",
+        "Microsoft Inc",
+        "Microsoft Company",
+        "Redmond-based tech giant",
+        "Windows maker",
+        "Office creator"
+      ],
+      "explicit_context": "Microsoft Corporation is an American multinational technology corporation founded by Bill Gates and Paul Allen in 1975. The company produces computer software, consumer electronics, personal computers, and related services, and is known for its Windows operating system, Office productivity suite, and cloud computing services, making it one of the world's largest technology companies.",
+      "script": "Latin",
+      "challenge_type": "complex_business_hierarchy"
+    },
+    {
+      "name": "Alphabet Inc",
+      "entity_type": "organization",
+      "description": "Test case for parent_subsidiary_relationships",
+      "aliases": [
+        "Alphabet",
+        "Google's parent company",
+        "Google parent",
+        "Alphabet Inc.",
+        "Alphabet Corporation",
+        "GOOGL",
+        "Google's holding company",
+        "Tech conglomerate"
+      ],
+      "explicit_context": "Alphabet Inc. is an American multinational conglomerate and parent company of Google and several other subsidiaries, founded in 2015 as a restructuring of Google. The company serves as a holding company for Google's various businesses including search, advertising, cloud computing, and other technology investments, representing one of the world's most valuable companies.",
+      "script": "Latin",
+      "challenge_type": "parent_subsidiary_relationships"
+    },
+    {
+      "name": "Berkshire Hathaway Inc",
+      "entity_type": "organization",
+      "description": "Test case for investment_holding_structures",
+      "aliases": [
+        "Berkshire Hathaway",
+        "Berkshire",
+        "Warren Buffett's company",
+        "BRK.A",
+        "BRK.B",
+        "Omaha-based conglomerate",
+        "Investment holding company",
+        "Buffett's empire"
+      ],
+      "explicit_context": "Berkshire Hathaway Inc. is an American multinational conglomerate holding company headquartered in Omaha, Nebraska, led by Warren Buffett. The company is one of the world's largest companies by market capitalization and owns subsidiaries in insurance, energy, freight rail transportation, retail, and manufacturing, representing a diversified investment portfolio.",
+      "script": "Latin",
+      "challenge_type": "investment_holding_structures"
+    },
+    {
+      "name": "Johnson & Johnson",
+      "entity_type": "organization",
+      "description": "Test case for multi_division_corporations",
+      "aliases": [
+        "J&J",
+        "Johnson and Johnson",
+        "JNJ",
+        "Pharmaceutical giant",
+        "Healthcare company",
+        "J&J Corporation",
+        "Medical device maker",
+        "Consumer health company"
+      ],
+      "explicit_context": "Johnson & Johnson is an American multinational corporation founded in 1886 that develops medical devices, pharmaceuticals, and consumer packaged goods. The company is one of the world's largest healthcare companies and is known for products like Band-Aid, Tylenol, and various pharmaceutical drugs, operating in three main segments: consumer health, pharmaceutical, and medical devices.",
+      "script": "Latin",
+      "challenge_type": "multi_division_corporations"
+    },
+    {
+      "name": "Procter & Gamble",
+      "entity_type": "organization",
+      "description": "Test case for consumer_goods_conglomerates",
+      "aliases": [
+        "P&G",
+        "Procter and Gamble",
+        "PG",
+        "Consumer goods company",
+        "P&G Corporation",
+        "Household products maker",
+        "Cincinnati-based company",
+        "Consumer packaged goods"
+      ],
+      "explicit_context": "Procter & Gamble Company (P&G) is an American multinational consumer goods corporation founded in 1837. The company is one of the world's largest consumer goods companies and is known for brands like Tide, Pampers, Gillette, and Crest, operating in beauty, grooming, health care, fabric and home care, and baby and family care segments.",
+      "script": "Latin",
+      "challenge_type": "consumer_goods_conglomerates"
+    },
+    {
+      "name": "General Electric",
+      "entity_type": "organization",
+      "description": "Test case for industrial_conglomerates",
+      "aliases": [
+        "GE",
+        "General Electric Company",
+        "GE Corporation",
+        "Industrial conglomerate",
+        "GE Company",
+        "GE Inc",
+        "Multinational conglomerate",
+        "GE Industrial"
+      ],
+      "explicit_context": "General Electric Company (GE) is an American multinational conglomerate founded in 1892. The company operates in aviation, power, renewable energy, digital industry, additive manufacturing, and venture capital and finance, and is one of the world's largest companies by market capitalization, known for its industrial technology and innovation.",
+      "script": "Latin",
+      "challenge_type": "industrial_conglomerates"
+    },
+    {
+      "name": "United Technologies Corporation",
+      "entity_type": "organization",
+      "description": "Test case for aerospace_defense_contractors",
+      "aliases": [
+        "UTC",
+        "United Technologies",
+        "UTC Corporation",
+        "Aerospace company",
+        "UTC Inc",
+        "United Tech",
+        "Aerospace and defense",
+        "UTC Corp"
+      ],
+      "explicit_context": "United Technologies Corporation (UTC) was an American multinational conglomerate that provided high-technology products and services to the building systems and aerospace industries. The company was acquired by Raytheon Technologies in 2020 and included companies like Pratt & Whitney, Collins Aerospace, and Otis Elevator, representing major aerospace and defense capabilities.",
+      "script": "Latin",
+      "challenge_type": "aerospace_defense_contractors"
+    },
+    {
+      "name": "3M Company",
+      "entity_type": "organization",
+      "description": "Test case for diversified_manufacturing",
+      "aliases": [
+        "3M",
+        "Minnesota Mining and Manufacturing",
+        "3M Corporation",
+        "3M Inc",
+        "Industrial company",
+        "3M Company Inc",
+        "Post-it maker",
+        "Scotch tape company"
+      ],
+      "explicit_context": "3M Company (originally Minnesota Mining and Manufacturing Company) is an American multinational conglomerate corporation founded in 1902. The company operates in industry, worker safety, health care, and consumer goods and is known for products like Post-it Notes, Scotch tape, and various industrial and medical products, representing innovation in materials science and technology.",
+      "script": "Latin",
+      "challenge_type": "diversified_manufacturing"
+    },
+    {
+      "name": "José María Aznar",
+      "entity_type": "person",
+      "description": "Test case for cross_cultural_name_variations",
+      "aliases": [
+        "Jose Maria Aznar",
+        "José M. Aznar",
+        "Jose M. Aznar",
+        "Aznar",
+        "Former Spanish PM",
+        "Spanish politician",
+        "J.M. Aznar",
+        "José María"
+      ],
+      "explicit_context": "José María Alfredo Aznar López (born 25 February 1953) is a Spanish politician who served as Prime Minister of Spain from 1996 to 2004. He was the leader of the People's Party (PP) and is known for his conservative policies, Spain's involvement in the Iraq War, and his handling of the 2004 Madrid train bombings.",
+      "script": "Latin",
+      "challenge_type": "cross_cultural_name_variations"
+    },
+    {
+      "name": "François Hollande",
+      "entity_type": "person",
+      "description": "Test case for international_political_figures",
+      "aliases": [
+        "Francois Hollande",
+        "F. Hollande",
+        "Hollande",
+        "Former French President",
+        "French politician",
+        "François",
+        "Francois",
+        "French leader"
+      ],
+      "explicit_context": "François Gérard Georges Nicolas Hollande (born 12 August 1954) is a French politician who served as President of France from 2012 to 2017. He was the first Socialist Party candidate to be elected President of the Fifth Republic and is known for his social democratic policies, including the legalization of same-sex marriage and his response to the 2015 Paris attacks.",
+      "script": "Latin",
+      "challenge_type": "international_political_figures"
+    },
+    {
+      "name": "Angela Merkel",
+      "entity_type": "person",
+      "description": "Test case for international_political_figures",
+      "aliases": [
+        "A. Merkel",
+        "Merkel",
+        "Former German Chancellor",
+        "German Chancellor",
+        "German politician",
+        "Angela",
+        "Merkel Angela",
+        "German leader"
+      ],
+      "explicit_context": "Angela Dorothea Merkel (born 17 July 1954) is a German politician who served as Chancellor of Germany from 2005 to 2021. She was the first woman to hold the office and is known for her pragmatic leadership during the European debt crisis, refugee crisis, and her role as a key figure in European politics and international relations.",
+      "script": "Latin",
+      "challenge_type": "international_political_figures"
+    },
+    {
+      "name": "Narendra Modi",
+      "entity_type": "person",
+      "description": "Test case for international_political_figures",
+      "aliases": [
+        "N. Modi",
+        "Modi",
+        "Indian Prime Minister",
+        "PM Modi",
+        "Narendra",
+        "Modi Narendra",
+        "Indian leader",
+        "BJP leader"
+      ],
+      "explicit_context": "Narendra Damodardas Modi (born 17 September 1950) is an Indian politician who has been serving as the 14th Prime Minister of India since 2014. He was the Chief Minister of Gujarat from 2001 to 2014 and is a member of the Bharatiya Janata Party (BJP), known for his economic reforms, digital initiatives, and his role in India's foreign policy.",
+      "script": "Latin",
+      "challenge_type": "international_political_figures"
+    },
+    {
+      "name": "Justin Trudeau",
+      "entity_type": "person",
+      "description": "Test case for international_political_figures",
+      "aliases": [
+        "J. Trudeau",
+        "Trudeau",
+        "Canadian Prime Minister",
+        "PM Trudeau",
+        "Justin",
+        "Trudeau Justin",
+        "Canadian leader",
+        "Liberal leader"
+      ],
+      "explicit_context": "Justin Pierre James Trudeau (born 25 December 1971) is a Canadian politician who has been serving as the 23rd Prime Minister of Canada since 2015. He is the leader of the Liberal Party of Canada and is known for his progressive policies, environmental initiatives, and his approach to multiculturalism and diversity in Canada.",
+      "script": "Latin",
+      "challenge_type": "international_political_figures"
+    },
+    {
+      "name": "Jacinda Ardern",
+      "entity_type": "person",
+      "description": "Test case for international_political_figures",
+      "aliases": [
+        "J. Ardern",
+        "Ardern",
+        "Former New Zealand PM",
+        "NZ PM",
+        "Jacinda",
+        "Ardern Jacinda",
+        "New Zealand leader",
+        "Labour leader"
+      ],
+      "explicit_context": "Jacinda Kate Laurell Ardern (born 26 July 1980) is a New Zealand politician who served as the 40th Prime Minister of New Zealand from 2017 to 2023. She was the leader of the New Zealand Labour Party and is known for her compassionate leadership during the COVID-19 pandemic, her response to the Christchurch mosque shootings, and her progressive policies on climate change and social issues.",
+      "script": "Latin",
+      "challenge_type": "international_political_figures"
+    },
+    {
+      "name": "Владимир Владимирович Путин",
+      "entity_type": "person",
+      "description": "Test case for advanced_transliteration",
+      "aliases": [
+        "Vladimir Vladimirovich Putin",
+        "Vladimir Putin",
+        "V. Putin",
+        "Putin",
+        "Russian President",
+        "President Putin",
+        "В.В. Путин",
+        "V.V. Putin"
+      ],
+      "explicit_context": "Владимир Владимирович Путин (Vladimir Vladimirovich Putin) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, and previously from 2000 to 2008. He was also Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012, making him one of the longest-serving leaders in modern Russian history.",
+      "script": "Cyrillic",
+      "challenge_type": "advanced_transliteration"
+    },
+    {
+      "name": "习近平",
+      "entity_type": "person",
+      "description": "Test case for chinese_transliteration",
+      "aliases": [
+        "Xi Jinping",
+        "President Xi",
+        "Xi",
+        "Chinese President",
+        "Xi President",
+        "Chairman Xi",
+        "Xi Jinping President",
+        "Chinese leader"
+      ],
+      "explicit_context": "Xi Jinping (born 15 June 1953) is a Chinese politician who has been serving as the General Secretary of the Chinese Communist Party (CCP) and President of the People's Republic of China since 2012. He is the paramount leader of China and has been described as the most powerful Chinese leader since Mao Zedong, overseeing China's economic growth, international relations, and domestic policies.",
+      "script": "Chinese",
+      "challenge_type": "chinese_transliteration"
+    },
+    {
+      "name": "김정은",
+      "entity_type": "person",
+      "description": "Test case for korean_transliteration",
+      "aliases": [
+        "Kim Jong-un",
+        "Kim Jong Un",
+        "Supreme Leader Kim",
+        "K. Jong-un",
+        "Jong-un Kim",
+        "North Korean leader",
+        "Kim",
+        "DPRK leader"
+      ],
+      "explicit_context": "Kim Jong-un (born 8 January 1984) is a North Korean politician who has been the supreme leader of North Korea since 2011 and the leader of the Workers' Party of Korea since 2012. He is the third generation of his family to rule North Korea, following his grandfather Kim Il-sung and father Kim Jong-il, and is known for his nuclear weapons program and international diplomacy.",
+      "script": "Korean",
+      "challenge_type": "korean_transliteration"
+    },
+    {
+      "name": "安倍晋三",
+      "entity_type": "person",
+      "description": "Test case for japanese_transliteration",
+      "aliases": [
+        "Shinzo Abe",
+        "Abe Shinzo",
+        "Former Japanese PM",
+        "Japanese PM",
+        "Abe",
+        "Shinzo",
+        "Abe Prime Minister",
+        "Japanese leader"
+      ],
+      "explicit_context": "Shinzo Abe (21 September 1954 – 8 July 2022) was a Japanese politician who served as Prime Minister of Japan and President of the Liberal Democratic Party (LDP) from 2006 to 2007 and again from 2012 to 2020. He was the longest-serving prime minister in Japanese history, serving for nearly nine years in total and implementing significant economic and security policies.",
+      "script": "Japanese",
+      "challenge_type": "japanese_transliteration"
+    },
+    {
+      "name": "Facebook Inc",
+      "entity_type": "organization",
+      "description": "Test case for historical_name_changes",
+      "aliases": [
+        "Facebook",
+        "Meta Platforms Inc",
+        "Meta",
+        "FB",
+        "META",
+        "Social media company",
+        "Mark Zuckerberg's company",
+        "Social network"
+      ],
+      "explicit_context": "Facebook, Inc. (now Meta Platforms, Inc.) is an American multinational technology conglomerate founded by Mark Zuckerberg in 2004. The company operates social media platforms including Facebook, Instagram, WhatsApp, and Oculus, and is one of the world's largest technology companies, revolutionizing social networking and digital communication.",
+      "script": "Latin",
+      "challenge_type": "historical_name_changes"
+    },
+    {
+      "name": "Twitter Inc",
+      "entity_type": "organization",
+      "description": "Test case for historical_name_changes",
+      "aliases": [
+        "Twitter",
+        "X Corp",
+        "X",
+        "Social media platform",
+        "Microblogging service",
+        "Tweet platform",
+        "Social network",
+        "Bird app"
+      ],
+      "explicit_context": "Twitter, Inc. (now X Corp.) is an American social media company founded in 2006 by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams. The company operates the microblogging and social networking service Twitter, which allows users to post and interact with messages known as 'tweets', representing a major platform for real-time information sharing and social discourse.",
+      "script": "Latin",
+      "challenge_type": "historical_name_changes"
+    },
+    {
+      "name": "Google LLC",
+      "entity_type": "organization",
+      "description": "Test case for corporate_restructuring",
+      "aliases": [
+        "Google",
+        "Alphabet Inc",
+        "Google Inc",
+        "Search engine company",
+        "GOOGL",
+        "Tech giant",
+        "Mountain View company",
+        "Search company"
+      ],
+      "explicit_context": "Google LLC is an American multinational technology company founded in 1998 by Larry Page and Sergey Brin. The company specializes in Internet-related services and products, including online advertising technologies, search engine, cloud computing, software, and hardware, and is a subsidiary of Alphabet Inc., representing the world's most popular search engine and digital services.",
+      "script": "Latin",
+      "challenge_type": "corporate_restructuring"
+    },
+    {
+      "name": "Amazon.com Inc",
+      "entity_type": "organization",
+      "description": "Test case for business_diversification",
+      "aliases": [
+        "Amazon",
+        "Amazon.com",
+        "AMZN",
+        "E-commerce giant",
+        "AWS company",
+        "Jeff Bezos' company",
+        "Online retailer",
+        "Cloud computing company"
+      ],
+      "explicit_context": "Amazon.com, Inc. is an American multinational technology company founded by Jeff Bezos in 1994. The company focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence, and is one of the world's most valuable companies and largest employers, revolutionizing online retail and cloud computing services.",
+      "script": "Latin",
+      "challenge_type": "business_diversification"
+    },
+    {
+      "name": "Dr. Anthony Fauci",
+      "entity_type": "person",
+      "description": "Test case for complex_professional_titles",
+      "aliases": [
+        "Anthony Fauci",
+        "Dr. Fauci",
+        "A. Fauci",
+        "Fauci",
+        "NIAID Director",
+        "Chief Medical Advisor",
+        "Dr. Anthony Fauci",
+        "Medical expert"
+      ],
+      "explicit_context": "Anthony Stephen Fauci (born 24 December 1940) is an American physician and immunologist who served as the director of the National Institute of Allergy and Infectious Diseases (NIAID) from 1984 to 2022. He was a key advisor to seven U.S. presidents on public health issues and became a prominent figure during the COVID-19 pandemic for his scientific expertise and public health guidance.",
+      "script": "Latin",
+      "challenge_type": "complex_professional_titles"
+    },
+    {
+      "name": "Prof. Stephen Hawking",
+      "entity_type": "person",
+      "description": "Test case for academic_titles",
+      "aliases": [
+        "Stephen Hawking",
+        "Prof. Hawking",
+        "S. Hawking",
+        "Hawking",
+        "Theoretical physicist",
+        "Cambridge professor",
+        "Prof. Stephen Hawking",
+        "Cosmologist"
+      ],
+      "explicit_context": "Stephen William Hawking (8 January 1942 – 14 March 2018) was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. Despite being diagnosed with amyotrophic lateral sclerosis (ALS) at age 21, he made groundbreaking contributions to our understanding of black holes, the Big Bang, and the nature of the universe.",
+      "script": "Latin",
+      "challenge_type": "academic_titles"
+    },
+    {
+      "name": "Gen. Colin Powell",
+      "entity_type": "person",
+      "description": "Test case for military_political_titles",
+      "aliases": [
+        "Colin Powell",
+        "General Powell",
+        "Gen. Powell",
+        "C. Powell",
+        "Powell",
+        "Former Secretary of State",
+        "General Colin Powell",
+        "Military leader"
+      ],
+      "explicit_context": "Colin Luther Powell (5 April 1937 – 18 October 2021) was an American politician, diplomat, and four-star general who served as the 65th United States Secretary of State from 2001 to 2005. He was the first African American to serve in that position and was known for his military leadership, diplomatic skills, and his famous presentation to the United Nations regarding Iraq's weapons of mass destruction.",
+      "script": "Latin",
+      "challenge_type": "military_political_titles"
+    },
+    {
+      "name": "Rev. Martin Luther King Jr",
+      "entity_type": "person",
+      "description": "Test case for religious_civil_rights_titles",
+      "aliases": [
+        "Martin Luther King Jr",
+        "MLK Jr",
+        "Rev. King",
+        "M.L. King Jr",
+        "King Jr",
+        "Civil rights leader",
+        "Rev. Martin Luther King",
+        "Dr. King"
+      ],
+      "explicit_context": "Martin Luther King Jr. (born Michael King Jr.; January 15, 1929 – April 4, 1968) was an American Baptist minister and activist who became the most visible spokesperson and leader in the civil rights movement from 1955 until his assassination in 1968. He is best known for his role in the advancement of civil rights using nonviolent civil disobedience based on his Christian beliefs.",
+      "script": "Latin",
+      "challenge_type": "religious_civil_rights_titles"
+    }
+  ]
+}

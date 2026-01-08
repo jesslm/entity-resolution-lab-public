@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "William Johnson",
+      "entity_type": "person",
+      "description": "Test case for nickname variations",
+      "aliases": [
+        "Will Johnson",
+        "Bill Johnson",
+        "Billy Johnson"
+      ],
+      "explicit_context": "William Johnson is an entity."
+    },
+    {
+      "name": "Dr. Sarah Williams",
+      "entity_type": "person",
+      "description": "Test case for titles and honorifics",
+      "aliases": [
+        "Sarah Williams",
+        "Dr. S. Williams",
+        "S. Williams"
+      ],
+      "explicit_context": "Dr. Sarah Williams is an entity."
+    },
+    {
+      "name": "Vladimir Putin",
+      "entity_type": "person",
+      "description": "Russian President",
+      "aliases": [
+        "Putin",
+        "V. Putin",
+        "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041f\u0443\u0442\u0438\u043d"
+      ],
+      "explicit_context": "Vladimir Putin is an entity."
+    },
+    {
+      "name": "Xi Jinping",
+      "entity_type": "person",
+      "description": "Chinese President",
+      "aliases": [
+        "Xi",
+        "\u4e60\u8fd1\u5e73",
+        "President Xi"
+      ],
+      "explicit_context": "Xi Jinping is an entity."
+    },
+    {
+      "name": "Tesla Inc",
+      "entity_type": "organization",
+      "description": "Electric vehicle company",
+      "aliases": [
+        "Tesla",
+        "Tesla Motors",
+        "Tesla, Inc."
+      ],
+      "explicit_context": "Tesla Inc is an entity."
+    }
+  ]
+}

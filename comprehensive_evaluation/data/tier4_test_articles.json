@@ -1,0 +1,1791 @@
+[
+  {
+    "id": "article_nicknames_001",
+    "title": "Nickname Variations Test",
+    "content": "William Johnson attended the business meeting yesterday. Will Johnson gave a presentation on market trends. Bill Johnson also participated in the discussion. Billy Johnson was present at the event.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "nicknames",
+    "expected_matches": [
+      {
+        "extracted_entity": "William Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Will Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Bill Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Billy Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      }
+    ]
+  },
+  {
+    "id": "article_nicknames_002",
+    "title": "Nickname Variations Test 2",
+    "content": "Robert Smith joined the company last month. Bob Smith has been working on the project. Rob Smith provided valuable insights. Bobby Smith contributed to the team effort.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "nicknames",
+    "expected_matches": [
+      {
+        "extracted_entity": "Robert Smith",
+        "watch_list_entity": "Robert Smith",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Bob Smith",
+        "watch_list_entity": "Robert Smith",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Rob Smith",
+        "watch_list_entity": "Robert Smith",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Bobby Smith",
+        "watch_list_entity": "Robert Smith",
+        "match_type": "nickname"
+      }
+    ]
+  },
+  {
+    "id": "article_nicknames_003",
+    "title": "Nickname Variations Test 3",
+    "content": "Elizabeth Brown attended the conference. Liz Brown gave a keynote speech. Beth Brown participated in panel discussions. Betty Brown was recognized for her contributions.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "nicknames",
+    "expected_matches": [
+      {
+        "extracted_entity": "Elizabeth Brown",
+        "watch_list_entity": "Elizabeth Brown",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Liz Brown",
+        "watch_list_entity": "Elizabeth Brown",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Beth Brown",
+        "watch_list_entity": "Elizabeth Brown",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Betty Brown",
+        "watch_list_entity": "Elizabeth Brown",
+        "match_type": "nickname"
+      }
+    ]
+  },
+  {
+    "id": "article_nicknames_004",
+    "title": "Nickname Variations Test 4",
+    "content": "Christopher Lee attended the seminar. Chris Lee gave a presentation. C. Lee participated in discussions. Christopher L. was recognized for his work.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "nicknames",
+    "expected_matches": [
+      {
+        "extracted_entity": "Christopher Lee",
+        "watch_list_entity": "Christopher Lee",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Chris Lee",
+        "watch_list_entity": "Christopher Lee",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "C. Lee",
+        "watch_list_entity": "Christopher Lee",
+        "match_type": "initials"
+      },
+      {
+        "extracted_entity": "Christopher L.",
+        "watch_list_entity": "Christopher Lee",
+        "match_type": "initials"
+      }
+    ]
+  },
+  {
+    "id": "article_nicknames_005",
+    "title": "Nickname Variations Test 5",
+    "content": "Daniel Wilson joined the team. Dan Wilson provided leadership. D. Wilson contributed to strategy. Daniel W. was instrumental in the project.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "nicknames",
+    "expected_matches": [
+      {
+        "extracted_entity": "Daniel Wilson",
+        "watch_list_entity": "Daniel Wilson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dan Wilson",
+        "watch_list_entity": "Daniel Wilson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "D. Wilson",
+        "watch_list_entity": "Daniel Wilson",
+        "match_type": "initials"
+      },
+      {
+        "extracted_entity": "Daniel W.",
+        "watch_list_entity": "Daniel Wilson",
+        "match_type": "initials"
+      }
+    ]
+  },
+  {
+    "id": "article_titles_001",
+    "title": "Titles and Honorifics Test",
+    "content": "Dr. Sarah Williams conducted the medical research. Sarah Williams published the findings. Dr. S. Williams received recognition for her work.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "titles_honorifics",
+    "expected_matches": [
+      {
+        "extracted_entity": "Dr. Sarah Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sarah Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Dr. S. Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_titles_002",
+    "title": "Titles and Honorifics Test 2",
+    "content": "Prof. David Miller taught the advanced course. David Miller authored several papers. Prof. D. Miller was awarded the research grant.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "titles_honorifics",
+    "expected_matches": [
+      {
+        "extracted_entity": "Prof. David Miller",
+        "watch_list_entity": "Prof. David Miller",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "David Miller",
+        "watch_list_entity": "Prof. David Miller",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Prof. D. Miller",
+        "watch_list_entity": "Prof. David Miller",
+        "match_type": "title_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_titles_003",
+    "title": "Titles and Honorifics Test 3",
+    "content": "Rev. Thomas Brown delivered the sermon. Thomas Brown provided spiritual guidance. Rev. T. Brown was respected in the community.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "titles_honorifics",
+    "expected_matches": [
+      {
+        "extracted_entity": "Rev. Thomas Brown",
+        "watch_list_entity": "Rev. Thomas Brown",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Thomas Brown",
+        "watch_list_entity": "Rev. Thomas Brown",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Rev. T. Brown",
+        "watch_list_entity": "Rev. Thomas Brown",
+        "match_type": "title_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_titles_004",
+    "title": "Titles and Honorifics Test 4",
+    "content": "Prof. David Miller taught the advanced course. David Miller authored several papers. Prof. D. Miller was awarded the research grant.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "titles_honorifics",
+    "expected_matches": [
+      {
+        "extracted_entity": "Prof. David Miller",
+        "watch_list_entity": "Prof. David Miller",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "David Miller",
+        "watch_list_entity": "Prof. David Miller",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Prof. D. Miller",
+        "watch_list_entity": "Prof. David Miller",
+        "match_type": "title_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_semantic_context_001",
+    "title": "Russian Leader Context Test",
+    "content": "The Russian leader met with international officials to discuss global security. The Russian president emphasized the importance of diplomatic relations and cooperation.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "semantic_context",
+    "expected_matches": [
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Russian president",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_semantic_context_002",
+    "title": "Chinese Leader Context Test",
+    "content": "The Chinese president announced new economic policies. The Chinese leader emphasized technological innovation and sustainable development.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "semantic_context",
+    "expected_matches": [
+      {
+        "extracted_entity": "Chinese president",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Chinese leader",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_semantic_context_003",
+    "title": "Company Context Test",
+    "content": "The electric car company reported strong quarterly earnings. The EV manufacturer announced new production facilities and expansion plans.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "semantic_context",
+    "expected_matches": [
+      {
+        "extracted_entity": "electric car company",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "EV manufacturer",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_semantic_context_004",
+    "title": "French Leader Context Test",
+    "content": "The French president met with European leaders to discuss policy. The French leader emphasized unity and cooperation among member states.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "semantic_context",
+    "expected_matches": [
+      {
+        "extracted_entity": "French president",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "French leader",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_semantic_context_005",
+    "title": "Technology Leader Context Test",
+    "content": "The Tesla CEO announced new initiatives. The electric vehicle company's leader discussed innovation and sustainability goals.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "semantic_context",
+    "expected_matches": [
+      {
+        "extracted_entity": "Tesla CEO",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "electric vehicle company's leader",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_semantic_context_006",
+    "title": "Apple Leadership Context Test",
+    "content": "The Apple CEO discussed new product launches. The technology company's leader emphasized innovation and user experience.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "semantic_context",
+    "expected_matches": [
+      {
+        "extracted_entity": "Apple CEO",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "technology company's leader",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_multilingual_001",
+    "title": "Multilingual Names Test",
+    "content": "Vladimir Putin and Владимир Путин are the same person in different languages. The system should handle multilingual names effectively.",
+    "source": "Test Data",
+    "language": "mixed",
+    "complexity": "high",
+    "test_category": "multilingual_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Владимир Путин",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "multilingual"
+      }
+    ]
+  },
+  {
+    "id": "article_multilingual_002",
+    "title": "Multilingual Names Test 2",
+    "content": "Xi Jinping and 习近平 are the same person in different languages. The system should handle multilingual names effectively.",
+    "source": "Test Data",
+    "language": "mixed",
+    "complexity": "high",
+    "test_category": "multilingual_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "习近平",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "multilingual"
+      }
+    ]
+  },
+  {
+    "id": "article_multilingual_003",
+    "title": "Multilingual Names Test 3",
+    "content": "Mao Zedong and 毛泽东 are the same person in different languages. The system should handle multilingual names effectively.",
+    "source": "Test Data",
+    "language": "mixed",
+    "complexity": "high",
+    "test_category": "multilingual_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Mao Zedong",
+        "watch_list_entity": "Mao Zedong",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "毛泽东",
+        "watch_list_entity": "Mao Zedong",
+        "match_type": "multilingual"
+      }
+    ]
+  },
+  {
+    "id": "article_multilingual_004",
+    "title": "Multilingual Names Test 4",
+    "content": "Samsung Electronics and 삼성전자 are the same company in different languages. The system should handle multilingual names effectively.",
+    "source": "Test Data",
+    "language": "mixed",
+    "complexity": "high",
+    "test_category": "multilingual_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Samsung Electronics",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "삼성전자",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "multilingual"
+      }
+    ]
+  },
+  {
+    "id": "article_combined_001",
+    "title": "Combined Test Article 1",
+    "content": "The Russian leader (Vladimir Putin) met with the Chinese president (Xi Jinping) to discuss international cooperation. Dr. Sarah Williams provided medical support during the summit.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "combined",
+    "expected_matches": [
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Chinese president",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dr. Sarah Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "exact"
+      }
+    ]
+  },
+  {
+    "id": "article_combined_002",
+    "title": "Combined Test Article 2",
+    "content": "William Johnson, also known as Bill Johnson, works for Tesla Inc, the electric car company. The system should handle multiple entity types effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "combined",
+    "expected_matches": [
+      {
+        "extracted_entity": "William Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Bill Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Tesla Inc",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "electric car company",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_combined_003",
+    "title": "Combined Test Article 3",
+    "content": "The French president (Emmanuel Macron) met with the Apple CEO (Tim Cook) to discuss technology partnerships. Dr. Sarah Williams provided medical support during the meeting.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "combined",
+    "expected_matches": [
+      {
+        "extracted_entity": "French president",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Emmanuel Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Apple CEO",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dr. Sarah Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "exact"
+      }
+    ]
+  },
+  {
+    "id": "article_combined_004",
+    "title": "Combined Test Article 4",
+    "content": "The Tesla CEO (Elon Musk) announced partnerships with Apple Inc. The electric vehicle company's leader discussed collaboration with the technology giant.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "combined",
+    "expected_matches": [
+      {
+        "extracted_entity": "Tesla CEO",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Apple Inc",
+        "watch_list_entity": "Apple Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "electric vehicle company's leader",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "technology giant",
+        "watch_list_entity": "Apple Inc",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_business_001",
+    "title": "Business Entities Test",
+    "content": "Apple Inc announced new products. The technology company discussed innovation. Apple emphasized user experience and design excellence.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_entities",
+    "expected_matches": [
+      {
+        "extracted_entity": "Apple Inc",
+        "watch_list_entity": "Apple Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "technology company",
+        "watch_list_entity": "Apple Inc",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "Apple",
+        "watch_list_entity": "Apple Inc",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_business_002",
+    "title": "Business Entities Test 2",
+    "content": "IBM Corporation reported strong earnings. Big Blue announced new partnerships. International Business Machines emphasized innovation and growth.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_entities",
+    "expected_matches": [
+      {
+        "extracted_entity": "IBM Corporation",
+        "watch_list_entity": "IBM",
+        "match_type": "alias"
+      },
+      {
+        "extracted_entity": "Big Blue",
+        "watch_list_entity": "IBM",
+        "match_type": "alias"
+      },
+      {
+        "extracted_entity": "International Business Machines",
+        "watch_list_entity": "IBM",
+        "match_type": "alias"
+      }
+    ]
+  },
+  {
+    "id": "article_business_003",
+    "title": "Business Entities Test 3",
+    "content": "Global Tech Solutions announced new cloud infrastructure. The technology company discussed digital transformation. Global Tech emphasized innovation and scalability.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_entities",
+    "expected_matches": [
+      {
+        "extracted_entity": "Global Tech Solutions",
+        "watch_list_entity": "Global Tech Solutions",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "technology company",
+        "watch_list_entity": "Global Tech Solutions",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "Global Tech",
+        "watch_list_entity": "Global Tech Solutions",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_business_004",
+    "title": "Business Entities Test 4",
+    "content": "Volkswagen AG announced new electric vehicles. The automotive company discussed sustainability. VW emphasized innovation and environmental responsibility.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_entities",
+    "expected_matches": [
+      {
+        "extracted_entity": "Volkswagen AG",
+        "watch_list_entity": "Volkswagen AG",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "automotive company",
+        "watch_list_entity": "Volkswagen AG",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "VW",
+        "watch_list_entity": "Volkswagen AG",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_business_005",
+    "title": "Business Entities Test 5",
+    "content": "Samsung Electronics reported strong quarterly results. The technology company discussed innovation. Samsung emphasized research and development investments.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_entities",
+    "expected_matches": [
+      {
+        "extracted_entity": "Samsung Electronics",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "technology company",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "Samsung",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_executive_001",
+    "title": "Executive References Test",
+    "content": "Tim Cook announced new products. The Apple CEO discussed innovation. Cook emphasized user experience and market growth.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "executive_references",
+    "expected_matches": [
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Apple CEO",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "last_name"
+      }
+    ]
+  },
+  {
+    "id": "article_executive_002",
+    "title": "Executive References Test 2",
+    "content": "Elon Musk discussed space exploration. The Tesla CEO announced new projects. Musk emphasized innovation and sustainability.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "executive_references",
+    "expected_matches": [
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tesla CEO",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "last_name"
+      }
+    ]
+  },
+  {
+    "id": "article_executive_003",
+    "title": "Executive References Test 3",
+    "content": "The Apple CEO discussed market strategy. Tim Cook emphasized innovation. The technology leader announced new initiatives.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "executive_references",
+    "expected_matches": [
+      {
+        "extracted_entity": "Apple CEO",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "technology leader",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_political_001",
+    "title": "Political Leaders Test",
+    "content": "Emmanuel Macron met with European leaders. The French president discussed international cooperation. Macron emphasized unity and progress.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "political_leaders",
+    "expected_matches": [
+      {
+        "extracted_entity": "Emmanuel Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "French president",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "last_name"
+      }
+    ]
+  },
+  {
+    "id": "article_political_002",
+    "title": "Political Leaders Test 2",
+    "content": "The Russian leader met with international officials. Vladimir Putin discussed global security. The Russian president emphasized diplomatic relations.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "political_leaders",
+    "expected_matches": [
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Russian president",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_political_003",
+    "title": "Political Leaders Test 3",
+    "content": "The Chinese president announced new policies. Xi Jinping discussed economic development. The Chinese leader emphasized technological innovation.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "political_leaders",
+    "expected_matches": [
+      {
+        "extracted_entity": "Chinese president",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Chinese leader",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_spaces_001",
+    "title": "Missing Spaces and Hyphens Test",
+    "content": "MaryEllen Smith, Mary-Ellen Smith, and Mary Ellen Smith are the same person. The system should handle missing spaces and hyphens correctly.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "missing_spaces_hyphens",
+    "expected_matches": [
+      {
+        "extracted_entity": "MaryEllen Smith",
+        "watch_list_entity": "Mary Ellen Smith",
+        "match_type": "spacing_variation"
+      },
+      {
+        "extracted_entity": "Mary-Ellen Smith",
+        "watch_list_entity": "Mary Ellen Smith",
+        "match_type": "spacing_variation"
+      },
+      {
+        "extracted_entity": "Mary Ellen Smith",
+        "watch_list_entity": "Mary Ellen Smith",
+        "match_type": "exact"
+      }
+    ]
+  },
+  {
+    "id": "article_spaces_002",
+    "title": "Missing Spaces and Hyphens Test 2",
+    "content": "JeanPierre Martin, Jean-Pierre Martin, and Jean Pierre Martin are the same person. The system should handle missing spaces and hyphens correctly.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "missing_spaces_hyphens",
+    "expected_matches": [
+      {
+        "extracted_entity": "JeanPierre Martin",
+        "watch_list_entity": "Jean Pierre Martin",
+        "match_type": "spacing_variation"
+      },
+      {
+        "extracted_entity": "Jean-Pierre Martin",
+        "watch_list_entity": "Jean Pierre Martin",
+        "match_type": "spacing_variation"
+      },
+      {
+        "extracted_entity": "Jean Pierre Martin",
+        "watch_list_entity": "Jean Pierre Martin",
+        "match_type": "exact"
+      }
+    ]
+  },
+  {
+    "id": "article_initials_001",
+    "title": "Initials Test",
+    "content": "James Earl Smith and J. E. Smith are the same person. The system should handle initials and full names appropriately.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "initials",
+    "expected_matches": [
+      {
+        "extracted_entity": "James Earl Smith",
+        "watch_list_entity": "James Earl Smith",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "J. E. Smith",
+        "watch_list_entity": "James Earl Smith",
+        "match_type": "initials"
+      }
+    ]
+  },
+  {
+    "id": "article_initials_002",
+    "title": "Initials Test 2",
+    "content": "Robert Anthony Davis and R. A. Davis are the same person. The system should handle initials and full names appropriately.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "initials",
+    "expected_matches": [
+      {
+        "extracted_entity": "Robert Anthony Davis",
+        "watch_list_entity": "Robert Anthony Davis",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "R. A. Davis",
+        "watch_list_entity": "Robert Anthony Davis",
+        "match_type": "initials"
+      }
+    ]
+  },
+  {
+    "id": "article_initials_003",
+    "title": "Initials Test 3",
+    "content": "William Thomas Brown and W. T. Brown are the same person. The system should handle initials and full names appropriately.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "initials",
+    "expected_matches": [
+      {
+        "extracted_entity": "William Thomas Brown",
+        "watch_list_entity": "William Thomas Brown",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "W. T. Brown",
+        "watch_list_entity": "William Thomas Brown",
+        "match_type": "initials"
+      }
+    ]
+  },
+  {
+    "id": "article_truncated_001",
+    "title": "Truncated Names Test",
+    "content": "Blankenship attended the conference. Blankensh was also present. Blankens participated in discussions. Blanken provided valuable input.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "truncated_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Blankenship",
+        "watch_list_entity": "Blankenship",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Blankensh",
+        "watch_list_entity": "Blankenship",
+        "match_type": "truncated"
+      },
+      {
+        "extracted_entity": "Blankens",
+        "watch_list_entity": "Blankenship",
+        "match_type": "truncated"
+      },
+      {
+        "extracted_entity": "Blanken",
+        "watch_list_entity": "Blankenship",
+        "match_type": "truncated"
+      }
+    ]
+  },
+  {
+    "id": "article_truncated_002",
+    "title": "Truncated Names Test 2",
+    "content": "Anderson participated in the meeting. Anders was also present. Ander provided valuable input. And contributed to the discussion.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "truncated_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Anderson",
+        "watch_list_entity": "Anderson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Anders",
+        "watch_list_entity": "Anderson",
+        "match_type": "truncated"
+      },
+      {
+        "extracted_entity": "Ander",
+        "watch_list_entity": "Anderson",
+        "match_type": "truncated"
+      },
+      {
+        "extracted_entity": "And",
+        "watch_list_entity": "Anderson",
+        "match_type": "truncated"
+      }
+    ]
+  },
+  {
+    "id": "article_truncated_003",
+    "title": "Truncated Names Test 3",
+    "content": "Thompson attended the seminar. Thompso was also present. Thomps participated in discussions. Thomp provided valuable input.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "truncated_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Thompson",
+        "watch_list_entity": "Thompson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Thompso",
+        "watch_list_entity": "Thompson",
+        "match_type": "truncated"
+      },
+      {
+        "extracted_entity": "Thomps",
+        "watch_list_entity": "Thompson",
+        "match_type": "truncated"
+      },
+      {
+        "extracted_entity": "Thomp",
+        "watch_list_entity": "Thompson",
+        "match_type": "truncated"
+      }
+    ]
+  },
+  {
+    "id": "article_transliteration_001",
+    "title": "Transliteration Test",
+    "content": "Abdul Rasheed and Abd al-Rashid are the same person. The system should handle transliteration differences effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "transliteration",
+    "expected_matches": [
+      {
+        "extracted_entity": "Abdul Rasheed",
+        "watch_list_entity": "Abdul Rasheed",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Abd al-Rashid",
+        "watch_list_entity": "Abdul Rasheed",
+        "match_type": "transliteration"
+      }
+    ]
+  },
+  {
+    "id": "article_transliteration_002",
+    "title": "Transliteration Test 2",
+    "content": "Abdul Rasheed and Abd al-Rasheed are the same person. The system should handle transliteration differences effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "transliteration",
+    "expected_matches": [
+      {
+        "extracted_entity": "Abdul Rasheed",
+        "watch_list_entity": "Abdul Rasheed",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Abd al-Rasheed",
+        "watch_list_entity": "Abdul Rasheed",
+        "match_type": "transliteration"
+      }
+    ]
+  },
+  {
+    "id": "article_name_order_001",
+    "title": "Name Order Variations Test",
+    "content": "Carlos Alfonzo Diaz and Diaz, Carlos Alfonzo are the same person. The system should handle name order variations effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "name_order_variations",
+    "expected_matches": [
+      {
+        "extracted_entity": "Carlos Alfonzo Diaz",
+        "watch_list_entity": "Carlos Alfonzo Diaz",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Diaz, Carlos Alfonzo",
+        "watch_list_entity": "Carlos Alfonzo Diaz",
+        "match_type": "name_order_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_name_order_002",
+    "title": "Name Order Variations Test 2",
+    "content": "Maria Elena Rodriguez and Rodriguez, Maria Elena are the same person. The system should handle name order variations effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "name_order_variations",
+    "expected_matches": [
+      {
+        "extracted_entity": "Maria Elena Rodriguez",
+        "watch_list_entity": "Maria Elena Rodriguez",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Rodriguez, Maria Elena",
+        "watch_list_entity": "Maria Elena Rodriguez",
+        "match_type": "name_order_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_name_order_003",
+    "title": "Name Order Variations Test 3",
+    "content": "Jean Pierre Martin and Martin, Jean Pierre are the same person. The system should handle name order variations effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "name_order_variations",
+    "expected_matches": [
+      {
+        "extracted_entity": "Jean Pierre Martin",
+        "watch_list_entity": "Jean Pierre Martin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Martin, Jean Pierre",
+        "watch_list_entity": "Jean Pierre Martin",
+        "match_type": "name_order_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_name_splitting_001",
+    "title": "Inconsistent Name Splitting Test",
+    "content": "Dick Van Dyke and Dick Van. Dyke are the same person. The system should handle inconsistent name splitting effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "name_splitting",
+    "expected_matches": [
+      {
+        "extracted_entity": "Dick Van Dyke",
+        "watch_list_entity": "Dick Van Dyke",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dick Van. Dyke",
+        "watch_list_entity": "Dick Van Dyke",
+        "match_type": "splitting_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_name_splitting_002",
+    "title": "Inconsistent Name Splitting Test 2",
+    "content": "Mary Jane Watson and Mary Jane. Watson are the same person. The system should handle inconsistent name splitting effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "name_splitting",
+    "expected_matches": [
+      {
+        "extracted_entity": "Mary Jane Watson",
+        "watch_list_entity": "Mary Jane Watson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Mary Jane. Watson",
+        "watch_list_entity": "Mary Jane Watson",
+        "match_type": "splitting_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_name_splitting_003",
+    "title": "Inconsistent Name Splitting Test 3",
+    "content": "John Paul Jones and John Paul. Jones are the same person. The system should handle inconsistent name splitting effectively.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "name_splitting",
+    "expected_matches": [
+      {
+        "extracted_entity": "John Paul Jones",
+        "watch_list_entity": "John Paul Jones",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "John Paul. Jones",
+        "watch_list_entity": "John Paul Jones",
+        "match_type": "splitting_variation"
+      }
+    ]
+  },
+  {
+    "id": "article_business_complex_001",
+    "title": "Complex Business Scenario Test",
+    "content": "Volkswagen AG announced new electric vehicles. The automotive company discussed sustainability. VW emphasized innovation and environmental responsibility.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_complex",
+    "expected_matches": [
+      {
+        "extracted_entity": "Volkswagen AG",
+        "watch_list_entity": "Volkswagen AG",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "automotive company",
+        "watch_list_entity": "Volkswagen AG",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "VW",
+        "watch_list_entity": "Volkswagen AG",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_business_complex_002",
+    "title": "Complex Business Scenario Test 2",
+    "content": "Samsung Electronics reported strong quarterly results. The technology company discussed innovation. Samsung emphasized research and development investments.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_complex",
+    "expected_matches": [
+      {
+        "extracted_entity": "Samsung Electronics",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "technology company",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "Samsung",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_business_complex_003",
+    "title": "Complex Business Scenario Test 3",
+    "content": "Nippon Telegraph and Telephone Corporation announced new services. The telecommunications company discussed digital transformation. NTT emphasized innovation and connectivity.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_complex",
+    "expected_matches": [
+      {
+        "extracted_entity": "Nippon Telegraph and Telephone Corporation",
+        "watch_list_entity": "Nippon Telegraph and Telephone Corporation",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "telecommunications company",
+        "watch_list_entity": "Nippon Telegraph and Telephone Corporation",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "NTT",
+        "watch_list_entity": "Nippon Telegraph and Telephone Corporation",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_nicknames_006",
+    "title": "Nickname Variations Test 6",
+    "content": "Michael James Taylor attended the conference. Mike Taylor gave a presentation. M. J. Taylor participated in discussions. Michael J. Taylor was recognized for his contributions.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "nicknames",
+    "expected_matches": [
+      {
+        "extracted_entity": "Michael James Taylor",
+        "watch_list_entity": "Michael James Taylor",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Mike Taylor",
+        "watch_list_entity": "Michael James Taylor",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "M. J. Taylor",
+        "watch_list_entity": "Michael James Taylor",
+        "match_type": "initials"
+      },
+      {
+        "extracted_entity": "Michael J. Taylor",
+        "watch_list_entity": "Michael James Taylor",
+        "match_type": "initials"
+      }
+    ]
+  },
+  {
+    "id": "article_nicknames_007",
+    "title": "Nickname Variations Test 7",
+    "content": "David Robert White joined the team. Dave White provided leadership. D. R. White contributed to strategy. David R. White was instrumental in the project.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "nicknames",
+    "expected_matches": [
+      {
+        "extracted_entity": "David Robert White",
+        "watch_list_entity": "David Robert White",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dave White",
+        "watch_list_entity": "David Robert White",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "D. R. White",
+        "watch_list_entity": "David Robert White",
+        "match_type": "initials"
+      },
+      {
+        "extracted_entity": "David R. White",
+        "watch_list_entity": "David Robert White",
+        "match_type": "initials"
+      }
+    ]
+  },
+  {
+    "id": "article_semantic_context_007",
+    "title": "Technology Leader Context Test",
+    "content": "The technology leader discussed innovation. The tech CEO announced new initiatives. The industry leader emphasized digital transformation.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "semantic_context",
+    "expected_matches": [
+      {
+        "extracted_entity": "technology leader",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "tech CEO",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "industry leader",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_semantic_context_008",
+    "title": "Business Leader Context Test",
+    "content": "The business leader discussed market strategy. The corporate CEO announced expansion plans. The company leader emphasized growth and innovation.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "semantic_context",
+    "expected_matches": [
+      {
+        "extracted_entity": "business leader",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "corporate CEO",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "company leader",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_business_006",
+    "title": "Business Entities Test 6",
+    "content": "Metro Health Systems announced new healthcare initiatives. The healthcare company discussed patient care improvements. Metro Health emphasized innovation in medical technology.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_entities",
+    "expected_matches": [
+      {
+        "extracted_entity": "Metro Health Systems",
+        "watch_list_entity": "Metro Health Systems",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "healthcare company",
+        "watch_list_entity": "Metro Health Systems",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "Metro Health",
+        "watch_list_entity": "Metro Health Systems",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_business_007",
+    "title": "Business Entities Test 7",
+    "content": "PennyLuck Pharmaceuticals Inc reported strong drug development results. The pharmaceutical company discussed new treatments. PennyLuck emphasized research and development investments.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_entities",
+    "expected_matches": [
+      {
+        "extracted_entity": "PennyLuck Pharmaceuticals Inc",
+        "watch_list_entity": "PennyLuck Pharmaceuticals Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "pharmaceutical company",
+        "watch_list_entity": "PennyLuck Pharmaceuticals Inc",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "PennyLuck",
+        "watch_list_entity": "PennyLuck Pharmaceuticals Inc",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_combined_005",
+    "title": "Combined Test Article 5",
+    "content": "The technology leader (Elon Musk) met with the business leader (Tim Cook) to discuss innovation partnerships. Dr. Sarah Williams provided medical support during the meeting.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "combined",
+    "expected_matches": [
+      {
+        "extracted_entity": "technology leader",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "business leader",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dr. Sarah Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "exact"
+      }
+    ]
+  },
+  {
+    "id": "article_combined_006",
+    "title": "Combined Test Article 6",
+    "content": "The French president (Emmanuel Macron) met with the Russian leader (Vladimir Putin) to discuss international cooperation. The Chinese president (Xi Jinping) also participated in the summit.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "high",
+    "test_category": "combined",
+    "expected_matches": [
+      {
+        "extracted_entity": "French president",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Emmanuel Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Chinese president",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      }
+    ]
+  },
+  {
+    "id": "article_executive_004",
+    "title": "Executive References Test 4",
+    "content": "The Tesla CEO discussed electric vehicle innovation. Elon Musk announced new battery technology. The electric car company's leader emphasized sustainability.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "executive_references",
+    "expected_matches": [
+      {
+        "extracted_entity": "Tesla CEO",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "electric car company's leader",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_executive_005",
+    "title": "Executive References Test 5",
+    "content": "The Apple CEO discussed new product launches. Tim Cook announced market expansion. The technology company's leader emphasized user experience.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "executive_references",
+    "expected_matches": [
+      {
+        "extracted_entity": "Apple CEO",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "technology company's leader",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_political_004",
+    "title": "Political Leaders Test 4",
+    "content": "The Russian leader met with European officials. Vladimir Putin discussed international relations. The Russian president emphasized diplomatic cooperation.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "political_leaders",
+    "expected_matches": [
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Russian president",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_political_005",
+    "title": "Political Leaders Test 5",
+    "content": "The Chinese president announced new economic policies. Xi Jinping discussed technological development. The Chinese leader emphasized innovation and growth.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "political_leaders",
+    "expected_matches": [
+      {
+        "extracted_entity": "Chinese president",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Chinese leader",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic_context"
+      }
+    ]
+  },
+  {
+    "id": "article_multilingual_005",
+    "title": "Multilingual Names Test 5",
+    "content": "Samsung Electronics and 삼성전자 are the same company in different languages. The system should handle multilingual names effectively.",
+    "source": "Test Data",
+    "language": "mixed",
+    "complexity": "high",
+    "test_category": "multilingual_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Samsung Electronics",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "삼성전자",
+        "watch_list_entity": "Samsung Electronics",
+        "match_type": "multilingual"
+      }
+    ]
+  },
+  {
+    "id": "article_multilingual_006",
+    "title": "Multilingual Names Test 6",
+    "content": "Nippon Telegraph and Telephone Corporation and 日本電信電話株式会社 are the same company in different languages. The system should handle multilingual names effectively.",
+    "source": "Test Data",
+    "language": "mixed",
+    "complexity": "high",
+    "test_category": "multilingual_names",
+    "expected_matches": [
+      {
+        "extracted_entity": "Nippon Telegraph and Telephone Corporation",
+        "watch_list_entity": "Nippon Telegraph and Telephone Corporation",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "日本電信電話株式会社",
+        "watch_list_entity": "Nippon Telegraph and Telephone Corporation",
+        "match_type": "multilingual"
+      }
+    ]
+  },
+  {
+    "id": "article_business_complex_004",
+    "title": "Complex Business Scenario Test 4",
+    "content": "Global Tech Solutions announced new cloud infrastructure. The technology company discussed digital transformation. Global Tech emphasized innovation and scalability.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_complex",
+    "expected_matches": [
+      {
+        "extracted_entity": "Global Tech Solutions",
+        "watch_list_entity": "Global Tech Solutions",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "technology company",
+        "watch_list_entity": "Global Tech Solutions",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "Global Tech",
+        "watch_list_entity": "Global Tech Solutions",
+        "match_type": "abbreviation"
+      }
+    ]
+  },
+  {
+    "id": "article_business_complex_005",
+    "title": "Complex Business Scenario Test 5",
+    "content": "Metro Health Systems reported strong healthcare outcomes. The medical company discussed patient care improvements. Metro Health emphasized innovation in healthcare technology.",
+    "source": "Test Data",
+    "language": "en",
+    "complexity": "medium",
+    "test_category": "business_complex",
+    "expected_matches": [
+      {
+        "extracted_entity": "Metro Health Systems",
+        "watch_list_entity": "Metro Health Systems",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "medical company",
+        "watch_list_entity": "Metro Health Systems",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "Metro Health",
+        "watch_list_entity": "Metro Health Systems",
+        "match_type": "abbreviation"
+      }
+    ]
+  }
+]

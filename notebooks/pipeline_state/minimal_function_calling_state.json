@@ -1,0 +1,314 @@
+{
+  "matching_results": [
+    {
+      "article_id": "article1",
+      "matches_found": [
+        {
+          "query_name": "Russian President",
+          "candidate_name": "Vladimir Putin",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "title_role",
+          "reasoning": "'Russian President' is a title referring to Vladimir Putin in the given context, indicating a title_role match with high confidence."
+        },
+        {
+          "query_name": "Vladimir Putin",
+          "candidate_name": "Vladimir Putin",
+          "confidence": 1.0,
+          "is_match": true,
+          "match_type": "exact",
+          "reasoning": "Both names are 'Vladimir Putin', which is an exact match with full confidence."
+        },
+        {
+          "query_name": "President",
+          "candidate_name": "Joe Biden",
+          "confidence": 0.9,
+          "is_match": true,
+          "match_type": "title_role",
+          "reasoning": "'President' in the context refers to Joe Biden, who is the President of the United States, indicating a title_role match with high confidence."
+        },
+        {
+          "query_name": "President",
+          "candidate_name": "Vladimir Putin",
+          "confidence": 0.9,
+          "is_match": true,
+          "match_type": "title_role",
+          "reasoning": "'President' in the context refers to Vladimir Putin, who is the President of Russia, indicating a title_role match with high confidence."
+        },
+        {
+          "query_name": "Joe Biden",
+          "candidate_name": "Joe Biden",
+          "confidence": 1.0,
+          "is_match": true,
+          "match_type": "exact",
+          "reasoning": "Both names are 'Joe Biden', which is an exact match with full confidence."
+        }
+      ]
+    },
+    {
+      "article_id": "article2",
+      "matches_found": [
+        {
+          "query_name": "Phil Carr",
+          "candidate_name": "Phillip Charles Carr",
+          "confidence": 0.9,
+          "is_match": true,
+          "match_type": "missing_components",
+          "reasoning": "'Phil Carr' is a shortened version of 'Phillip Charles Carr', missing the middle name. Context supports they are the same person as both are associated with the keynote address at the same event."
+        },
+        {
+          "query_name": "P.C. Carr",
+          "candidate_name": "Phillip Charles Carr",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "initial",
+          "reasoning": "'P.C. Carr' uses initials for 'Phillip Charles Carr'. The context links both names to the same event and activities, strongly indicating they are the same individual."
+        }
+      ]
+    },
+    {
+      "article_id": "article3",
+      "matches_found": [
+        {
+          "query_name": "Diaz",
+          "candidate_name": "Carlos Alfonzo Diaz",
+          "confidence": 0.7,
+          "is_match": true,
+          "match_type": "partial_last",
+          "reasoning": "The query 'Diaz' matches the last name of the candidate 'Carlos Alfonzo Diaz'. The context also refers to 'Diaz, Carlos A.', supporting the match. This is a partial_last match with medium confidence."
+        },
+        {
+          "query_name": "Diaz",
+          "candidate_name": "Franklin Delano Roosevelt",
+          "confidence": 0.0,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "The query 'Diaz' does not match the candidate 'Franklin Delano Roosevelt' in any way. There is no overlap in names or context. This is an unlikely match with low confidence."
+        },
+        {
+          "query_name": "Carlos A.",
+          "candidate_name": "Carlos Alfonzo Diaz",
+          "confidence": 0.8,
+          "is_match": true,
+          "match_type": "initial",
+          "reasoning": "The query 'Carlos A.' matches the initials and first name of 'Carlos Alfonzo Diaz'. The context supports this connection. This is an initial match with high confidence."
+        },
+        {
+          "query_name": "Carlos A.",
+          "candidate_name": "Phillip Charles Carr",
+          "confidence": 0.0,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "The query 'Carlos A.' does not match 'Phillip Charles Carr' in any way. There is no overlap in names or context. This is an unlikely match with low confidence."
+        }
+      ]
+    },
+    {
+      "article_id": "article4",
+      "matches_found": [
+        {
+          "query_name": "F.D.R.",
+          "candidate_name": "Franklin Delano Roosevelt",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "initial",
+          "reasoning": "'F.D.R.' is a common initialism for 'Franklin Delano Roosevelt.' The initials match the full name, and the context of historical icons supports this."
+        },
+        {
+          "query_name": "American",
+          "candidate_name": "Tim Cook",
+          "confidence": 0.2,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "'American' is a nationality or demonym, while 'Tim Cook' is a specific individual's name. There is no evidence to suggest they refer to the same entity."
+        },
+        {
+          "query_name": "American",
+          "candidate_name": "Joe Biden",
+          "confidence": 0.2,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "'American' is a nationality or demonym, while 'Joe Biden' is a specific individual's name. There is no evidence to suggest they refer to the same entity."
+        }
+      ]
+    },
+    {
+      "article_id": "article5",
+      "matches_found": [
+        {
+          "query_name": "Bill Johnson",
+          "candidate_name": "William Johnson",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "nickname",
+          "reasoning": "'Bill' is a common nickname for 'William', and both share the same last name 'Johnson'. The context also supports that they refer to the same individual recognized for service in education."
+        }
+      ]
+    },
+    {
+      "article_id": "article6",
+      "matches_found": [
+        {
+          "query_name": "JeanClaude VanDamme",
+          "candidate_name": "Jean-Claude Van Damme",
+          "confidence": 0.98,
+          "is_match": true,
+          "match_type": "exact",
+          "reasoning": "The names 'JeanClaude VanDamme' and 'Jean-Claude Van Damme' are formatting variations of the same unique name. The context also matches exactly, indicating they refer to the same entity."
+        }
+      ]
+    },
+    {
+      "article_id": "article7",
+      "matches_found": [
+        {
+          "query_name": "Thomas Sean Connery",
+          "candidate_name": "Sean Connery",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "missing_components",
+          "reasoning": "'Thomas Sean Connery' and 'Sean Connery' likely refer to the same person, with the candidate omitting the first name. Middle and last names match exactly, and context supports this."
+        },
+        {
+          "query_name": "Sean Connery",
+          "candidate_name": "Sean Connery",
+          "confidence": 1.0,
+          "is_match": true,
+          "match_type": "exact",
+          "reasoning": "Both names are identical ('Sean Connery'), indicating an exact match. Context further supports this conclusion."
+        }
+      ]
+    },
+    {
+      "article_id": "article8",
+      "matches_found": [
+        {
+          "query_name": "Peking",
+          "candidate_name": "\u5317\u4eac",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "cultural",
+          "reasoning": "'Peking' is the historical English name for '\u5317\u4eac' (Beijing) in Chinese. They refer to the same city, with the difference being due to language and transliteration. Context supports this as both refer to the same historical entity."
+        }
+      ]
+    },
+    {
+      "article_id": "article9",
+      "matches_found": [
+        {
+          "query_name": "Tesla CEO",
+          "candidate_name": "Elon Musk",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "title_role",
+          "reasoning": "'Tesla CEO' is a title referring to the person who holds the CEO position at Tesla. In the given context, Elon Musk is identified as the Tesla CEO, making this a high-confidence title_role match."
+        },
+        {
+          "query_name": "Elon Musk",
+          "candidate_name": "Elon Musk",
+          "confidence": 1.0,
+          "is_match": true,
+          "match_type": "exact",
+          "reasoning": "Both names are 'Elon Musk', which is an exact match with no ambiguity."
+        },
+        {
+          "query_name": "Apple CEO",
+          "candidate_name": "Tim Cook",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "title_role",
+          "reasoning": "'Apple CEO' is a title referring to the person who holds the CEO position at Apple. In the context, Tim Cook is identified as the Apple CEO, making this a high-confidence title_role match."
+        },
+        {
+          "query_name": "Apple CEO",
+          "candidate_name": "Elon Musk",
+          "confidence": 0.1,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "'Apple CEO' refers to the CEO of Apple, who is Tim Cook, not Elon Musk. There is no evidence in the context to suggest Elon Musk is or was the Apple CEO."
+        },
+        {
+          "query_name": "Tim Cook",
+          "candidate_name": "Tim Cook",
+          "confidence": 1.0,
+          "is_match": true,
+          "match_type": "exact",
+          "reasoning": "Both names are 'Tim Cook', which is an exact match with no ambiguity."
+        }
+      ]
+    },
+    {
+      "article_id": "article10",
+      "matches_found": [
+        {
+          "query_name": "President",
+          "candidate_name": "Joe Biden",
+          "confidence": 0.95,
+          "is_match": true,
+          "match_type": "title_role",
+          "reasoning": "'President' in the context of a U.S. cabinet announcement most likely refers to Joe Biden, who is the current President of the United States. The title matches the candidate's role."
+        },
+        {
+          "query_name": "President",
+          "candidate_name": "Vladimir Putin",
+          "confidence": 0.1,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "Vladimir Putin is the President of Russia, not the United States. In the context of a U.S. cabinet announcement, 'President' does not refer to Vladimir Putin."
+        },
+        {
+          "query_name": "Secretary of State",
+          "candidate_name": "Vladimir Putin",
+          "confidence": 0.1,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "Vladimir Putin is not the Secretary of State. The Secretary of State is a U.S. government position, and Putin is the President of Russia."
+        },
+        {
+          "query_name": "Secretary of State",
+          "candidate_name": "Joe Biden",
+          "confidence": 0.1,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "Joe Biden is not the Secretary of State. He is the President of the United States. The Secretary of State is a different cabinet position."
+        },
+        {
+          "query_name": "Prime Minister",
+          "candidate_name": "Vladimir Putin",
+          "confidence": 0.1,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "Vladimir Putin is not the Prime Minister of Canada. He is the President of Russia. The context refers to the Canadian Prime Minister, not Putin."
+        },
+        {
+          "query_name": "Canada",
+          "candidate_name": "Franklin Delano Roosevelt",
+          "confidence": 0.1,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "'Canada' refers to a country, while 'Franklin Delano Roosevelt' is a person (former US President). There is no semantic, title, or contextual link between the two entities in this context."
+        },
+        {
+          "query_name": "Canada",
+          "candidate_name": "Tim Cook",
+          "confidence": 0.1,
+          "is_match": false,
+          "match_type": "unlikely",
+          "reasoning": "'Canada' refers to a country, while 'Tim Cook' is a person (CEO of Apple). There is no semantic, title, or contextual link between the two entities in this context."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "pipeline": "minimal_function_calling_v2",
+    "articles_processed": 10,
+    "total_matches": 31,
+    "confirmed_matches": 20,
+    "confirmation_rate": 64.51612903225806,
+    "processing_time_seconds": 26.34429693222046,
+    "schema_fields": 4,
+    "approach": "function_calling",
+    "generated_at": "2026-01-08T22:42:41.950481Z",
+    "source": "04_function_calling_optimization.ipynb"
+  }
+}

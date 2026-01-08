@@ -1,0 +1,127 @@
+{
+  "processed_articles": [
+    {
+      "article": "Article(id='article1', title='Presidential Summit', content='Russian President Vladimir Putin and President Joe Biden discussed the summit agenda.', source='test_source', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023569')",
+      "extracted_entities": [
+        "ExtractedEntity(name='Russian President', entity_type='COMPOUND_TITLE', confidence=0.8, context='Russian President Vladimir Putin and President Joe Biden discussed ', position=0, extraction_method='compound_entity')",
+        "ExtractedEntity(name='Vladimir Putin', entity_type='PERSON', confidence=0.999989027285165, context='Russian President Vladimir Putin and President Joe Biden discussed the summit agen', position=18, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')",
+        "ExtractedEntity(name='President', entity_type='TITLE', confidence=0.7999999999999999, context='Russian President Vladimir Putin and President Joe Biden discussed the summit agenda.', position=37, extraction_method='pattern_based_title')",
+        "ExtractedEntity(name='Joe Biden', entity_type='PERSON', confidence=0.9999925492382764, context='Russian President Vladimir Putin and President Joe Biden discussed the summit agenda.', position=47, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.40761876106262207,
+      "total_entities_found": 4,
+      "unique_entities": "{'Vladimir Putin', 'Joe Biden', 'President', 'Russian President'}"
+    },
+    {
+      "article": "Article(id='article2', title='Financial Summit', content='Phil Carr presented the keynote address at the financial summit. P.C. Carr discussed market trends and investment strategies.', source='financial_times', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023576')",
+      "extracted_entities": [
+        "ExtractedEntity(name='Phil Carr', entity_type='PERSON', confidence=0.9999950502476137, context='Phil Carr presented the keynote address at the financial su', position=0, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')",
+        "ExtractedEntity(name='P.C. Carr', entity_type='PERSON', confidence=0.9999687423239182, context='nted the keynote address at the financial summit. P.C. Carr discussed market trends and investment strategies', position=65, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.4700489044189453,
+      "total_entities_found": 2,
+      "unique_entities": "{'Phil Carr', 'P.C. Carr'}"
+    },
+    {
+      "article": "Article(id='article3', title='Art Exhibition', content='The exhibition includes works by Diaz, Carlos A., whose heritage influences his paintings.', source='art_review', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023579')",
+      "extracted_entities": [
+        "ExtractedEntity(name='Diaz', entity_type='PERSON', confidence=0.9999013569247177, context='The exhibition includes works by Diaz, Carlos A., whose heritage influences his paintin', position=33, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')",
+        "ExtractedEntity(name='Carlos A.', entity_type='PERSON', confidence=0.9746503080724347, context='The exhibition includes works by Diaz, Carlos A., whose heritage influences his paintings.', position=39, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.4511873722076416,
+      "total_entities_found": 2,
+      "unique_entities": "{'Carlos A.', 'Diaz'}"
+    },
+    {
+      "article": "Article(id='article4', title='Historical Icons', content=\"The documentary examines how F.D.R.'s leadership transformed American politics.\", source='cultural_analysis', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023580')",
+      "extracted_entities": [
+        "ExtractedEntity(name='F.D.R.', entity_type='ORGANIZATION', confidence=0.9913278906675603, context=\"The documentary examines how F.D.R.'s leadership transformed American politics.\", position=29, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')",
+        "ExtractedEntity(name='American', entity_type='MISCELLANEOUS', confidence=0.9999866445117666, context=\"tary examines how F.D.R.'s leadership transformed American politics.\", position=61, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.5567080974578857,
+      "total_entities_found": 2,
+      "unique_entities": "{'F.D.R.', 'American'}"
+    },
+    {
+      "article": "Article(id='article5', title='Community Leaders', content='Bill Johnson was recognized for his 30 years of service in education.', source='community_news', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023582')",
+      "extracted_entities": [
+        "ExtractedEntity(name='Bill Johnson', entity_type='PERSON', confidence=0.9999915097023768, context='Bill Johnson was recognized for his 30 years of service in edu', position=0, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.3896293640136719,
+      "total_entities_found": 1,
+      "unique_entities": "{'Bill Johnson'}"
+    },
+    {
+      "article": "Article(id='article6', title='Entertainment News', content='JeanClaude VanDamme announced his return to action films next year.', source='entertainment_weekly', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023584')",
+      "extracted_entities": [
+        "ExtractedEntity(name='JeanClaude VanDamme', entity_type='PERSON', confidence=0.9999867259660187, context='JeanClaude VanDamme announced his return to action films next year.', position=0, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.38863205909729004,
+      "total_entities_found": 1,
+      "unique_entities": "{'JeanClaude VanDamme'}"
+    },
+    {
+      "article": "Article(id='article7', title='Film Retrospective', content=\"The documentary celebrates the legacy of Thomas Sean Connery and his iconic roles. Sir Sean Connery's influence on cinema is undeniable.\", source='film_critique', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023586')",
+      "extracted_entities": [
+        "ExtractedEntity(name='Thomas Sean Connery', entity_type='PERSON', confidence=0.999994288016189, context=\"The documentary celebrates the legacy of Thomas Sean Connery and his iconic roles. Sir Sean Connery's influenc\", position=41, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')",
+        "ExtractedEntity(name='Sean Connery', entity_type='PERSON', confidence=0.9999934858867372, context=\" of Thomas Sean Connery and his iconic roles. Sir Sean Connery's influence on cinema is undeniable.\", position=87, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.5341567993164062,
+      "total_entities_found": 2,
+      "unique_entities": "{'Thomas Sean Connery', 'Sean Connery'}"
+    },
+    {
+      "article": "Article(id='article8', title='Cultural Exchange', content='The historical connection between Peking and international trade routes was discussed.', source='cultural_affairs', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023590')",
+      "extracted_entities": [
+        "ExtractedEntity(name='Peking', entity_type='LOCATION', confidence=0.999993138299742, context='The historical connection between Peking and international trade routes was discussed.', position=34, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.38440704345703125,
+      "total_entities_found": 1,
+      "unique_entities": "{'Peking'}"
+    },
+    {
+      "article": "Article(id='article9', title='Tech Leadership Changes', content='Tesla CEO Elon Musk announced new initiatives while Apple CEO Tim Cook discussed market strategies.', source='tech_news', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023592')",
+      "extracted_entities": [
+        "ExtractedEntity(name='Tesla CEO', entity_type='COMPOUND_TITLE', confidence=0.9, context='Tesla CEO Elon Musk announced new initiatives while Apple C', position=0, extraction_method='compound_entity')",
+        "ExtractedEntity(name='Elon Musk', entity_type='PERSON', confidence=0.9999927268319876, context='Tesla CEO Elon Musk announced new initiatives while Apple CEO Tim Coo', position=10, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')",
+        "ExtractedEntity(name='Apple CEO', entity_type='ORGANIZATIONAL_TITLE', confidence=0.9, context=\"Compound entity combining 'Apple' and 'CEO'\", position=52, extraction_method='compound_validation')",
+        "ExtractedEntity(name='Tim Cook', entity_type='PERSON', confidence=0.9999945509027722, context='on Musk announced new initiatives while Apple CEO Tim Cook discussed market strategies.', position=62, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.43100690841674805,
+      "total_entities_found": 4,
+      "unique_entities": "{'Apple CEO', 'Tim Cook', 'Elon Musk', 'Tesla CEO'}"
+    },
+    {
+      "article": "Article(id='article10', title='Government Appointments', content='The President announced new cabinet members. The Secretary of State and the Prime Minister of Canada attended the ceremony.', source='political_news', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-08T16:23:29.023593')",
+      "extracted_entities": [
+        "ExtractedEntity(name='President', entity_type='TITLE', confidence=0.7999999999999999, context='The President announced new cabinet members. The Secretary of S', position=4, extraction_method='pattern_based_title')",
+        "ExtractedEntity(name='Secretary of State', entity_type='TITLE', confidence=0.85, context='The President announced new cabinet members. The Secretary of State and the Prime Minister of Canada attended the cer', position=49, extraction_method='pattern_based_title')",
+        "ExtractedEntity(name='Prime Minister', entity_type='TITLE', confidence=0.85, context='w cabinet members. The Secretary of State and the Prime Minister of Canada attended the ceremony.', position=76, extraction_method='pattern_based_title')",
+        "ExtractedEntity(name='Canada', entity_type='LOCATION', confidence=0.999986303956693, context=' The Secretary of State and the Prime Minister of Canada attended the ceremony.', position=94, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
+      ],
+      "processing_time": 0.4529902935028076,
+      "total_entities_found": 4,
+      "unique_entities": "{'Prime Minister', 'Canada', 'President', 'Secretary of State'}"
+    }
+  ],
+  "processor_stats": {
+    "articles_processed": 10,
+    "total_entities_extracted": 23,
+    "processing_errors": 0,
+    "average_processing_time": 0.44663856029510496
+  },
+  "indexed_articles_count": 10,
+  "article_index_name": "demo_entity_resolution_1767911015_articles",
+  "stage": "article_processing",
+  "timestamp": "2026-01-08T16:23:35",
+  "version": "1.0",
+  "success": true,
+  "execution_time": 4.654205083847046,
+  "metadata": {
+    "success": true,
+    "execution_time": 4.654205083847046,
+    "stage": "article_processing",
+    "timestamp": "2026-01-08T16:23:35",
+    "version": "1.0"
+  }
+}

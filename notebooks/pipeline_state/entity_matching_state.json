@@ -1,0 +1,836 @@
+{
+  "matching_results": [
+    {
+      "article_id": "article1",
+      "article_title": "Presidential Summit",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "Russian President",
+          "watched_entity": "Vladimir Putin",
+          "confidence": 0.95,
+          "match_type": "title_role",
+          "reasoning": "The query 'Russian President' refers to the official title, and the candidate 'Vladimir Putin' is the current holder of that title according to the provided context. The context explicitly mentions 'Russian President Vladimir Putin,' confirming the match.",
+          "is_match": true,
+          "explanation_full": "'Russian President' and 'Vladimir Putin' refer to the same person based on the context provided.",
+          "confidence_factors": {
+            "name_similarity": 0.8,
+            "context_support": 1.0,
+            "name_uniqueness": 1.0,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'Russian President' is a title held by Vladimir Putin",
+            "Context explicitly links Vladimir Putin to the title",
+            "Vladimir Putin is a unique name in this context"
+          ],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "Vladimir Putin",
+          "watched_entity": "Vladimir Putin",
+          "confidence": 1.0,
+          "match_type": "exact",
+          "reasoning": "Both the query and candidate are 'Vladimir Putin', which is an exact match. The context further supports this by mentioning 'Russian President Vladimir Putin', confirming the identity. 'Vladimir Putin' is a unique name, reducing ambiguity.",
+          "is_match": true,
+          "explanation_full": "Names are an exact match and context confirms the identity.",
+          "confidence_factors": {
+            "name_similarity": 1.0,
+            "context_support": 1.0,
+            "name_uniqueness": 1.0,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Exact name match: 'Vladimir Putin'",
+            "Context confirms the identity",
+            "Unique name"
+          ],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "President",
+          "watched_entity": "Joe Biden",
+          "confidence": 0.9,
+          "match_type": "title_role",
+          "reasoning": "The query 'President' is a title, and the candidate 'Joe Biden' is identified in the context as 'President Joe Biden'. The context directly links the title to the person, confirming the match. While 'President' is ambiguous without context, the provided information resolves this.",
+          "is_match": true,
+          "explanation_full": "'President' refers to 'Joe Biden' in the given context.",
+          "confidence_factors": {
+            "name_similarity": 0.7,
+            "context_support": 1.0,
+            "name_uniqueness": 0.9,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'President' is a title held by Joe Biden in the context",
+            "Context explicitly mentions 'President Joe Biden'",
+            "Joe Biden is a unique name in this context"
+          ],
+          "risk_factors": [
+            "Title 'President' is ambiguous without context"
+          ]
+        },
+        {
+          "extracted_entity": "President",
+          "watched_entity": "Vladimir Putin",
+          "confidence": 0.9,
+          "match_type": "title_role",
+          "reasoning": "The query 'President' is a title, and the candidate 'Vladimir Putin' is identified in the context as 'Russian President Vladimir Putin'. The context directly links the title to the person, confirming the match. While 'President' is ambiguous without context, the provided information resolves this.",
+          "is_match": true,
+          "explanation_full": "'President' refers to 'Vladimir Putin' in the given context.",
+          "confidence_factors": {
+            "name_similarity": 0.7,
+            "context_support": 1.0,
+            "name_uniqueness": 1.0,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'President' is a title held by Vladimir Putin in the context",
+            "Context explicitly mentions 'Russian President Vladimir Putin'",
+            "Vladimir Putin is a unique name in this context"
+          ],
+          "risk_factors": [
+            "Title 'President' is ambiguous without context"
+          ]
+        },
+        {
+          "extracted_entity": "Joe Biden",
+          "watched_entity": "Joe Biden",
+          "confidence": 1.0,
+          "match_type": "exact",
+          "reasoning": "Both the query and candidate are 'Joe Biden', which is an exact match. The context further supports this by mentioning 'President Joe Biden', confirming the identity. 'Joe Biden' is a unique name, reducing ambiguity.",
+          "is_match": true,
+          "explanation_full": "Names are an exact match and context confirms the identity.",
+          "confidence_factors": {
+            "name_similarity": 1.0,
+            "context_support": 1.0,
+            "name_uniqueness": 0.9,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Exact name match: 'Joe Biden'",
+            "Context confirms the identity",
+            "Unique name"
+          ],
+          "risk_factors": []
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 6.003215312957764
+    },
+    {
+      "article_id": "article2",
+      "article_title": "Financial Summit",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "Phil Carr",
+          "watched_entity": "Phillip Charles Carr",
+          "confidence": 0.85,
+          "match_type": "nickname",
+          "reasoning": "Phil is a common nickname for Phillip, and the last name 'Carr' matches exactly. The context indicates that Phil Carr presented the keynote address at the financial summit, which strongly supports that Phil Carr and Phillip Charles Carr are the same person, especially since the full name includes the same last name and a plausible nickname for the first name. The name 'Carr' is moderately common, but the context and nickname pattern increase confidence.",
+          "is_match": true,
+          "explanation_full": "Phil Carr and Phillip Charles Carr likely refer to the same person, with 'Phil' as a nickname for 'Phillip' and matching last names, supported by context.",
+          "confidence_factors": {
+            "name_similarity": 0.9,
+            "context_support": 0.9,
+            "name_uniqueness": 0.6,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'Phil' is a nickname for 'Phillip'",
+            "Matching last name 'Carr'",
+            "Context: Phil Carr presented the keynote address at the financial summit",
+            "Full name includes 'Charles', which is a plausible middle name"
+          ],
+          "risk_factors": [
+            "Moderately common last name",
+            "Missing middle name in query"
+          ]
+        },
+        {
+          "extracted_entity": "P.C. Carr",
+          "watched_entity": "Phillip Charles Carr",
+          "confidence": 0.8,
+          "match_type": "initial",
+          "reasoning": "P.C. Carr matches the initials of Phillip Charles Carr, and both share the same last name. The context states that P.C. Carr discussed market trends and investment strategies at the financial summit, which aligns with the context for Phillip Charles Carr. The use of initials is a common way to refer to someone with a longer name, and the context strongly supports the match. The last name 'Carr' is moderately common, but the initials and context increase confidence.",
+          "is_match": true,
+          "explanation_full": "P.C. Carr and Phillip Charles Carr likely refer to the same person, with matching initials and last name, supported by context.",
+          "confidence_factors": {
+            "name_similarity": 0.85,
+            "context_support": 0.9,
+            "name_uniqueness": 0.6,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Initials 'P.C.' match 'Phillip Charles'",
+            "Matching last name 'Carr'",
+            "Context: P.C. Carr discussed market trends at the financial summit",
+            "Initials are a common abbreviation for full names"
+          ],
+          "risk_factors": [
+            "Moderately common last name",
+            "Initials could refer to another person with same initials"
+          ]
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 4.17026686668396
+    },
+    {
+      "article_id": "article3",
+      "article_title": "Art Exhibition",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "Diaz",
+          "watched_entity": "Carlos Alfonzo Diaz",
+          "confidence": 0.7,
+          "match_type": "partial_last",
+          "reasoning": "The query 'Diaz' matches the last name of the candidate 'Carlos Alfonzo Diaz'. The context mentions 'Diaz, Carlos A.', which strongly suggests that the referenced 'Diaz' is Carlos Alfonzo Diaz. However, 'Diaz' is a common surname, which introduces some ambiguity, but the context provides supporting evidence.",
+          "is_match": true,
+          "explanation_full": "The last name matches and context supports the match, but the surname is common.",
+          "confidence_factors": {
+            "name_similarity": 0.7,
+            "context_support": 0.8,
+            "name_uniqueness": 0.4,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Last name 'Diaz' matches",
+            "Context mentions 'Diaz, Carlos A.'",
+            "Candidate's full name is 'Carlos Alfonzo Diaz'",
+            "Diaz is a common surname"
+          ],
+          "risk_factors": [
+            "Common last name",
+            "Query only provides surname"
+          ]
+        },
+        {
+          "extracted_entity": "Diaz",
+          "watched_entity": "Franklin Delano Roosevelt",
+          "confidence": 0.1,
+          "match_type": "unlikely",
+          "reasoning": "The query 'Diaz' does not match any part of the candidate name 'Franklin Delano Roosevelt'. There is no overlap in name components, and the context does not support a connection between 'Diaz' and 'Franklin Delano Roosevelt'.",
+          "is_match": false,
+          "explanation_full": "No name components match and context does not support a connection.",
+          "confidence_factors": {
+            "name_similarity": 0.0,
+            "context_support": 0.0,
+            "name_uniqueness": 0.8,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "No shared name components",
+            "Context refers to 'Diaz, Carlos A.'",
+            "Candidate is 'Franklin Delano Roosevelt'"
+          ],
+          "risk_factors": [
+            "No name overlap",
+            "No contextual support"
+          ]
+        },
+        {
+          "extracted_entity": "Carlos A.",
+          "watched_entity": "Carlos Alfonzo Diaz",
+          "confidence": 0.85,
+          "match_type": "missing_components",
+          "reasoning": "The query 'Carlos A.' matches the first and middle initials of 'Carlos Alfonzo Diaz'. The context specifically mentions 'Diaz, Carlos A.', which strongly supports that 'Carlos A.' refers to 'Carlos Alfonzo Diaz'. The combination of name similarity and strong contextual support leads to high confidence.",
+          "is_match": true,
+          "explanation_full": "First and middle initials match, and context strongly supports the match.",
+          "confidence_factors": {
+            "name_similarity": 0.9,
+            "context_support": 0.95,
+            "name_uniqueness": 0.6,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "First name and middle initial match",
+            "Context mentions 'Diaz, Carlos A.'",
+            "Candidate's full name is 'Carlos Alfonzo Diaz'",
+            "No conflicting evidence"
+          ],
+          "risk_factors": [
+            "Common first name and initial"
+          ]
+        },
+        {
+          "extracted_entity": "Carlos A.",
+          "watched_entity": "Phillip Charles Carr",
+          "confidence": 0.05,
+          "match_type": "unlikely",
+          "reasoning": "The query 'Carlos A.' does not match any component of the candidate 'Phillip Charles Carr'. There is no overlap in first name, middle initial, or surname. The context refers to 'Diaz, Carlos A.', which does not relate to 'Phillip Charles Carr'.",
+          "is_match": false,
+          "explanation_full": "No name components match and context does not support a connection.",
+          "confidence_factors": {
+            "name_similarity": 0.0,
+            "context_support": 0.0,
+            "name_uniqueness": 0.7,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "No shared name components",
+            "Context refers to 'Diaz, Carlos A.'",
+            "Candidate is 'Phillip Charles Carr'"
+          ],
+          "risk_factors": [
+            "No name overlap",
+            "No contextual support"
+          ]
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 6.872514009475708
+    },
+    {
+      "article_id": "article4",
+      "article_title": "Historical Icons",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "F.D.R.",
+          "watched_entity": "Franklin Delano Roosevelt",
+          "confidence": 0.95,
+          "match_type": "initial",
+          "reasoning": "The query 'F.D.R.' consists of the initials of 'Franklin Delano Roosevelt'. This is a well-known abbreviation for the former U.S. president, and the initials match exactly with the full name. The name 'Franklin Delano Roosevelt' is highly unique and contextually, 'F.D.R.' is almost exclusively used to refer to him.",
+          "is_match": true,
+          "explanation_full": "F.D.R. is a widely recognized abbreviation for Franklin Delano Roosevelt; names match by initials.",
+          "confidence_factors": {
+            "name_similarity": 1.0,
+            "context_support": 1.0,
+            "name_uniqueness": 0.95,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "F.D.R. matches the initials of Franklin Delano Roosevelt",
+            "F.D.R. is a well-known abbreviation for this individual",
+            "Franklin Delano Roosevelt is a unique name"
+          ],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "American",
+          "watched_entity": "Tim Cook",
+          "confidence": 0.1,
+          "match_type": "unlikely",
+          "reasoning": "The query 'American' is a broad descriptor of nationality and does not specifically refer to Tim Cook. While Tim Cook is American by nationality, 'American' alone is not a semantic or direct reference to him as an individual. There is no contextual or name similarity to support a match.",
+          "is_match": false,
+          "explanation_full": "'American' is a general term and does not specifically refer to Tim Cook.",
+          "confidence_factors": {
+            "name_similarity": 0.0,
+            "context_support": 0.1,
+            "name_uniqueness": 0.0,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'American' is a nationality, not a personal name",
+            "No direct or semantic link to Tim Cook",
+            "No contextual clues connecting 'American' to Tim Cook"
+          ],
+          "risk_factors": [
+            "Generic term",
+            "No name similarity",
+            "No contextual support"
+          ]
+        },
+        {
+          "extracted_entity": "American",
+          "watched_entity": "Joe Biden",
+          "confidence": 0.1,
+          "match_type": "unlikely",
+          "reasoning": "The query 'American' is a general descriptor of nationality and does not specifically refer to Joe Biden. Although Joe Biden is American, the term 'American' is not a semantic or direct reference to him as an individual. There is no name similarity or contextual evidence to support a match.",
+          "is_match": false,
+          "explanation_full": "'American' is a general term and does not specifically refer to Joe Biden.",
+          "confidence_factors": {
+            "name_similarity": 0.0,
+            "context_support": 0.1,
+            "name_uniqueness": 0.0,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'American' is a nationality, not a personal name",
+            "No direct or semantic link to Joe Biden",
+            "No contextual clues connecting 'American' to Joe Biden"
+          ],
+          "risk_factors": [
+            "Generic term",
+            "No name similarity",
+            "No contextual support"
+          ]
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 5.138304948806763
+    },
+    {
+      "article_id": "article5",
+      "article_title": "Community Leaders",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "Bill Johnson",
+          "watched_entity": "William Johnson",
+          "confidence": 0.7,
+          "match_type": "nickname",
+          "reasoning": "Bill is a well-known nickname for William, and both names share the same last name 'Johnson'. The context mentions Bill Johnson's 30 years of service in education, but does not provide additional details to directly link William Johnson to this context. The surname 'Johnson' is very common, which introduces ambiguity, but the nickname pattern and matching context in education moderately support a match.",
+          "is_match": true,
+          "explanation_full": "Names likely match due to nickname relationship and shared context, but common surname lowers confidence.",
+          "confidence_factors": {
+            "name_similarity": 0.9,
+            "context_support": 0.7,
+            "name_uniqueness": 0.3,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Bill is a common nickname for William",
+            "Both have the last name Johnson",
+            "Context mentions service in education",
+            "Johnson is a common surname, increasing ambiguity"
+          ],
+          "risk_factors": [
+            "Common surname",
+            "No direct contextual link to William Johnson",
+            "Possible multiple individuals with this name in education"
+          ]
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 2.265718936920166
+    },
+    {
+      "article_id": "article6",
+      "article_title": "Entertainment News",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "JeanClaude VanDamme",
+          "watched_entity": "Jean-Claude Van Damme",
+          "confidence": 0.98,
+          "match_type": "exact",
+          "reasoning": "The names 'JeanClaude VanDamme' and 'Jean-Claude Van Damme' are nearly identical, differing only in formatting (missing hyphens and spacing). The context refers to a return to action films, which is strongly associated with the famous actor Jean-Claude Van Damme. The name is highly unique, and the context directly supports the match.",
+          "is_match": true,
+          "explanation_full": "Names match exactly with minor formatting differences and context strongly supports they refer to the same person.",
+          "confidence_factors": {
+            "name_similarity": 1.0,
+            "context_support": 1.0,
+            "name_uniqueness": 0.95,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Names are nearly identical except for formatting",
+            "Context refers to action films, which matches Jean-Claude Van Damme's career",
+            "Highly unique name",
+            "No contradictory evidence"
+          ],
+          "risk_factors": []
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 2.007221221923828
+    },
+    {
+      "article_id": "article7",
+      "article_title": "Film Retrospective",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "Thomas Sean Connery",
+          "watched_entity": "Sean Connery",
+          "confidence": 0.92,
+          "match_type": "missing_components",
+          "reasoning": "The names 'Thomas Sean Connery' and 'Sean Connery' share the same middle and last name, with the only difference being the presence of the first name 'Thomas' in the query. 'Sean Connery' is the commonly known public name of the actor whose full name is 'Thomas Sean Connery.' The last name 'Connery' is relatively rare, and the combination with 'Sean' is highly distinctive. There is no conflicting context, and the missing first name is a common pattern for public figures who use their middle name professionally.",
+          "is_match": true,
+          "explanation_full": "Names match; 'Sean Connery' is the public/professional name for 'Thomas Sean Connery.'",
+          "confidence_factors": {
+            "name_similarity": 0.95,
+            "context_support": 0.9,
+            "name_uniqueness": 0.9,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Shared middle and last name: 'Sean Connery'",
+            "Public figure known as 'Sean Connery', full name is 'Thomas Sean Connery'",
+            "Rare surname 'Connery'",
+            "Common pattern for public figures to use middle name"
+          ],
+          "risk_factors": [
+            "Missing first name could cause ambiguity in rare cases"
+          ]
+        },
+        {
+          "extracted_entity": "Sean Connery",
+          "watched_entity": "Sean Connery",
+          "confidence": 1.0,
+          "match_type": "exact",
+          "reasoning": "Both names are exactly 'Sean Connery' with no differences in spelling, order, or components. The name 'Sean Connery' is highly distinctive and refers to a well-known individual. There are no ambiguities or risk factors present, and the match is direct and unambiguous.",
+          "is_match": true,
+          "explanation_full": "Names are an exact match; both refer to the same person.",
+          "confidence_factors": {
+            "name_similarity": 1.0,
+            "context_support": 1.0,
+            "name_uniqueness": 0.95,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Identical names: 'Sean Connery'",
+            "Highly distinctive name",
+            "No differences in spelling or order"
+          ],
+          "risk_factors": []
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 3.789137840270996
+    },
+    {
+      "article_id": "article8",
+      "article_title": "Cultural Exchange",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "Peking",
+          "watched_entity": "\u5317\u4eac",
+          "confidence": 0.95,
+          "match_type": "cultural",
+          "reasoning": "'Peking' is the historical English transliteration of '\u5317\u4eac', which is pronounced 'Beijing' in modern Mandarin. The context refers to historical international trade routes, which often used 'Peking' to refer to the city now known as 'Beijing' ('\u5317\u4eac'). The names are not only phonetically and semantically linked, but also contextually supported by the historical reference.",
+          "is_match": true,
+          "explanation_full": "'Peking' and '\u5317\u4eac' refer to the same city, with 'Peking' being the older English name for 'Beijing'.",
+          "confidence_factors": {
+            "name_similarity": 0.95,
+            "context_support": 0.95,
+            "name_uniqueness": 0.95,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'Peking' is a historical transliteration of '\u5317\u4eac' (Beijing)",
+            "Context discusses historical trade routes, supporting the link",
+            "Both names refer to the same unique city",
+            "No ambiguity in the cultural/linguistic connection"
+          ],
+          "risk_factors": []
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 2.240950107574463
+    },
+    {
+      "article_id": "article9",
+      "article_title": "Tech Leadership Changes",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "Tesla CEO",
+          "watched_entity": "Elon Musk",
+          "confidence": 0.95,
+          "match_type": "title_role",
+          "reasoning": "The query 'Tesla CEO' refers to the person who holds the CEO position at Tesla. The candidate is 'Elon Musk', who is widely known as the CEO of Tesla. The provided context explicitly mentions 'Tesla CEO Elon Musk', directly linking the title to the individual. Both the title and the name are unique and contextually supported.",
+          "is_match": true,
+          "explanation_full": "Strong match: 'Tesla CEO' refers to Elon Musk, confirmed by context.",
+          "confidence_factors": {
+            "name_similarity": 0.8,
+            "context_support": 1.0,
+            "name_uniqueness": 0.9,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'Tesla CEO' is a unique title held by Elon Musk",
+            "Context explicitly states 'Tesla CEO Elon Musk'",
+            "Elon Musk is publicly known as Tesla's CEO"
+          ],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "Elon Musk",
+          "watched_entity": "Elon Musk",
+          "confidence": 1.0,
+          "match_type": "exact",
+          "reasoning": "Both the query and candidate are 'Elon Musk', which is an exact match. The context mentions 'Tesla CEO Elon Musk', further confirming the identity. 'Elon Musk' is a unique name, and there is no ambiguity or risk of confusion.",
+          "is_match": true,
+          "explanation_full": "Exact name match: 'Elon Musk' is the same person.",
+          "confidence_factors": {
+            "name_similarity": 1.0,
+            "context_support": 1.0,
+            "name_uniqueness": 1.0,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Exact match of 'Elon Musk'",
+            "Context supports the identity",
+            "Unique name"
+          ],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "Apple CEO",
+          "watched_entity": "Tim Cook",
+          "confidence": 0.95,
+          "match_type": "title_role",
+          "reasoning": "The query 'Apple CEO' refers to the person who holds the CEO position at Apple. The candidate is 'Tim Cook', who is the current CEO of Apple. This is a well-known fact, and the title is unique to Tim Cook in the current context.",
+          "is_match": true,
+          "explanation_full": "'Apple CEO' refers to Tim Cook; strong match.",
+          "confidence_factors": {
+            "name_similarity": 0.8,
+            "context_support": 1.0,
+            "name_uniqueness": 0.9,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'Apple CEO' is a unique title held by Tim Cook",
+            "Tim Cook is publicly known as Apple's CEO",
+            "No ambiguity in the title or name"
+          ],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "Apple CEO",
+          "watched_entity": "Elon Musk",
+          "confidence": 0.1,
+          "match_type": "unlikely",
+          "reasoning": "The query 'Apple CEO' refers to the person who leads Apple, which is Tim Cook, not Elon Musk. Elon Musk is the CEO of Tesla, not Apple. There is no contextual or factual link between 'Apple CEO' and 'Elon Musk'.",
+          "is_match": false,
+          "explanation_full": "No match: 'Apple CEO' does not refer to Elon Musk.",
+          "confidence_factors": {
+            "name_similarity": 0.0,
+            "context_support": 0.0,
+            "name_uniqueness": 0.9,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'Apple CEO' is not Elon Musk",
+            "Elon Musk is CEO of Tesla, not Apple"
+          ],
+          "risk_factors": [
+            "No contextual or factual connection",
+            "Distinct roles and companies"
+          ]
+        },
+        {
+          "extracted_entity": "Tim Cook",
+          "watched_entity": "Tim Cook",
+          "confidence": 1.0,
+          "match_type": "exact",
+          "reasoning": "Both the query and candidate are 'Tim Cook', which is an exact match. The context mentions 'Apple CEO Tim Cook', confirming the identity. 'Tim Cook' is a unique name, and the context further supports the match.",
+          "is_match": true,
+          "explanation_full": "Exact name match: 'Tim Cook' is the same person.",
+          "confidence_factors": {
+            "name_similarity": 1.0,
+            "context_support": 1.0,
+            "name_uniqueness": 1.0,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "Exact match of 'Tim Cook'",
+            "Context supports the identity",
+            "Unique name"
+          ],
+          "risk_factors": []
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 6.703691005706787
+    },
+    {
+      "article_id": "article10",
+      "article_title": "Government Appointments",
+      "total_entities_extracted": 0,
+      "matches_found": [
+        {
+          "extracted_entity": "President",
+          "watched_entity": "Joe Biden",
+          "confidence": 0.0,
+          "match_type": "error",
+          "reasoning": "Error occurred during match evaluation",
+          "is_match": false,
+          "explanation_full": null,
+          "confidence_factors": {},
+          "key_evidence": [],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "President",
+          "watched_entity": "Vladimir Putin",
+          "confidence": 0.0,
+          "match_type": "error",
+          "reasoning": "Error occurred during match evaluation",
+          "is_match": false,
+          "explanation_full": null,
+          "confidence_factors": {},
+          "key_evidence": [],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "Secretary of State",
+          "watched_entity": "Vladimir Putin",
+          "confidence": 0.0,
+          "match_type": "error",
+          "reasoning": "Error occurred during match evaluation",
+          "is_match": false,
+          "explanation_full": null,
+          "confidence_factors": {},
+          "key_evidence": [],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "Secretary of State",
+          "watched_entity": "Joe Biden",
+          "confidence": 0.0,
+          "match_type": "error",
+          "reasoning": "Error occurred during match evaluation",
+          "is_match": false,
+          "explanation_full": null,
+          "confidence_factors": {},
+          "key_evidence": [],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "Prime Minister",
+          "watched_entity": "Vladimir Putin",
+          "confidence": 0.0,
+          "match_type": "error",
+          "reasoning": "Error occurred during match evaluation",
+          "is_match": false,
+          "explanation_full": null,
+          "confidence_factors": {},
+          "key_evidence": [],
+          "risk_factors": []
+        },
+        {
+          "extracted_entity": "Canada",
+          "watched_entity": "Franklin Delano Roosevelt",
+          "confidence": 0.05,
+          "match_type": "unlikely",
+          "reasoning": "The query 'Canada' refers to a country, while 'Franklin Delano Roosevelt' is a specific individual's name. The context mentions the Prime Minister of Canada, but there is no evidence that Roosevelt is being referred to as 'Canada' or holds any relevant title. There is no name similarity, no contextual overlap, and the entities are fundamentally different.",
+          "is_match": false,
+          "explanation_full": "'Canada' is a country, not a person; no match to Franklin Delano Roosevelt.",
+          "confidence_factors": {
+            "name_similarity": 0.0,
+            "context_support": 0.0,
+            "name_uniqueness": 0.1,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'Canada' is a country, not a person's name",
+            "Franklin Delano Roosevelt is a unique individual's name",
+            "Context refers to the Prime Minister of Canada, not Roosevelt",
+            "No overlap in name or role"
+          ],
+          "risk_factors": [
+            "No name similarity",
+            "No contextual support",
+            "Entities are of different types (country vs person)"
+          ]
+        },
+        {
+          "extracted_entity": "Canada",
+          "watched_entity": "Tim Cook",
+          "confidence": 0.05,
+          "match_type": "unlikely",
+          "reasoning": "The query 'Canada' is a country, while 'Tim Cook' is a specific individual's name. The context refers to the Prime Minister of Canada, but Tim Cook is not known to hold this position or be associated with Canada in this context. There is no name similarity, no contextual connection, and the entities are fundamentally different.",
+          "is_match": false,
+          "explanation_full": "'Canada' is a country, not a person; no match to Tim Cook.",
+          "confidence_factors": {
+            "name_similarity": 0.0,
+            "context_support": 0.0,
+            "name_uniqueness": 0.1,
+            "cultural_variation": 0.0,
+            "partial_match_strength": 0.0
+          },
+          "key_evidence": [
+            "'Canada' is a country, not a person's name",
+            "Tim Cook is a unique individual's name",
+            "Context refers to the Prime Minister of Canada, not Tim Cook",
+            "No overlap in name or role"
+          ],
+          "risk_factors": [
+            "No name similarity",
+            "No contextual support",
+            "Entities are of different types (country vs person)"
+          ]
+        }
+      ],
+      "high_priority_matches": [],
+      "processing_time": 11.348740100860596
+    }
+  ],
+  "metadata": {
+    "pipeline_version": "1.2.0",
+    "processing_timestamp": "2026-01-08T16:27:17.629208",
+    "total_articles_processed": 10,
+    "total_matches_found": 31,
+    "match_types_distribution": {
+      "title_role": 5,
+      "exact": 6,
+      "nickname": 2,
+      "initial": 2,
+      "partial_last": 1,
+      "unlikely": 7,
+      "missing_components": 2,
+      "cultural": 1,
+      "error": 5
+    },
+    "confidence_distribution": {
+      "high": 17,
+      "medium": 2,
+      "low": 12
+    },
+    "matcher_stats": {
+      "articles_processed": 10,
+      "entities_matched": 31,
+      "potential_matches_found": 31,
+      "llm_explanations_generated": 31,
+      "high_confidence_matches": 17,
+      "elasticsearch": {
+        "entity_queries": 0,
+        "direct_matches_found": 0,
+        "hybrid_searches_performed": 11,
+        "hybrid_matches_found": 22,
+        "total_potential_matches": 0,
+        "duplicates_removed": 3,
+        "cache_hits": 0,
+        "cache_misses": 23,
+        "exact_searches_performed": 23,
+        "alias_searches_performed": 18,
+        "exact_matches_found": 5,
+        "alias_matches_found": 7,
+        "cache_size": 11,
+        "cache_enabled": true
+      }
+    },
+    "explanations_count": 31,
+    "llm_stats": {
+      "total_matches_processed": 31,
+      "matches_with_explanations": 31,
+      "llm_provider": "openai",
+      "llm_model": "gpt-4.1",
+      "batch_size": 5
+    },
+    "processing_time_seconds": 107.04852414131165
+  },
+  "match_results_index": "demo_entity_resolution_20260108_162705_match_results"
+}

@@ -1,0 +1,80 @@
+{
+  "articles": [
+    {
+      "id": "article1",
+      "title": "Presidential Summit",
+      "content": "Russian President Vladimir Putin and President Joe Biden discussed the summit agenda.",
+      "source": "test_source",
+      "language": "en"
+    },
+    {
+      "id": "article2",
+      "title": "Financial Summit",
+      "content": "Phil Carr presented the keynote address at the financial summit. P.C. Carr discussed market trends and investment strategies.",
+      "source": "financial_times",
+      "language": "en"
+    },
+    {
+      "id": "article3",
+      "title": "Art Exhibition",
+      "content": "The exhibition includes works by Diaz, Carlos A., whose heritage influences his paintings.",
+      "source": "art_review",
+      "language": "en"
+    },
+    {
+      "id": "article4",
+      "title": "Historical Icons",
+      "content": "The documentary examines how F.D.R.'s leadership transformed American politics.",
+      "source": "cultural_analysis",
+      "language": "en"
+    },
+    {
+      "id": "article5",
+      "title": "Community Leaders",
+      "content": "Bill Johnson was recognized for his 30 years of service in education.",
+      "source": "community_news",
+      "language": "en"
+    },
+    {
+      "id": "article6",
+      "title": "Entertainment News",
+      "content": "JeanClaude VanDamme announced his return to action films next year.",
+      "source": "entertainment_weekly",
+      "language": "en"
+    },
+    {
+      "id": "article7",
+      "title": "Film Retrospective",
+      "content": "The documentary celebrates the legacy of Thomas Sean Connery and his iconic roles. Sir Sean Connery's influence on cinema is undeniable.",
+      "source": "film_critique",
+      "language": "en"
+    },
+    {
+      "id": "article8",
+      "title": "Cultural Exchange",
+      "content": "The historical connection between Peking and international trade routes was discussed.",
+      "source": "cultural_affairs",
+      "language": "en"
+    },
+    {
+      "id": "article9",
+      "title": "Tech Leadership Changes",
+      "content": "Tesla CEO Elon Musk announced new initiatives while Apple CEO Tim Cook discussed market strategies.",
+      "source": "tech_news",
+      "language": "en"
+    },
+    {
+      "id": "article10",
+      "title": "Government Appointments",
+      "content": "The President announced new cabinet members. The Secretary of State and the Prime Minister of Canada attended the ceremony.",
+      "source": "political_news",
+      "language": "en"
+    }
+  ],
+  "ner": {
+    "use_hybrid_ner": true,
+    "elasticsearch_ner_model": "facebookai__xlm-roberta-large-finetuned-conll03-english",
+    "extract_compound_entities": true
+  }
+}
+

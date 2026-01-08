@@ -1,0 +1,171 @@
+{
+  "entities": [
+    {
+      "name": "William Johnson",
+      "entity_type": "person",
+      "description": "Test case for nickname variations",
+      "aliases": [
+        "Will Johnson",
+        "Bill Johnson",
+        "Billy Johnson"
+      ],
+      "explicit_context": "William Johnson is a common English name representing a typical individual in Western society. The name follows standard English naming conventions with given name (William) followed by family name (Johnson), and commonly appears with nickname variations like Will, Bill, and Billy in informal contexts."
+    },
+    {
+      "name": "Dr. Sarah Williams",
+      "entity_type": "person",
+      "description": "Test case for titles and honorifics",
+      "aliases": [
+        "Sarah Williams",
+        "Dr. S. Williams",
+        "Dr. Sarah W."
+      ],
+      "explicit_context": "Dr. Sarah Williams is a medical professional and healthcare provider who has earned a doctoral degree in medicine. She represents the medical community and healthcare sector, where professional titles and honorifics are important for establishing credibility and authority in patient care and medical practice."
+    },
+    {
+      "name": "Vladimir Putin",
+      "entity_type": "person",
+      "description": "Russian President",
+      "aliases": [
+        "Putin",
+        "Владимир Путин",
+        "V. Putin"
+      ],
+      "explicit_context": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, and previously from 2000 to 2008. He was also Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012, making him one of the longest-serving leaders in modern Russian history."
+    },
+    {
+      "name": "Xi Jinping",
+      "entity_type": "person",
+      "description": "Chinese President",
+      "aliases": [
+        "Xi",
+        "习近平",
+        "President Xi"
+      ],
+      "explicit_context": "Xi Jinping (born 15 June 1953) is a Chinese politician who has been serving as the General Secretary of the Chinese Communist Party (CCP) and President of the People's Republic of China since 2012. He is the paramount leader of China and has been described as the most powerful Chinese leader since Mao Zedong, overseeing China's economic growth and international relations."
+    },
+    {
+      "name": "Tesla Inc",
+      "entity_type": "organization",
+      "description": "Electric vehicle company",
+      "aliases": [
+        "Tesla",
+        "TSLA",
+        "Tesla Motors"
+      ],
+      "explicit_context": "Tesla, Inc. is an American electric vehicle and clean energy company founded by Elon Musk in 2003. The company is known for its electric cars, energy storage systems, and solar panels, and has become one of the world's most valuable automakers by market capitalization, revolutionizing the automotive industry with sustainable transportation solutions."
+    },
+    {
+      "name": "Mary Ellen Smith",
+      "entity_type": "person",
+      "description": "Test case for missing spaces/hyphens",
+      "aliases": [
+        "MaryEllen Smith",
+        "Mary-Ellen Smith",
+        "Mary Ellen S."
+      ],
+      "explicit_context": "Mary Ellen Smith is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "James Earl Smith",
+      "entity_type": "person",
+      "description": "Test case for initials",
+      "aliases": [
+        "J. E. Smith",
+        "J.E. Smith",
+        "James E. Smith"
+      ],
+      "explicit_context": "James Earl Smith is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Blankenship",
+      "entity_type": "person",
+      "description": "Test case for truncated name components",
+      "aliases": [
+        "Blankensh",
+        "Blankens",
+        "Blanken"
+      ],
+      "explicit_context": "Blankenship is a family name that represents a lineage and heritage in Western society. This surname follows standard English naming conventions and is commonly used in professional and personal contexts where family identification is important."
+    },
+    {
+      "name": "Abdul Rasheed",
+      "entity_type": "person",
+      "description": "Test case for transliteration differences",
+      "aliases": [
+        "Abd al-Rashid",
+        "Abdul Rashid",
+        "Abd al-Rasheed"
+      ],
+      "explicit_context": "Abdul Rasheed is a common Arabic name that represents traditional Islamic naming conventions. The name 'Abdul' means 'servant of' in Arabic, and 'Rasheed' means 'rightly guided' or 'wise', making this a meaningful name in Islamic culture that represents devotion and wisdom."
+    },
+    {
+      "name": "Mao Zedong",
+      "entity_type": "person",
+      "description": "Test case for same name in multiple languages",
+      "aliases": [
+        "Мао Цзэдун",
+        "毛泽东",
+        "Mao Tse-tung"
+      ],
+      "explicit_context": "Mao Zedong (26 December 1893 – 9 September 1976) was a Chinese communist revolutionary who was the founder of the People's Republic of China (PRC) and served as its chairman from 1949 until his death in 1976. He was also the chairman of the Chinese Communist Party (CCP) and is considered one of the most influential figures of the 20th century, known for his role in the Chinese Revolution and the Cultural Revolution."
+    },
+    {
+      "name": "IBM",
+      "entity_type": "organization",
+      "description": "Test case for organizational aliases",
+      "aliases": [
+        "Big Blue",
+        "International Business Machines",
+        "IBM Corporation"
+      ],
+      "explicit_context": "International Business Machines Corporation (IBM) is an American multinational technology corporation founded in 1911. The company is known for its computer hardware, software, and services, and has been a major player in the technology industry for over a century, contributing to the development of modern computing and artificial intelligence."
+    },
+    {
+      "name": "Apple Inc",
+      "entity_type": "organization",
+      "description": "Technology company",
+      "aliases": [
+        "Apple",
+        "AAPL",
+        "Apple Corporation"
+      ],
+      "explicit_context": "Apple Inc. is an American multinational technology company founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976. The company is known for its consumer electronics, software, and services, including the iPhone, iPad, Mac computers, and various software products, and is one of the world's most valuable companies."
+    },
+    {
+      "name": "Elon Musk",
+      "entity_type": "person",
+      "description": "CEO of Tesla and SpaceX",
+      "aliases": [
+        "Musk",
+        "Elon",
+        "Tesla CEO",
+        "SpaceX CEO"
+      ],
+      "explicit_context": "Elon Reeve Musk (born 28 June 1971) is a South African-born American entrepreneur and business magnate who is the founder, CEO, and chief engineer of SpaceX, CEO and product architect of Tesla, Inc., and founder of The Boring Company and Neuralink. He is known for his ambitious projects in space exploration, electric vehicles, and sustainable energy."
+    },
+    {
+      "name": "Emmanuel Macron",
+      "entity_type": "person",
+      "description": "French President",
+      "aliases": [
+        "Macron",
+        "E. Macron",
+        "President Macron"
+      ],
+      "explicit_context": "Emmanuel Jean-Michel Frédéric Macron (born 21 December 1977) is a French politician who has been serving as President of France since 2017. He was previously Minister of the Economy, Industry and Digital Affairs from 2014 to 2016 and founded the centrist political party En Marche! (now Renaissance) in 2016, becoming the youngest president in French history."
+    },
+    {
+      "name": "PennyLuck Pharmaceuticals Inc",
+      "entity_type": "organization",
+      "description": "Test case for semantically similar names",
+      "aliases": [
+        "PennyLuck Drugs, Co.",
+        "PennyLuck Pharmaceuticals, Inc.",
+        "PennyLuck Pharma"
+      ],
+      "explicit_context": "PennyLuck Pharmaceuticals Inc is a pharmaceutical company that develops and manufactures innovative drugs and medical treatments. The company specializes in research and development of new medications, generic pharmaceuticals, and specialized treatments for various medical conditions, contributing to healthcare advancement and patient care."
+    }
+  ],
+  "use_wikipedia": false
+}

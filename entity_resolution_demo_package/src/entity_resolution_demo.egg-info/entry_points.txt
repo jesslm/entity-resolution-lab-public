@@ -1,0 +1,2 @@
+[console_scripts]
+entity-resolution-demo = entity_resolution_demo.pipeline_runner.run_pipeline:main

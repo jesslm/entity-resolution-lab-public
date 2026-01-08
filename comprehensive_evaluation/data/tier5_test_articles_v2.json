@@ -1,0 +1,2026 @@
+[
+  {
+    "id": "tier5_cross_script_musk_001",
+    "title": "Electric Vehicle Manufacturer Announces Sustainable Energy Expansion",
+    "content": "The electric vehicle manufacturer's CEO announced plans to expand into sustainable energy during a quarterly earnings call. The tech entrepreneur, known for his ambitious timelines and innovative approach, discussed the company's latest technological breakthroughs in battery technology and autonomous driving systems. Industry analysts noted that the executive's vision has transformed multiple industries, from automotive to space exploration. The company's stock price surged following the announcement, reflecting investor confidence in the strategic direction. E. Musk, the founder of SpaceX, emphasized the importance of sustainable transportation solutions. The Tesla CEO's presentation highlighted significant progress in manufacturing efficiency and cost reduction. In a separate interview, Elon Musk discussed the company's long-term vision for sustainable energy. The presentation by Musk Elon at the technology conference received widespread attention from industry leaders.",
+    "source": "Tier5 Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "E. Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Tesla CEO",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Musk Elon",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_business"
+  },
+  {
+    "id": "tier5_business_hierarchy_001",
+    "title": "Technology Company Reports Strong Quarterly Earnings",
+    "content": "The Redmond-based technology company announced significant updates to its cloud computing platform, with new AI capabilities integrated across multiple services. The software giant reported strong quarterly earnings, exceeding analyst expectations by 15%. The Redmond-based tech giant expanded its Azure platform with enhanced security features and improved scalability options. MSFT stock rose significantly following the earnings announcement, with shares climbing over 8% in after-hours trading. The corporation's latest innovations in artificial intelligence and machine learning have positioned it as a leader in enterprise cloud solutions. Microsoft Inc launched new AI tools designed to help businesses automate complex workflows and improve productivity. Microsoft Corporation's quarterly report highlighted strong growth across all business segments. The technology leader, also known as Microsoft Corp, continues to invest heavily in cloud infrastructure and AI research.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Microsoft Corporation",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Microsoft Corp",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "corporate_abbreviation"
+      },
+      {
+        "extracted_entity": "Redmond-based tech giant",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "MSFT",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Microsoft Inc",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "corporate_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "complex_business_hierarchy"
+  },
+  {
+    "id": "tier5_japanese_name_order_001",
+    "title": "Japanese Prime Minister Addresses International Economic Summit",
+    "content": "The Japanese Prime Minister delivered a keynote address at the international economic summit, outlining new trade policies and regional cooperation initiatives. Shinzo Abe discussed the policy framework for strengthening economic partnerships across Asia-Pacific nations. The former prime minister's speech emphasized the importance of multilateral cooperation in addressing global challenges. Abe Shinzo, who served multiple terms as Japan's leader, highlighted the need for sustainable economic growth and technological innovation. The politician's remarks were well-received by international delegates, who praised the comprehensive approach to regional economic integration. During the summit, 安倍晋三 met with leaders from several Asian nations to discuss trade agreements. The address by 安倍さん was particularly well-received by the international community.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "安倍晋三",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Shinzo Abe",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "Abe Shinzo",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "安倍さん",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_name_order"
+  },
+  {
+    "id": "tier5_japanese_honorifics_001",
+    "title": "Tech Conference Highlights Japanese Professional Culture",
+    "content": "The international technology conference in Tokyo brought together engineers and developers from around the world. Tanaka Taro discussed the project's innovative approach to machine learning and artificial intelligence applications. The young engineer's presentation received positive feedback from industry veterans. During the networking session, 田中さん shared insights about software development practices in Japan. The conference organizers noted that 田中くん demonstrated exceptional technical skills during the hackathon competition. Colleagues praised 田中ちゃん for the creative solutions presented in the project showcase. The keynote address by 田中様 emphasized the importance of collaboration between international and Japanese tech companies. The event highlighted how Japanese professional culture values both technical excellence and respectful communication. During the conference, 田中太郎 presented a groundbreaking research paper on artificial intelligence applications.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "田中太郎",
+        "watch_list_entity": "田中太郎",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tanaka Taro",
+        "watch_list_entity": "田中太郎",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "田中さん",
+        "watch_list_entity": "田中太郎",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "田中くん",
+        "watch_list_entity": "田中太郎",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "田中ちゃん",
+        "watch_list_entity": "田中太郎",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "田中様",
+        "watch_list_entity": "田中太郎",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_honorifics"
+  },
+  {
+    "id": "tier5_japanese_writing_systems_001",
+    "title": "Political Summit Addresses Regional Economic Cooperation",
+    "content": "The Asia-Pacific economic summit concluded with significant agreements on trade and regional cooperation. The former Japanese leader's address emphasized the importance of multilateral partnerships in addressing global economic challenges. During the conference, アベシンゾウ announced new initiatives for sustainable economic growth across the region. The politician's remarks were well-received by international delegates, who praised the comprehensive approach to regional integration. In a separate interview, あんべしんぞう discussed the policy framework for strengthening economic ties between Asian nations. The summit highlighted the need for continued cooperation in addressing shared challenges. Abe Shinzo's presentation at the closing ceremony received widespread attention from media and policy analysts. During the summit, 安倍晋三 met with leaders from several Asian nations to discuss trade agreements.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "安倍晋三",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "アベシンゾウ",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "katakana_variation"
+      },
+      {
+        "extracted_entity": "あんべしんぞう",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "hiragana_variation"
+      },
+      {
+        "extracted_entity": "Abe Shinzo",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "romaji_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_writing_systems"
+  },
+  {
+    "id": "tier5_japanese_company_names_001",
+    "title": "Automotive Industry Announces Major Technology Breakthrough",
+    "content": "The global automotive industry witnessed a significant announcement from one of Japan's leading manufacturers. Toyota Motor Corporation reported strong sales figures for the latest quarter, exceeding analyst expectations. The company's latest innovations in hybrid and electric vehicle technology have positioned it as a leader in sustainable transportation. Industry experts noted that トヨタ has consistently demonstrated commitment to environmental responsibility through its research and development initiatives. The automotive manufacturer's expansion into new markets has been met with positive reception from consumers worldwide. Toyota's announcement of new technology platforms has generated significant interest from investors and industry analysts. The company's strategic direction continues to focus on innovation and sustainability. During the announcement, トヨタ自動車 executives highlighted the company's commitment to sustainable transportation solutions.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "トヨタ自動車",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Toyota Motor Corporation",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "トヨタ",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Toyota",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "english_abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_company_names"
+  },
+  {
+    "id": "tier5_japanese_religious_titles_001",
+    "title": "Papal Visit Strengthens International Relations",
+    "content": "The historic visit to Japan marked an important moment in international religious and cultural exchange. Pope Francis visited Japan to meet with religious leaders and discuss issues of global importance. The pontiff's address emphasized themes of peace, compassion, and interfaith dialogue. During the visit, フランシスコ教皇 held important meetings with Japanese political and religious leaders. The discussions focused on addressing global challenges through cooperation and understanding. Francis I met with Japanese leaders to discuss humanitarian efforts and environmental protection. The visit was widely covered by international media, highlighting the significance of the pontiff's message of unity and cooperation.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "フランシスコ",
+        "watch_list_entity": "フランシスコ",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Pope Francis",
+        "watch_list_entity": "フランシスコ",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "フランシスコ教皇",
+        "watch_list_entity": "フランシスコ",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Francis I",
+        "watch_list_entity": "フランシスコ",
+        "match_type": "numerical_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_religious_titles"
+  },
+  {
+    "id": "tier5_japanese_dalai_lama_001",
+    "title": "Spiritual Leader Addresses Global Peace Conference",
+    "content": "The international peace conference featured a keynote address from one of the world's most respected spiritual leaders. Dalai Lama gave a speech emphasizing the importance of compassion and understanding in addressing global conflicts. The address resonated with attendees from diverse cultural and religious backgrounds. During the conference, ダライラマ spoke about the need for dialogue and mutual respect in resolving international disputes. The spiritual leader's message of peace and non-violence received widespread support from conference participants. His Holiness the Dalai Lama emphasized compassion as a fundamental principle for building a more harmonious world. The address was followed by a question-and-answer session where the spiritual leader engaged with audience members. During the conference, ダライ・ラマ met with religious leaders from various traditions to discuss interfaith dialogue.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "ダライ・ラマ",
+        "watch_list_entity": "ダライ・ラマ",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dalai Lama",
+        "watch_list_entity": "ダライ・ラマ",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "ダライラマ",
+        "watch_list_entity": "ダライ・ラマ",
+        "match_type": "katakana_variation"
+      },
+      {
+        "extracted_entity": "His Holiness the Dalai Lama",
+        "watch_list_entity": "ダライ・ラマ",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_religious_titles"
+  },
+  {
+    "id": "tier5_japanese_sony_001",
+    "title": "Electronics Giant Reports Strong Quarterly Performance",
+    "content": "The Japanese electronics manufacturer announced impressive quarterly results, with revenue growth across multiple product categories. Sony Corporation launched new products in the gaming and entertainment sectors, demonstrating continued innovation in consumer technology. The company's latest earnings report showed strong performance in both hardware and software divisions. Industry analysts noted that ソニー株式会社 has successfully adapted to changing market conditions while maintaining its commitment to technological excellence. Sony Corp reported strong earnings, exceeding market expectations and demonstrating the company's resilience in a competitive industry. The technology company's strategic investments in research and development have positioned it well for future growth.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "ソニー",
+        "watch_list_entity": "ソニー",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sony Corporation",
+        "watch_list_entity": "ソニー",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "ソニー株式会社",
+        "watch_list_entity": "ソニー",
+        "match_type": "corporate_variation"
+      },
+      {
+        "extracted_entity": "Sony Corp",
+        "watch_list_entity": "ソニー",
+        "match_type": "abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_company_names"
+  },
+  {
+    "id": "tier5_japanese_combined_001",
+    "title": "Japanese Prime Minister Visits Major Manufacturing Facilities",
+    "content": "The Japanese Prime Minister conducted a series of visits to major manufacturing facilities across the country, highlighting the importance of industrial innovation and economic growth. Shinzo Abe visited Toyota Motor Corporation's production facility, where he observed the latest advances in automotive manufacturing technology. The visit emphasized the government's commitment to supporting the automotive industry's transition to sustainable transportation solutions. During the tour, 安倍晋三 discussed policy initiatives aimed at strengthening Japan's position as a global leader in manufacturing excellence. The prime minister also visited トヨタ自動車's main production facility, where he observed the latest advances in automotive manufacturing technology. The prime minister also met with executives from the technology sector, including representatives from Sony. 田中太郎さん attended a technology conference where industry leaders discussed innovation strategies. Tanaka Taro participated in discussions about the future of Japanese technology companies in the global market. During the conference, executives from ソニー discussed the company's latest innovations in consumer technology.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "安倍晋三",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Shinzo Abe",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "トヨタ自動車",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Toyota Motor Corporation",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "田中太郎",
+        "watch_list_entity": "田中太郎",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tanaka Taro",
+        "watch_list_entity": "田中太郎",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "ソニー",
+        "watch_list_entity": "ソニー",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sony",
+        "watch_list_entity": "ソニー",
+        "match_type": "english_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_combined"
+  },
+  {
+    "id": "tier5_arabic_patronymic_001",
+    "title": "International Conference Features Prominent Speakers",
+    "content": "The international conference on cultural exchange and cooperation brought together speakers from diverse backgrounds to discuss important global issues. Muhammad Ali spoke at the conference, delivering a powerful address on the importance of understanding and respecting different cultural traditions. The speaker's remarks emphasized the value of dialogue in building bridges between communities. During the conference sessions, أبو محمد highlighted the need for cooperation in addressing shared challenges. The discussions focused on finding common ground while respecting cultural differences. M. Ali emphasized cooperation as a fundamental principle for building a more harmonious global community. The conference concluded with a commitment to continued dialogue and collaboration. During the conference, محمد علي met with leaders from various cultural and religious traditions to discuss interfaith dialogue.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "محمد علي",
+        "watch_list_entity": "محمد علي",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Muhammad Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "أبو محمد",
+        "watch_list_entity": "محمد علي",
+        "match_type": "patronymic_variation"
+      },
+      {
+        "extracted_entity": "M. Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_patronymic"
+  },
+  {
+    "id": "tier5_hebrew_patronymic_001",
+    "title": "Historical Figure Remembered for Nation-Building Legacy",
+    "content": "The anniversary celebration honored one of the most significant figures in the nation's history, whose leadership shaped the country's early development. David Ben-Gurion was a prime minister who played a crucial role in establishing the modern state and its democratic institutions. The commemorative events highlighted the leader's vision for building a strong and independent nation. During the ceremony, בן-גוריון was remembered for his commitment to democratic principles and social justice. The historical figure's legacy continues to influence the nation's political and social development. Ben-Gurion established the state through years of dedicated leadership and strategic decision-making. The anniversary provided an opportunity to reflect on the nation's journey and the values that continue to guide its development. During the ceremony, דוד בן-גוריון was remembered for his commitment to democratic principles and social justice.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "דוד בן-גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "David Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "בן-גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "patronymic_variation"
+      },
+      {
+        "extracted_entity": "Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_patronymic"
+  },
+  {
+    "id": "tier5_cross_script_macron_001",
+    "title": "French President Addresses Nation on Policy Initiatives",
+    "content": "The French President delivered a comprehensive address to the nation, outlining new policy initiatives aimed at strengthening the country's economy and social cohesion. Emmanuel Macron addressed the nation on issues ranging from economic reform to environmental protection. The address was broadcast live across the country, reaching millions of viewers. During the speech, E. Macron discussed policy frameworks for addressing key challenges facing the nation. The president's remarks emphasized the importance of unity and cooperation in building a stronger future. President Macron met with leaders from various sectors to discuss implementation strategies for the new initiatives. The address by Macron Emmanuel received widespread attention from both domestic and international media, highlighting the significance of the policy announcements.",
+    "source": "Tier5 Challenge Data",
+    "language": "fr",
+    "expected_matches": [
+      {
+        "extracted_entity": "Emmanuel Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "E. Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "President Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Macron Emmanuel",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_political"
+  },
+  {
+    "id": "tier5_chinese_transliteration_001",
+    "title": "Chinese Leader Delivers Keynote Address at International Forum",
+    "content": "The international economic forum featured a keynote address from the Chinese leader, who outlined a vision for global cooperation and economic development. 习近平主席发表了重要讲话 on the importance of multilateral partnerships in addressing global challenges. The address emphasized themes of cooperation, innovation, and sustainable development. President Xi Jinping delivered an important speech that resonated with international delegates and policy makers. The leader's remarks highlighted the need for collaborative approaches to addressing shared global challenges. Xi emphasized cooperation as a fundamental principle for building a more prosperous and stable international community. Chinese President addressed the nation on domestic policy initiatives while also engaging with international partners. The forum provided a platform for discussing Xi Jinping President's vision for global economic cooperation.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "zh",
+    "expected_matches": [
+      {
+        "extracted_entity": "习近平",
+        "watch_list_entity": "习近平",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "President Xi Jinping",
+        "watch_list_entity": "习近平",
+        "match_type": "title_transliteration"
+      },
+      {
+        "extracted_entity": "Xi",
+        "watch_list_entity": "习近平",
+        "match_type": "shortened_transliteration"
+      },
+      {
+        "extracted_entity": "Chinese President",
+        "watch_list_entity": "习近平",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Xi Jinping President",
+        "watch_list_entity": "习近平",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "chinese_transliteration"
+  },
+  {
+    "id": "tier5_korean_transliteration_001",
+    "title": "North Korean Leader Addresses Nation on Policy Direction",
+    "content": "The North Korean leader delivered a significant address to the nation, outlining policy directions and strategic priorities for the coming period. 김정은이 연설을 했다 on issues ranging from economic development to national security. The address was broadcast across the country, reaching citizens throughout the nation. Kim Jong-un delivered a speech that emphasized themes of unity, self-reliance, and national development. The leader's remarks highlighted the importance of maintaining national sovereignty while engaging with the international community. Supreme Leader Kim emphasized unity as a fundamental principle for national progress and development. North Korean leader addressed the nation on domestic policy initiatives and international relations. The address by Kim discussed policy frameworks for addressing key challenges facing the nation.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "ko",
+    "expected_matches": [
+      {
+        "extracted_entity": "김정은",
+        "watch_list_entity": "김정은",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Kim Jong-un",
+        "watch_list_entity": "김정은",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "Supreme Leader Kim",
+        "watch_list_entity": "김정은",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "North Korean leader",
+        "watch_list_entity": "김정은",
+        "match_type": "role_descriptive"
+      },
+      {
+        "extracted_entity": "Kim",
+        "watch_list_entity": "김정은",
+        "match_type": "last_name_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "korean_transliteration"
+  },
+  {
+    "id": "tier5_arabic_honorifics_001",
+    "title": "Regional Leaders Address Economic and Social Challenges",
+    "content": "The Middle Eastern region has seen important developments in business, education, and cultural exchange. الشيخ محمد has been involved in recent developments. Sheikh Muhammad has been mentioned in recent discussions. الشيخ محمد بن عبد الله has been involved in recent developments. Al-Sheikh Muhammad has been involved in recent developments. These developments highlight the region's growing importance in global affairs.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الشيخ محمد",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sheikh Muhammad",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الشيخ محمد بن عبد الله",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Al-Sheikh Muhammad",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_honorifics"
+  },
+  {
+    "id": "tier5_arabic_professional_titles_001",
+    "title": "Regional Leaders Address Economic and Social Challenges",
+    "content": "The Middle Eastern region has seen important developments in business, education, and cultural exchange. الدكتور أحمد has been involved in recent developments. Dr. Ahmed has been mentioned in recent discussions. الدكتور أحمد محمد has been involved in recent developments. Dr. A. Ahmed has been mentioned in recent discussions. These developments highlight the region's growing importance in global affairs.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الدكتور أحمد",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dr. Ahmed",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الدكتور أحمد محمد",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Dr. A. Ahmed",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_professional_titles"
+  },
+  {
+    "id": "tier5_arabic_historical_001",
+    "title": "Historical Figures in Middle Eastern Culture",
+    "content": "The Middle Eastern region has seen important developments in business, education, and cultural exchange. أبو بكر has been involved in recent developments. Abu Bakr al-Siddiq has been involved in recent developments. أبو بكر الصديق has been involved in recent developments. Bakr has been involved in recent developments. These developments highlight the region's growing importance in global affairs.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "أبو بكر",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Abu Bakr al-Siddiq",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "أبو بكر الصديق",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "Bakr",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "shortened_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_historical"
+  },
+  {
+    "id": "tier5_arabic_company_001",
+    "title": "Middle Eastern Companies Expand International Operations",
+    "content": "The Middle Eastern region has seen important developments in business, education, and cultural exchange. الشركة السعودية has been involved in recent developments. Saudi Company has been mentioned in recent discussions. الشركة السعودية للبترول has been involved in recent developments. Saudi Oil Company has been involved in recent developments. These developments highlight the region's growing importance in global affairs.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الشركة السعودية",
+        "watch_list_entity": "الشركة السعودية",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Saudi Company",
+        "watch_list_entity": "الشركة السعودية",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الشركة السعودية للبترول",
+        "watch_list_entity": "الشركة السعودية",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Saudi Oil Company",
+        "watch_list_entity": "الشركة السعودية",
+        "match_type": "english_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_company_names"
+  },
+  {
+    "id": "tier5_arabic_institutional_001",
+    "title": "Educational Institutions in the Middle East Announce New Programs",
+    "content": "The Middle Eastern region has seen important developments in business, education, and cultural exchange. الجامعة الإسلامية has been involved in recent developments. Islamic University has been mentioned in recent discussions. الجامعة الإسلامية العالمية has been involved in recent developments. International Islamic University has been involved in recent developments. These developments highlight the region's growing importance in global affairs.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الجامعة الإسلامية",
+        "watch_list_entity": "الجامعة الإسلامية",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Islamic University",
+        "watch_list_entity": "الجامعة الإسلامية",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الجامعة الإسلامية العالمية",
+        "watch_list_entity": "الجامعة الإسلامية",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "International Islamic University",
+        "watch_list_entity": "الجامعة الإسلامية",
+        "match_type": "english_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_institutional"
+  },
+  {
+    "id": "tier5_arabic_combined_001",
+    "title": "Recent Developments in Middle Eastern Business and Education",
+    "content": "The Middle Eastern region has seen important developments in business, education, and cultural exchange. الشيخ محمد has been involved in recent developments. Sheikh Muhammad has been mentioned in recent discussions. الدكتور أحمد has been involved in recent developments. Dr. Ahmed has been mentioned in recent discussions. أبو بكر الصديق has been involved in recent developments. Abu Bakr al-Siddiq has been mentioned in recent discussions. These developments highlight the region's growing importance in global affairs.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الشيخ محمد",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sheikh Muhammad",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الدكتور أحمد",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dr. Ahmed",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "أبو بكر الصديق",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "Abu Bakr al-Siddiq",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "transliteration"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_combined"
+  },
+  {
+    "id": "tier5_arabic_transliteration_001",
+    "title": "Recent Developments in Middle Eastern Business and Education",
+    "content": "The Middle Eastern region has seen important developments in business, education, and cultural exchange. محمد علي has been involved in recent developments. Muhammad Ali has been mentioned in recent discussions. Mohammed Ali has been involved in recent developments. Muhammed Ali has been involved in recent developments. These developments highlight the region's growing importance in global affairs.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "محمد علي",
+        "watch_list_entity": "محمد علي",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Muhammad Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "Mohammed Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "transliteration_variation"
+      },
+      {
+        "extracted_entity": "Muhammed Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "transliteration_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_transliteration"
+  },
+  {
+    "id": "tier5_hebrew_professional_001",
+    "title": "Recent Developments in Israeli Society and Economy",
+    "content": "Recent developments in Israeli politics, business, and academia have drawn international attention. פרופסור דוד has been involved in recent developments. Prof. David has been mentioned in recent discussions. פרופ' דוד has been mentioned in recent discussions. Professor David has been involved in recent developments. These developments demonstrate the dynamic nature of Israeli society and economy.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "פרופסור דוד",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Prof. David",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "פרופ' דוד",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Professor David",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "full_title_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_professional_titles"
+  },
+  {
+    "id": "tier5_hebrew_religious_001",
+    "title": "Religious Leaders in Israel Address Community Needs",
+    "content": "Recent developments in Israeli politics, business, and academia have drawn international attention. הרב משה has been involved in recent developments. Rabbi Moses has been mentioned in recent discussions. הרב משה בן מימון has been involved in recent developments. Ha-Rav Moshe has been involved in recent developments. These developments demonstrate the dynamic nature of Israeli society and economy.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "הרב משה",
+        "watch_list_entity": "הרב משה",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Rabbi Moses",
+        "watch_list_entity": "הרב משה",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "הרב משה בן מימון",
+        "watch_list_entity": "הרב משה",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Ha-Rav Moshe",
+        "watch_list_entity": "הרב משה",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_religious_titles"
+  },
+  {
+    "id": "tier5_hebrew_political_001",
+    "title": "Israeli Political Leaders Discuss Policy Priorities",
+    "content": "Recent developments in Israeli politics, business, and academia have drawn international attention. יצחק רבין has been involved in recent developments. Yitzhak Rabin has been mentioned in recent discussions. רבין has been involved in recent developments. Rabin has been involved in recent developments. These developments demonstrate the dynamic nature of Israeli society and economy.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "יצחק רבין",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Yitzhak Rabin",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "רבין",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "Rabin",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "transliteration_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_political"
+  },
+  {
+    "id": "tier5_hebrew_institutional_001",
+    "title": "Israeli Universities Announce Research Initiatives",
+    "content": "Recent developments in Israeli politics, business, and academia have drawn international attention. אוניברסיטת תל אביב has been involved in recent developments. Tel Aviv University has been mentioned in recent discussions. אוניברסיטת ת\"א has been mentioned in recent discussions. TAU has been involved in recent developments. These developments demonstrate the dynamic nature of Israeli society and economy.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "אוניברסיטת תל אביב",
+        "watch_list_entity": "אוניברסיטת תל אביב",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tel Aviv University",
+        "watch_list_entity": "אוניברסיטת תל אביב",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "אוניברסיטת ת\"א",
+        "watch_list_entity": "אוניברסיטת תל אביב",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "TAU",
+        "watch_list_entity": "אוניברסיטת תל אביב",
+        "match_type": "english_abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_institutional"
+  },
+  {
+    "id": "tier5_hebrew_financial_001",
+    "title": "Israeli Financial Institutions Report Strong Performance",
+    "content": "Recent developments in Israeli politics, business, and academia have drawn international attention. בנק לאומי has been involved in recent developments. Bank Leumi has been mentioned in recent discussions. בנק לאומי לישראל has been involved in recent developments. Leumi Bank has been mentioned in recent discussions. These developments demonstrate the dynamic nature of Israeli society and economy.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "בנק לאומי",
+        "watch_list_entity": "בנק לאומי",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Bank Leumi",
+        "watch_list_entity": "בנק לאומי",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "בנק לאומי לישראל",
+        "watch_list_entity": "בנק לאומי",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Leumi Bank",
+        "watch_list_entity": "בנק לאומי",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_financial"
+  },
+  {
+    "id": "tier5_hebrew_combined_001",
+    "title": "Recent Developments in Israeli Society and Economy",
+    "content": "Recent developments in Israeli politics, business, and academia have drawn international attention. דוד בן-גוריון has been involved in recent developments. David Ben-Gurion has been mentioned in recent discussions. פרופסור דוד has been involved in recent developments. Prof. David has been mentioned in recent discussions. הרב משה has been involved in recent developments. Rabbi Moses has been mentioned in recent discussions. יצחק רבין has been involved in recent developments. Yitzhak Rabin has been mentioned in recent discussions. These developments demonstrate the dynamic nature of Israeli society and economy.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "דוד בן-גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "David Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "פרופסור דוד",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Prof. David",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "הרב משה",
+        "watch_list_entity": "הרב משה",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Rabbi Moses",
+        "watch_list_entity": "הרב משה",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "יצחק רבין",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Yitzhak Rabin",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "transliteration"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_combined"
+  },
+  {
+    "id": "tier5_hebrew_transliteration_001",
+    "title": "Recent Developments in Israeli Society and Economy",
+    "content": "Recent developments in Israeli politics, business, and academia have drawn international attention. דוד בן-גוריון has been involved in recent developments. David Ben-Gurion has been mentioned in recent discussions. דוד בן גוריון has been involved in recent developments. Ben-Gurion has been involved in recent developments. These developments demonstrate the dynamic nature of Israeli society and economy.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "דוד בן-גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "David Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "דוד בן גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "spacing_variation"
+      },
+      {
+        "extracted_entity": "Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_transliteration"
+  },
+  {
+    "id": "tier5_cross_script_putin_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "International business and political relations have been shaped by key figures and organizations across different regions. Владимир Путин has been involved in recent developments. Vladimir Putin has been involved in recent developments. V. Putin has been mentioned in recent discussions. The president's policy decisions have been widely discussed. These developments have been closely watched by international observers. President Putin has been mentioned in recent reports.",
+    "source": "Tier5 Challenge Data",
+    "language": "ru",
+    "expected_matches": [
+      {
+        "extracted_entity": "Владимир Путин",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "cyrillic_variation"
+      },
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "V. Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "President Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "title_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_cyrillic"
+  },
+  {
+    "id": "tier5_cross_script_xi_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "International business and political relations have been shaped by key figures and organizations across different regions. 习近平 has been involved in recent developments. The president's policy decisions have been widely discussed. 主席习近平 has been involved in recent developments. Xi President has been mentioned in recent discussions. These developments have been closely watched by international observers. President Xi has been mentioned in recent reports.",
+    "source": "Tier5 Challenge Data",
+    "language": "zh",
+    "expected_matches": [
+      {
+        "extracted_entity": "习近平",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "chinese_variation"
+      },
+      {
+        "extracted_entity": "President Xi",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "主席习近平",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "chinese_title_variation"
+      },
+      {
+        "extracted_entity": "Xi President",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_chinese"
+  },
+  {
+    "id": "tier5_cross_script_kim_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "International business and political relations have been shaped by key figures and organizations across different regions. 김정은 has been involved in recent developments. Kim Jong-un has been involved in recent developments. The leader's recent activities have been noted by observers. Kim Jong Un has been involved in recent developments. These developments have been closely watched by international observers. Supreme Leader Kim has been mentioned in recent reports.",
+    "source": "Tier5 Challenge Data",
+    "language": "ko",
+    "expected_matches": [
+      {
+        "extracted_entity": "김정은",
+        "watch_list_entity": "Kim Jong-un",
+        "match_type": "korean_variation"
+      },
+      {
+        "extracted_entity": "Kim Jong-un",
+        "watch_list_entity": "Kim Jong-un",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Supreme Leader Kim",
+        "watch_list_entity": "Kim Jong-un",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Kim Jong Un",
+        "watch_list_entity": "Kim Jong-un",
+        "match_type": "spacing_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_korean"
+  },
+  {
+    "id": "tier5_cross_script_cook_001",
+    "title": "Global Corporations Announce Strategic Initiatives",
+    "content": "International business and political relations have been shaped by key figures and organizations across different regions. Tim Cook has been involved in recent developments. T. Cook has been mentioned in recent discussions. The chief executive's recent statements have drawn attention from industry analysts. Cook Tim has been mentioned in recent discussions. Industry analysts have noted the strategic significance of these developments. Apple CEO has been mentioned in recent reports.",
+    "source": "Tier5 Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "T. Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Apple CEO",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Cook Tim",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_business"
+  },
+  {
+    "id": "tier5_cross_script_combined_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "International business and political relations have been shaped by key figures and organizations across different regions. Владимир Путин has been involved in recent developments. Vladimir Putin has been involved in recent developments. 习近平 has been involved in recent developments. Xi Jinping has been involved in recent developments. Elon Musk has been involved in recent developments. Tim Cook has been involved in recent developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Challenge Data",
+    "language": "mixed",
+    "expected_matches": [
+      {
+        "extracted_entity": "Владимир Путин",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "cyrillic_variation"
+      },
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "习近平",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "chinese_variation"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_combined"
+  },
+  {
+    "id": "tier5_cross_script_transliteration_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "International business and political relations have been shaped by key figures and organizations across different regions. Vladimir Putin has been involved in recent developments. В. Путин has been involved in recent developments. Xi Jinping has been involved in recent developments. 习主席 has been involved in recent developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Challenge Data",
+    "language": "mixed",
+    "expected_matches": [
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "В. Путин",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "cyrillic_abbreviation"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "习主席",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "chinese_title_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_transliteration"
+  },
+  {
+    "id": "tier5_parent_subsidiary_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Alphabet Inc has been involved in recent developments. tech conglomerate has been involved in recent developments. GOOGL has been involved in recent developments. Google's parent company has been involved in recent business developments. Alphabet Corporation has been making strategic investments in emerging technologies. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Alphabet Inc",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Google's parent company",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "parent_company_reference"
+      },
+      {
+        "extracted_entity": "tech conglomerate",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "GOOGL",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Alphabet Corporation",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "corporate_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "parent_subsidiary_relationships"
+  },
+  {
+    "id": "tier5_investment_holding_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Berkshire Hathaway Inc has been involved in recent developments. Warren Buffett's company has been involved in recent developments. Omaha-based conglomerate has been involved in recent developments. BRK.A has been involved in recent developments. Investment holding company has been involved in recent business developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Berkshire Hathaway Inc",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Warren Buffett's company",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "founder_reference"
+      },
+      {
+        "extracted_entity": "Omaha-based conglomerate",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "geographic_descriptive"
+      },
+      {
+        "extracted_entity": "BRK.A",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Investment holding company",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "investment_holding_structures"
+  },
+  {
+    "id": "tier5_multi_division_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Johnson & Johnson has been involved in recent developments. J&J has been mentioned in recent discussions. pharmaceutical giant has been involved in recent developments. JNJ has been involved in recent developments. Healthcare company has been involved in recent business developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Johnson & Johnson",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "J&J",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "pharmaceutical giant",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "industry_descriptive"
+      },
+      {
+        "extracted_entity": "JNJ",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Healthcare company",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "multi_division_corporations"
+  },
+  {
+    "id": "tier5_consumer_goods_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Procter & Gamble has been involved in recent developments. P&G has been mentioned in recent discussions. Cincinnati-based company has been involved in recent developments. PG has been involved in recent developments. Consumer packaged goods company has been involved in recent business developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Procter & Gamble",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "P&G",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Cincinnati-based company",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "geographic_descriptive"
+      },
+      {
+        "extracted_entity": "PG",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Consumer packaged goods company",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "consumer_goods_conglomerates"
+  },
+  {
+    "id": "tier5_industrial_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. General Electric has been involved in recent developments. GE has been mentioned in recent discussions. industrial conglomerate has been involved in recent business developments. GE Corporation has been making strategic investments in emerging technologies. Multinational conglomerate has been involved in recent business developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "General Electric",
+        "watch_list_entity": "General Electric",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "GE",
+        "watch_list_entity": "General Electric",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "industrial conglomerate",
+        "watch_list_entity": "General Electric",
+        "match_type": "business_type_descriptive"
+      },
+      {
+        "extracted_entity": "GE Corporation",
+        "watch_list_entity": "General Electric",
+        "match_type": "corporate_variation"
+      },
+      {
+        "extracted_entity": "Multinational conglomerate",
+        "watch_list_entity": "General Electric",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "industrial_conglomerates"
+  },
+  {
+    "id": "tier5_aerospace_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. United Technologies Corporation has been involved in recent developments. UTC has been mentioned in recent discussions. aerospace company has been involved in recent developments. United Tech has been involved in recent developments. Aerospace and defense contractor has been involved in recent business developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "United Technologies Corporation",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "UTC",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "aerospace company",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "industry_descriptive"
+      },
+      {
+        "extracted_entity": "United Tech",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "shortened_variation"
+      },
+      {
+        "extracted_entity": "Aerospace and defense contractor",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "aerospace_defense_contractors"
+  },
+  {
+    "id": "tier5_manufacturing_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. 3M Company has been involved in recent developments. 3M has been mentioned in recent discussions. Minnesota Mining and Manufacturing company has been involved in recent developments. Post-it maker has been involved in recent developments. 3M Corporation has been making strategic investments in emerging technologies. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "3M Company",
+        "watch_list_entity": "3M Company",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "3M",
+        "watch_list_entity": "3M Company",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Minnesota Mining and Manufacturing company",
+        "watch_list_entity": "3M Company",
+        "match_type": "full_name_reference"
+      },
+      {
+        "extracted_entity": "3M Corporation",
+        "watch_list_entity": "3M Company",
+        "match_type": "corporate_variation"
+      },
+      {
+        "extracted_entity": "Post-it maker",
+        "watch_list_entity": "3M Company",
+        "match_type": "product_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "diversified_manufacturing"
+  },
+  {
+    "id": "tier5_cross_cultural_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. José María Aznar has been involved in recent developments. Jose Maria Aznar has been involved in recent developments. former Spanish PM has been involved in recent developments. José M. Aznar has been involved in recent developments. Spanish politician has been involved in recent developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "José María Aznar",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Jose Maria Aznar",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "transliteration_variation"
+      },
+      {
+        "extracted_entity": "former Spanish PM",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "José M. Aznar",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "Spanish politician",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_cultural_name_variations"
+  },
+  {
+    "id": "tier5_international_political_001",
+    "title": "International Political Leaders Address Global Challenges",
+    "content": "International political developments have highlighted the role of key leaders and their policy decisions. François Hollande has been involved in recent developments. Francois Hollande has been involved in recent developments. former French President has been involved in recent developments. F. Hollande has been involved in recent developments. French politician has been involved in recent developments. Political observers have been closely monitoring these developments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "François Hollande",
+        "watch_list_entity": "François Hollande",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Francois Hollande",
+        "watch_list_entity": "François Hollande",
+        "match_type": "transliteration_variation"
+      },
+      {
+        "extracted_entity": "former French President",
+        "watch_list_entity": "François Hollande",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "F. Hollande",
+        "watch_list_entity": "François Hollande",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "French politician",
+        "watch_list_entity": "François Hollande",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_international_political_002",
+    "title": "International Political Leaders Address Global Challenges",
+    "content": "International political developments have highlighted the role of key leaders and their policy decisions. Angela Merkel has been involved in recent developments. A. Merkel has been involved in recent developments. former German Chancellor has been involved in recent developments. Merkel has been involved in recent developments. German politician has been involved in recent developments. Political observers have been closely monitoring these developments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Angela Merkel",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "A. Merkel",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "former German Chancellor",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Merkel",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "German politician",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_international_political_003",
+    "title": "International Political Leaders Address Global Challenges",
+    "content": "International political developments have highlighted the role of key leaders and their policy decisions. Narendra Modi has been involved in recent developments. N. Modi has been involved in recent developments. Indian Prime Minister has been involved in recent developments. Modi has been involved in recent developments. Indian leader has been involved in recent developments. Political observers have been closely monitoring these developments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Narendra Modi",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "N. Modi",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "Indian Prime Minister",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Modi",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "Indian leader",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_international_political_004",
+    "title": "International Political Leaders Address Global Challenges",
+    "content": "International political developments have highlighted the role of key leaders and their policy decisions. Justin Trudeau has been involved in recent developments. J. Trudeau has been involved in recent developments. Canadian Prime Minister has been involved in recent developments. Trudeau has been involved in recent developments. Canadian leader has been involved in recent developments. Political observers have been closely monitoring these developments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Justin Trudeau",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "J. Trudeau",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "Canadian Prime Minister",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Trudeau",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "Canadian leader",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_international_political_005",
+    "title": "International Political Leaders Address Global Challenges",
+    "content": "International political developments have highlighted the role of key leaders and their policy decisions. Jacinda Ardern has been involved in recent developments. J. Ardern has been involved in recent developments. former New Zealand PM has been involved in recent developments. Ardern has been involved in recent developments. New Zealand leader has been involved in recent developments. Political observers have been closely monitoring these developments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Jacinda Ardern",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "J. Ardern",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "former New Zealand PM",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Ardern",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "New Zealand leader",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_advanced_transliteration_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Владимир Владимирович Путин has been involved in recent developments. Vladimir Vladimirovich Putin has been involved in recent developments. V. Putin has been involved in recent developments. Russian President has been involved in recent developments. Putin has been involved in recent developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "ru",
+    "expected_matches": [
+      {
+        "extracted_entity": "Владимир Владимирович Путин",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Vladimir Vladimirovich Putin",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "full_transliteration"
+      },
+      {
+        "extracted_entity": "V. Putin",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "abbreviated_transliteration"
+      },
+      {
+        "extracted_entity": "Russian President",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Putin",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "last_name_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "advanced_transliteration"
+  },
+  {
+    "id": "tier5_japanese_transliteration_001",
+    "title": "Recent Developments in Japanese Business and Politics",
+    "content": "The Japanese business and political landscape continues to evolve with significant developments in technology, leadership, and international relations. 安倍晋三 has been involved in recent developments. Shinzo Abe has been mentioned in recent discussions. Former Japanese PM has been involved in recent developments. Abe has been involved in recent developments. Japanese leader has been involved in recent developments. These developments reflect broader trends in Japanese business and political leadership.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "安倍晋三",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Shinzo Abe",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "Former Japanese PM",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Abe",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "Japanese leader",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_transliteration"
+  },
+  {
+    "id": "tier5_historical_name_changes_001",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Facebook Inc has been involved in recent developments. social media company has been involved in recent developments. FB has been involved in recent developments. Mark Zuckerberg's company has been involved in recent developments. Meta Platforms Inc has been involved in recent business developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Facebook Inc",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Meta Platforms Inc",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "corporate_rebranding"
+      },
+      {
+        "extracted_entity": "social media company",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "industry_descriptive"
+      },
+      {
+        "extracted_entity": "FB",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Mark Zuckerberg's company",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "founder_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "historical_name_changes"
+  },
+  {
+    "id": "tier5_historical_name_changes_002",
+    "title": "Recent Developments Highlight Key Figures and Organizations",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Twitter Inc has been involved in recent developments. microblogging service has been involved in recent developments. Social media platform has been involved in recent developments. Bird app has been involved in recent developments. X Corp has been involved in recent business developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Twitter Inc",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "X Corp",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "corporate_rebranding"
+      },
+      {
+        "extracted_entity": "microblogging service",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "service_descriptive"
+      },
+      {
+        "extracted_entity": "Social media platform",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "platform_descriptive"
+      },
+      {
+        "extracted_entity": "Bird app",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "nickname_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "historical_name_changes"
+  },
+  {
+    "id": "tier5_corporate_restructuring_001",
+    "title": "Technology Companies Announce Organizational Changes",
+    "content": "The global business landscape continues to evolve with major corporations announcing strategic initiatives and organizational changes. Google LLC has been involved in recent developments. search engine company has been involved in recent developments. GOOGL has been involved in recent developments. Mountain View company has been involved in recent developments. Alphabet Inc has been involved in recent business developments. Industry analysts have noted the strategic significance of these developments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Google LLC",
+        "watch_list_entity": "Google LLC",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Alphabet Inc",
+        "watch_list_entity": "Google LLC",
+        "match_type": "parent_company_reference"
+      },
+      {
+        "extracted_entity": "search engine company",
+        "watch_list_entity": "Google LLC",
+        "match_type": "service_descriptive"
+      },
+      {
+        "extracted_entity": "GOOGL",
+        "watch_list_entity": "Google LLC",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Mountain View company",
+        "watch_list_entity": "Google LLC",
+        "match_type": "geographic_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "corporate_restructuring"
+  },
+  {
+    "id": "tier5_business_diversification_001",
+    "title": "Major Technology Companies Expand into New Markets",
+    "content": "The global business landscape continues to evolve with major corporations announcing strategic initiatives and organizational changes. Amazon.com Inc has been involved in recent developments. Amazon has been involved in recent developments. e-commerce giant has been involved in recent developments. AMZN has been involved in recent developments. Jeff Bezos' company has been involved in recent developments. Industry analysts have noted the strategic significance of these developments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Amazon.com Inc",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Amazon",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "shortened_variation"
+      },
+      {
+        "extracted_entity": "e-commerce giant",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "industry_descriptive"
+      },
+      {
+        "extracted_entity": "AMZN",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Jeff Bezos' company",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "founder_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "business_diversification"
+  },
+  {
+    "id": "tier5_complex_professional_titles_001",
+    "title": "Academic and Professional Leaders Discuss Research Priorities",
+    "content": "Professional and academic communities have seen notable developments in leadership and expertise. Dr. Anthony Fauci has been involved in recent developments. Anthony Fauci has been involved in recent developments. NIAID Director has been involved in recent developments. Chief Medical Advisor has been involved in recent developments. Medical expert has been involved in recent developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Dr. Anthony Fauci",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Anthony Fauci",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "name_variation"
+      },
+      {
+        "extracted_entity": "NIAID Director",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "professional_title"
+      },
+      {
+        "extracted_entity": "Chief Medical Advisor",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "advisory_title"
+      },
+      {
+        "extracted_entity": "Medical expert",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "complex_professional_titles"
+  },
+  {
+    "id": "tier5_academic_titles_001",
+    "title": "Academic and Professional Leaders Discuss Research Priorities",
+    "content": "Professional and academic communities have seen notable developments in leadership and expertise. Prof. Stephen Hawking has been involved in recent developments. Stephen Hawking has been involved in recent developments. theoretical physicist has been involved in recent developments. Cambridge professor has been involved in recent developments. Cosmologist has been involved in recent developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Prof. Stephen Hawking",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Stephen Hawking",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "name_variation"
+      },
+      {
+        "extracted_entity": "theoretical physicist",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "academic_specialization"
+      },
+      {
+        "extracted_entity": "Cambridge professor",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "institutional_title"
+      },
+      {
+        "extracted_entity": "Cosmologist",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "field_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "academic_titles"
+  },
+  {
+    "id": "tier5_military_political_titles_001",
+    "title": "International Political Leaders Address Global Challenges",
+    "content": "International political developments have highlighted the role of key leaders and their policy decisions. Gen. Colin Powell has been involved in recent developments. Colin Powell has been involved in recent developments. former Secretary of State has been involved in recent developments. General Powell has been involved in recent developments. Military leader has been involved in recent developments. Political observers have been closely monitoring these developments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Gen. Colin Powell",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Colin Powell",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "name_variation"
+      },
+      {
+        "extracted_entity": "former Secretary of State",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "political_title"
+      },
+      {
+        "extracted_entity": "General Powell",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "military_title_variation"
+      },
+      {
+        "extracted_entity": "Military leader",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "military_political_titles"
+  },
+  {
+    "id": "tier5_religious_civil_rights_titles_001",
+    "title": "Religious Leaders Address Community Concerns",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Rev. Martin Luther King Jr has been involved in recent developments. Martin Luther King Jr has been involved in recent developments. civil rights leader has been involved in recent developments. Dr. King has been involved in recent developments. MLK Jr has been involved in recent developments. These developments have been closely watched by international observers.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Rev. Martin Luther King Jr",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Martin Luther King Jr",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "name_variation"
+      },
+      {
+        "extracted_entity": "civil rights leader",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "movement_title"
+      },
+      {
+        "extracted_entity": "Dr. King",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "MLK Jr",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "abbreviated_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "religious_civil_rights_titles"
+  },
+  {
+    "id": "tier5_office_vs_person_001",
+    "title": "Analysis of Russian Presidential Office Structure and Historical Evolution",
+    "content": "Political scientists have been examining the institutional framework of the office of the Russian president, analyzing how the role has evolved since the establishment of the modern Russian state. The office of the Russian president has undergone significant structural changes over the past three decades, with constitutional amendments affecting the powers and responsibilities of the position. Researchers studying the Russian presidential office have noted that the institution itself has maintained continuity regardless of who holds the position. The office of the Russian president is defined by constitutional provisions that outline the executive powers and responsibilities of the role. Historical analysis of the Russian presidential office reveals how the institution has adapted to changing political circumstances while maintaining its core functions. The structure of the office of the Russian president includes various administrative departments and advisory bodies that support the executive functions of the position. Constitutional scholars have debated the balance of power between the office of the Russian president and other branches of government. The institutional framework of the Russian presidential office has been the subject of extensive academic research examining the evolution of executive authority in post-Soviet Russia.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Russian president",
+        "watch_list_entity": "",
+        "match_type": "office_reference_no_match"
+      },
+      {
+        "extracted_entity": "office of the Russian president",
+        "watch_list_entity": "",
+        "match_type": "institutional_reference_no_match"
+      },
+      {
+        "extracted_entity": "Russian presidential office",
+        "watch_list_entity": "",
+        "match_type": "institutional_reference_no_match"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "office_vs_person"
+  }
+]

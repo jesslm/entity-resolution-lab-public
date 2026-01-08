@@ -1,0 +1,267 @@
+{
+  "enriched_entities": [
+    {
+      "name": "Vladimir Putin",
+      "entity_context": "Vladimir Putin is the President of Russia, a position he has held since 2012. He previously served as Prime Minister and President from 2000 to 2008.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Volodya",
+        "Vladimir Vladimirovich"
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "entity_context": "Joe Biden is the 46th President of the United States, serving since 2021. He previously served as Vice President from 2009 to 2017.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Joseph Robinette Biden",
+        "Uncle Joe"
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "entity_context": "Elon Reeve Musk is a business magnate and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect and former chairman of Tesla, Inc.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Elon Reeve Musk"
+      ]
+    },
+    {
+      "name": "Tim Cook",
+      "entity_context": "Timothy Donald Cook is an American business executive who has been the chief executive officer of Apple Inc. since 2011.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Timothy Donald Cook",
+        "Tim Apple"
+      ]
+    },
+    {
+      "name": "Franklin Delano Roosevelt",
+      "entity_context": "Franklin Delano Roosevelt was the 32nd president of the United States who led the country during the Great Depression and World War II.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "FDR",
+        "F.D.R.",
+        "Franklin D. Roosevelt"
+      ]
+    },
+    {
+      "name": "Phillip Charles Carr",
+      "entity_context": "Phillip Charles Carr is a prominent financial analyst and investment strategist known for his keynote presentations at industry conferences.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Phil Carr",
+        "P.C. Carr"
+      ]
+    },
+    {
+      "name": "Carlos Alfonzo Diaz",
+      "entity_context": "Carlos Alfonzo Diaz is a Cuban-American artist known for his vibrant paintings that reflect his cultural heritage.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Carlos Diaz",
+        "Diaz, Carlos A."
+      ]
+    },
+    {
+      "name": "William Johnson",
+      "entity_context": "William Johnson is a retired teacher from Boston who has mentored hundreds of students during his 30-year career in education.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Bill Johnson",
+        "Will Johnson"
+      ]
+    },
+    {
+      "name": "Jean-Claude Van Damme",
+      "entity_context": "Jean-Claude Van Damme is a Belgian actor and martial artist known for his action films, with upcoming projects filming in Brussels.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "JCVD",
+        "JeanClaude VanDamme",
+        "Jean Claude Van Damme"
+      ]
+    },
+    {
+      "name": "Sean Connery",
+      "entity_context": "Sean Connery was a Scottish actor known for his iconic roles in cinema history, particularly in the spy genre.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Sir Sean Connery",
+        "Thomas Sean Connery"
+      ]
+    },
+    {
+      "name": "\u5317\u4eac",
+      "entity_context": "Beijing, previously romanized as Peking, is the capital city of China. With more than 22 million residents, it is the world's most populous national capital city, as well as China's second largest city by urban area, after Shanghai. It is located in Northern China, and is governed as a municipality under the direct administration of the State Council with 16 urban, suburban, and rural districts. Beijing is mostly surrounded by Hebei Province and neighbors Tianjin to the southeast; together, the three divisions form the Jing-Jin-Ji cluster.",
+      "confidence_score": 0.7,
+      "enrichment_source": "Wikipedia",
+      "alternative_contexts": [],
+      "aliases": [
+        "Peking",
+        "Peiching",
+        "Beijing"
+      ]
+    }
+  ],
+  "indexed_entities": [
+    {
+      "name": "Vladimir Putin",
+      "entity_context": "Vladimir Putin is the President of Russia, a position he has held since 2012. He previously served as Prime Minister and President from 2000 to 2008.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Volodya",
+        "Vladimir Vladimirovich"
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "entity_context": "Joe Biden is the 46th President of the United States, serving since 2021. He previously served as Vice President from 2009 to 2017.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Joseph Robinette Biden",
+        "Uncle Joe"
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "entity_context": "Elon Reeve Musk is a business magnate and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect and former chairman of Tesla, Inc.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Elon Reeve Musk"
+      ]
+    },
+    {
+      "name": "Tim Cook",
+      "entity_context": "Timothy Donald Cook is an American business executive who has been the chief executive officer of Apple Inc. since 2011.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Timothy Donald Cook",
+        "Tim Apple"
+      ]
+    },
+    {
+      "name": "Franklin Delano Roosevelt",
+      "entity_context": "Franklin Delano Roosevelt was the 32nd president of the United States who led the country during the Great Depression and World War II.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "FDR",
+        "F.D.R.",
+        "Franklin D. Roosevelt"
+      ]
+    },
+    {
+      "name": "Phillip Charles Carr",
+      "entity_context": "Phillip Charles Carr is a prominent financial analyst and investment strategist known for his keynote presentations at industry conferences.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Phil Carr",
+        "P.C. Carr"
+      ]
+    },
+    {
+      "name": "Carlos Alfonzo Diaz",
+      "entity_context": "Carlos Alfonzo Diaz is a Cuban-American artist known for his vibrant paintings that reflect his cultural heritage.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Carlos Diaz",
+        "Diaz, Carlos A."
+      ]
+    },
+    {
+      "name": "William Johnson",
+      "entity_context": "William Johnson is a retired teacher from Boston who has mentored hundreds of students during his 30-year career in education.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Bill Johnson",
+        "Will Johnson"
+      ]
+    },
+    {
+      "name": "Jean-Claude Van Damme",
+      "entity_context": "Jean-Claude Van Damme is a Belgian actor and martial artist known for his action films, with upcoming projects filming in Brussels.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "JCVD",
+        "JeanClaude VanDamme",
+        "Jean Claude Van Damme"
+      ]
+    },
+    {
+      "name": "Sean Connery",
+      "entity_context": "Sean Connery was a Scottish actor known for his iconic roles in cinema history, particularly in the spy genre.",
+      "confidence_score": 0.95,
+      "enrichment_source": "Explicit Context",
+      "alternative_contexts": [],
+      "aliases": [
+        "Sir Sean Connery",
+        "Thomas Sean Connery"
+      ]
+    },
+    {
+      "name": "\u5317\u4eac",
+      "entity_context": "Beijing, previously romanized as Peking, is the capital city of China. With more than 22 million residents, it is the world's most populous national capital city, as well as China's second largest city by urban area, after Shanghai. It is located in Northern China, and is governed as a municipality under the direct administration of the State Council with 16 urban, suburban, and rural districts. Beijing is mostly surrounded by Hebei Province and neighbors Tianjin to the southeast; together, the three divisions form the Jing-Jin-Ji cluster.",
+      "confidence_score": 0.7,
+      "enrichment_source": "Wikipedia",
+      "alternative_contexts": [],
+      "aliases": [
+        "Peking",
+        "Peiching",
+        "Beijing"
+      ]
+    }
+  ],
+  "entity_index_name": "demo_entity_resolution_20260108_162106_entities",
+  "timestamp": "2026-01-08T16:22:12.765998",
+  "pipeline_version": "1.0",
+  "processing_stats": {
+    "entities_enriched": 11,
+    "entities_indexed": 11,
+    "enrichment_errors": 0,
+    "indexing_errors": 0,
+    "success_rate": 1.0
+  },
+  "index_info": {
+    "index_name": "demo_entity_resolution_20260108_162106_entities",
+    "document_count": 11,
+    "status": "created"
+  }
+}

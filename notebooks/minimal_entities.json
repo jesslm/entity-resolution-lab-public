@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "name": "Vladimir Putin",
+      "entity_type": "person",
+      "description": "President of Russia",
+      "aliases": ["Volodya", "Vladimir Vladimirovich"],
+      "explicit_context": "Vladimir Putin is the President of Russia, a position he has held since 2012. He previously served as Prime Minister and President from 2000 to 2008."
+    },
+    {
+      "name": "Joe Biden",
+      "entity_type": "person",
+      "description": "President of the United States",
+      "aliases": ["Joseph Robinette Biden", "Uncle Joe"],
+      "explicit_context": "Joe Biden is the 46th President of the United States, serving since 2021. He previously served as Vice President from 2009 to 2017."
+    },
+    {
+      "name": "Elon Musk",
+      "entity_type": "person",
+      "description": "CEO of Tesla and SpaceX",
+      "aliases": ["Elon Reeve Musk"],
+      "explicit_context": "Elon Reeve Musk is a business magnate and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect and former chairman of Tesla, Inc."
+    },
+    {
+      "name": "Tim Cook",
+      "entity_type": "person",
+      "description": "CEO of Apple Inc.",
+      "aliases": ["Timothy Donald Cook", "Tim Apple"],
+      "explicit_context": "Timothy Donald Cook is an American business executive who has been the chief executive officer of Apple Inc. since 2011."
+    },
+    {
+      "name": "Franklin Delano Roosevelt",
+      "entity_type": "person",
+      "description": "32nd President of the United States",
+      "aliases": ["FDR", "F.D.R.", "Franklin D. Roosevelt"],
+      "explicit_context": "Franklin Delano Roosevelt was the 32nd president of the United States who led the country during the Great Depression and World War II."
+    },
+    {
+      "name": "Phillip Charles Carr",
+      "entity_type": "person",
+      "description": "Financial analyst and investment strategist",
+      "aliases": ["Phil Carr", "P.C. Carr"],
+      "explicit_context": "Phillip Charles Carr is a prominent financial analyst and investment strategist known for his keynote presentations at industry conferences."
+    },
+    {
+      "name": "Carlos Alfonzo Diaz",
+      "entity_type": "person",
+      "description": "Cuban-American artist",
+      "aliases": ["Carlos Diaz", "Diaz, Carlos A."],
+      "explicit_context": "Carlos Alfonzo Diaz is a Cuban-American artist known for his vibrant paintings that reflect his cultural heritage."
+    },
+    {
+      "name": "William Johnson",
+      "entity_type": "person",
+      "description": "Retired teacher from Boston",
+      "aliases": ["Bill Johnson", "Will Johnson"],
+      "explicit_context": "William Johnson is a retired teacher from Boston who has mentored hundreds of students during his 30-year career in education."
+    },
+    {
+      "name": "Jean-Claude Van Damme",
+      "entity_type": "person",
+      "description": "Actor and martial artist",
+      "aliases": ["JCVD", "JeanClaude VanDamme", "Jean Claude Van Damme"],
+      "explicit_context": "Jean-Claude Van Damme is a Belgian actor and martial artist known for his action films, with upcoming projects filming in Brussels."
+    },
+    {
+      "name": "Sean Connery",
+      "entity_type": "person",
+      "description": "Scottish actor",
+      "aliases": ["Sir Sean Connery", "Thomas Sean Connery"],
+      "explicit_context": "Sean Connery was a Scottish actor known for his iconic roles in cinema history, particularly in the spy genre."
+    },
+    {
+      "name": "北京",
+      "entity_type": "location",
+      "description": "Capital of China",
+      "aliases": ["Peking", "Peiching", "Beijing"]
+    }
+  ],
+  "enrichment": {
+    "enabled": true,
+    "use_wikipedia": true,
+    "languages": ["en"],
+    "max_context_length": 500,
+    "confidence_threshold": 0.7
+  }
+}
+

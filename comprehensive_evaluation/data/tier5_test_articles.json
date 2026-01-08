@@ -1,0 +1,2000 @@
+[
+  {
+    "id": "tier5_japanese_name_order_001",
+    "title": "Japanese Name Order Challenge",
+    "content": "安倍晋三首相が会議で発言した。Shinzo Abe discussed the policy. Abe Shinzo emphasized cooperation. 安倍さんは重要な決定を下した。",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "安倍晋三",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Shinzo Abe",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "Abe Shinzo",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "安倍さん",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_name_order"
+  },
+  {
+    "id": "tier5_japanese_honorifics_001",
+    "title": "Japanese Honorific System Challenge",
+    "content": "田中太郎さんが会議に参加した。Tanaka Taro discussed the project. 田中くんは若いエンジニアだ。田中ちゃんは可愛い。田中様は重要な人物だ。",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "田中太郎",
+        "watch_list_entity": "田中太郎",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tanaka Taro",
+        "watch_list_entity": "田中太郎",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "田中さん",
+        "watch_list_entity": "田中太郎",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "田中くん",
+        "watch_list_entity": "田中太郎",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "田中ちゃん",
+        "watch_list_entity": "田中太郎",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "田中様",
+        "watch_list_entity": "田中太郎",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_honorifics"
+  },
+  {
+    "id": "tier5_japanese_writing_systems_001",
+    "title": "Japanese Multiple Writing Systems Challenge",
+    "content": "安倍晋三が会議で発言した。アベシンゾウは重要な決定を下した。あんべしんぞうは政治家だ。Abe Shinzo discussed the policy.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "安倍晋三",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "アベシンゾウ",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "katakana_variation"
+      },
+      {
+        "extracted_entity": "あんべしんぞう",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "hiragana_variation"
+      },
+      {
+        "extracted_entity": "Abe Shinzo",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "romaji_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_writing_systems"
+  },
+  {
+    "id": "tier5_japanese_company_names_001",
+    "title": "Japanese Company Name Variations Challenge",
+    "content": "トヨタ自動車が新車を発表した。Toyota Motor Corporation reported strong sales. トヨタは世界的な自動車メーカーだ。Toyota announced new technology.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "トヨタ自動車",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Toyota Motor Corporation",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "トヨタ",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Toyota",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "english_abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_company_names"
+  },
+  {
+    "id": "tier5_japanese_religious_titles_001",
+    "title": "Japanese Religious Titles Challenge",
+    "content": "フランシスコ教皇が来日した。Pope Francis visited Japan. フランシスコ教皇は重要な会談を行った。Francis I met with Japanese leaders.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "フランシスコ",
+        "watch_list_entity": "フランシスコ",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Pope Francis",
+        "watch_list_entity": "フランシスコ",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "フランシスコ教皇",
+        "watch_list_entity": "フランシスコ",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Francis I",
+        "watch_list_entity": "フランシスコ",
+        "match_type": "numerical_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_religious_titles"
+  },
+  {
+    "id": "tier5_japanese_dalai_lama_001",
+    "title": "Japanese Dalai Lama Challenge",
+    "content": "ダライ・ラマが講演を行った。Dalai Lama gave a speech. ダライラマは平和を訴えた。His Holiness the Dalai Lama emphasized compassion.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "ダライ・ラマ",
+        "watch_list_entity": "ダライ・ラマ",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dalai Lama",
+        "watch_list_entity": "ダライ・ラマ",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "ダライラマ",
+        "watch_list_entity": "ダライ・ラマ",
+        "match_type": "katakana_variation"
+      },
+      {
+        "extracted_entity": "His Holiness the Dalai Lama",
+        "watch_list_entity": "ダライ・ラマ",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_religious_titles"
+  },
+  {
+    "id": "tier5_japanese_sony_001",
+    "title": "Japanese Sony Corporation Challenge",
+    "content": "ソニーが新製品を発表した。Sony Corporation launched new products. ソニー株式会社は技術革新を進めている。Sony Corp reported strong earnings.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "ソニー",
+        "watch_list_entity": "ソニー",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sony Corporation",
+        "watch_list_entity": "ソニー",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "ソニー株式会社",
+        "watch_list_entity": "ソニー",
+        "match_type": "corporate_variation"
+      },
+      {
+        "extracted_entity": "Sony Corp",
+        "watch_list_entity": "ソニー",
+        "match_type": "abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_company_names"
+  },
+  {
+    "id": "tier5_japanese_combined_001",
+    "title": "Japanese Combined Challenges",
+    "content": "安倍晋三首相がトヨタ自動車の工場を視察した。Shinzo Abe visited Toyota Motor Corporation. 田中太郎さんがソニーの会議に参加した。Tanaka Taro attended Sony meeting.",
+    "source": "Tier5 Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "安倍晋三",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Shinzo Abe",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "トヨタ自動車",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Toyota Motor Corporation",
+        "watch_list_entity": "トヨタ自動車",
+        "match_type": "english_variation"
+      },
+      {
+        "extracted_entity": "田中太郎",
+        "watch_list_entity": "田中太郎",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tanaka Taro",
+        "watch_list_entity": "田中太郎",
+        "match_type": "name_order_variation"
+      },
+      {
+        "extracted_entity": "ソニー",
+        "watch_list_entity": "ソニー",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sony",
+        "watch_list_entity": "ソニー",
+        "match_type": "english_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_combined"
+  },
+  {
+    "id": "tier5_arabic_patronymic_001",
+    "title": "Arabic Patronymic System Challenge",
+    "content": "محمد علي تحدث في المؤتمر. Muhammad Ali spoke at the conference. أبو محمد أكد على التعاون. M. Ali emphasized cooperation.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "محمد علي",
+        "watch_list_entity": "محمد علي",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Muhammad Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "أبو محمد",
+        "watch_list_entity": "محمد علي",
+        "match_type": "patronymic_variation"
+      },
+      {
+        "extracted_entity": "M. Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_patronymic"
+  },
+  {
+    "id": "tier5_arabic_honorifics_001",
+    "title": "Arabic Honorific System Challenge",
+    "content": "الشيخ محمد ألقى خطاباً. Sheikh Muhammad delivered a speech. الشيخ محمد بن عبد الله تحدث. Al-Sheikh Muhammad spoke.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الشيخ محمد",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sheikh Muhammad",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الشيخ محمد بن عبد الله",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Al-Sheikh Muhammad",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_honorifics"
+  },
+  {
+    "id": "tier5_arabic_professional_titles_001",
+    "title": "Arabic Professional Titles Challenge",
+    "content": "الدكتور أحمد أجرى البحث. Dr. Ahmed conducted the research. الدكتور أحمد محمد نشر الدراسة. Dr. A. Ahmed published the study.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الدكتور أحمد",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dr. Ahmed",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الدكتور أحمد محمد",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Dr. A. Ahmed",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_professional_titles"
+  },
+  {
+    "id": "tier5_arabic_historical_001",
+    "title": "Arabic Historical Names Challenge",
+    "content": "أبو بكر الصديق كان خليفة. Abu Bakr al-Siddiq was a caliph. أبو بكر الصديق قاد الأمة. Bakr led the community.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "أبو بكر",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Abu Bakr al-Siddiq",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "أبو بكر الصديق",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "Bakr",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "shortened_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_historical"
+  },
+  {
+    "id": "tier5_arabic_company_001",
+    "title": "Arabic Company Names Challenge",
+    "content": "الشركة السعودية أعلنت عن أرباحها. Saudi Company announced its profits. الشركة السعودية للبترول حققت نمواً. Saudi Oil Company achieved growth.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الشركة السعودية",
+        "watch_list_entity": "الشركة السعودية",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Saudi Company",
+        "watch_list_entity": "الشركة السعودية",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الشركة السعودية للبترول",
+        "watch_list_entity": "الشركة السعودية",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Saudi Oil Company",
+        "watch_list_entity": "الشركة السعودية",
+        "match_type": "english_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_company_names"
+  },
+  {
+    "id": "tier5_arabic_institutional_001",
+    "title": "Arabic Institutional Names Challenge",
+    "content": "الجامعة الإسلامية أقامت مؤتمراً. Islamic University held a conference. الجامعة الإسلامية العالمية شاركت. International Islamic University participated.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الجامعة الإسلامية",
+        "watch_list_entity": "الجامعة الإسلامية",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Islamic University",
+        "watch_list_entity": "الجامعة الإسلامية",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الجامعة الإسلامية العالمية",
+        "watch_list_entity": "الجامعة الإسلامية",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "International Islamic University",
+        "watch_list_entity": "الجامعة الإسلامية",
+        "match_type": "english_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_institutional"
+  },
+  {
+    "id": "tier5_arabic_combined_001",
+    "title": "Arabic Combined Challenges",
+    "content": "الشيخ محمد والدكتور أحمد شاركا في المؤتمر. Sheikh Muhammad and Dr. Ahmed participated in the conference. أبو بكر الصديق كان مثالاً. Abu Bakr al-Siddiq was an example.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "الشيخ محمد",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Sheikh Muhammad",
+        "watch_list_entity": "الشيخ محمد",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "الدكتور أحمد",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dr. Ahmed",
+        "watch_list_entity": "الدكتور أحمد",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "أبو بكر الصديق",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "Abu Bakr al-Siddiq",
+        "watch_list_entity": "أبو بكر",
+        "match_type": "transliteration"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_combined"
+  },
+  {
+    "id": "tier5_arabic_transliteration_001",
+    "title": "Arabic Transliteration Variations Challenge",
+    "content": "محمد علي تحدث في المؤتمر. Muhammad Ali spoke at the conference. Mohammed Ali أكد على التعاون. Muhammed Ali emphasized cooperation.",
+    "source": "Tier5 Challenge Data",
+    "language": "ar",
+    "expected_matches": [
+      {
+        "extracted_entity": "محمد علي",
+        "watch_list_entity": "محمد علي",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Muhammad Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "Mohammed Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "transliteration_variation"
+      },
+      {
+        "extracted_entity": "Muhammed Ali",
+        "watch_list_entity": "محمد علي",
+        "match_type": "transliteration_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "arabic_transliteration"
+  },
+  {
+    "id": "tier5_hebrew_patronymic_001",
+    "title": "Hebrew Patronymic System Challenge",
+    "content": "דוד בן-גוריון היה ראש ממשלה. David Ben-Gurion was a prime minister. בן-גוריון הקים את המדינה. Ben-Gurion established the state.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "דוד בן-גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "David Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "בן-גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "patronymic_variation"
+      },
+      {
+        "extracted_entity": "Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_patronymic"
+  },
+  {
+    "id": "tier5_hebrew_professional_001",
+    "title": "Hebrew Professional Titles Challenge",
+    "content": "פרופסור דוד לימד באוניברסיטה. Prof. David taught at the university. פרופ' דוד פרסם מחקר. Professor David published research.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "פרופסור דוד",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Prof. David",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "פרופ' דוד",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Professor David",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "full_title_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_professional_titles"
+  },
+  {
+    "id": "tier5_hebrew_religious_001",
+    "title": "Hebrew Religious Titles Challenge",
+    "content": "הרב משה לימד תורה. Rabbi Moses taught Torah. הרב משה בן מימון כתב. Ha-Rav Moshe wrote. Moses Rabbi was influential.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "הרב משה",
+        "watch_list_entity": "הרב משה",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Rabbi Moses",
+        "watch_list_entity": "הרב משה",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "הרב משה בן מימון",
+        "watch_list_entity": "הרב משה",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Ha-Rav Moshe",
+        "watch_list_entity": "הרב משה",
+        "match_type": "honorific_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_religious_titles"
+  },
+  {
+    "id": "tier5_hebrew_political_001",
+    "title": "Hebrew Political Names Challenge",
+    "content": "יצחק רבין היה ראש ממשלה. Yitzhak Rabin was a prime minister. רבין זכה בפרס נובל. Rabin won the Nobel Prize.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "יצחק רבין",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Yitzhak Rabin",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "רבין",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "Rabin",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "transliteration_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_political"
+  },
+  {
+    "id": "tier5_hebrew_institutional_001",
+    "title": "Hebrew Institutional Names Challenge",
+    "content": "אוניברסיטת תל אביב מחקרה. Tel Aviv University researched. אוניברסיטת ת\"א פרסמה מחקר. TAU published research.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "אוניברסיטת תל אביב",
+        "watch_list_entity": "אוניברסיטת תל אביב",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tel Aviv University",
+        "watch_list_entity": "אוניברסיטת תל אביב",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "אוניברסיטת ת\"א",
+        "watch_list_entity": "אוניברסיטת תל אביב",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "TAU",
+        "watch_list_entity": "אוניברסיטת תל אביב",
+        "match_type": "english_abbreviation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_institutional"
+  },
+  {
+    "id": "tier5_hebrew_financial_001",
+    "title": "Hebrew Financial Institutions Challenge",
+    "content": "בנק לאומי דיווח על רווחים. Bank Leumi reported profits. בנק לאומי לישראל גדל. Leumi Bank grew.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "בנק לאומי",
+        "watch_list_entity": "בנק לאומי",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Bank Leumi",
+        "watch_list_entity": "בנק לאומי",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "בנק לאומי לישראל",
+        "watch_list_entity": "בנק לאומי",
+        "match_type": "full_name_variation"
+      },
+      {
+        "extracted_entity": "Leumi Bank",
+        "watch_list_entity": "בנק לאומי",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_financial"
+  },
+  {
+    "id": "tier5_hebrew_combined_001",
+    "title": "Hebrew Combined Challenges",
+    "content": "דוד בן-גוריון ופרופסור דוד שיתפו פעולה. David Ben-Gurion and Prof. David collaborated. הרב משה ויצחק רבין נפגשו. Rabbi Moses and Yitzhak Rabin met.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "דוד בן-גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "David Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "פרופסור דוד",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Prof. David",
+        "watch_list_entity": "פרופסור דוד",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "הרב משה",
+        "watch_list_entity": "הרב משה",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Rabbi Moses",
+        "watch_list_entity": "הרב משה",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "יצחק רבין",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Yitzhak Rabin",
+        "watch_list_entity": "יצחק רבין",
+        "match_type": "transliteration"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_combined"
+  },
+  {
+    "id": "tier5_hebrew_transliteration_001",
+    "title": "Hebrew Transliteration Variations Challenge",
+    "content": "דוד בן-גוריון היה מנהיג. David Ben-Gurion was a leader. דוד בן גוריון הקים מדינה. Ben-Gurion established a state.",
+    "source": "Tier5 Challenge Data",
+    "language": "he",
+    "expected_matches": [
+      {
+        "extracted_entity": "דוד בן-גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "David Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "דוד בן גוריון",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "spacing_variation"
+      },
+      {
+        "extracted_entity": "Ben-Gurion",
+        "watch_list_entity": "דוד בן-גוריון",
+        "match_type": "transliteration_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "hebrew_transliteration"
+  },
+  {
+    "id": "tier5_cross_script_putin_001",
+    "title": "Cross-Script Putin Challenge",
+    "content": "Владимир Путин выступил на саммите. Vladimir Putin spoke at the summit. V. Putin emphasized cooperation. President Putin met with leaders.",
+    "source": "Tier5 Challenge Data",
+    "language": "ru",
+    "expected_matches": [
+      {
+        "extracted_entity": "Владимир Путин",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "cyrillic_variation"
+      },
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "V. Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "President Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "title_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_cyrillic"
+  },
+  {
+    "id": "tier5_cross_script_xi_001",
+    "title": "Cross-Script Xi Jinping Challenge",
+    "content": "习近平主席发表了重要讲话。President Xi Jinping delivered an important speech. 主席习近平强调了合作。Xi President emphasized cooperation.",
+    "source": "Tier5 Challenge Data",
+    "language": "zh",
+    "expected_matches": [
+      {
+        "extracted_entity": "习近平",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "chinese_variation"
+      },
+      {
+        "extracted_entity": "President Xi",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "主席习近平",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "chinese_title_variation"
+      },
+      {
+        "extracted_entity": "Xi President",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_chinese"
+  },
+  {
+    "id": "tier5_cross_script_musk_001",
+    "title": "Cross-Script Elon Musk Challenge",
+    "content": "Elon Musk announced new technology. E. Musk discussed innovation. Tesla CEO emphasized sustainability. Musk Elon founded SpaceX.",
+    "source": "Tier5 Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "E. Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Tesla CEO",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Musk Elon",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_business"
+  },
+  {
+    "id": "tier5_cross_script_macron_001",
+    "title": "Cross-Script Emmanuel Macron Challenge",
+    "content": "Emmanuel Macron addressed the nation. E. Macron discussed policy. President Macron met with leaders. Macron Emmanuel emphasized unity.",
+    "source": "Tier5 Challenge Data",
+    "language": "fr",
+    "expected_matches": [
+      {
+        "extracted_entity": "Emmanuel Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "E. Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "President Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Macron Emmanuel",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_political"
+  },
+  {
+    "id": "tier5_cross_script_kim_001",
+    "title": "Cross-Script Kim Jong-un Challenge",
+    "content": "김정은이 연설을 했다. Kim Jong-un delivered a speech. Supreme Leader Kim emphasized unity. Kim Jong Un discussed policy.",
+    "source": "Tier5 Challenge Data",
+    "language": "ko",
+    "expected_matches": [
+      {
+        "extracted_entity": "김정은",
+        "watch_list_entity": "Kim Jong-un",
+        "match_type": "korean_variation"
+      },
+      {
+        "extracted_entity": "Kim Jong-un",
+        "watch_list_entity": "Kim Jong-un",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Supreme Leader Kim",
+        "watch_list_entity": "Kim Jong-un",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Kim Jong Un",
+        "watch_list_entity": "Kim Jong-un",
+        "match_type": "spacing_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_korean"
+  },
+  {
+    "id": "tier5_cross_script_cook_001",
+    "title": "Cross-Script Tim Cook Challenge",
+    "content": "Tim Cook announced new products. T. Cook discussed innovation. Apple CEO emphasized technology. Cook Tim founded Apple.",
+    "source": "Tier5 Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "T. Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Apple CEO",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "title_variation"
+      },
+      {
+        "extracted_entity": "Cook Tim",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_business"
+  },
+  {
+    "id": "tier5_cross_script_combined_001",
+    "title": "Cross-Script Combined Challenge",
+    "content": "Владимир Путин и习近平会面了。Vladimir Putin and Xi Jinping met. Elon Musk和Tim Cook讨论了技术。Elon Musk and Tim Cook discussed technology.",
+    "source": "Tier5 Challenge Data",
+    "language": "mixed",
+    "expected_matches": [
+      {
+        "extracted_entity": "Владимир Путин",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "cyrillic_variation"
+      },
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "习近平",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "chinese_variation"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tim Cook",
+        "watch_list_entity": "Tim Cook",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_combined"
+  },
+  {
+    "id": "tier5_cross_script_transliteration_001",
+    "title": "Cross-Script Transliteration Challenge",
+    "content": "Vladimir Putin spoke in Russian. В. Путин говорил по-русски. Xi Jinping spoke in Chinese. 习主席用中文讲话。",
+    "source": "Tier5 Challenge Data",
+    "language": "mixed",
+    "expected_matches": [
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "В. Путин",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "cyrillic_abbreviation"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "习主席",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "chinese_title_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_script_transliteration"
+  },
+  {
+    "id": "tier5_business_hierarchy_001",
+    "title": "Complex Business Hierarchy Challenge",
+    "content": "Microsoft Corporation announced new cloud services. Microsoft Corp reported strong earnings. The Redmond-based tech giant expanded its Azure platform. MSFT stock rose significantly. Microsoft Inc launched new AI tools.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Microsoft Corporation",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Microsoft Corp",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "corporate_abbreviation"
+      },
+      {
+        "extracted_entity": "Redmond-based tech giant",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "MSFT",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Microsoft Inc",
+        "watch_list_entity": "Microsoft Corporation",
+        "match_type": "corporate_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "complex_business_hierarchy"
+  },
+  {
+    "id": "tier5_parent_subsidiary_001",
+    "title": "Parent-Subsidiary Relationship Challenge",
+    "content": "Alphabet Inc reported strong revenue growth. Google's parent company announced new investments. The tech conglomerate expanded its AI capabilities. GOOGL stock performed well. Alphabet Corporation launched new services.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Alphabet Inc",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Google's parent company",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "parent_company_reference"
+      },
+      {
+        "extracted_entity": "tech conglomerate",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "descriptive_reference"
+      },
+      {
+        "extracted_entity": "GOOGL",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Alphabet Corporation",
+        "watch_list_entity": "Alphabet Inc",
+        "match_type": "corporate_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "parent_subsidiary_relationships"
+  },
+  {
+    "id": "tier5_investment_holding_001",
+    "title": "Investment Holding Structure Challenge",
+    "content": "Berkshire Hathaway Inc reported strong performance. Warren Buffett's company announced new acquisitions. The Omaha-based conglomerate expanded its portfolio. BRK.A stock remained stable. Investment holding company diversified further.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Berkshire Hathaway Inc",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Warren Buffett's company",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "founder_reference"
+      },
+      {
+        "extracted_entity": "Omaha-based conglomerate",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "geographic_descriptive"
+      },
+      {
+        "extracted_entity": "BRK.A",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Investment holding company",
+        "watch_list_entity": "Berkshire Hathaway Inc",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "investment_holding_structures"
+  },
+  {
+    "id": "tier5_multi_division_001",
+    "title": "Multi-Division Corporation Challenge",
+    "content": "Johnson & Johnson announced new pharmaceutical products. J&J reported strong healthcare revenue. The pharmaceutical giant expanded its medical device division. JNJ stock performed well. Healthcare company launched new treatments.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Johnson & Johnson",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "J&J",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "pharmaceutical giant",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "industry_descriptive"
+      },
+      {
+        "extracted_entity": "JNJ",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Healthcare company",
+        "watch_list_entity": "Johnson & Johnson",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "multi_division_corporations"
+  },
+  {
+    "id": "tier5_consumer_goods_001",
+    "title": "Consumer Goods Conglomerate Challenge",
+    "content": "Procter & Gamble announced new household products. P&G reported strong consumer goods sales. The Cincinnati-based company expanded globally. PG stock remained stable. Consumer packaged goods company launched innovations.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Procter & Gamble",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "P&G",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Cincinnati-based company",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "geographic_descriptive"
+      },
+      {
+        "extracted_entity": "PG",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Consumer packaged goods company",
+        "watch_list_entity": "Procter & Gamble",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "consumer_goods_conglomerates"
+  },
+  {
+    "id": "tier5_industrial_001",
+    "title": "Industrial Conglomerate Challenge",
+    "content": "General Electric announced new industrial solutions. GE reported strong manufacturing revenue. The industrial conglomerate expanded its energy division. GE Corporation launched new technologies. Multinational conglomerate diversified further.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "General Electric",
+        "watch_list_entity": "General Electric",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "GE",
+        "watch_list_entity": "General Electric",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "industrial conglomerate",
+        "watch_list_entity": "General Electric",
+        "match_type": "business_type_descriptive"
+      },
+      {
+        "extracted_entity": "GE Corporation",
+        "watch_list_entity": "General Electric",
+        "match_type": "corporate_variation"
+      },
+      {
+        "extracted_entity": "Multinational conglomerate",
+        "watch_list_entity": "General Electric",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "industrial_conglomerates"
+  },
+  {
+    "id": "tier5_aerospace_001",
+    "title": "Aerospace Defense Contractor Challenge",
+    "content": "United Technologies Corporation announced new aerospace contracts. UTC reported strong defense revenue. The aerospace company expanded its military division. United Tech launched new aircraft systems. Aerospace and defense contractor diversified further.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "United Technologies Corporation",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "UTC",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "aerospace company",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "industry_descriptive"
+      },
+      {
+        "extracted_entity": "United Tech",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "shortened_variation"
+      },
+      {
+        "extracted_entity": "Aerospace and defense contractor",
+        "watch_list_entity": "United Technologies Corporation",
+        "match_type": "business_type_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "aerospace_defense_contractors"
+  },
+  {
+    "id": "tier5_manufacturing_001",
+    "title": "Diversified Manufacturing Challenge",
+    "content": "3M Company announced new industrial products. 3M reported strong manufacturing revenue. The Minnesota Mining and Manufacturing company expanded globally. 3M Corporation launched new innovations. Post-it maker diversified further.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "3M Company",
+        "watch_list_entity": "3M Company",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "3M",
+        "watch_list_entity": "3M Company",
+        "match_type": "abbreviation"
+      },
+      {
+        "extracted_entity": "Minnesota Mining and Manufacturing company",
+        "watch_list_entity": "3M Company",
+        "match_type": "full_name_reference"
+      },
+      {
+        "extracted_entity": "3M Corporation",
+        "watch_list_entity": "3M Company",
+        "match_type": "corporate_variation"
+      },
+      {
+        "extracted_entity": "Post-it maker",
+        "watch_list_entity": "3M Company",
+        "match_type": "product_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "diversified_manufacturing"
+  },
+  {
+    "id": "tier5_cross_cultural_001",
+    "title": "Cross-Cultural Name Variations Challenge",
+    "content": "José María Aznar spoke at the conference. Jose Maria Aznar discussed policy. The former Spanish PM emphasized cooperation. José M. Aznar addressed the audience. Spanish politician highlighted key issues.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "José María Aznar",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Jose Maria Aznar",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "transliteration_variation"
+      },
+      {
+        "extracted_entity": "former Spanish PM",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "José M. Aznar",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "Spanish politician",
+        "watch_list_entity": "José María Aznar",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "cross_cultural_name_variations"
+  },
+  {
+    "id": "tier5_international_political_001",
+    "title": "International Political Figures Challenge",
+    "content": "François Hollande addressed the summit. Francois Hollande discussed international relations. The former French President emphasized diplomacy. F. Hollande met with world leaders. French politician highlighted global cooperation.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "François Hollande",
+        "watch_list_entity": "François Hollande",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Francois Hollande",
+        "watch_list_entity": "François Hollande",
+        "match_type": "transliteration_variation"
+      },
+      {
+        "extracted_entity": "former French President",
+        "watch_list_entity": "François Hollande",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "F. Hollande",
+        "watch_list_entity": "François Hollande",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "French politician",
+        "watch_list_entity": "François Hollande",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_international_political_002",
+    "title": "International Political Figures Challenge 2",
+    "content": "Angela Merkel spoke at the conference. A. Merkel discussed European policy. The former German Chancellor emphasized unity. Merkel addressed the audience. German politician highlighted cooperation.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Angela Merkel",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "A. Merkel",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "former German Chancellor",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Merkel",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "German politician",
+        "watch_list_entity": "Angela Merkel",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_international_political_003",
+    "title": "International Political Figures Challenge 3",
+    "content": "Narendra Modi addressed the nation. N. Modi discussed economic policy. The Indian Prime Minister emphasized development. Modi launched new initiatives. Indian leader highlighted progress.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Narendra Modi",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "N. Modi",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "Indian Prime Minister",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Modi",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "Indian leader",
+        "watch_list_entity": "Narendra Modi",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_international_political_004",
+    "title": "International Political Figures Challenge 4",
+    "content": "Justin Trudeau spoke at the summit. J. Trudeau discussed climate policy. The Canadian Prime Minister emphasized environmental action. Trudeau addressed global leaders. Canadian leader highlighted sustainability.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Justin Trudeau",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "J. Trudeau",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "Canadian Prime Minister",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Trudeau",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "Canadian leader",
+        "watch_list_entity": "Justin Trudeau",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_international_political_005",
+    "title": "International Political Figures Challenge 5",
+    "content": "Jacinda Ardern addressed the conference. J. Ardern discussed social policy. The former New Zealand PM emphasized community. Ardern spoke about leadership. New Zealand leader highlighted values.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Jacinda Ardern",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "J. Ardern",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "abbreviated_variation"
+      },
+      {
+        "extracted_entity": "former New Zealand PM",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Ardern",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "New Zealand leader",
+        "watch_list_entity": "Jacinda Ardern",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "international_political_figures"
+  },
+  {
+    "id": "tier5_advanced_transliteration_001",
+    "title": "Advanced Transliteration Challenge",
+    "content": "Владимир Владимирович Путин выступил на саммите. Vladimir Vladimirovich Putin spoke at the summit. V. Putin emphasized cooperation. Russian President addressed global leaders. Putin discussed international relations.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "ru",
+    "expected_matches": [
+      {
+        "extracted_entity": "Владимир Владимирович Путин",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Vladimir Vladimirovich Putin",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "full_transliteration"
+      },
+      {
+        "extracted_entity": "V. Putin",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "abbreviated_transliteration"
+      },
+      {
+        "extracted_entity": "Russian President",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Putin",
+        "watch_list_entity": "Владимир Владимирович Путин",
+        "match_type": "last_name_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "advanced_transliteration"
+  },
+  {
+    "id": "tier5_chinese_transliteration_001",
+    "title": "Chinese Transliteration Challenge",
+    "content": "习近平主席发表了重要讲话。President Xi Jinping delivered an important speech. Xi emphasized cooperation. Chinese President addressed the nation. Xi Jinping President discussed policy.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "zh",
+    "expected_matches": [
+      {
+        "extracted_entity": "习近平",
+        "watch_list_entity": "习近平",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "President Xi Jinping",
+        "watch_list_entity": "习近平",
+        "match_type": "title_transliteration"
+      },
+      {
+        "extracted_entity": "Xi",
+        "watch_list_entity": "习近平",
+        "match_type": "shortened_transliteration"
+      },
+      {
+        "extracted_entity": "Chinese President",
+        "watch_list_entity": "习近平",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Xi Jinping President",
+        "watch_list_entity": "习近平",
+        "match_type": "name_order_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "chinese_transliteration"
+  },
+  {
+    "id": "tier5_korean_transliteration_001",
+    "title": "Korean Transliteration Challenge",
+    "content": "김정은이 연설을 했다. Kim Jong-un delivered a speech. Supreme Leader Kim emphasized unity. North Korean leader addressed the nation. Kim discussed policy.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "ko",
+    "expected_matches": [
+      {
+        "extracted_entity": "김정은",
+        "watch_list_entity": "김정은",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Kim Jong-un",
+        "watch_list_entity": "김정은",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "Supreme Leader Kim",
+        "watch_list_entity": "김정은",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "North Korean leader",
+        "watch_list_entity": "김정은",
+        "match_type": "role_descriptive"
+      },
+      {
+        "extracted_entity": "Kim",
+        "watch_list_entity": "김정은",
+        "match_type": "last_name_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "korean_transliteration"
+  },
+  {
+    "id": "tier5_japanese_transliteration_001",
+    "title": "Japanese Transliteration Challenge",
+    "content": "安倍晋三首相が会議で発言した。Shinzo Abe spoke at the conference. Former Japanese PM emphasized cooperation. Abe addressed the audience. Japanese leader highlighted key issues.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "ja",
+    "expected_matches": [
+      {
+        "extracted_entity": "安倍晋三",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Shinzo Abe",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "transliteration"
+      },
+      {
+        "extracted_entity": "Former Japanese PM",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "title_reference"
+      },
+      {
+        "extracted_entity": "Abe",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "last_name_variation"
+      },
+      {
+        "extracted_entity": "Japanese leader",
+        "watch_list_entity": "安倍晋三",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "japanese_transliteration"
+  },
+  {
+    "id": "tier5_historical_name_changes_001",
+    "title": "Historical Name Changes Challenge",
+    "content": "Facebook Inc announced new features. Meta Platforms Inc reported strong revenue. The social media company expanded globally. FB stock performed well. Mark Zuckerberg's company launched new services.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Facebook Inc",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Meta Platforms Inc",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "corporate_rebranding"
+      },
+      {
+        "extracted_entity": "social media company",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "industry_descriptive"
+      },
+      {
+        "extracted_entity": "FB",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Mark Zuckerberg's company",
+        "watch_list_entity": "Facebook Inc",
+        "match_type": "founder_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "historical_name_changes"
+  },
+  {
+    "id": "tier5_historical_name_changes_002",
+    "title": "Historical Name Changes Challenge 2",
+    "content": "Twitter Inc announced new features. X Corp reported strong engagement. The microblogging service expanded globally. Social media platform launched new tools. Bird app diversified further.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Twitter Inc",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "X Corp",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "corporate_rebranding"
+      },
+      {
+        "extracted_entity": "microblogging service",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "service_descriptive"
+      },
+      {
+        "extracted_entity": "Social media platform",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "platform_descriptive"
+      },
+      {
+        "extracted_entity": "Bird app",
+        "watch_list_entity": "Twitter Inc",
+        "match_type": "nickname_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "historical_name_changes"
+  },
+  {
+    "id": "tier5_corporate_restructuring_001",
+    "title": "Corporate Restructuring Challenge",
+    "content": "Google LLC announced new services. Alphabet Inc reported strong revenue. The search engine company expanded globally. GOOGL stock performed well. Mountain View company launched new products.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Google LLC",
+        "watch_list_entity": "Google LLC",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Alphabet Inc",
+        "watch_list_entity": "Google LLC",
+        "match_type": "parent_company_reference"
+      },
+      {
+        "extracted_entity": "search engine company",
+        "watch_list_entity": "Google LLC",
+        "match_type": "service_descriptive"
+      },
+      {
+        "extracted_entity": "GOOGL",
+        "watch_list_entity": "Google LLC",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Mountain View company",
+        "watch_list_entity": "Google LLC",
+        "match_type": "geographic_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "corporate_restructuring"
+  },
+  {
+    "id": "tier5_business_diversification_001",
+    "title": "Business Diversification Challenge",
+    "content": "Amazon.com Inc announced new services. Amazon reported strong e-commerce revenue. The e-commerce giant expanded into cloud computing. AMZN stock performed well. Jeff Bezos' company launched new products.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Amazon.com Inc",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Amazon",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "shortened_variation"
+      },
+      {
+        "extracted_entity": "e-commerce giant",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "industry_descriptive"
+      },
+      {
+        "extracted_entity": "AMZN",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "stock_symbol"
+      },
+      {
+        "extracted_entity": "Jeff Bezos' company",
+        "watch_list_entity": "Amazon.com Inc",
+        "match_type": "founder_reference"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "business_diversification"
+  },
+  {
+    "id": "tier5_complex_professional_titles_001",
+    "title": "Complex Professional Titles Challenge",
+    "content": "Dr. Anthony Fauci addressed the conference. Anthony Fauci discussed public health. The NIAID Director emphasized research. Chief Medical Advisor highlighted key findings. Medical expert provided insights.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Dr. Anthony Fauci",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Anthony Fauci",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "name_variation"
+      },
+      {
+        "extracted_entity": "NIAID Director",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "professional_title"
+      },
+      {
+        "extracted_entity": "Chief Medical Advisor",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "advisory_title"
+      },
+      {
+        "extracted_entity": "Medical expert",
+        "watch_list_entity": "Dr. Anthony Fauci",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "complex_professional_titles"
+  },
+  {
+    "id": "tier5_academic_titles_001",
+    "title": "Academic Titles Challenge",
+    "content": "Prof. Stephen Hawking delivered a lecture. Stephen Hawking discussed cosmology. The theoretical physicist emphasized research. Cambridge professor highlighted discoveries. Cosmologist provided insights.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Prof. Stephen Hawking",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Stephen Hawking",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "name_variation"
+      },
+      {
+        "extracted_entity": "theoretical physicist",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "academic_specialization"
+      },
+      {
+        "extracted_entity": "Cambridge professor",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "institutional_title"
+      },
+      {
+        "extracted_entity": "Cosmologist",
+        "watch_list_entity": "Prof. Stephen Hawking",
+        "match_type": "field_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "academic_titles"
+  },
+  {
+    "id": "tier5_military_political_titles_001",
+    "title": "Military Political Titles Challenge",
+    "content": "Gen. Colin Powell addressed the summit. Colin Powell discussed foreign policy. The former Secretary of State emphasized diplomacy. General Powell highlighted international cooperation. Military leader provided insights.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Gen. Colin Powell",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Colin Powell",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "name_variation"
+      },
+      {
+        "extracted_entity": "former Secretary of State",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "political_title"
+      },
+      {
+        "extracted_entity": "General Powell",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "military_title_variation"
+      },
+      {
+        "extracted_entity": "Military leader",
+        "watch_list_entity": "Gen. Colin Powell",
+        "match_type": "role_descriptive"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "military_political_titles"
+  },
+  {
+    "id": "tier5_religious_civil_rights_titles_001",
+    "title": "Religious Civil Rights Titles Challenge",
+    "content": "Rev. Martin Luther King Jr delivered a speech. Martin Luther King Jr discussed civil rights. The civil rights leader emphasized equality. Dr. King highlighted justice. MLK Jr addressed the audience.",
+    "source": "Tier5 Ultimate Challenge Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Rev. Martin Luther King Jr",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Martin Luther King Jr",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "name_variation"
+      },
+      {
+        "extracted_entity": "civil rights leader",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "movement_title"
+      },
+      {
+        "extracted_entity": "Dr. King",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "honorific_variation"
+      },
+      {
+        "extracted_entity": "MLK Jr",
+        "watch_list_entity": "Rev. Martin Luther King Jr",
+        "match_type": "abbreviated_variation"
+      }
+    ],
+    "complexity": "extreme",
+    "test_category": "religious_civil_rights_titles"
+  }
+]

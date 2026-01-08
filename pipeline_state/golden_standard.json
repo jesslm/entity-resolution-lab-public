@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "description": "Golden standard (ground truth) for entity matching evaluation",
+    "source": "Derived from article_processing_state.json using entity aliases and logical rules",
+    "version": "2.0",
+    "total_articles": 10,
+    "total_matches": 19,
+    "format": "Maps extracted entity names to their correct watched entity matches"
+  },
+  "golden_standard": {
+    "article1": {
+      "Russian President": "Vladimir Putin",
+      "Vladimir Putin": "Vladimir Putin",
+      "President": "Joe Biden",
+      "Joe Biden": "Joe Biden"
+    },
+    "article2": {
+      "Phil Carr": "Phillip Charles Carr",
+      "P.C. Carr": "Phillip Charles Carr"
+    },
+    "article3": {
+      "Diaz, Carlos A.": "Carlos Alfonzo Diaz"
+    },
+    "article4": {
+      "F.D.R.": "Franklin Delano Roosevelt"
+    },
+    "article5": {
+      "Bill Johnson": "William Johnson"
+    },
+    "article6": {
+      "JeanClaude VanDamme": "Jean-Claude Van Damme"
+    },
+    "article7": {
+      "Thomas Sean Connery": "Sean Connery",
+      "Sean Connery": "Sean Connery",
+      "Sir Sean Connery": "Sean Connery"
+    },
+    "article8": {
+      "Peking": "北京"
+    },
+    "article9": {
+      "Tesla CEO": "Elon Musk",
+      "Elon Musk": "Elon Musk",
+      "Apple CEO": "Tim Cook",
+      "Tim Cook": "Tim Cook"
+    },
+    "article10": {
+      "President": "Joe Biden"
+    }
+  }
+}

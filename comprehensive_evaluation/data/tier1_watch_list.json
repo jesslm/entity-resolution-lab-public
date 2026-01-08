@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "William Johnson",
+      "entity_type": "person",
+      "description": "Test case for nickname variations",
+      "aliases": [
+        "Will Johnson",
+        "Bill Johnson",
+        "Billy Johnson"
+      ],
+      "explicit_context": "William Johnson is a common English name representing a typical individual in Western society. The name follows standard English naming conventions with given name (William) followed by family name (Johnson), and commonly appears with nickname variations like Will, Bill, and Billy in informal contexts."
+    },
+    {
+      "name": "Dr. Sarah Williams",
+      "entity_type": "person",
+      "description": "Test case for titles and honorifics",
+      "aliases": [
+        "Sarah Williams",
+        "Dr. S. Williams",
+        "S. Williams"
+      ],
+      "explicit_context": "Dr. Sarah Williams is a medical professional and healthcare provider who has earned a doctoral degree in medicine. She represents the medical community and healthcare sector, where professional titles and honorifics are important for establishing credibility and authority in patient care and medical practice."
+    },
+    {
+      "name": "Vladimir Putin",
+      "entity_type": "person",
+      "description": "Russian President",
+      "aliases": [
+        "Putin",
+        "V. Putin",
+        "Владимир Путин"
+      ],
+      "explicit_context": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, and previously from 2000 to 2008. He was also Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012, making him one of the longest-serving leaders in modern Russian history."
+    },
+    {
+      "name": "Xi Jinping",
+      "entity_type": "person",
+      "description": "Chinese President",
+      "aliases": [
+        "Xi",
+        "习近平",
+        "President Xi"
+      ],
+      "explicit_context": "Xi Jinping (born 15 June 1953) is a Chinese politician who has been serving as the General Secretary of the Chinese Communist Party (CCP) and President of the People's Republic of China since 2012. He is the paramount leader of China and has been described as the most powerful Chinese leader since Mao Zedong, overseeing China's economic growth and international relations."
+    },
+    {
+      "name": "Tesla Inc",
+      "entity_type": "organization",
+      "description": "Electric vehicle company",
+      "aliases": [
+        "Tesla",
+        "Tesla Motors",
+        "Tesla, Inc."
+      ],
+      "explicit_context": "Tesla, Inc. is an American electric vehicle and clean energy company founded by Elon Musk in 2003. The company is known for its electric cars, energy storage systems, and solar panels, and has become one of the world's most valuable automakers by market capitalization, revolutionizing the automotive industry with sustainable transportation solutions."
+    }
+  ],
+  "enrichment": {
+    "enabled": true,
+    "use_wikipedia": false,
+    "languages": [
+      "en"
+    ],
+    "max_context_length": 500,
+    "confidence_threshold": 0.7
+  }
+}

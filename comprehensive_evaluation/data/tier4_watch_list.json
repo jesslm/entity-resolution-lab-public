@@ -1,0 +1,732 @@
+{
+  "entities": [
+    {
+      "name": "William Johnson",
+      "entity_type": "person",
+      "description": "Test case for nickname variations",
+      "aliases": [
+        "Will Johnson",
+        "Bill Johnson",
+        "Billy Johnson"
+      ],
+      "explicit_context": "William Johnson is a common English name representing a typical individual in Western society. The name follows standard English naming conventions with given name (William) followed by family name (Johnson), and commonly appears with nickname variations like Will, Bill, and Billy in informal contexts."
+    },
+    {
+      "name": "Dr. Sarah Williams",
+      "entity_type": "person",
+      "description": "Test case for titles and honorifics",
+      "aliases": [
+        "Sarah Williams",
+        "Dr. S. Williams",
+        "Dr. Sarah W."
+      ],
+      "explicit_context": "Dr. Sarah Williams is a medical professional and healthcare provider who has earned a doctoral degree in medicine. She represents the medical community and healthcare sector, where professional titles and honorifics are important for establishing credibility and authority in patient care and medical practice."
+    },
+    {
+      "name": "Vladimir Putin",
+      "entity_type": "person",
+      "description": "Russian President",
+      "aliases": [
+        "Putin",
+        "Владимир Путин",
+        "V. Putin"
+      ],
+      "explicit_context": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, and previously from 2000 to 2008. He was also Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012, making him one of the longest-serving leaders in modern Russian history."
+    },
+    {
+      "name": "Xi Jinping",
+      "entity_type": "person",
+      "description": "Chinese President",
+      "aliases": [
+        "Xi",
+        "习近平",
+        "President Xi"
+      ],
+      "explicit_context": "Xi Jinping (born 15 June 1953) is a Chinese politician who has been serving as the General Secretary of the Chinese Communist Party (CCP) and President of the People's Republic of China since 2012. He is the paramount leader of China and has been described as the most powerful Chinese leader since Mao Zedong, overseeing China's economic growth and international relations."
+    },
+    {
+      "name": "Tesla Inc",
+      "entity_type": "organization",
+      "description": "Electric vehicle company",
+      "aliases": [
+        "Tesla",
+        "TSLA",
+        "Tesla Motors"
+      ],
+      "explicit_context": "Tesla, Inc. is an American electric vehicle and clean energy company founded by Elon Musk in 2003. The company is known for its electric cars, energy storage systems, and solar panels, and has become one of the world's most valuable automakers by market capitalization, revolutionizing the automotive industry with sustainable transportation solutions."
+    },
+    {
+      "name": "Mary Ellen Smith",
+      "entity_type": "person",
+      "description": "Test case for missing spaces/hyphens",
+      "aliases": [
+        "MaryEllen Smith",
+        "Mary-Ellen Smith",
+        "Mary Ellen S."
+      ],
+      "explicit_context": "Mary Ellen Smith is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "James Earl Smith",
+      "entity_type": "person",
+      "description": "Test case for initials",
+      "aliases": [
+        "J. E. Smith",
+        "J.E. Smith",
+        "James E. Smith"
+      ],
+      "explicit_context": "James Earl Smith is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Blankenship",
+      "entity_type": "person",
+      "description": "Test case for truncated name components",
+      "aliases": [
+        "Blankensh",
+        "Blankens",
+        "Blanken"
+      ],
+      "explicit_context": "Blankenship is a family name that represents a lineage and heritage in Western society. This surname follows standard English naming conventions and is commonly used in professional and personal contexts where family identification is important."
+    },
+    {
+      "name": "Abdul Rasheed",
+      "entity_type": "person",
+      "description": "Test case for transliteration differences",
+      "aliases": [
+        "Abd al-Rashid",
+        "Abdul Rashid",
+        "Abd al-Rasheed"
+      ],
+      "explicit_context": "Abdul Rasheed is a common Arabic name that represents traditional Islamic naming conventions. The name 'Abdul' means 'servant of' in Arabic, and 'Rasheed' means 'rightly guided' or 'wise', making this a meaningful name in Islamic culture that represents devotion and wisdom."
+    },
+    {
+      "name": "Mao Zedong",
+      "entity_type": "person",
+      "description": "Test case for same name in multiple languages",
+      "aliases": [
+        "Мао Цзэдун",
+        "毛泽东",
+        "Mao Tse-tung"
+      ],
+      "explicit_context": "Mao Zedong (26 December 1893 – 9 September 1976) was a Chinese communist revolutionary who was the founder of the People's Republic of China (PRC) and served as its chairman from 1949 until his death in 1976. He was also the chairman of the Chinese Communist Party (CCP) and is considered one of the most influential figures of the 20th century, known for his role in the Chinese Revolution and the Cultural Revolution."
+    },
+    {
+      "name": "IBM",
+      "entity_type": "organization",
+      "description": "Test case for organizational aliases",
+      "aliases": [
+        "Big Blue",
+        "International Business Machines",
+        "IBM Corporation"
+      ],
+      "explicit_context": "International Business Machines Corporation (IBM) is an American multinational technology corporation founded in 1911. The company is known for its computer hardware, software, and services, and has been a major player in the technology industry for over a century, contributing to the development of modern computing and artificial intelligence."
+    },
+    {
+      "name": "Apple Inc",
+      "entity_type": "organization",
+      "description": "Technology company",
+      "aliases": [
+        "Apple",
+        "AAPL",
+        "Apple Corporation"
+      ],
+      "explicit_context": "Apple Inc. is an American multinational technology company founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976. The company is known for its consumer electronics, software, and services, including the iPhone, iPad, Mac computers, and various software products, and is one of the world's most valuable companies."
+    },
+    {
+      "name": "Elon Musk",
+      "entity_type": "person",
+      "description": "CEO of Tesla and SpaceX",
+      "aliases": [
+        "Musk",
+        "Elon",
+        "Tesla CEO",
+        "SpaceX CEO"
+      ],
+      "explicit_context": "Elon Reeve Musk (born 28 June 1971) is a South African-born American entrepreneur and business magnate who is the founder, CEO, and chief engineer of SpaceX, CEO and product architect of Tesla, Inc., and founder of The Boring Company and Neuralink. He is known for his ambitious projects in space exploration, electric vehicles, and sustainable energy."
+    },
+    {
+      "name": "Emmanuel Macron",
+      "entity_type": "person",
+      "description": "French President",
+      "aliases": [
+        "Macron",
+        "E. Macron",
+        "President Macron"
+      ],
+      "explicit_context": "Emmanuel Jean-Michel Frédéric Macron (born 21 December 1977) is a French politician who has been serving as President of France since 2017. He was previously Minister of the Economy, Industry and Digital Affairs from 2014 to 2016 and founded the centrist political party En Marche! (now Renaissance) in 2016, becoming the youngest president in French history."
+    },
+    {
+      "name": "PennyLuck Pharmaceuticals Inc",
+      "entity_type": "organization",
+      "description": "Test case for semantically similar names",
+      "aliases": [
+        "PennyLuck Drugs, Co.",
+        "PennyLuck Pharmaceuticals, Inc.",
+        "PennyLuck Pharma"
+      ],
+      "explicit_context": "PennyLuck Pharmaceuticals Inc is a pharmaceutical company that develops and manufactures innovative drugs and medical treatments. The company specializes in research and development of new medications, generic pharmaceuticals, and specialized treatments for various medical conditions, contributing to healthcare advancement and patient care."
+    },
+    {
+      "name": "Robert Smith",
+      "entity_type": "person",
+      "description": "Test case for nickname variations",
+      "aliases": [
+        "Bob Smith",
+        "Rob Smith",
+        "Bobby Smith"
+      ],
+      "explicit_context": "Robert Smith is a common English name that represents a typical individual in Western society. This name follows standard English naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Elizabeth Brown",
+      "entity_type": "person",
+      "description": "Test case for nickname variations",
+      "aliases": [
+        "Liz Brown",
+        "Beth Brown",
+        "Betty Brown"
+      ],
+      "explicit_context": "Elizabeth Brown is a common English name that represents a typical individual in Western society. This name follows standard English naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Prof. David Miller",
+      "entity_type": "person",
+      "description": "Test case for titles and honorifics",
+      "aliases": [
+        "David Miller",
+        "Prof. D. Miller",
+        "Prof. David M."
+      ],
+      "explicit_context": "Prof. David Miller is an academic professional and educator who has earned a professorial position in higher education. He represents the academic community and educational sector, where professional titles and academic credentials are important for establishing expertise and authority in teaching and research."
+    },
+    {
+      "name": "Rev. Thomas Brown",
+      "entity_type": "person",
+      "description": "Test case for titles and honorifics",
+      "aliases": [
+        "Thomas Brown",
+        "Rev. T. Brown",
+        "Rev. Thomas B."
+      ],
+      "explicit_context": "Rev. Thomas Brown is a religious leader and spiritual figure who has earned the title of Reverend in his faith community. He represents the religious community and spiritual sector, where religious titles and honorifics are important for establishing spiritual authority and guidance in religious practice."
+    },
+    {
+      "name": "John Smith",
+      "entity_type": "person",
+      "description": "Test case for gender variations",
+      "aliases": [
+        "Jon Smith",
+        "J. Smith",
+        "John S."
+      ],
+      "explicit_context": "John Smith is a common English name that represents a typical individual in Western society. This name follows standard English naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Christopher Lee",
+      "entity_type": "person",
+      "description": "Test case for gender variations",
+      "aliases": [
+        "Chris Lee",
+        "C. Lee",
+        "Christopher L."
+      ],
+      "explicit_context": "Christopher Lee is a common English name that represents a typical individual in Western society. This name follows standard English naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Daniel Wilson",
+      "entity_type": "person",
+      "description": "Test case for gender variations",
+      "aliases": [
+        "Dan Wilson",
+        "D. Wilson",
+        "Daniel W."
+      ],
+      "explicit_context": "Daniel Wilson is a common English name that represents a typical individual in Western society. This name follows standard English naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Anderson",
+      "entity_type": "person",
+      "description": "Test case for truncated name components",
+      "aliases": [
+        "Anders",
+        "Ander",
+        "And"
+      ],
+      "explicit_context": "Anderson is a family name that represents a lineage and heritage in Western society. This surname follows standard English naming conventions and is commonly used in professional and personal contexts where family identification is important."
+    },
+    {
+      "name": "Thompson",
+      "entity_type": "person",
+      "description": "Test case for truncated name components",
+      "aliases": [
+        "Thompso",
+        "Thomps",
+        "Thomp"
+      ],
+      "explicit_context": "Thompson is a family name that represents a lineage and heritage in Western society. This surname follows standard English naming conventions and is commonly used in professional and personal contexts where family identification is important."
+    },
+    {
+      "name": "Phillip Charles Carr",
+      "entity_type": "person",
+      "description": "Test case for missing name components",
+      "aliases": [
+        "Phillip Carr",
+        "P. Charles Carr",
+        "Phillip C. Carr"
+      ],
+      "explicit_context": "Phillip Charles Carr is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Michael James Taylor",
+      "entity_type": "person",
+      "description": "Test case for missing name components",
+      "aliases": [
+        "Michael Taylor",
+        "M. James Taylor",
+        "Michael J. Taylor"
+      ],
+      "explicit_context": "Michael James Taylor is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "David Robert White",
+      "entity_type": "person",
+      "description": "Test case for missing name components",
+      "aliases": [
+        "David White",
+        "D. Robert White",
+        "David R. White"
+      ],
+      "explicit_context": "David Robert White is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Carlos Alfonzo Diaz",
+      "entity_type": "person",
+      "description": "Test case for out-of-order name components",
+      "aliases": [
+        "Diaz, Carlos Alfonzo",
+        "Diaz, Carlos A.",
+        "Carlos A. Diaz"
+      ],
+      "explicit_context": "Carlos Alfonzo Diaz is a Hispanic name that represents Latin American naming conventions. This name follows traditional Spanish naming patterns with given names (Carlos Alfonzo) followed by family name (Diaz), commonly used in Spanish-speaking countries and communities."
+    },
+    {
+      "name": "Maria Elena Rodriguez",
+      "entity_type": "person",
+      "description": "Test case for out-of-order name components",
+      "aliases": [
+        "Rodriguez, Maria Elena",
+        "Rodriguez, Maria E.",
+        "Maria E. Rodriguez"
+      ],
+      "explicit_context": "Maria Elena Rodriguez is a Hispanic name that represents Latin American naming conventions. This name follows traditional Spanish naming patterns with given names (Maria Elena) followed by family name (Rodriguez), commonly used in Spanish-speaking countries and communities."
+    },
+    {
+      "name": "Jean Pierre Martin",
+      "entity_type": "person",
+      "description": "Test case for out-of-order name components",
+      "aliases": [
+        "Martin, Jean Pierre",
+        "Martin, Jean P.",
+        "Jean P. Martin"
+      ],
+      "explicit_context": "Jean Pierre Martin is a French name that represents traditional French naming conventions. This name follows standard French naming patterns with given names (Jean Pierre) followed by family name (Martin), commonly used in French-speaking countries and communities."
+    },
+    {
+      "name": "Robert Anthony Davis",
+      "entity_type": "person",
+      "description": "Test case for initials",
+      "aliases": [
+        "R. A. Davis",
+        "R.A. Davis",
+        "Robert A. Davis"
+      ],
+      "explicit_context": "Robert Anthony Davis is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "William Thomas Brown",
+      "entity_type": "person",
+      "description": "Test case for initials",
+      "aliases": [
+        "W. T. Brown",
+        "W.T. Brown",
+        "William T. Brown"
+      ],
+      "explicit_context": "William Thomas Brown is a professional individual who represents the working population and demonstrates the importance of personal identity in professional contexts. This name follows standard Western naming conventions and is commonly used in business and professional settings where formal identification is required."
+    },
+    {
+      "name": "Dick Van Dyke",
+      "entity_type": "person",
+      "description": "Test case for inconsistently split names",
+      "aliases": [
+        "Dick Van . Dyke",
+        "Dick Van. Dyke",
+        "Dick Van-Dyke"
+      ],
+      "explicit_context": "Dick Van Dyke (born 13 December 1925) is an American actor, comedian, singer, and dancer who has had a career spanning over seven decades. He is best known for his roles in 'The Dick Van Dyke Show' and 'Mary Poppins', and has won multiple Emmy Awards and a Tony Award for his work in television and theater."
+    },
+    {
+      "name": "Mary Jane Watson",
+      "entity_type": "person",
+      "description": "Test case for inconsistently split names",
+      "aliases": [
+        "Mary Jane . Watson",
+        "Mary Jane. Watson",
+        "Mary Jane-Watson"
+      ],
+      "explicit_context": "Mary Jane Watson is a fictional character in Marvel Comics, primarily known as the love interest and later wife of Peter Parker (Spider-Man). She is a model and actress in the comics and has appeared in various Spider-Man adaptations, representing an important character in the Spider-Man universe."
+    },
+    {
+      "name": "John Paul Jones",
+      "entity_type": "person",
+      "description": "Test case for inconsistently split names",
+      "aliases": [
+        "John Paul . Jones",
+        "John Paul. Jones",
+        "John Paul-Jones"
+      ],
+      "explicit_context": "John Paul Jones (born John Paul; 6 July 1747 – 18 July 1792) was a Scottish-American naval captain who served in the Continental Navy during the American Revolutionary War. He is often called the 'Father of the American Navy' and is known for his famous quote 'I have not yet begun to fight!' during the Battle of Flamborough Head."
+    },
+    {
+      "name": "Global Tech Solutions",
+      "entity_type": "organization",
+      "description": "Test case for semantically similar names",
+      "aliases": [
+        "Global Technology Solutions",
+        "Global Tech Corp",
+        "Global Technology Inc"
+      ],
+      "explicit_context": "Global Tech Solutions is a technology company that provides innovative software and technology services to businesses worldwide. The company specializes in digital transformation, cloud computing, and technology consulting, helping organizations modernize their operations and improve efficiency through cutting-edge technology solutions."
+    },
+    {
+      "name": "Metro Health Systems",
+      "entity_type": "organization",
+      "description": "Test case for semantically similar names",
+      "aliases": [
+        "Metro Healthcare Systems",
+        "Metro Health Corp",
+        "Metro Healthcare Inc"
+      ],
+      "explicit_context": "Metro Health Systems is a healthcare organization that provides comprehensive medical services and healthcare solutions to communities. The company operates hospitals, clinics, and medical facilities, offering a wide range of healthcare services including emergency care, specialized treatments, and preventive medicine to improve community health outcomes."
+    },
+    {
+      "name": "Nippon Telegraph and Telephone Corporation",
+      "entity_type": "organization",
+      "description": "Test case for semantically similar names across languages",
+      "aliases": [
+        "日本電信電話株式会社",
+        "NTT Corporation",
+        "NTT"
+      ],
+      "explicit_context": "Nippon Telegraph and Telephone Corporation (NTT) is a Japanese telecommunications company founded in 1952. The company is one of the world's largest telecommunications companies and provides fixed-line, mobile, and internet services in Japan and internationally, representing major telecommunications infrastructure and services."
+    },
+    {
+      "name": "Samsung Electronics",
+      "entity_type": "organization",
+      "description": "Test case for semantically similar names across languages",
+      "aliases": [
+        "삼성전자",
+        "Samsung",
+        "Samsung Corp"
+      ],
+      "explicit_context": "Samsung Electronics Co., Ltd. is a South Korean multinational electronics corporation founded in 1969. The company is the world's largest manufacturer of smartphones and memory chips, and is known for its Galaxy smartphones, televisions, and semiconductor products, representing major innovation in consumer electronics and technology."
+    },
+    {
+      "name": "Volkswagen AG",
+      "entity_type": "organization",
+      "description": "Test case for semantically similar names across languages",
+      "aliases": [
+        "Volkswagen",
+        "VW",
+        "Volkswagen Group"
+      ],
+      "explicit_context": "Volkswagen AG is a German multinational automotive manufacturer founded in 1937. The company is one of the world's largest automobile manufacturers and owns brands like Volkswagen, Audi, Porsche, Bentley, and Lamborghini, representing major automotive innovation and luxury vehicle manufacturing."
+    },
+    {
+      "name": "Tim Cook",
+      "entity_type": "person",
+      "description": "CEO of Apple",
+      "aliases": [
+        "Cook",
+        "Tim",
+        "Apple CEO"
+      ],
+      "explicit_context": "Timothy Donald Cook (born 1 November 1960) is an American business executive who has been the chief executive officer of Apple Inc. since 2011. He succeeded Steve Jobs as CEO and has overseen Apple's continued growth, including the development of new products like the Apple Watch and expansion into services like Apple Music and Apple TV+."
+    },
+    {
+      "name": "entity_001",
+      "entity_type": "person",
+      "description": "Test entity 1 for large dataset",
+      "aliases": [
+        "entity_001_alias_0",
+        "entity_001_alias_1",
+        "entity_001_alias_2"
+      ],
+      "explicit_context": "entity_001 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_002",
+      "entity_type": "organization",
+      "description": "Test entity 2 for large dataset",
+      "aliases": [
+        "entity_002_alias_0",
+        "entity_002_alias_1",
+        "entity_002_alias_2"
+      ],
+      "explicit_context": "entity_002 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_003",
+      "entity_type": "person",
+      "description": "Test entity 3 for large dataset",
+      "aliases": [
+        "entity_003_alias_0",
+        "entity_003_alias_1",
+        "entity_003_alias_2"
+      ],
+      "explicit_context": "entity_003 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_004",
+      "entity_type": "organization",
+      "description": "Test entity 4 for large dataset",
+      "aliases": [
+        "entity_004_alias_0",
+        "entity_004_alias_1",
+        "entity_004_alias_2"
+      ],
+      "explicit_context": "entity_004 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_005",
+      "entity_type": "person",
+      "description": "Test entity 5 for large dataset",
+      "aliases": [
+        "entity_005_alias_0",
+        "entity_005_alias_1",
+        "entity_005_alias_2"
+      ],
+      "explicit_context": "entity_005 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_006",
+      "entity_type": "organization",
+      "description": "Test entity 6 for large dataset",
+      "aliases": [
+        "entity_006_alias_0",
+        "entity_006_alias_1",
+        "entity_006_alias_2"
+      ],
+      "explicit_context": "entity_006 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_007",
+      "entity_type": "person",
+      "description": "Test entity 7 for large dataset",
+      "aliases": [
+        "entity_007_alias_0",
+        "entity_007_alias_1",
+        "entity_007_alias_2"
+      ],
+      "explicit_context": "entity_007 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_008",
+      "entity_type": "organization",
+      "description": "Test entity 8 for large dataset",
+      "aliases": [
+        "entity_008_alias_0",
+        "entity_008_alias_1",
+        "entity_008_alias_2"
+      ],
+      "explicit_context": "entity_008 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_009",
+      "entity_type": "person",
+      "description": "Test entity 9 for large dataset",
+      "aliases": [
+        "entity_009_alias_0",
+        "entity_009_alias_1",
+        "entity_009_alias_2"
+      ],
+      "explicit_context": "entity_009 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_010",
+      "entity_type": "organization",
+      "description": "Test entity 10 for large dataset",
+      "aliases": [
+        "entity_010_alias_0",
+        "entity_010_alias_1",
+        "entity_010_alias_2"
+      ],
+      "explicit_context": "entity_010 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_011",
+      "entity_type": "person",
+      "description": "Test entity 11 for large dataset",
+      "aliases": [
+        "entity_011_alias_0",
+        "entity_011_alias_1",
+        "entity_011_alias_2"
+      ],
+      "explicit_context": "entity_011 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_012",
+      "entity_type": "organization",
+      "description": "Test entity 12 for large dataset",
+      "aliases": [
+        "entity_012_alias_0",
+        "entity_012_alias_1",
+        "entity_012_alias_2"
+      ],
+      "explicit_context": "entity_012 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_013",
+      "entity_type": "person",
+      "description": "Test entity 13 for large dataset",
+      "aliases": [
+        "entity_013_alias_0",
+        "entity_013_alias_1",
+        "entity_013_alias_2"
+      ],
+      "explicit_context": "entity_013 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_014",
+      "entity_type": "organization",
+      "description": "Test entity 14 for large dataset",
+      "aliases": [
+        "entity_014_alias_0",
+        "entity_014_alias_1",
+        "entity_014_alias_2"
+      ],
+      "explicit_context": "entity_014 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_015",
+      "entity_type": "person",
+      "description": "Test entity 15 for large dataset",
+      "aliases": [
+        "entity_015_alias_0",
+        "entity_015_alias_1",
+        "entity_015_alias_2"
+      ],
+      "explicit_context": "entity_015 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_016",
+      "entity_type": "organization",
+      "description": "Test entity 16 for large dataset",
+      "aliases": [
+        "entity_016_alias_0",
+        "entity_016_alias_1",
+        "entity_016_alias_2"
+      ],
+      "explicit_context": "entity_016 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_017",
+      "entity_type": "person",
+      "description": "Test entity 17 for large dataset",
+      "aliases": [
+        "entity_017_alias_0",
+        "entity_017_alias_1",
+        "entity_017_alias_2"
+      ],
+      "explicit_context": "entity_017 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_018",
+      "entity_type": "organization",
+      "description": "Test entity 18 for large dataset",
+      "aliases": [
+        "entity_018_alias_0",
+        "entity_018_alias_1",
+        "entity_018_alias_2"
+      ],
+      "explicit_context": "entity_018 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_019",
+      "entity_type": "person",
+      "description": "Test entity 19 for large dataset",
+      "aliases": [
+        "entity_019_alias_0",
+        "entity_019_alias_1",
+        "entity_019_alias_2"
+      ],
+      "explicit_context": "entity_019 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_020",
+      "entity_type": "organization",
+      "description": "Test entity 20 for large dataset",
+      "aliases": [
+        "entity_020_alias_0",
+        "entity_020_alias_1",
+        "entity_020_alias_2"
+      ],
+      "explicit_context": "entity_020 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_021",
+      "entity_type": "person",
+      "description": "Test entity 21 for large dataset",
+      "aliases": [
+        "entity_021_alias_0",
+        "entity_021_alias_1",
+        "entity_021_alias_2"
+      ],
+      "explicit_context": "entity_021 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_022",
+      "entity_type": "organization",
+      "description": "Test entity 22 for large dataset",
+      "aliases": [
+        "entity_022_alias_0",
+        "entity_022_alias_1",
+        "entity_022_alias_2"
+      ],
+      "explicit_context": "entity_022 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_023",
+      "entity_type": "person",
+      "description": "Test entity 23 for large dataset",
+      "aliases": [
+        "entity_023_alias_0",
+        "entity_023_alias_1",
+        "entity_023_alias_2"
+      ],
+      "explicit_context": "entity_023 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_024",
+      "entity_type": "organization",
+      "description": "Test entity 24 for large dataset",
+      "aliases": [
+        "entity_024_alias_0",
+        "entity_024_alias_1",
+        "entity_024_alias_2"
+      ],
+      "explicit_context": "entity_024 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    },
+    {
+      "name": "entity_025",
+      "entity_type": "person",
+      "description": "Test entity 25 for large dataset",
+      "aliases": [
+        "entity_025_alias_0",
+        "entity_025_alias_1",
+        "entity_025_alias_2"
+      ],
+      "explicit_context": "entity_025 is a test entity used for evaluating entity resolution systems and represents a generic individual or organization in testing scenarios. This entity is designed to test various aspects of entity matching and recognition capabilities in automated systems."
+    }
+  ],
+  "use_wikipedia": false
+}

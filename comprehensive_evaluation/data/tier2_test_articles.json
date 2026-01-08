@@ -1,0 +1,417 @@
+[
+  {
+    "id": "article_nicknames_001",
+    "title": "Nickname Variations Test",
+    "content": "William Johnson, Will Johnson, Bill Johnson, and Billy Johnson are all the same person. The system should handle these nickname variations.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "William Johnson,",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "William Johnson,",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "William Johnson,",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "and Billy Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      },
+      {
+        "extracted_entity": "Billy Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "nickname"
+      }
+    ],
+    "complexity": "medium",
+    "test_category": "nicknames"
+  },
+  {
+    "id": "article_titles_001",
+    "title": "Titles and Honorifics Test",
+    "content": "Dr. Sarah Williams, Sarah Williams, and Dr. S. Williams are the same person. The system should handle title variations.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Dr. Sarah Williams,",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      },
+      {
+        "extracted_entity": "Sarah Williams,",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      },
+      {
+        "extracted_entity": "Williams,",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      },
+      {
+        "extracted_entity": "Dr. Sarah Williams,",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      },
+      {
+        "extracted_entity": "Sarah Williams,",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      },
+      {
+        "extracted_entity": "Williams,",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      },
+      {
+        "extracted_entity": "Dr. S. Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      },
+      {
+        "extracted_entity": "S. Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      },
+      {
+        "extracted_entity": "Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "title_role"
+      }
+    ],
+    "complexity": "medium",
+    "test_category": "titles_honorifics"
+  },
+  {
+    "id": "article_semantic_context_001",
+    "title": "Russian Leader Context Test",
+    "content": "The Russian leader met with international officials to discuss global security. The Russian president emphasized the importance of diplomatic relations.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Russian leader",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic"
+      },
+      {
+        "extracted_entity": "Russian president",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "semantic"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_semantic_context_002",
+    "title": "Chinese Leader Context Test",
+    "content": "The Chinese president announced new economic policies. The Chinese leader emphasized technological innovation and development.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Chinese leader",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic"
+      },
+      {
+        "extracted_entity": "Chinese president",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "semantic"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_semantic_context_003",
+    "title": "Company Context Test",
+    "content": "The electric car company reported strong quarterly earnings. The EV manufacturer announced new production facilities.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "electric car company",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic"
+      },
+      {
+        "extracted_entity": "EV manufacturer",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "semantic"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_multilingual_001",
+    "title": "Multilingual Names Test",
+    "content": "Vladimir Putin and \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041f\u0443\u0442\u0438\u043d are the same person in different languages. The system should handle multilingual names.",
+    "source": "Test Data",
+    "language": "mixed",
+    "expected_matches": [
+      {
+        "extracted_entity": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041f\u0443\u0442\u0438\u043d",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "cultural"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "multilingual_names"
+  },
+  {
+    "id": "article_multilingual_002",
+    "title": "Multilingual Names Test 2",
+    "content": "Xi Jinping and \u4e60\u8fd1\u5e73 are the same person in different languages. The system should handle multilingual names.",
+    "source": "Test Data",
+    "language": "mixed",
+    "expected_matches": [
+      {
+        "extracted_entity": "\u4e60\u8fd1\u5e73",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "cultural"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "multilingual_names"
+  },
+  {
+    "id": "article_combined_001",
+    "title": "Combined Test Article 1",
+    "content": "The Russian leader (Vladimir Putin) met with the Chinese president (Xi Jinping) to discuss international cooperation. Dr. Sarah Williams provided medical support.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Xi Jinping",
+        "watch_list_entity": "Xi Jinping",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Dr. Sarah Williams",
+        "watch_list_entity": "Dr. Sarah Williams",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "combined"
+  },
+  {
+    "id": "article_combined_002",
+    "title": "Combined Test Article 2",
+    "content": "William Johnson, also known as Bill Johnson, works for Tesla Inc, the electric car company. The system should handle multiple entity types.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "William Johnson",
+        "watch_list_entity": "William Johnson",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tesla Inc",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "medium",
+    "test_category": "combined"
+  },
+  {
+    "id": "article_combined_003",
+    "title": "Combined Test Article 3",
+    "content": "The Russian leader emphasized the importance of electric vehicles. Tesla Inc, the EV manufacturer, announced new partnerships.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Vladimir Putin",
+        "watch_list_entity": "Vladimir Putin",
+        "match_type": "exact"
+      },
+      {
+        "extracted_entity": "Tesla Inc",
+        "watch_list_entity": "Tesla Inc",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "combined"
+  },
+  {
+    "id": "article_spaces_001",
+    "title": "Missing Spaces and Hyphens Test",
+    "content": "MaryEllen Smith, Mary-Ellen Smith, and Mary Ellen Smith are the same person. The system should handle missing spaces and hyphens.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Mary Ellen Smith",
+        "watch_list_entity": "Mary Ellen Smith",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "medium",
+    "test_category": "missing_spaces_hyphens"
+  },
+  {
+    "id": "article_initials_001",
+    "title": "Initials Test",
+    "content": "James Earl Smith and J. E. Smith are the same person. The system should handle initials and full names.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "James Earl Smith",
+        "watch_list_entity": "James Earl Smith",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "medium",
+    "test_category": "initials"
+  },
+  {
+    "id": "article_truncated_001",
+    "title": "Truncated Components Test",
+    "content": "Blankenship and Blankensh are the same person with truncated name components. The system should handle truncation.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Blankenship",
+        "watch_list_entity": "Blankenship",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "truncated_components"
+  },
+  {
+    "id": "article_transliteration_001",
+    "title": "Transliteration Differences Test",
+    "content": "Abdul Rasheed and Abd al-Rashid represent the same person with different transliteration spellings. The system should recognize these as the same entity.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Abdul Rasheed",
+        "watch_list_entity": "Abdul Rasheed",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "transliteration_differences"
+  },
+  {
+    "id": "article_multilingual_003",
+    "title": "Multilingual Names Test 3",
+    "content": "Mao Zedong, \u041c\u0430\u043e \u0426\u0437\u044d\u0434\u0443\u043d, and \u6bdb\u6cfd\u4e1c are the same person in different languages. The system should handle multilingual names.",
+    "source": "Test Data",
+    "language": "mixed",
+    "expected_matches": [
+      {
+        "extracted_entity": "Mao Zedong",
+        "watch_list_entity": "Mao Zedong",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "multilingual_names"
+  },
+  {
+    "id": "article_aliases_001",
+    "title": "Organizational Aliases Test",
+    "content": "IBM and Big Blue are the same company. The system should handle organizational aliases.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Big Blue",
+        "watch_list_entity": "IBM",
+        "match_type": "alias"
+      }
+    ],
+    "complexity": "medium",
+    "test_category": "organizational_aliases"
+  },
+  {
+    "id": "article_semantic_context_004",
+    "title": "Apple Context Test",
+    "content": "The iPhone maker announced new products. The Mac maker emphasized innovation and design excellence.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Apple Inc",
+        "watch_list_entity": "Apple Inc",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_semantic_context_005",
+    "title": "Tesla CEO Context Test",
+    "content": "The Tesla CEO announced new electric vehicle models. The SpaceX CEO discussed future Mars missions.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Elon Musk",
+        "watch_list_entity": "Elon Musk",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_semantic_context_006",
+    "title": "French Leader Context Test",
+    "content": "The French leader visited European capitals to discuss trade relations. The French president emphasized European unity.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "Emmanuel Macron",
+        "watch_list_entity": "Emmanuel Macron",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantic_context"
+  },
+  {
+    "id": "article_semantic_001",
+    "title": "Semantically Similar Names Test",
+    "content": "PennyLuck Pharmaceuticals Inc and PennyLuck Drugs, Co. are the same company. The system should handle semantically similar names.",
+    "source": "Test Data",
+    "language": "en",
+    "expected_matches": [
+      {
+        "extracted_entity": "PennyLuck Pharmaceuticals Inc",
+        "watch_list_entity": "PennyLuck Pharmaceuticals Inc",
+        "match_type": "exact"
+      }
+    ],
+    "complexity": "high",
+    "test_category": "semantically_similar"
+  }
+]
