@@ -1,0 +1,23 @@
+# Local secrets / environment
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow checked-in templates/examples (if you add them later)
+!.env.example
+!.env.template
+
+# OS / editor noise
+.DS_Store
+.vscode/
+
+# Python noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
