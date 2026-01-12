@@ -95,7 +95,7 @@ def check_environment_file():
     load_dotenv()
     
     required_vars = [
-        "ELASTIC_CLOUD_ID",
+        "ELASTIC_CLOUD_ID", # TODO: Most of the content on searchlabs usese the ELASTIC_ENDPOINT, would you be able to switch this credential over?
         "ELASTIC_API_KEY", 
         "OPENAI_API_KEY"
     ]
