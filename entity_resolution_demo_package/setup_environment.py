@@ -123,22 +123,32 @@ def check_environment_file():
     
     load_dotenv(dotenv_path=env_file)
     
-    required_vars = [
-        "ELASTIC_CLOUD_ID",
-        "ELASTIC_API_KEY", 
-        "OPENAI_API_KEY"
-    ]
+    elastic_endpoint = os.getenv("ELASTIC_ENDPOINT")
+    elastic_cloud_id = os.getenv("ELASTIC_CLOUD_ID")
+
+    required_vars = ["ELASTIC_API_KEY", "OPENAI_API_KEY"]
     
     missing_vars = []
+    if elastic_endpoint:
+        print("✅ ELASTIC_ENDPOINT is configured")
+    elif elastic_cloud_id:
+        print("✅ ELASTIC_CLOUD_ID is configured")
+    else:
+        print("❌ Neither ELASTIC_ENDPOINT nor ELASTIC_CLOUD_ID is set")
+        missing_vars.append("ELASTIC_ENDPOINT/ELASTIC_CLOUD_ID")
+
     for var in required_vars:
-        if not os.getenv(var):
+        if os.getenv(var):
+            print(f"✅ {var} is configured")
+        else:
             print(f"❌ {var} not set")
             missing_vars.append(var)
-        else:
-            print(f"✅ {var} is configured")
     
     if missing_vars:
-        print(f"\n💡 Set these environment variables in your .env file")
+        print("\n💡 Set these environment variables in your .env file:")
+        print("- ELASTIC_API_KEY")
+        print("- Either ELASTIC_ENDPOINT (preferred) or ELASTIC_CLOUD_ID")
+        print("- OPENAI_API_KEY")
         return False
     return True
 
