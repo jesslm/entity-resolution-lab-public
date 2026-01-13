@@ -12,8 +12,13 @@ from pathlib import Path
 from typing import Dict, Any, Optional, List, Union
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
-from sentence_transformers import SentenceTransformer
 import numpy as np
+
+# Optional dependency: only needed for the DEVELOPMENT fallback embeddings mode.
+try:
+    from sentence_transformers import SentenceTransformer  # type: ignore
+except ImportError:  # pragma: no cover
+    SentenceTransformer = None  # type: ignore
 
 class ElasticClient:
     """Advanced Elasticsearch client with latest semantic search capabilities
@@ -76,6 +81,11 @@ class ElasticClient:
             # WARNING: This fallback should NOT be used in production!
             # Production systems should always use Elasticsearch native embeddings via semantic_text fields
             try:
+                if SentenceTransformer is None:
+                    raise ImportError(
+                        "sentence-transformers is not installed. "
+                        "Install it to use the local embeddings fallback: pip install sentence-transformers"
+                    )
                 # Use multilingual E5 model for consistency with Elasticsearch inference endpoint
                 self.encoder = SentenceTransformer('intfloat/multilingual-e5-small')
                 self.embedding_model = self.encoder  # Add alias for compatibility
