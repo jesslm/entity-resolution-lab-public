@@ -93,9 +93,23 @@ class ElasticClient:
         Returns:
             Elasticsearch: Configured Elasticsearch client
         """
-        # Check for cloud credentials
-        cloud_id = os.environ.get('ELASTIC_CLOUD_ID')
-        api_key = os.environ.get('ELASTIC_API_KEY')
+        es_cfg = (self.config or {}).get("elasticsearch", {}) if isinstance(self.config, dict) else {}
+
+        # Check for credentials (env vars take precedence over config)
+        endpoint = os.environ.get("ELASTIC_ENDPOINT") or es_cfg.get("endpoint")
+        cloud_id = os.environ.get("ELASTIC_CLOUD_ID") or es_cfg.get("cloud_id")
+        api_key = os.environ.get("ELASTIC_API_KEY") or es_cfg.get("api_key")
+
+        # Prefer endpoint-based config if present (common in Searchlabs content)
+        if endpoint and api_key:
+            self.logger.info("Connecting to Elasticsearch via ELASTIC_ENDPOINT...")
+            return Elasticsearch(
+                hosts=[endpoint],
+                api_key=api_key,
+                request_timeout=60,  # Increase timeout for operations
+                max_retries=3,       # Allow retries for transient errors
+                retry_on_timeout=True  # Retry on timeout errors
+            )
         
         # Try to connect to Elastic Cloud
         if cloud_id and api_key:

@@ -43,7 +43,8 @@ nano .env  # or use your preferred editor
 - **Internet connection** (for Wikipedia API)
 
 **Environment variables needed:**
-- `ELASTIC_CLOUD_ID` - Your Elasticsearch Cloud ID
+- `ELASTIC_ENDPOINT` - Your Elasticsearch URL/endpoint (preferred if you have it)
+- `ELASTIC_CLOUD_ID` - Your Elasticsearch Cloud ID (alternative to `ELASTIC_ENDPOINT`)
 - `ELASTIC_API_KEY` - Your Elasticsearch API key
 - `OPENAI_API_KEY` - Your OpenAI API key
 - `LITELLM_PROXY_URL` - (Optional) LiteLLM proxy URL for using proxy instead of direct OpenAI API
