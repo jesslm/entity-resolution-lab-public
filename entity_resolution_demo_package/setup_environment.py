@@ -61,24 +61,25 @@ def check_package_installation():
 def check_dependencies():
     """Check if required dependencies are installed."""
     print("\n🔧 Checking dependencies...")
+    # (pip_distribution_name, python_import_name)
     required_packages = [
-        "elasticsearch",
-        "openai", 
-        "requests",
-        "dotenv",
-        "pydantic",
-        "numpy",
-        "pandas"
+        ("elasticsearch", "elasticsearch"),
+        ("openai", "openai"),
+        ("requests", "requests"),
+        ("python-dotenv", "dotenv"),
+        ("pydantic", "pydantic"),
+        ("numpy", "numpy"),
+        ("pandas", "pandas"),
     ]
     
     missing_packages = []
-    for package in required_packages:
+    for pip_name, import_name in required_packages:
         try:
-            __import__(package.replace("-", "_"))
-            print(f"✅ {package}")
+            __import__(import_name)
+            print(f"✅ {pip_name}")
         except ImportError:
-            print(f"❌ {package}")
-            missing_packages.append(package)
+            print(f"❌ {pip_name}")
+            missing_packages.append(pip_name)
     
     if missing_packages:
         print(f"\n💡 Install missing packages: pip install {' '.join(missing_packages)}")
