@@ -9,6 +9,10 @@
 # Navigate to the package directory
 cd entity_resolution_demo_package
 
+# Create + activate a virtual environment (recommended)
+python -m venv .venv
+source .venv/bin/activate
+
 # Install the package
 pip install -e .
 
