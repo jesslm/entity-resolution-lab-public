@@ -52,6 +52,9 @@ class ElasticClient:
         
         # Load configuration
         self.config = config or {}
+        # Be robust when instantiated without a config (e.g., setup scripts).
+        # Many call sites expect `config["elasticsearch"]` to exist.
+        self.config.setdefault("elasticsearch", {})
         
         # Initialize Elasticsearch client
         self.es = self._create_elasticsearch_client()
