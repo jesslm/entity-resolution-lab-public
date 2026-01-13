@@ -251,7 +251,10 @@ def main():
     if all_passed:
         print("\n🎉 All checks passed! You're ready to start learning!")
         print("\n📚 Next steps:")
-        print("1. Start Jupyter: jupyter lab")
+        repo_root = _repo_root()
+        print("1. Start Jupyter from the repo root (important):")
+        print(f"   cd {repo_root}")
+        print("   jupyter lab")
         print("2. Open: notebooks/01_entity_preparation_v3.ipynb")
         print("3. Follow the educational scenarios")
     else:
