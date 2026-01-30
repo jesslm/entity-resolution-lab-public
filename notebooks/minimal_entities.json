@@ -1,11 +1,11 @@
 {
   "entities": [
     {
-      "name": "Vladimir Putin",
+      "name": "Leo Tolstoy",
       "entity_type": "person",
-      "description": "President of Russia",
-      "aliases": ["Volodya", "Vladimir Vladimirovich"],
-      "explicit_context": "Vladimir Putin is the President of Russia, a position he has held since 2012. He previously served as Prime Minister and President from 2000 to 2008."
+      "description": "Russian author",
+      "aliases": ["Tolstoy", "Leo Nikolayevich"],
+      "explicit_context": "Leo Tolstoy was a Russian writer and philosopher, regarded as one of the greatest authors of all time. He is best known for his novels War and Peace and Anna Karenina."
     },
     {
       "name": "Joe Biden",

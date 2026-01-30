@@ -261,20 +261,20 @@
   {
     "id": "article_semantic_context_001",
     "title": "Russian Leader Context Test",
-    "content": "The Russian leader met with international officials to discuss global security. The Russian president emphasized the importance of diplomatic relations and cooperation.",
+    "content": "The Russian author met with international officials to discuss global security. The Russian author emphasized the importance of diplomatic relations and cooperation.",
     "source": "Test Data",
     "language": "en",
     "complexity": "high",
     "test_category": "semantic_context",
     "expected_matches": [
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Russian president",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       }
     ]
@@ -387,20 +387,20 @@
   {
     "id": "article_multilingual_001",
     "title": "Multilingual Names Test",
-    "content": "Vladimir Putin and Владимир Путин are the same person in different languages. The system should handle multilingual names effectively.",
+    "content": "Leo Tolstoy and Лев Толстой are the same person in different languages. The system should handle multilingual names effectively.",
     "source": "Test Data",
     "language": "mixed",
     "complexity": "high",
     "test_category": "multilingual_names",
     "expected_matches": [
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Владимир Путин",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Лев Толстой",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "multilingual"
       }
     ]
@@ -471,20 +471,20 @@
   {
     "id": "article_combined_001",
     "title": "Combined Test Article 1",
-    "content": "The Russian leader (Vladimir Putin) met with the Chinese president (Xi Jinping) to discuss international cooperation. Dr. Sarah Williams provided medical support during the summit.",
+    "content": "The Russian author (Leo Tolstoy) met with the Chinese president (Xi Jinping) to discuss international cooperation. Dr. Sarah Williams provided medical support during the summit.",
     "source": "Test Data",
     "language": "en",
     "complexity": "high",
     "test_category": "combined",
     "expected_matches": [
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
@@ -844,25 +844,25 @@
   {
     "id": "article_political_002",
     "title": "Political Leaders Test 2",
-    "content": "The Russian leader met with international officials. Vladimir Putin discussed global security. The Russian president emphasized diplomatic relations.",
+    "content": "The Russian author met with international officials. Leo Tolstoy discussed global security. The Russian author emphasized diplomatic relations.",
     "source": "Test Data",
     "language": "en",
     "complexity": "medium",
     "test_category": "political_leaders",
     "expected_matches": [
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Russian president",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       }
     ]
@@ -1552,7 +1552,7 @@
   {
     "id": "article_combined_006",
     "title": "Combined Test Article 6",
-    "content": "The French president (Emmanuel Macron) met with the Russian leader (Vladimir Putin) to discuss international cooperation. The Chinese president (Xi Jinping) also participated in the summit.",
+    "content": "The French president (Emmanuel Macron) met with the Russian author (Leo Tolstoy) to discuss international cooperation. The Chinese president (Xi Jinping) also participated in the summit.",
     "source": "Test Data",
     "language": "en",
     "complexity": "high",
@@ -1569,13 +1569,13 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
@@ -1645,25 +1645,25 @@
   {
     "id": "article_political_004",
     "title": "Political Leaders Test 4",
-    "content": "The Russian leader met with European officials. Vladimir Putin discussed international relations. The Russian president emphasized diplomatic cooperation.",
+    "content": "The Russian author met with European officials. Leo Tolstoy discussed international relations. The Russian author emphasized diplomatic cooperation.",
     "source": "Test Data",
     "language": "en",
     "complexity": "medium",
     "test_category": "political_leaders",
     "expected_matches": [
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Russian president",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       }
     ]

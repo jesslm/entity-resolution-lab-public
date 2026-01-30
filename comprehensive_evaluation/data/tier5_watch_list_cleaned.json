@@ -266,16 +266,16 @@
       "challenge_type": "financial_institutions"
     },
     {
-      "name": "Vladimir Putin",
+      "name": "Leo Tolstoy",
       "entity_type": "person",
       "description": "Test case for cross_script_transliteration",
       "aliases": [
-        "Владимир Путин",
-        "V. Putin",
-        "Putin Vladimir",
-        "Владимир Владимирович Путин"
+        "Лев Толстой",
+        "L. Tolstoy",
+        "Tolstoy Leo",
+        "Лев Николаевич Толстой"
       ],
-      "explicit_context": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, and previously from 2000 to 2008. He was also Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012, making him one of the longest-serving leaders in modern Russian history.",
+      "explicit_context": "Leo Nikolayevich Tolstoy (born 9 September 1828, died 20 November 1910) was a Russian writer and philosopher, regarded as one of the greatest authors of all time. He is best known for his novels War and Peace and Anna Karenina. Tolstoy was a member of the Russian nobility and is considered a master of realistic fiction and one of the world's greatest novelists.",
       "script": "Cyrillic",
       "challenge_type": "cross_script_transliteration"
     },
@@ -532,18 +532,18 @@
       "challenge_type": "international_political_figures"
     },
     {
-      "name": "Владимир Владимирович Путин",
+      "name": "Лев Николаевич Толстой",
       "entity_type": "person",
       "description": "Test case for advanced_transliteration",
       "aliases": [
-        "Vladimir Vladimirovich Putin",
-        "Vladimir Putin",
-        "V. Putin",
-        "Putin",
-        "В.В. Путин",
-        "V.V. Putin"
+        "Leo Nikolayevich Tolstoy",
+        "Leo Tolstoy",
+        "L. Tolstoy",
+        "Tolstoy",
+        "Л.Н. Толстой",
+        "L.N. Tolstoy"
       ],
-      "explicit_context": "Владимир Владимирович Путин (Vladimir Vladimirovich Putin) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, and previously from 2000 to 2008. He was also Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012, making him one of the longest-serving leaders in modern Russian history.",
+      "explicit_context": "Лев Николаевич Толстой (Leo Nikolayevich Tolstoy) was a Russian writer and philosopher, regarded as one of the greatest authors of all time. He is best known for his novels War and Peace and Anna Karenina. Tolstoy was a member of the Russian nobility and is considered a master of realistic fiction and one of the world's greatest novelists.",
       "script": "Cyrillic",
       "challenge_type": "advanced_transliteration"
     },

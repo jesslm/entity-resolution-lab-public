@@ -21,12 +21,12 @@ All datasets under `comprehensive_evaluation/data/` are **LLM-generated syntheti
 
 ## Canonical Tier‑5 (and why)
 
-Tier‑5 has multiple historical variants in the private authoring repo. The PUBLIC repo uses the **canonical Tier‑5 filenames referenced by the authoritative v3 notebook**:
+Tier‑5 has multiple historical variants in the private authoring repo. The PUBLIC repo uses the **canonical Tier‑5 filenames referenced by the authoritative v4 notebook**:
 
 - `data/tier5_test_articles_v2.json`
 - `data/tier5_watch_list_cleaned.json`
 
-This avoids ambiguity and ensures `notebooks/05_ultimate_challenge_v3.ipynb` runs against the intended dataset. (Full audit: `../CANONICAL_TIER5_DATASET.md`.)
+This avoids ambiguity and ensures `notebooks/05_ultimate_challenge_v4.ipynb` runs against the intended dataset. (Full audit: `../CANONICAL_TIER5_DATASET.md`.)
 
 ## Practical note for notebook users
 

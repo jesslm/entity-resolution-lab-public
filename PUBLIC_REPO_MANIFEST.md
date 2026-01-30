@@ -2,7 +2,7 @@
 
 This manifest defines **exactly what to copy into the PUBLIC demo repo** (and what to exclude), without deleting anything from the private repo.
 
-Primary UX: **notebooks first**. Authority: the five v3 notebooks + `NEW_USERS_START_HERE.md`.
+Primary UX: **notebooks first**. Authority: the five v4 notebooks + `NEW_USERS_START_HERE.md`.
 
 ## Scope + invariants
 
@@ -16,11 +16,11 @@ Primary UX: **notebooks first**. Authority: the five v3 notebooks + `NEW_USERS_S
 ### A) Notebooks (authoritative)
 
 - `notebooks/` (PUBLIC repo top-level; copied from private `entity_resolution_demo_package/notebooks/`):
-  - `01_entity_preparation_v3.ipynb`
-  - `02_article_processing_v3.ipynb`
-  - `03_entity_matching_v3.ipynb`
-  - `04_function_calling_optimization_v3.ipynb`
-  - `05_ultimate_challenge_v3.ipynb`
+  - `01_entity_preparation_v4.ipynb`
+  - `02_article_processing_v4.ipynb`
+  - `03_entity_matching_v4.ipynb`
+  - `04_function_calling_optimization_v4.ipynb`
+  - `05_ultimate_challenge_v4.ipynb`
 
 **Rationale**: Primary user experience and final authority for paths/dataset usage.
 

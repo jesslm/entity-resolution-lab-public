@@ -30,10 +30,10 @@ ENTITIES = [
 
     # Political figures - for exact, alias, and role-based matching
     {
-        "name": "Vladimir Putin",
+        "name": "Leo Tolstoy",
         "entity_type": "person",
-        "description": "President of Russia",
-        "aliases": ["Putin", "Владимир Путин", "V. Putin", "VVP"]
+        "description": "Russian author",
+        "aliases": ["Tolstoy", "Лев Толстой", "L. Tolstoy", "Count Tolstoy"]
     },
     {
         "name": "Joe Biden",

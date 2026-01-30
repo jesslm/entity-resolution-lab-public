@@ -113,7 +113,7 @@ cd ..
 jupyter lab
 
 # Open your first notebook
-notebooks/01_entity_preparation_v3.ipynb
+notebooks/01_entity_preparation_v4.ipynb
 ```
 
 If Notebook 01 runs end-to-end without errors, your environment is correctly set up.
@@ -130,7 +130,7 @@ This demo repo includes two dataset modes:
   - `comprehensive_evaluation/data/`
   - See `comprehensive_evaluation/README.md` for tier structure and provenance.
 
-**Tier‑5 note (explicit):** the v3 capstone notebook uses the canonical Tier‑5 files:
+**Tier‑5 note (explicit):** the v4 capstone notebook uses the canonical Tier‑5 files:
 - `comprehensive_evaluation/data/tier5_test_articles_v2.json`
 - `comprehensive_evaluation/data/tier5_watch_list_cleaned.json`
 
@@ -150,7 +150,7 @@ This demo repo includes two dataset modes:
 
 4) **Jupyter is opened from the wrong directory**
 - Do: launch Jupyter from the **repo root** (Step 4 uses `cd ..` for a reason).
-- Expect: paths like `notebooks/01_entity_preparation_v3.ipynb` resolve cleanly.
+- Expect: paths like `notebooks/01_entity_preparation_v4.ipynb` resolve cleanly.
 
 5) **Kernel/import issues inside Jupyter**
 - Do: run `python setup_kernel.py`, then select the “Entity Resolution Demo” kernel in Jupyter.

@@ -23,15 +23,15 @@
       "explicit_context": "Dr. Sarah Williams is an entity."
     },
     {
-      "name": "Vladimir Putin",
+      "name": "Leo Tolstoy",
       "entity_type": "person",
-      "description": "Russian President",
+      "description": "Russian author",
       "aliases": [
-        "Putin",
-        "V. Putin",
-        "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041f\u0443\u0442\u0438\u043d"
+        "Tolstoy",
+        "L. Tolstoy",
+        "\u041b\u0435\u0432 \u0422\u043e\u043b\u0441\u0442\u043e\u0439"
       ],
-      "explicit_context": "Vladimir Putin is an entity."
+      "explicit_context": "Leo Tolstoy is an entity."
     },
     {
       "name": "Xi Jinping",
