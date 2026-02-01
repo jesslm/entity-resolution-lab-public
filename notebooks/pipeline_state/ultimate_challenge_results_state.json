@@ -1,7 +1,7 @@
 {
-  "execution_time": 263.4843351840973,
+  "execution_time": 308.941201210022,
   "total_matches": 372,
-  "confirmed_matches": 267,
+  "confirmed_matches": 269,
   "articles_processed": 59,
   "results": [
     {
@@ -11,7 +11,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Elon Musk', which is an exact match with no ambiguity."
+      "reasoning": "Both names are 'Elon Musk', which is an exact match. Context supports this as well."
     },
     {
       "article_id": "tier5_cross_script_musk_001",
@@ -20,16 +20,16 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'E. Musk' uses the initial for the first name and matches the full name 'Elon Musk'. Context supports the match."
+      "reasoning": "'E. Musk' is an initial match for 'Elon Musk'. The context about electric vehicles supports this association."
     },
     {
       "article_id": "tier5_cross_script_musk_001",
       "extracted_entity": "Tesla CEO",
       "watched_entity": "Elon Musk",
-      "confidence": 0.85,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Tesla CEO' refers to the role held by 'Elon Musk' in the context of the electric vehicle manufacturer. Strong evidence for match."
+      "reasoning": "'Tesla CEO' refers to the role held by 'Elon Musk' in the context of electric vehicles, making this a title_role match."
     },
     {
       "article_id": "tier5_cross_script_musk_001",
@@ -38,16 +38,16 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Tesla CEO' refers to the leader of Tesla, while 'Tim Cook' is CEO of Apple. No evidence of overlap; context makes match highly unlikely."
+      "reasoning": "'Tesla CEO' and 'Tim Cook' do not refer to the same entity. Tim Cook is not associated with Tesla; he is the CEO of Apple."
     },
     {
       "article_id": "tier5_cross_script_musk_001",
       "extracted_entity": "Musk Elon",
       "watched_entity": "Elon Musk",
-      "confidence": 0.95,
+      "confidence": 1.0,
       "is_match": true,
       "match_type": "out_of_order",
-      "reasoning": "'Musk Elon' is the same as 'Elon Musk' with the order reversed. High confidence due to unique name and context."
+      "reasoning": "'Musk Elon' is simply the name 'Elon Musk' with the order reversed. This is an out_of_order match."
     },
     {
       "article_id": "tier5_business_hierarchy_001",
@@ -56,7 +56,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical and refer to the same company. Context supports this."
+      "reasoning": "Both names are 'Microsoft Corporation', which is an exact match with no ambiguity."
     },
     {
       "article_id": "tier5_business_hierarchy_001",
@@ -65,7 +65,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "'Microsoft Corp' is a common abbreviation for 'Microsoft Corporation.' Context confirms they refer to the same entity."
+      "reasoning": "'Microsoft Corp' is a common abbreviation for 'Microsoft Corporation'; context confirms they refer to the same entity."
     },
     {
       "article_id": "tier5_business_hierarchy_001",
@@ -74,7 +74,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Redmond-based tech giant' refers to Microsoft, while 'Rev. Martin Luther King Jr' is a well-known civil rights leader. No overlap."
+      "reasoning": "'Redmond-based tech giant' refers to Microsoft, while 'Rev. Martin Luther King Jr' is a well-known civil rights leader; no overlap."
     },
     {
       "article_id": "tier5_business_hierarchy_001",
@@ -83,7 +83,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Redmond-based tech giant' refers to Microsoft, while 'Elon Musk' is a well-known entrepreneur not associated with Microsoft."
+      "reasoning": "'Redmond-based tech giant' refers to Microsoft, while 'Elon Musk' is a well-known entrepreneur; no connection."
     },
     {
       "article_id": "tier5_business_hierarchy_001",
@@ -92,7 +92,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'MSFT' is the stock ticker symbol for Microsoft Corporation. Context supports this semantic match."
+      "reasoning": "'MSFT' is the stock ticker for 'Microsoft Corporation'; context confirms they refer to the same entity."
     },
     {
       "article_id": "tier5_business_hierarchy_001",
@@ -101,7 +101,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "'Microsoft Inc' and 'Microsoft Corporation' refer to the same company, with 'Inc' and 'Corporation' being interchangeable suffixes for the entity. The context of a technology company reporting earnings further supports this match."
+      "reasoning": "'Microsoft Inc' and 'Microsoft Corporation' refer to the same company, with 'Inc' and 'Corporation' being interchangeable suffixes for the same legal entity. The context of a technology company further supports this match."
     },
     {
       "article_id": "tier5_japanese_name_order_001",
@@ -110,7 +110,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Japanese characters, referring to the same individual."
+      "reasoning": "Both names are identical in Japanese characters, referring to the same person."
     },
     {
       "article_id": "tier5_japanese_name_order_001",
@@ -119,7 +119,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Shinzo Abe' is the Romanized version of '安倍晋三', referring to the same Japanese Prime Minister. Context confirms the match."
+      "reasoning": "'Shinzo Abe' is the romanized version of '安倍晋三', referring to the same Japanese Prime Minister."
     },
     {
       "article_id": "tier5_japanese_name_order_001",
@@ -128,16 +128,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "out_of_order",
-      "reasoning": "'Abe Shinzo' is the Western order of the Japanese name '安倍晋三'. Both refer to the same person, supported by context."
+      "reasoning": "'Abe Shinzo' is the Western order of the Japanese name '安倍晋三', referring to the same person."
     },
     {
       "article_id": "tier5_japanese_name_order_001",
       "extracted_entity": "安倍さん",
       "watched_entity": "安倍晋三",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "nickname",
-      "reasoning": "'安倍さん' uses the honorific 'さん' (san), a polite suffix in Japanese, referring to '安倍晋三'. Context indicates both refer to the same individual."
+      "reasoning": "'安倍さん' uses the honorific 'さん' (Mr./Ms.) with the surname 'Abe', commonly referring to Shinzo Abe in context of Japanese Prime Minister."
     },
     {
       "article_id": "tier5_japanese_honorifics_001",
@@ -164,7 +164,7 @@
       "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'田中さん' means 'Mr. Tanaka' and refers to the last name only, while '田中太郎' is the full name. Likely the same person in context, but less specific."
+      "reasoning": "'田中さん' means 'Mr. Tanaka' and refers to someone with the last name Tanaka. Given the context, it likely refers to '田中太郎', but the first name is missing."
     },
     {
       "article_id": "tier5_japanese_honorifics_001",
@@ -173,7 +173,7 @@
       "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'田中くん' is an informal way to refer to someone with the last name 'Tanaka', while '田中太郎' is the full name. Likely the same person given context."
+      "reasoning": "'田中くん' is an informal way to refer to someone with the last name Tanaka, often used for males. It likely refers to '田中太郎', but the first name is missing."
     },
     {
       "article_id": "tier5_japanese_honorifics_001",
@@ -182,7 +182,7 @@
       "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'田中ちゃん' is a diminutive or affectionate form for someone with the last name 'Tanaka', while '田中太郎' is the full name. Likely the same person given context."
+      "reasoning": "'田中ちゃん' is a diminutive or affectionate way to refer to someone with the last name Tanaka. It likely refers to '田中太郎', but the first name is missing."
     },
     {
       "article_id": "tier5_japanese_honorifics_001",
@@ -191,7 +191,7 @@
       "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'田中様' uses the honorific '様' (sama), which is a respectful way to address someone, and '田中太郎' is a full name. The shared surname '田中' suggests a likely match, but the given name is missing in the query, so this is a partial_last match with medium confidence."
+      "reasoning": "'田中様' uses the honorific '様' (sama), which is a respectful way to address someone with the surname '田中'. '田中太郎' is a full name with the same surname. Given the context of Japanese professional culture, it's likely that '田中様' refers to '田中太郎', but there could be other people with the surname '田中'. Partial last name match with medium confidence."
     },
     {
       "article_id": "tier5_japanese_writing_systems_001",
@@ -200,7 +200,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Japanese kanji, referring to the same individual, Shinzo Abe."
+      "reasoning": "Both names are identical in Japanese kanji, referring to the same individual."
     },
     {
       "article_id": "tier5_japanese_writing_systems_001",
@@ -209,7 +209,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The query is in Japanese katakana (アベシンゾウ), a phonetic script often used for foreign words or names, and matches the kanji candidate (安倍晋三) for Shinzo Abe."
+      "reasoning": "アベシンゾウ is the katakana representation of the Japanese name 安倍晋三, commonly used for foreign or phonetic spelling. They refer to the same person."
     },
     {
       "article_id": "tier5_japanese_writing_systems_001",
@@ -218,7 +218,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The query is in Japanese hiragana (あんべしんぞう), a phonetic script, and matches the kanji candidate (安倍晋三) for Shinzo Abe."
+      "reasoning": "あんべしんぞう is the hiragana representation of 安倍晋三, which is the same Japanese name written in kanji. They refer to the same individual."
     },
     {
       "article_id": "tier5_japanese_writing_systems_001",
@@ -227,7 +227,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The query is the romanized version (Abe Shinzo) of the Japanese kanji candidate (安倍晋三), referring to the same individual."
+      "reasoning": "Abe Shinzo is the romanized version of the Japanese name 安倍晋三. They refer to the same person."
     },
     {
       "article_id": "tier5_japanese_company_names_001",
@@ -236,16 +236,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Japanese ('トヨタ自動車'), referring to the same entity. High confidence exact match."
-    },
-    {
-      "article_id": "tier5_japanese_company_names_001",
-      "extracted_entity": "Toyota Motor Corporation",
-      "watched_entity": "トヨタ自動車",
-      "confidence": 0.95,
-      "is_match": true,
-      "match_type": "cultural",
-      "reasoning": "'Toyota Motor Corporation' is the English name for 'トヨタ自動車' (Toyota Motor Corporation in Japanese). This is a cultural/language variant, high confidence match."
+      "reasoning": "Both names are identical in Japanese script, referring to the same company. High confidence exact match."
     },
     {
       "article_id": "tier5_japanese_company_names_001",
@@ -254,25 +245,34 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Toyota Motor Corporation' and 'Microsoft Corporation' are distinct, globally recognized companies in different industries. No evidence of overlap."
+      "reasoning": "Toyota Motor Corporation and Microsoft Corporation are distinct companies in different industries. No evidence of overlap."
+    },
+    {
+      "article_id": "tier5_japanese_company_names_001",
+      "extracted_entity": "Toyota Motor Corporation",
+      "watched_entity": "トヨタ自動車",
+      "confidence": 0.95,
+      "is_match": true,
+      "match_type": "cultural",
+      "reasoning": "Toyota Motor Corporation (English) and トヨタ自動車 (Japanese) are direct translations and refer to the same company. High confidence cultural match."
     },
     {
       "article_id": "tier5_japanese_company_names_001",
       "extracted_entity": "トヨタ",
       "watched_entity": "トヨタ自動車",
-      "confidence": 0.9,
+      "confidence": 0.85,
       "is_match": true,
-      "match_type": "partial_last",
-      "reasoning": "'トヨタ' is a shortened form of 'トヨタ自動車' (Toyota Motor Corporation). This is a partial/abbreviated match, high confidence."
+      "match_type": "missing_components",
+      "reasoning": "トヨタ is a shortened form of トヨタ自動車, omitting 'Motor Corporation.' Likely refers to the same entity. High confidence missing components match."
     },
     {
       "article_id": "tier5_japanese_company_names_001",
       "extracted_entity": "Toyota",
       "watched_entity": "トヨタ自動車",
-      "confidence": 0.9,
+      "confidence": 0.85,
       "is_match": true,
-      "match_type": "partial_last",
-      "reasoning": "'Toyota' is a shortened/abbreviated form of 'Toyota Motor Corporation'/'トヨタ自動車'. High confidence partial match."
+      "match_type": "cultural",
+      "reasoning": "Toyota (English) and トヨタ自動車 (Japanese) are culturally equivalent, with 'Toyota' being the common English name for the company. High confidence cultural match."
     },
     {
       "article_id": "tier5_japanese_religious_titles_001",
@@ -299,7 +299,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Pope Francis' and 'Emmanuel Macron' are different individuals: one is the Pope, the other is the President of France."
+      "reasoning": "'Pope Francis' and 'Emmanuel Macron' are different individuals: one is the Pope, the other is the current French president."
     },
     {
       "article_id": "tier5_japanese_religious_titles_001",
@@ -308,7 +308,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'フランシスコ教皇' means 'Pope Francis' in Japanese, while 'フランシスコ' is 'Francis.' The context and title indicate they refer to the same person."
+      "reasoning": "'フランシスコ教皇' means 'Pope Francis' in Japanese, while 'フランシスコ' is 'Francis.' The context and naming indicate a title-role match."
     },
     {
       "article_id": "tier5_japanese_religious_titles_001",
@@ -317,7 +317,7 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Francis I' and 'フランシスコ' are culturally equivalent names (English and Japanese), likely referring to the same individual in the context of a papal visit."
+      "reasoning": "'Francis I' (the papal name) and 'フランシスコ' (Francisco/Francis in Japanese) refer to the same person, with a cultural/linguistic variation."
     },
     {
       "article_id": "tier5_japanese_dalai_lama_001",
@@ -362,16 +362,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'His Holiness the Dalai Lama' is a formal title for 'ダライ・ラマ', both referring to the same spiritual leader."
+      "reasoning": "'His Holiness the Dalai Lama' is a formal title for the same individual referred to as 'ダライ・ラマ' in Japanese."
     },
     {
       "article_id": "tier5_japanese_dalai_lama_001",
       "extracted_entity": "His Holiness the Dalai Lama",
-      "watched_entity": "יצחק רבין",
-      "confidence": 0.0,
+      "watched_entity": "Rev. Martin Luther King Jr",
+      "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'His Holiness the Dalai Lama' refers to the Tibetan spiritual leader, while 'יצחק רבין' (Yitzhak Rabin) is the name of a former Israeli Prime Minister. These are distinct individuals with no overlap in name, title, or context."
+      "reasoning": "'His Holiness the Dalai Lama' and 'Rev. Martin Luther King Jr' are distinct individuals with different titles, roles, and cultural backgrounds. There is no evidence to suggest they refer to the same entity."
     },
     {
       "article_id": "tier5_japanese_sony_001",
@@ -404,16 +404,16 @@
       "article_id": "tier5_japanese_sony_001",
       "extracted_entity": "ソニー株式会社",
       "watched_entity": "ソニー",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "missing_components",
-      "reasoning": "'ソニー株式会社' (Sony Corporation in Japanese) and 'ソニー' (Sony) refer to the same company, with one being the full legal name and the other a common abbreviation. Context supports this."
+      "reasoning": "'ソニー株式会社' (Sony Corporation in Japanese) and 'ソニー' (Sony) refer to the same company, with one being the full legal name and the other a shortened version. Context supports this."
     },
     {
       "article_id": "tier5_japanese_sony_001",
       "extracted_entity": "Sony Corp",
       "watched_entity": "ソニー",
-      "confidence": 0.9,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "cultural",
       "reasoning": "'Sony Corp' (English abbreviation) and 'ソニー' (Japanese name) both refer to the same company, with cultural and language differences in representation. Context supports this."
@@ -425,7 +425,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Japanese script, referring to the same individual, Shinzo Abe."
+      "reasoning": "Both names are identical in Japanese script, referring to the same individual."
     },
     {
       "article_id": "tier5_japanese_combined_001",
@@ -434,7 +434,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Shinzo Abe' is the Romanized version of '安倍晋三', both referring to the same Japanese Prime Minister. Context supports this match."
+      "reasoning": "'Shinzo Abe' is the Romanized version of '安倍晋三', both referring to the same Japanese Prime Minister."
     },
     {
       "article_id": "tier5_japanese_combined_001",
@@ -443,16 +443,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Japanese script, referring to Toyota Motor Corporation."
-    },
-    {
-      "article_id": "tier5_japanese_combined_001",
-      "extracted_entity": "Toyota Motor Corporation",
-      "watched_entity": "トヨタ自動車",
-      "confidence": 0.95,
-      "is_match": true,
-      "match_type": "cultural",
-      "reasoning": "'Toyota Motor Corporation' is the English name for 'トヨタ自動車', both referring to the same company. Context supports this match."
+      "reasoning": "Both names are identical in Japanese script, referring to the same company."
     },
     {
       "article_id": "tier5_japanese_combined_001",
@@ -461,7 +452,16 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Toyota Motor Corporation' and 'Microsoft Corporation' are distinct, unrelated companies."
+      "reasoning": "'Toyota Motor Corporation' and 'Microsoft Corporation' are distinct companies with no overlap in name or context."
+    },
+    {
+      "article_id": "tier5_japanese_combined_001",
+      "extracted_entity": "Toyota Motor Corporation",
+      "watched_entity": "トヨタ自動車",
+      "confidence": 0.95,
+      "is_match": true,
+      "match_type": "cultural",
+      "reasoning": "'Toyota Motor Corporation' is the English name for 'トヨタ自動車', both referring to the same company."
     },
     {
       "article_id": "tier5_japanese_combined_001",
@@ -470,16 +470,16 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Japanese script, indicating an exact match with very high confidence."
+      "reasoning": "Both names are identical in Japanese script, indicating an exact match with high confidence."
     },
     {
       "article_id": "tier5_japanese_combined_001",
       "extracted_entity": "Tanaka Taro",
       "watched_entity": "田中太郎",
-      "confidence": 0.9,
+      "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "Tanaka Taro is the romanized version of 田中太郎, a common Japanese name. The context supports that they refer to the same entity, with high confidence."
+      "reasoning": "'Tanaka Taro' is the romanized form of '田中太郎', a common Japanese name. The context supports that these refer to the same person, making this a cultural match with high confidence."
     },
     {
       "article_id": "tier5_japanese_combined_001",
@@ -488,7 +488,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Japanese script, indicating an exact match with very high confidence."
+      "reasoning": "Both names are identical in Japanese script, indicating an exact match with high confidence."
     },
     {
       "article_id": "tier5_japanese_combined_001",
@@ -497,7 +497,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "Sony is the English name for ソニー, the well-known Japanese company. The context supports that they refer to the same entity, with high confidence."
+      "reasoning": "'Sony' is the English name for the Japanese company 'ソニー'. The context and transliteration indicate a cultural match with high confidence."
     },
     {
       "article_id": "tier5_arabic_patronymic_001",
@@ -515,7 +515,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Muhammad Ali' is the direct transliteration of 'محمد علي' from Arabic to English. High confidence due to standard transliteration."
+      "reasoning": "The names are the same, with one in Arabic script and one in Latin script. This is a common cultural transliteration."
     },
     {
       "article_id": "tier5_arabic_patronymic_001",
@@ -524,7 +524,7 @@
       "confidence": 0.3,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'أبو محمد' means 'father of Muhammad' (a kunya), which is not the same as 'محمد علي'. No strong evidence they refer to the same entity."
+      "reasoning": "'أبو محمد' (Abu Muhammad) is a kunya (nickname meaning 'father of Muhammad'), while 'محمد علي' (Muhammad Ali) is a full name. They are unlikely to refer to the same entity."
     },
     {
       "article_id": "tier5_arabic_patronymic_001",
@@ -533,7 +533,7 @@
       "confidence": 0.7,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'M. Ali' is a common initial-based abbreviation for 'محمد علي'. Medium confidence due to possible ambiguity with other names starting with 'M.'"
+      "reasoning": "'M. Ali' is an abbreviated form that could refer to 'محمد علي' (Muhammad Ali), matching the initial and last name. Medium confidence due to possible ambiguity."
     },
     {
       "article_id": "tier5_hebrew_patronymic_001",
@@ -551,34 +551,34 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'David Ben-Gurion' is the English transliteration of 'דוד בן-גוריון' in Hebrew. Context confirms both refer to the same historical figure."
+      "reasoning": "David Ben-Gurion (English) and דוד בן-גוריון (Hebrew) are culturally equivalent representations of the same person."
     },
     {
       "article_id": "tier5_hebrew_patronymic_001",
       "extracted_entity": "בן-גוריון",
       "watched_entity": "דוד בן-גוריון",
-      "confidence": 0.8,
+      "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'בן-גוריון' is the last name portion of 'דוד בן-גוריון'. Context suggests both refer to the same person."
+      "reasoning": "בן-גוריון is the last name, and דוד בן-גוריון is the full name; likely refers to the same entity, but less specific."
     },
     {
       "article_id": "tier5_hebrew_patronymic_001",
       "extracted_entity": "בן-גוריון",
       "watched_entity": "פרופסור דוד",
-      "confidence": 0.1,
+      "confidence": 0.2,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'בן-גוריון' (Ben-Gurion) and 'פרופסור דוד' (Professor David) do not share enough components to suggest a match."
+      "reasoning": "בן-גוריון and פרופסור דוד do not share enough components to suggest they are the same entity."
     },
     {
       "article_id": "tier5_hebrew_patronymic_001",
       "extracted_entity": "Ben-Gurion",
       "watched_entity": "דוד בן-גוריון",
-      "confidence": 0.8,
+      "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Ben-Gurion' is the last name portion of 'דוד בן-גוריון'. Context suggests both refer to the same person."
+      "reasoning": "Ben-Gurion is the last name, and דוד בן-גוריון is the full name in Hebrew; likely refers to the same entity."
     },
     {
       "article_id": "tier5_cross_script_macron_001",
@@ -596,7 +596,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "The query uses the initial 'E.' for 'Emmanuel,' and the last name matches exactly. High likelihood they refer to the same person."
+      "reasoning": "The query uses an initial for the first name, but the last name matches exactly. Context supports they are the same person."
     },
     {
       "article_id": "tier5_cross_script_macron_001",
@@ -605,16 +605,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'President' is a title for Emmanuel Macron, who is the French President in the context provided."
+      "reasoning": "'President' is a title for Emmanuel Macron, who is the French President. Context confirms the match."
     },
     {
       "article_id": "tier5_cross_script_macron_001",
       "extracted_entity": "President Macron",
       "watched_entity": "François Hollande",
-      "confidence": 0.2,
+      "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'President Macron' refers to the current president, Emmanuel Macron, while 'François Hollande' is a different individual and former president. Context supports they are not the same entity."
+      "reasoning": "Although both are French presidents, 'President Macron' and 'François Hollande' are different individuals."
     },
     {
       "article_id": "tier5_cross_script_macron_001",
@@ -623,7 +623,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "out_of_order",
-      "reasoning": "The names are the same but in different order (last, first vs. first, last). They refer to the same person."
+      "reasoning": "The names are the same but in different order (last name, first name vs. first name, last name)."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
@@ -632,7 +632,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'习近平' is the Chinese name for 'Xi Jinping'. The context is about a Chinese leader, confirming they refer to the same person."
+      "reasoning": "'习近平' is the Chinese name for 'Xi Jinping'. The context supports that both refer to the same individual, with a high-confidence cultural match."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
@@ -641,7 +641,7 @@
       "confidence": 0.98,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'President Xi Jinping' includes the title and full name, while 'Xi Jinping' is the full name. Both refer to the same individual, with the title providing additional context."
+      "reasoning": "'President Xi Jinping' and 'Xi Jinping' refer to the same person, with 'President' as a title. The context confirms this is the same entity."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
@@ -650,7 +650,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'President Xi Jinping' and '安倍晋三' (Shinzo Abe) are different individuals (Chinese and Japanese leaders, respectively)."
+      "reasoning": "'President Xi Jinping' and '安倍晋三' (Shinzo Abe) are different individuals (Chinese and Japanese leaders, respectively). No evidence of a match."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
@@ -659,7 +659,7 @@
       "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Xi' is the surname of 'Xi Jinping'. In the context of a Chinese leader, it is likely referring to the same person, though ambiguity exists if other 'Xi' are present."
+      "reasoning": "'Xi' is the surname of 'Xi Jinping'. In the context of a Chinese leader, it is likely referring to the same person, but ambiguity exists if other individuals named 'Xi' are present."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
@@ -668,7 +668,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Xi' (a surname) and 'אוניברסיטת תל אביב' (Tel Aviv University) are unrelated; one is a person, the other an institution."
+      "reasoning": "'Xi' (a surname) and 'אוניברסיטת תל אביב' (Tel Aviv University) are unrelated; no evidence of a match."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
@@ -677,16 +677,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Chinese President' is a title referring to the leader of China, and Xi Jinping is the current Chinese President. The context supports this association."
+      "reasoning": "'Chinese President' is a title that refers to the role held by Xi Jinping. The context supports this association."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
       "extracted_entity": "Chinese President",
-      "watched_entity": "安倍晋三",
+      "watched_entity": "Emmanuel Macron",
       "confidence": 0.05,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "安倍晋三 (Shinzo Abe) is the former Prime Minister of Japan, not the Chinese President. The names and roles do not match."
+      "reasoning": "'Chinese President' and 'Emmanuel Macron' do not refer to the same entity. Macron is the President of France, not China."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
@@ -695,16 +695,16 @@
       "confidence": 0.98,
       "is_match": true,
       "match_type": "missing_components",
-      "reasoning": "'Xi Jinping President' includes both the name and title, while 'Xi Jinping' is just the name. The context and name match strongly."
+      "reasoning": "'Xi Jinping President' includes both the name and the title, while 'Xi Jinping' is just the name. They refer to the same individual."
     },
     {
       "article_id": "tier5_chinese_transliteration_001",
       "extracted_entity": "Xi Jinping President",
-      "watched_entity": "Vladimir Putin",
+      "watched_entity": "Emmanuel Macron",
       "confidence": 0.05,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Vladimir Putin is the President of Russia, not China. The names and titles do not match."
+      "reasoning": "'Xi Jinping President' and 'Emmanuel Macron' do not refer to the same entity. Macron is not associated with the title or name 'Xi Jinping.'"
     },
     {
       "article_id": "tier5_korean_transliteration_001",
@@ -722,7 +722,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Kim Jong-un,' which is an exact match."
+      "reasoning": "Both names are exactly the same, 'Kim Jong-un,' with no variation."
     },
     {
       "article_id": "tier5_korean_transliteration_001",
@@ -748,8 +748,8 @@
       "watched_entity": "Kim Jong-un",
       "confidence": 0.85,
       "is_match": true,
-      "match_type": "title_role",
-      "reasoning": "'North Korean leader' is a role/title that refers to 'Kim Jong-un' in the context of the article."
+      "match_type": "semantic",
+      "reasoning": "'North Korean leader' is a descriptive phrase that, in the context of the article, refers to 'Kim Jong-un.'"
     },
     {
       "article_id": "tier5_korean_transliteration_001",
@@ -758,7 +758,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'North Korean leader' refers to the head of North Korea, while Xi Jinping is the leader of China. The context confirms the query is about North Korea, making this an unlikely match."
+      "reasoning": "'North Korean leader' refers to the head of North Korea, while 'Xi Jinping' is the leader of China. These are different individuals with no overlap in role or name."
     },
     {
       "article_id": "tier5_korean_transliteration_001",
@@ -767,7 +767,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Kim' is a partial last name match for 'Kim Jong-un', who is the current North Korean leader. The context supports this connection, making it a high-confidence match."
+      "reasoning": "'Kim' is a partial last name match for 'Kim Jong-un', who is the current North Korean leader. Context supports this as well."
     },
     {
       "article_id": "tier5_korean_transliteration_001",
@@ -776,7 +776,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Kim' and 'Rev. Martin Luther King Jr' do not share any meaningful components, and the context is about North Korea, not the American civil rights leader. This is an extremely unlikely match."
+      "reasoning": "'Kim' (from the context of North Korean leadership) and 'Rev. Martin Luther King Jr' are unrelated; 'Kim' is a Korean surname, while 'King' is an English surname and refers to a different person entirely."
     },
     {
       "article_id": "tier5_arabic_honorifics_001",
@@ -785,34 +785,34 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Arabic script, referring to the same entity."
+      "reasoning": "Both names are identical in Arabic script, referring to 'Sheikh Muhammad.' Context supports they are the same entity."
     },
     {
       "article_id": "tier5_arabic_honorifics_001",
       "extracted_entity": "Sheikh Muhammad",
       "watched_entity": "الشيخ محمد",
-      "confidence": 0.9,
+      "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Sheikh Muhammad' is the transliteration of 'الشيخ محمد' from Arabic to English. They refer to the same entity, with only a language difference."
+      "reasoning": "'Sheikh Muhammad' (English transliteration) and 'الشيخ محمد' (Arabic script) refer to the same name, with only a script difference. Context supports they are the same entity."
     },
     {
       "article_id": "tier5_arabic_honorifics_001",
       "extracted_entity": "الشيخ محمد بن عبد الله",
       "watched_entity": "الشيخ محمد",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "is_match": true,
       "match_type": "missing_components",
-      "reasoning": "'الشيخ محمد بن عبد الله' includes an additional component ('بن عبد الله' meaning 'son of Abdullah'), but both could refer to the same person if context supports it. Medium confidence due to possible ambiguity."
+      "reasoning": "'الشيخ محمد بن عبد الله' includes a full name with a patronymic ('bin Abdullah'), while 'الشيخ محمد' is a shortened version. Likely the same person, but ambiguity remains due to missing components."
     },
     {
       "article_id": "tier5_arabic_honorifics_001",
       "extracted_entity": "Al-Sheikh Muhammad",
       "watched_entity": "الشيخ محمد",
-      "confidence": 0.8,
+      "confidence": 0.85,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Al-Sheikh Muhammad' is a variant transliteration of 'الشيخ محمد'. The prefix 'Al-' is the definite article in Arabic, matching the Arabic 'ال'. High confidence they refer to the same entity."
+      "reasoning": "'Al-Sheikh Muhammad' is a transliteration variant of 'الشيخ محمد.' The prefix 'Al-' is the definite article in Arabic, matching the Arabic script. Context supports they are the same entity."
     },
     {
       "article_id": "tier5_arabic_professional_titles_001",
@@ -829,8 +829,8 @@
       "watched_entity": "الدكتور أحمد",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "title_role",
-      "reasoning": "'Dr. Ahmed' is the English transliteration of 'الدكتور أحمد' in Arabic. Both include the title and the same given name, indicating a title_role match with high confidence."
+      "match_type": "cultural",
+      "reasoning": "'Dr. Ahmed' is the English transliteration of 'الدكتور أحمد' in Arabic. Both include the title and the same given name, representing a cultural match with high confidence."
     },
     {
       "article_id": "tier5_arabic_professional_titles_001",
@@ -848,7 +848,7 @@
       "confidence": 0.7,
       "is_match": true,
       "match_type": "missing_components",
-      "reasoning": "'الدكتور أحمد محمد' includes an additional last name 'محمد' compared to 'الدكتور أحمد'. This is a missing_components match, as the candidate could be a shortened version of the query."
+      "reasoning": "'الدكتور أحمد محمد' includes an additional surname 'محمد' (Mohammed) compared to 'الدكتور أحمد'. This is a missing components match, likely the same person but with one version omitting the surname."
     },
     {
       "article_id": "tier5_arabic_professional_titles_001",
@@ -857,16 +857,16 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'Dr. A. Ahmed' uses an initial for the first name, while 'الدكتور أحمد' spells out the first name in Arabic. Both include the title and the same surname, indicating an initial match with high confidence."
+      "reasoning": "'Dr. A. Ahmed' uses an initial for the first name, while 'الدكتور أحمد' spells out the given name in Arabic. Both include the title and the surname, indicating an initial match with high confidence."
     },
     {
       "article_id": "tier5_arabic_professional_titles_001",
       "extracted_entity": "Dr. A. Ahmed",
       "watched_entity": "Dr. Anthony Fauci",
-      "confidence": 0.1,
+      "confidence": 0.2,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "The names 'Dr. A. Ahmed' and 'Dr. Anthony Fauci' have different last names and different initials. There is no evidence of nickname, phonetic, or cultural similarity. The only similarity is the title 'Dr.', which is not sufficient for a match. Therefore, it is highly unlikely these refer to the same entity."
+      "reasoning": "The names 'Dr. A. Ahmed' and 'Dr. Anthony Fauci' have different surnames and different first initials. There is no evidence of a nickname, title, or other connection. The only similarity is the 'Dr.' title, which is common. Therefore, it is unlikely they refer to the same entity."
     },
     {
       "article_id": "tier5_arabic_historical_001",
@@ -899,10 +899,10 @@
       "article_id": "tier5_arabic_historical_001",
       "extracted_entity": "Bakr",
       "watched_entity": "أبو بكر",
-      "confidence": 0.6,
+      "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Bakr' is a component of 'أبو بكر' (Abu Bakr). While 'Bakr' alone could refer to others, in this context it likely refers to the same entity, but with moderate confidence due to ambiguity."
+      "reasoning": "'Bakr' is a component of 'أبو بكر' (Abu Bakr). In historical context, 'Bakr' alone may refer to the same individual, but with less certainty due to possible ambiguity."
     },
     {
       "article_id": "tier5_arabic_company_001",
@@ -916,15 +916,6 @@
     {
       "article_id": "tier5_arabic_company_001",
       "extracted_entity": "Saudi Company",
-      "watched_entity": "Amazon.com Inc",
-      "confidence": 0.1,
-      "is_match": false,
-      "match_type": "unlikely",
-      "reasoning": "'Saudi Company' and 'Amazon.com Inc' are unrelated entities. No evidence of connection. Very low confidence."
-    },
-    {
-      "article_id": "tier5_arabic_company_001",
-      "extracted_entity": "Saudi Company",
       "watched_entity": "3M Company",
       "confidence": 0.1,
       "is_match": false,
@@ -933,9 +924,18 @@
     },
     {
       "article_id": "tier5_arabic_company_001",
+      "extracted_entity": "Saudi Company",
+      "watched_entity": "Microsoft Corporation",
+      "confidence": 0.1,
+      "is_match": false,
+      "match_type": "unlikely",
+      "reasoning": "'Saudi Company' and 'Microsoft Corporation' are unrelated entities. No evidence of connection. Very low confidence."
+    },
+    {
+      "article_id": "tier5_arabic_company_001",
       "extracted_entity": "الشركة السعودية للبترول",
       "watched_entity": "الشركة السعودية",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "is_match": true,
       "match_type": "partial_last",
       "reasoning": "'الشركة السعودية للبترول' (Saudi Petroleum Company) contains 'الشركة السعودية' (Saudi Company). Possible partial match, but not certain if they refer to the same entity. Medium confidence."
@@ -943,20 +943,20 @@
     {
       "article_id": "tier5_arabic_company_001",
       "extracted_entity": "Saudi Oil Company",
-      "watched_entity": "Amazon.com Inc",
+      "watched_entity": "3M Company",
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Saudi Oil Company' and 'Amazon.com Inc' are unrelated entities. No evidence of connection. Very low confidence."
+      "reasoning": "'Saudi Oil Company' and '3M Company' are unrelated entities. No evidence of connection. Very low confidence."
     },
     {
       "article_id": "tier5_arabic_company_001",
       "extracted_entity": "Saudi Oil Company",
-      "watched_entity": "3M Company",
-      "confidence": 0.0,
+      "watched_entity": "General Electric",
+      "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Saudi Oil Company' and '3M Company' have completely different names, industries, and no apparent semantic or contextual link. There is no evidence to suggest they refer to the same entity."
+      "reasoning": "'Saudi Oil Company' and 'General Electric' are distinct entities with no semantic, phonetic, or contextual overlap. One is an oil company, the other is a multinational conglomerate. The context does not suggest a connection."
     },
     {
       "article_id": "tier5_arabic_institutional_001",
@@ -965,7 +965,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Arabic, referring to the same entity. High confidence due to exact match."
+      "reasoning": "Both names are identical in Arabic, referring to the same entity (الجامعة الإسلامية)."
     },
     {
       "article_id": "tier5_arabic_institutional_001",
@@ -974,16 +974,16 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Islamic University' is an educational institution, while 'الشيخ محمد' (Sheikh Mohammed) is a person's name. Unlikely to be the same entity."
+      "reasoning": "'Islamic University' is an educational institution, while 'الشيخ محمد' (Sheikh Mohammed) is a person's name. They do not refer to the same entity."
     },
     {
       "article_id": "tier5_arabic_institutional_001",
       "extracted_entity": "Islamic University",
-      "watched_entity": "أبو بكر",
+      "watched_entity": "الدكتور أحمد",
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Islamic University' is an institution, 'أبو بكر' (Abu Bakr) is a person's name. Unlikely to refer to the same entity."
+      "reasoning": "'Islamic University' is an institution, while 'الدكتور أحمد' (Dr. Ahmed) is a person's name. They do not refer to the same entity."
     },
     {
       "article_id": "tier5_arabic_institutional_001",
@@ -991,8 +991,8 @@
       "watched_entity": "الجامعة الإسلامية",
       "confidence": 0.6,
       "is_match": true,
-      "match_type": "partial_last",
-      "reasoning": "'الجامعة الإسلامية العالمية' (International Islamic University) contains 'الجامعة الإسلامية' (Islamic University). Possible partial match, but not exact; medium confidence."
+      "match_type": "missing_components",
+      "reasoning": "'الجامعة الإسلامية العالمية' (International Islamic University) contains all components of 'الجامعة الإسلامية' (Islamic University) plus an additional descriptor. They may refer to the same or related entities, but the match is not exact."
     },
     {
       "article_id": "tier5_arabic_institutional_001",
@@ -1001,16 +1001,16 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'International Islamic University' is an institution, 'الشيخ محمد' (Sheikh Mohammed) is a person's name. Unlikely to be the same entity."
+      "reasoning": "'International Islamic University' is an institution, while 'الشيخ محمد' (Sheikh Mohammed) is a person's name. They do not refer to the same entity."
     },
     {
       "article_id": "tier5_arabic_institutional_001",
       "extracted_entity": "International Islamic University",
-      "watched_entity": "أبو بكر",
-      "confidence": 0.1,
+      "watched_entity": "الدكتور أحمد",
+      "confidence": 0.2,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'International Islamic University' is an educational institution, while 'أبو بكر' is a personal name (Abu Bakr). There is no semantic, cultural, or contextual evidence to suggest they refer to the same entity."
+      "reasoning": "'International Islamic University' is an institution, while 'الدكتور أحمد' (Dr. Ahmed) is a person's name. There is no evidence in the names alone to suggest they refer to the same entity."
     },
     {
       "article_id": "tier5_arabic_combined_001",
@@ -1028,7 +1028,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Sheikh Muhammad' is the transliteration of 'الشيخ محمد' from Arabic to English. This is a cultural match with high confidence."
+      "reasoning": "The names are equivalent, with one in Arabic and one in English transliteration. 'Sheikh Muhammad' and 'الشيخ محمد' refer to the same entity, considering cultural and linguistic translation."
     },
     {
       "article_id": "tier5_arabic_combined_001",
@@ -1045,8 +1045,8 @@
       "watched_entity": "الدكتور أحمد",
       "confidence": 0.9,
       "is_match": true,
-      "match_type": "cultural",
-      "reasoning": "'Dr. Ahmed' is the English transliteration of 'الدكتور أحمد' from Arabic. This is a cultural match with high confidence."
+      "match_type": "title_role",
+      "reasoning": "'Dr. Ahmed' is the English version of 'الدكتور أحمد', with 'Dr.' and 'الدكتور' both being titles for Ahmed. This is a title_role match with high confidence."
     },
     {
       "article_id": "tier5_arabic_combined_001",
@@ -1055,25 +1055,25 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "The names 'Dr. Ahmed' and 'Dr. Anthony Fauci' have no overlap in given or family names, making a match highly unlikely."
+      "reasoning": "The names 'Dr. Ahmed' and 'Dr. Anthony Fauci' have different first and last names, making it highly unlikely they refer to the same entity."
     },
     {
       "article_id": "tier5_arabic_combined_001",
       "extracted_entity": "أبو بكر الصديق",
       "watched_entity": "أبو بكر",
-      "confidence": 0.7,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "missing_components",
-      "reasoning": "'أبو بكر الصديق' and 'أبو بكر' share the same core name, but the first includes an additional component ('الصديق'), which is a title or honorific. This is a common pattern in Arabic names, and the shorter version often refers to the same person, especially in historical or cultural contexts."
+      "reasoning": "'أبو بكر الصديق' and 'أبو بكر' share the same core name, with the first being a more complete form including an honorific or title. High likelihood they refer to the same person, with the candidate missing a component."
     },
     {
       "article_id": "tier5_arabic_combined_001",
       "extracted_entity": "Abu Bakr al-Siddiq",
       "watched_entity": "أبو بكر",
-      "confidence": 0.7,
+      "confidence": 0.8,
       "is_match": true,
-      "match_type": "missing_components",
-      "reasoning": "'Abu Bakr al-Siddiq' and 'أبو بكر' share the same core name, with 'al-Siddiq' being an honorific or additional identifier. The candidate is a shortened version, likely referring to the same entity, especially in historical or cultural contexts."
+      "match_type": "cultural",
+      "reasoning": "'Abu Bakr al-Siddiq' (Latin script) and 'أبو بكر' (Arabic script) are culturally equivalent, with the candidate being a shortened version. High likelihood they refer to the same entity, considering transliteration and missing honorific."
     },
     {
       "article_id": "tier5_arabic_transliteration_001",
@@ -1082,16 +1082,16 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Arabic script, indicating an exact match with no ambiguity."
+      "reasoning": "Both names are identical in Arabic script, indicating an exact match with very high confidence."
     },
     {
       "article_id": "tier5_arabic_transliteration_001",
       "extracted_entity": "Muhammad Ali",
       "watched_entity": "محمد علي",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The candidate is in Arabic script (محمد علي), and the query is the standard English transliteration (Muhammad Ali). This is a common cultural transliteration match."
+      "reasoning": "The query is the English transliteration of the Arabic name. 'محمد علي' and 'Muhammad Ali' are culturally equivalent, commonly used interchangeably in English and Arabic contexts."
     },
     {
       "article_id": "tier5_arabic_transliteration_001",
@@ -1100,16 +1100,16 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The candidate is in Arabic script (محمد علي), and the query is a common English transliteration variant (Mohammed Ali). This is a cultural match due to transliteration differences."
+      "reasoning": "'Mohammed Ali' is a common alternative transliteration of 'محمد علي'. The difference is due to transliteration conventions, not a change in identity."
     },
     {
       "article_id": "tier5_arabic_transliteration_001",
       "extracted_entity": "Muhammed Ali",
       "watched_entity": "محمد علي",
-      "confidence": 0.85,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The candidate is in Arabic script (محمد علي), and the query is another common English transliteration variant (Muhammed Ali). This is a cultural match due to transliteration differences."
+      "reasoning": "'Muhammed Ali' is another valid transliteration of 'محمد علي'. The spelling variation is typical in converting Arabic names to English."
     },
     {
       "article_id": "tier5_hebrew_professional_001",
@@ -1118,7 +1118,16 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "The names are identical in Hebrew, including the title and given name. High confidence exact match."
+      "reasoning": "Both names are identical in Hebrew, including the title and given name. This is an exact match."
+    },
+    {
+      "article_id": "tier5_hebrew_professional_001",
+      "extracted_entity": "Prof. David",
+      "watched_entity": "פרופסור דוד",
+      "confidence": 0.9,
+      "is_match": true,
+      "match_type": "cultural",
+      "reasoning": "'Prof. David' is the English transliteration of 'פרופסור דוד' in Hebrew. The context and structure indicate they refer to the same entity, with only language difference."
     },
     {
       "article_id": "tier5_hebrew_professional_001",
@@ -1127,16 +1136,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "The given names are different (David vs Stephen Hawking), and the candidates are well-known distinct individuals. Unlikely match."
-    },
-    {
-      "article_id": "tier5_hebrew_professional_001",
-      "extracted_entity": "Prof. David",
-      "watched_entity": "פרופסור דוד",
-      "confidence": 0.9,
-      "is_match": true,
-      "match_type": "cultural",
-      "reasoning": "'Prof. David' (English) and 'פרופסור דוד' (Hebrew) are direct translations, both including the title and given name. High confidence cultural match."
+      "reasoning": "'Prof. David' and 'Prof. Stephen Hawking' are different given names and likely refer to different individuals, despite sharing the title."
     },
     {
       "article_id": "tier5_hebrew_professional_001",
@@ -1145,7 +1145,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'פרופ' דוד' is an abbreviation for 'פרופסור דוד' in Hebrew. Both refer to 'Professor David.' High confidence cultural/abbreviation match."
+      "reasoning": "'פרופ' דוד' is an abbreviated form of 'פרופסור דוד' in Hebrew. Both refer to the same person, with only abbreviation difference."
     },
     {
       "article_id": "tier5_hebrew_professional_001",
@@ -1154,7 +1154,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Professor David' (English) and 'פרופסור דוד' (Hebrew) are direct translations, both including the title and given name. High confidence cultural match."
+      "reasoning": "'Professor David' is the English equivalent of 'פרופסור דוד' in Hebrew. The context and structure indicate they refer to the same entity, with only language difference."
     },
     {
       "article_id": "tier5_hebrew_professional_001",
@@ -1172,7 +1172,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Hebrew ('הרב משה'), meaning 'Rabbi Moshe.' This is an exact match."
+      "reasoning": "Both names are identical in Hebrew, referring to 'the Rabbi Moshe.' Context confirms religious leadership in Israel."
     },
     {
       "article_id": "tier5_hebrew_religious_001",
@@ -1181,7 +1181,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Rabbi Moses' is the English transliteration/translation of the Hebrew 'הרב משה.' Given the context of religious leaders in Israel, this is a strong cultural match."
+      "reasoning": "'Rabbi Moses' is the English transliteration of 'הרב משה.' Context and role match, indicating high likelihood of referring to the same entity."
     },
     {
       "article_id": "tier5_hebrew_religious_001",
@@ -1190,16 +1190,16 @@
       "confidence": 0.6,
       "is_match": true,
       "match_type": "missing_components",
-      "reasoning": "'הרב משה בן מימון' (Rabbi Moshe ben Maimon) is a full name, while 'הרב משה' is a shortened version. The candidate omits the patronymic, so this is a missing components match with moderate confidence."
+      "reasoning": "'הרב משה בן מימון' (Rabbi Moshe ben Maimon) is a more specific name, possibly Maimonides, while 'הרב משה' is less specific. Context suggests possible match but ambiguity remains."
     },
     {
       "article_id": "tier5_hebrew_religious_001",
       "extracted_entity": "Ha-Rav Moshe",
       "watched_entity": "הרב משה",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Ha-Rav Moshe' is a transliteration of the Hebrew 'הרב משה.' Both refer to 'Rabbi Moshe,' making this a high-confidence cultural match."
+      "reasoning": "'Ha-Rav Moshe' is a transliteration of 'הרב משה.' Context and religious title match strongly suggest same entity."
     },
     {
       "article_id": "tier5_hebrew_political_001",
@@ -1208,7 +1208,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Hebrew script, referring to the same individual."
+      "reasoning": "Both names are identical in Hebrew script, referring to the same entity."
     },
     {
       "article_id": "tier5_hebrew_political_001",
@@ -1217,7 +1217,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Yitzhak Rabin' is the standard English transliteration of the Hebrew 'יצחק רבין', referring to the same Israeli leader."
+      "reasoning": "'Yitzhak Rabin' is the standard English transliteration of the Hebrew 'יצחק רבין', referring to the same person."
     },
     {
       "article_id": "tier5_hebrew_political_001",
@@ -1226,7 +1226,7 @@
       "confidence": 0.85,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'רבין' is the last name only, while 'יצחק רבין' is the full name. Context suggests both refer to the same person."
+      "reasoning": "'רבין' is the last name, and 'יצחק רבין' is the full name; likely the same entity in context."
     },
     {
       "article_id": "tier5_hebrew_political_001",
@@ -1235,7 +1235,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'רבין' (Rabin) and 'בנק לאומי' (Bank Leumi) are unrelated; one is a surname, the other is a bank."
+      "reasoning": "'רבין' (Rabin) and 'בנק לאומי' (Bank Leumi) are unrelated entities; one is a person, the other is a bank."
     },
     {
       "article_id": "tier5_hebrew_political_001",
@@ -1244,7 +1244,7 @@
       "confidence": 0.85,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Rabin' is the last name in English, 'יצחק רבין' is the full name in Hebrew. Context indicates they refer to the same person."
+      "reasoning": "'Rabin' is the last name, and 'יצחק רבין' is the full name; likely the same entity in context."
     },
     {
       "article_id": "tier5_hebrew_institutional_001",
@@ -1262,7 +1262,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Tel Aviv University is an institution, while Prof. Stephen Hawking is a person. No overlap, so this is an unlikely match."
+      "reasoning": "'Tel Aviv University' is an institution, while 'Prof. Stephen Hawking' is a person. No evidence of overlap. Unlikely match."
     },
     {
       "article_id": "tier5_hebrew_institutional_001",
@@ -1279,8 +1279,8 @@
       "watched_entity": "אוניברסיטת תל אביב",
       "confidence": 0.9,
       "is_match": true,
-      "match_type": "nickname",
-      "reasoning": "'אוניברסיטת ת\"א' is a common Hebrew abbreviation for 'אוניברסיטת תל אביב'. High confidence nickname/abbreviation match."
+      "match_type": "initial",
+      "reasoning": "'אוניברסיטת ת\"א' is a common Hebrew abbreviation for 'אוניברסיטת תל אביב'. High confidence initial/abbreviation match."
     },
     {
       "article_id": "tier5_hebrew_institutional_001",
@@ -1288,8 +1288,8 @@
       "watched_entity": "אוניברסיטת תל אביב",
       "confidence": 0.9,
       "is_match": true,
-      "match_type": "nickname",
-      "reasoning": "'TAU' is a widely recognized abbreviation for 'Tel Aviv University' (אוניברסיטת תל אביב). High confidence nickname/abbreviation match."
+      "match_type": "initial",
+      "reasoning": "'TAU' is a widely recognized abbreviation for 'Tel Aviv University' (אוניברסיטת תל אביב). High confidence initial/abbreviation match."
     },
     {
       "article_id": "tier5_hebrew_financial_001",
@@ -1298,7 +1298,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Hebrew, referring to the same entity. Context confirms they are both Israeli financial institutions."
+      "reasoning": "Both names are identical in Hebrew, referring to the same entity. High confidence due to exact match."
     },
     {
       "article_id": "tier5_hebrew_financial_001",
@@ -1307,25 +1307,25 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Bank Leumi' is the English transliteration of 'בנק לאומי' (Hebrew). Context confirms both refer to the same Israeli bank."
+      "reasoning": "'Bank Leumi' is the English transliteration of 'בנק לאומי'. Context confirms both refer to the same Israeli financial institution. High confidence due to direct translation and context."
     },
     {
       "article_id": "tier5_hebrew_financial_001",
       "extracted_entity": "בנק לאומי לישראל",
       "watched_entity": "בנק לאומי",
-      "confidence": 0.9,
+      "confidence": 0.85,
       "is_match": true,
       "match_type": "missing_components",
-      "reasoning": "'בנק לאומי לישראל' (Bank Leumi Le-Israel) is the full formal name, while 'בנק לאומי' is the common short form. Both refer to the same entity, with the latter omitting 'of Israel.'"
+      "reasoning": "'בנק לאומי לישראל' is the full formal name, while 'בנק לאומי' is the common shortened version. Both refer to the same entity, with the candidate missing the geographic component. High confidence due to strong evidence."
     },
     {
       "article_id": "tier5_hebrew_financial_001",
       "extracted_entity": "Leumi Bank",
       "watched_entity": "בנק לאומי",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Leumi Bank' is an English rendering of 'בנק לאומי' (Bank Leumi). Context and translation confirm they refer to the same Israeli bank."
+      "reasoning": "'Leumi Bank' is a variant English phrasing of 'בנק לאומי'. Context and naming conventions indicate they refer to the same entity. High confidence due to translation and context."
     },
     {
       "article_id": "tier5_hebrew_combined_001",
@@ -1334,7 +1334,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Hebrew script, referring to the same entity."
+      "reasoning": "Both names are identical in Hebrew script, indicating an exact match."
     },
     {
       "article_id": "tier5_hebrew_combined_001",
@@ -1343,7 +1343,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'David Ben-Gurion' is the English transliteration of 'דוד בן-גוריון' in Hebrew. Both refer to the same historical figure."
+      "reasoning": "The query is in English transliteration, and the candidate is in Hebrew script, but both refer to the same historical figure. This is a cultural match."
     },
     {
       "article_id": "tier5_hebrew_combined_001",
@@ -1352,25 +1352,25 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Hebrew script, including the title 'Professor' (פרופסור)."
-    },
-    {
-      "article_id": "tier5_hebrew_combined_001",
-      "extracted_entity": "Prof. David",
-      "watched_entity": "Prof. Stephen Hawking",
-      "confidence": 0.0,
-      "is_match": false,
-      "match_type": "unlikely",
-      "reasoning": "'Prof. David' and 'Prof. Stephen Hawking' are different individuals with different first names and likely different fields."
+      "reasoning": "Both names are identical in Hebrew script, indicating an exact match."
     },
     {
       "article_id": "tier5_hebrew_combined_001",
       "extracted_entity": "Prof. David",
       "watched_entity": "פרופסור דוד",
-      "confidence": 0.95,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Prof. David' is the English equivalent of 'פרופסור דוד' in Hebrew, both indicating a professor named David."
+      "reasoning": "The query is in English ('Prof. David'), and the candidate is in Hebrew ('פרופסור דוד'), both meaning 'Professor David.' This is a cultural match."
+    },
+    {
+      "article_id": "tier5_hebrew_combined_001",
+      "extracted_entity": "Prof. David",
+      "watched_entity": "Prof. Stephen Hawking",
+      "confidence": 0.1,
+      "is_match": false,
+      "match_type": "unlikely",
+      "reasoning": "The names refer to different individuals ('Prof. David' vs 'Prof. Stephen Hawking'), with no evidence of overlap."
     },
     {
       "article_id": "tier5_hebrew_combined_001",
@@ -1379,7 +1379,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Hebrew script, referring to the same entity with no variation."
+      "reasoning": "Both names are identical in Hebrew script, referring to the same entity."
     },
     {
       "article_id": "tier5_hebrew_combined_001",
@@ -1388,7 +1388,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Rabbi Moses' is the English translation of 'הרב משה' (Hebrew for Rabbi Moses). The context and role are preserved, indicating a strong cultural match."
+      "reasoning": "'Rabbi Moses' is the English transliteration and title for 'הרב משה' in Hebrew. The context and translation indicate they refer to the same entity."
     },
     {
       "article_id": "tier5_hebrew_combined_001",
@@ -1397,7 +1397,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical in Hebrew script, referring to the same entity with no variation."
+      "reasoning": "Both names are identical in Hebrew script, referring to the same entity."
     },
     {
       "article_id": "tier5_hebrew_combined_001",
@@ -1406,7 +1406,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Yitzhak Rabin' is the English transliteration of 'יצחק רבין' (Hebrew for Yitzhak Rabin). The context and name structure are preserved, indicating a strong cultural match."
+      "reasoning": "'Yitzhak Rabin' is the English transliteration of 'יצחק רבין' in Hebrew. They refer to the same entity."
     },
     {
       "article_id": "tier5_hebrew_transliteration_001",
@@ -1424,25 +1424,25 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'David Ben-Gurion' is the English transliteration of the Hebrew 'דוד בן-גוריון'. The context and structure indicate they refer to the same person, with only a language difference."
+      "reasoning": "'David Ben-Gurion' is the English transliteration of the Hebrew 'דוד בן-גוריון'. This is a cultural match with high confidence."
     },
     {
       "article_id": "tier5_hebrew_transliteration_001",
       "extracted_entity": "דוד בן גוריון",
       "watched_entity": "דוד בן-גוריון",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'דוד בן גוריון' and 'דוד בן-גוריון' are the same name in Hebrew, with only a minor difference in hyphenation. This is a cultural/orthographic variation."
+      "reasoning": "The only difference is the presence or absence of a hyphen in the Hebrew name. This is a minor formatting difference, so it's a cultural match with high confidence."
     },
     {
       "article_id": "tier5_hebrew_transliteration_001",
       "extracted_entity": "Ben-Gurion",
       "watched_entity": "דוד בן-גוריון",
-      "confidence": 0.8,
+      "confidence": 0.7,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Ben-Gurion' is the surname portion of 'דוד בן-גוריון'. Given the context and uniqueness, it's likely they refer to the same entity, but with less information in the query."
+      "reasoning": "'Ben-Gurion' is the surname portion of 'דוד בן-גוריון'. This is a partial last name match, with medium confidence since the first name is missing."
     },
     {
       "article_id": "tier5_cross_script_putin_001",
@@ -1451,7 +1451,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Владимир Путин' is the Russian spelling of 'Vladimir Putin'. They refer to the same person, with only a language/cultural difference."
+      "reasoning": "'Владимир Путин' is the Russian spelling of 'Vladimir Putin'. They refer to the same person, differing only by language."
     },
     {
       "article_id": "tier5_cross_script_putin_001",
@@ -1460,16 +1460,16 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are spelled identically as 'Vladimir Putin', indicating an exact match."
+      "reasoning": "Both names are 'Vladimir Putin', an exact match with no differences."
     },
     {
       "article_id": "tier5_cross_script_putin_001",
       "extracted_entity": "V. Putin",
       "watched_entity": "Vladimir Putin",
-      "confidence": 0.9,
+      "confidence": 0.85,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'V. Putin' uses the initial for the first name and the full last name, which matches 'Vladimir Putin'. This is a common abbreviation."
+      "reasoning": "'V. Putin' uses the initial for the first name and the full last name, matching 'Vladimir Putin'."
     },
     {
       "article_id": "tier5_cross_script_putin_001",
@@ -1478,16 +1478,16 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'President Putin' uses a title with the last name, referring to 'Vladimir Putin' in his role as president."
+      "reasoning": "'President Putin' uses the title 'President' with the last name 'Putin', which refers to 'Vladimir Putin' in the context of world leaders."
     },
     {
       "article_id": "tier5_cross_script_putin_001",
       "extracted_entity": "President Putin",
       "watched_entity": "Emmanuel Macron",
-      "confidence": 0.0,
+      "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'President Putin' and 'Emmanuel Macron' are different individuals with different names and roles."
+      "reasoning": "'President Putin' and 'Emmanuel Macron' are different individuals, with different names and roles."
     },
     {
       "article_id": "tier5_cross_script_xi_001",
@@ -1496,16 +1496,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'习近平' is the Chinese name for 'Xi Jinping'. This is a cultural match, as the names refer to the same individual in different languages/scripts."
+      "reasoning": "'习近平' is the Chinese name for 'Xi Jinping'. The context supports that they refer to the same individual, with a high-confidence cultural match."
     },
     {
       "article_id": "tier5_cross_script_xi_001",
       "extracted_entity": "President Xi",
       "watched_entity": "Xi Jinping",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'President Xi' refers to 'Xi Jinping' by his title and surname. This is a title_role match with high confidence."
+      "reasoning": "'President Xi' refers to 'Xi Jinping', who is the President of China. The title and name combination strongly indicate a match."
     },
     {
       "article_id": "tier5_cross_script_xi_001",
@@ -1514,7 +1514,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'President Xi' refers to the Chinese leader Xi Jinping, while 'Emmanuel Macron' is the President of France. These are different individuals."
+      "reasoning": "'President Xi' refers to the President of China, while 'Emmanuel Macron' is the President of France. Different individuals, so unlikely to be a match."
     },
     {
       "article_id": "tier5_cross_script_xi_001",
@@ -1522,8 +1522,8 @@
       "watched_entity": "Xi Jinping",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "title_role",
-      "reasoning": "'主席习近平' means 'Chairman Xi Jinping' in Chinese, which is a title plus full name. This is a title_role match to 'Xi Jinping'."
+      "match_type": "cultural",
+      "reasoning": "'主席习近平' translates to 'Chairman Xi Jinping', combining title and name in Chinese. This is a high-confidence cultural and title_role match to 'Xi Jinping'."
     },
     {
       "article_id": "tier5_cross_script_xi_001",
@@ -1531,8 +1531,8 @@
       "watched_entity": "Xi Jinping",
       "confidence": 0.9,
       "is_match": true,
-      "match_type": "title_role",
-      "reasoning": "'Xi President' is a reordering of 'President Xi', referring to Xi Jinping by title and surname. This is a title_role match."
+      "match_type": "out_of_order",
+      "reasoning": "'Xi President' is an out-of-order form of 'President Xi', which refers to 'Xi Jinping'. The context and name order indicate a strong match."
     },
     {
       "article_id": "tier5_cross_script_xi_001",
@@ -1541,7 +1541,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Xi President' refers to a title and likely references Xi Jinping, President of China, while 'Emmanuel Macron' is the President of France. The names and roles do not match."
+      "reasoning": "'Xi President' refers to the President of China, Xi Jinping, while 'Emmanuel Macron' is the President of France. They are different individuals with different names and roles."
     },
     {
       "article_id": "tier5_cross_script_kim_001",
@@ -1550,7 +1550,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'김정은' is the Korean script for 'Kim Jong-un.' This is a cultural/linguistic variant referring to the same person."
+      "reasoning": "'김정은' is the Korean script for 'Kim Jong-un'. This is a cultural/linguistic variant referring to the same individual."
     },
     {
       "article_id": "tier5_cross_script_kim_001",
@@ -1559,7 +1559,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are spelled identically as 'Kim Jong-un,' indicating an exact match."
+      "reasoning": "Both names are 'Kim Jong-un', which is an exact match."
     },
     {
       "article_id": "tier5_cross_script_kim_001",
@@ -1568,7 +1568,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Supreme Leader Kim' is a title and surname referring to 'Kim Jong-un,' who is known as the Supreme Leader of North Korea."
+      "reasoning": "'Supreme Leader Kim' is a title referring to Kim Jong-un, who is known as the Supreme Leader of North Korea."
     },
     {
       "article_id": "tier5_cross_script_kim_001",
@@ -1586,7 +1586,7 @@
       "confidence": 0.98,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Kim Jong Un' and 'Kim Jong-un' are minor formatting variations (hyphenation) of the same name, referring to the same person."
+      "reasoning": "'Kim Jong Un' and 'Kim Jong-un' are minor spelling variations of the same name, likely due to transliteration differences. They refer to the same person."
     },
     {
       "article_id": "tier5_cross_script_cook_001",
@@ -1595,7 +1595,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Tim Cook' with identical spelling and order. This is an exact match."
+      "reasoning": "Both names are identical, referring to the same person. High confidence due to exact match."
     },
     {
       "article_id": "tier5_cross_script_cook_001",
@@ -1604,7 +1604,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "The query uses the initial 'T.' for 'Tim,' and the candidate is 'Tim Cook.' This is a common abbreviation and strongly suggests the same person."
+      "reasoning": "The query uses an initial for the first name, but the last name matches exactly. High confidence as initials are commonly used for the same person."
     },
     {
       "article_id": "tier5_cross_script_cook_001",
@@ -1613,7 +1613,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Apple CEO' is a title that refers to the person holding that position, which is 'Tim Cook.' Context supports this association."
+      "reasoning": "'Apple CEO' is a title that refers to Tim Cook, who is the CEO of Apple. High confidence due to clear title-role relationship."
     },
     {
       "article_id": "tier5_cross_script_cook_001",
@@ -1622,16 +1622,16 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Apple CEO' refers to the chief executive of Apple, while 'Elon Musk' is not associated with that role. No evidence supports a match."
+      "reasoning": "'Apple CEO' refers to the CEO of Apple, but Elon Musk is not associated with this role. No evidence of a match."
     },
     {
       "article_id": "tier5_cross_script_cook_001",
       "extracted_entity": "Cook Tim",
       "watched_entity": "Tim Cook",
-      "confidence": 1.0,
+      "confidence": 0.95,
       "is_match": true,
       "match_type": "out_of_order",
-      "reasoning": "'Cook Tim' is a reordering of 'Tim Cook.' This is a common variation and indicates the same person."
+      "reasoning": "The names are the same but presented in different order (last name first). Very high confidence due to clear out-of-order match."
     },
     {
       "article_id": "tier5_cross_script_combined_001",
@@ -1640,7 +1640,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'Владимир Путин' is the Russian spelling of 'Vladimir Putin'. This is a cultural/linguistic variant referring to the same individual."
+      "reasoning": "'Владимир Путин' is the Russian spelling of 'Vladimir Putin'. They refer to the same individual, with only a language difference."
     },
     {
       "article_id": "tier5_cross_script_combined_001",
@@ -1649,7 +1649,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are spelled identically as 'Vladimir Putin', indicating an exact match."
+      "reasoning": "Both names are spelled identically and refer to the same person."
     },
     {
       "article_id": "tier5_cross_script_combined_001",
@@ -1658,7 +1658,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "'习近平' is the Chinese name for 'Xi Jinping'. This is a cultural/linguistic variant referring to the same individual."
+      "reasoning": "'习近平' is the Chinese spelling of 'Xi Jinping'. They refer to the same individual, with only a language difference."
     },
     {
       "article_id": "tier5_cross_script_combined_001",
@@ -1667,7 +1667,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are spelled identically as 'Xi Jinping', indicating an exact match."
+      "reasoning": "Both names are spelled identically and refer to the same person."
     },
     {
       "article_id": "tier5_cross_script_combined_001",
@@ -1676,7 +1676,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are spelled identically as 'Elon Musk', indicating an exact match."
+      "reasoning": "Both names are spelled identically and refer to the same person."
     },
     {
       "article_id": "tier5_cross_script_combined_001",
@@ -1685,7 +1685,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical, with no differences in spelling, order, or components. This is a clear exact match."
+      "reasoning": "Both names are identical with no variation. This is an exact match with high confidence."
     },
     {
       "article_id": "tier5_cross_script_transliteration_001",
@@ -1703,7 +1703,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'В. Путин' uses the initial for the first name and matches the full name 'Vladimir Putin'. This is a common initial match pattern."
+      "reasoning": "'В. Путин' uses the initial for the first name and the full last name, matching 'Vladimir Putin'. This is a common abbreviation in Russian naming conventions."
     },
     {
       "article_id": "tier5_cross_script_transliteration_001",
@@ -1730,7 +1730,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'习主席' (Chairman Xi) refers to Xi Jinping, but the candidate is 'Justin Trudeau', a different person. No match."
+      "reasoning": "'习主席' (Chairman Xi) refers to Xi Jinping, while 'Justin Trudeau' is a completely different individual. No match."
     },
     {
       "article_id": "tier5_cross_script_transliteration_001",
@@ -1739,7 +1739,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'习主席' refers to Xi Jinping, the President of China, while '安倍晋三' refers to Shinzo Abe, the former Prime Minister of Japan. These are two distinct individuals with no overlap in name, title, or role."
+      "reasoning": "'习主席' refers to Xi Jinping, the President (Chairman) of China, while '安倍晋三' refers to Shinzo Abe, the former Prime Minister of Japan. These are distinct individuals with no overlap in name, title, or role."
     },
     {
       "article_id": "tier5_parent_subsidiary_001",
@@ -1748,7 +1748,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "The names 'Alphabet Inc' and 'Alphabet Inc' are an exact match, with identical spelling and formatting."
+      "reasoning": "Both names are exactly the same, referring to the same legal entity with no variation."
     },
     {
       "article_id": "tier5_parent_subsidiary_001",
@@ -1757,7 +1757,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Google's parent company' is a well-known semantic reference to 'Alphabet Inc.' The context supports this interpretation."
+      "reasoning": "'Google's parent company' is a well-known semantic reference to 'Alphabet Inc.' in the tech industry context."
     },
     {
       "article_id": "tier5_parent_subsidiary_001",
@@ -1766,34 +1766,43 @@
       "confidence": 0.3,
       "is_match": false,
       "match_type": "semantic",
-      "reasoning": "While Google LLC is a subsidiary of Alphabet Inc, 'Google's parent company' refers to Alphabet Inc, not Google LLC. The entities are related but not the same."
+      "reasoning": "While Google LLC is a subsidiary of Alphabet Inc., 'Google's parent company' refers to Alphabet Inc., not Google LLC. They are related but not the same entity."
+    },
+    {
+      "article_id": "tier5_parent_subsidiary_001",
+      "extracted_entity": "tech conglomerate",
+      "watched_entity": "Facebook Inc",
+      "confidence": 0.7,
+      "is_match": true,
+      "match_type": "semantic",
+      "reasoning": "'Tech conglomerate' is a generic term, but in the context of key organizations, Facebook Inc. (now Meta Platforms, Inc.) is commonly referred to as a tech conglomerate. Medium confidence due to ambiguity."
     },
     {
       "article_id": "tier5_parent_subsidiary_001",
       "extracted_entity": "tech conglomerate",
       "watched_entity": "United Technologies Corporation",
-      "confidence": 0.5,
+      "confidence": 0.2,
       "is_match": false,
       "match_type": "semantic",
-      "reasoning": "'Tech conglomerate' is a generic term that could refer to many companies. Without more context, it is ambiguous whether it refers to United Technologies Corporation specifically."
-    },
-    {
-      "article_id": "tier5_parent_subsidiary_001",
-      "extracted_entity": "tech conglomerate",
-      "watched_entity": "General Electric",
-      "confidence": 0.5,
-      "is_match": false,
-      "match_type": "semantic",
-      "reasoning": "'Tech conglomerate' is a generic descriptor and could refer to General Electric, but it is not specific enough to confirm a match without additional context."
+      "reasoning": "United Technologies Corporation is not commonly referred to as a 'tech conglomerate' in the same context as major tech companies like Facebook or Alphabet. Low confidence for a match."
     },
     {
       "article_id": "tier5_parent_subsidiary_001",
       "extracted_entity": "GOOGL",
       "watched_entity": "Google LLC",
+      "confidence": 0.9,
+      "is_match": true,
+      "match_type": "nickname",
+      "reasoning": "'GOOGL' is the stock ticker symbol for Google LLC, commonly used as a shorthand or nickname for the company. High confidence due to strong association in financial and tech contexts."
+    },
+    {
+      "article_id": "tier5_parent_subsidiary_001",
+      "extracted_entity": "Alphabet Corporation",
+      "watched_entity": "Alphabet Inc",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "semantic",
-      "reasoning": "GOOGL is the stock ticker symbol for Google LLC, which is a subsidiary of Alphabet Inc. The semantic connection between the ticker and the company name is strong."
+      "match_type": "cultural",
+      "reasoning": "'Alphabet Corporation' and 'Alphabet Inc' refer to the same parent company of Google, with 'Corporation' and 'Inc' being interchangeable in casual or international contexts. High confidence due to unique name and context."
     },
     {
       "article_id": "tier5_parent_subsidiary_001",
@@ -1802,16 +1811,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Alphabet Corporation and Microsoft Corporation are two distinct companies with no evidence of overlap in naming or context."
-    },
-    {
-      "article_id": "tier5_parent_subsidiary_001",
-      "extracted_entity": "Alphabet Corporation",
-      "watched_entity": "Alphabet Inc",
-      "confidence": 0.9,
-      "is_match": true,
-      "match_type": "cultural",
-      "reasoning": "Alphabet Corporation and Alphabet Inc refer to the same entity, with 'Corporation' and 'Inc' being interchangeable in some contexts. The names are culturally and legally similar."
+      "reasoning": "'Alphabet Corporation' and 'Microsoft Corporation' are distinct, well-known companies in the tech industry. No evidence of overlap; low confidence for a match."
     },
     {
       "article_id": "tier5_investment_holding_001",
@@ -1834,11 +1834,11 @@
     {
       "article_id": "tier5_investment_holding_001",
       "extracted_entity": "Warren Buffett's company",
-      "watched_entity": "Amazon.com Inc",
+      "watched_entity": "Microsoft Corporation",
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Warren Buffett is not associated with Amazon.com Inc; his company is Berkshire Hathaway Inc, making this an unlikely match."
+      "reasoning": "'Warren Buffett's company' refers to Berkshire Hathaway Inc, not Microsoft Corporation. No evidence of overlap."
     },
     {
       "article_id": "tier5_investment_holding_001",
@@ -1847,16 +1847,16 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Omaha-based conglomerate' is a common semantic description for Berkshire Hathaway Inc, which is headquartered in Omaha and is a conglomerate."
+      "reasoning": "'Omaha-based conglomerate' is a common semantic description of Berkshire Hathaway Inc, which is headquartered in Omaha and is a conglomerate."
     },
     {
       "article_id": "tier5_investment_holding_001",
       "extracted_entity": "Omaha-based conglomerate",
-      "watched_entity": "General Electric",
-      "confidence": 0.2,
+      "watched_entity": "Facebook Inc",
+      "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "General Electric is not based in Omaha and is not commonly referred to as the 'Omaha-based conglomerate'; this is an unlikely match."
+      "reasoning": "'Omaha-based conglomerate' does not refer to Facebook Inc, which is not based in Omaha nor considered a conglomerate."
     },
     {
       "article_id": "tier5_investment_holding_001",
@@ -1865,16 +1865,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "BRK.A is the stock ticker for Berkshire Hathaway Inc. This is a direct and exact match in financial contexts."
+      "reasoning": "'BRK.A' is the stock ticker symbol for Berkshire Hathaway Inc. This is a standard abbreviation and refers to the same entity."
     },
     {
       "article_id": "tier5_investment_holding_001",
       "extracted_entity": "Investment holding company",
       "watched_entity": "Berkshire Hathaway Inc",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "Berkshire Hathaway Inc is widely known as an investment holding company. The query is a generic descriptor, but in this context, it semantically refers to Berkshire Hathaway."
+      "reasoning": "'Investment holding company' is a generic description, but in the context of the article and paired with Berkshire Hathaway Inc, it semantically refers to the same entity."
     },
     {
       "article_id": "tier5_investment_holding_001",
@@ -1883,7 +1883,7 @@
       "confidence": 0.3,
       "is_match": false,
       "match_type": "semantic",
-      "reasoning": "Alphabet Inc is not commonly referred to as an investment holding company. While it does hold investments, the term is not a primary descriptor for Alphabet, making this an unlikely match."
+      "reasoning": "'Investment holding company' is a generic term, and while Alphabet Inc is a holding company, it is not commonly referred to as 'the investment holding company' in this context. The match is unlikely."
     },
     {
       "article_id": "tier5_multi_division_001",
@@ -1892,7 +1892,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical, referring to the same entity with no variation."
+      "reasoning": "Both names are identical and refer to the same entity, Johnson & Johnson."
     },
     {
       "article_id": "tier5_multi_division_001",
@@ -1901,7 +1901,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "nickname",
-      "reasoning": "'J&J' is a widely recognized abbreviation or nickname for 'Johnson & Johnson.'"
+      "reasoning": "J&J is a widely recognized abbreviation or nickname for Johnson & Johnson, especially in business and media contexts."
     },
     {
       "article_id": "tier5_multi_division_001",
@@ -1910,7 +1910,7 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Pharmaceutical giant' is a common descriptor for Johnson & Johnson, especially in relevant context."
+      "reasoning": "'Pharmaceutical giant' is a common descriptor for Johnson & Johnson, which is a major company in the pharmaceutical industry. Context supports this semantic link."
     },
     {
       "article_id": "tier5_multi_division_001",
@@ -1919,7 +1919,7 @@
       "confidence": 0.2,
       "is_match": false,
       "match_type": "semantic",
-      "reasoning": "While 'pharmaceutical giant' could refer to Procter & Gamble in some contexts, it is not a primary or common association. Procter & Gamble is better known for consumer goods."
+      "reasoning": "While Procter & Gamble is a large company, it is not primarily known as a 'pharmaceutical giant' compared to Johnson & Johnson. The semantic link is weak."
     },
     {
       "article_id": "tier5_multi_division_001",
@@ -1928,7 +1928,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "nickname",
-      "reasoning": "'JNJ' is the stock ticker and a common shorthand for Johnson & Johnson."
+      "reasoning": "JNJ is the stock ticker and a common abbreviation for Johnson & Johnson, especially in financial and business contexts."
     },
     {
       "article_id": "tier5_multi_division_001",
@@ -1943,10 +1943,10 @@
       "article_id": "tier5_multi_division_001",
       "extracted_entity": "Healthcare company",
       "watched_entity": "3M Company",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "3M Company operates in healthcare among other sectors, but is not exclusively a healthcare company. The semantic link exists but is less direct."
+      "reasoning": "3M Company operates in healthcare among other sectors, but is not exclusively a healthcare company. The semantic link exists but is less direct than Johnson & Johnson."
     },
     {
       "article_id": "tier5_consumer_goods_001",
@@ -1955,7 +1955,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are exactly the same, referring to the same company with identical spelling and formatting."
+      "reasoning": "Both names are exactly the same, referring to the same company."
     },
     {
       "article_id": "tier5_consumer_goods_001",
@@ -1964,16 +1964,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "nickname",
-      "reasoning": "'P&G' is a widely recognized abbreviation/nickname for 'Procter & Gamble.' Context supports this as both refer to the same entity."
-    },
-    {
-      "article_id": "tier5_consumer_goods_001",
-      "extracted_entity": "Cincinnati-based company",
-      "watched_entity": "Amazon.com Inc",
-      "confidence": 0.2,
-      "is_match": false,
-      "match_type": "semantic",
-      "reasoning": "'Cincinnati-based company' is a generic descriptor. Amazon.com Inc is not based in Cincinnati, so it is unlikely to refer to Amazon."
+      "reasoning": "'P&G' is a widely recognized abbreviation/nickname for 'Procter & Gamble.'"
     },
     {
       "article_id": "tier5_consumer_goods_001",
@@ -1981,8 +1972,17 @@
       "watched_entity": "3M Company",
       "confidence": 0.2,
       "is_match": false,
-      "match_type": "semantic",
-      "reasoning": "'Cincinnati-based company' is a generic descriptor. 3M Company is not based in Cincinnati, so it is unlikely to refer to 3M."
+      "match_type": "unlikely",
+      "reasoning": "'Cincinnati-based company' is a generic descriptor. 3M Company is not based in Cincinnati, so this is unlikely to be a match."
+    },
+    {
+      "article_id": "tier5_consumer_goods_001",
+      "extracted_entity": "Cincinnati-based company",
+      "watched_entity": "Twitter Inc",
+      "confidence": 0.1,
+      "is_match": false,
+      "match_type": "unlikely",
+      "reasoning": "'Cincinnati-based company' is a generic descriptor. Twitter Inc is not based in Cincinnati, so this is unlikely to be a match."
     },
     {
       "article_id": "tier5_consumer_goods_001",
@@ -1991,25 +1991,25 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "nickname",
-      "reasoning": "'PG' is a common abbreviation for 'Procter & Gamble.' While less formal than 'P&G,' context suggests it refers to the same entity."
+      "reasoning": "'PG' is a common abbreviation for 'Procter & Gamble,' though less distinctive than 'P&G.'"
     },
     {
       "article_id": "tier5_consumer_goods_001",
       "extracted_entity": "Consumer packaged goods company",
       "watched_entity": "Procter & Gamble",
-      "confidence": 0.9,
+      "confidence": 0.7,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "The query 'Consumer packaged goods company' is a semantic description of a company that produces packaged goods for consumers. Procter & Gamble is a well-known consumer packaged goods company, so this is a strong semantic match."
+      "reasoning": "'Consumer packaged goods company' is a general description that semantically matches 'Procter & Gamble', which is a well-known consumer packaged goods company. The match is based on semantic equivalence, not exact naming."
     },
     {
       "article_id": "tier5_consumer_goods_001",
       "extracted_entity": "Consumer packaged goods company",
       "watched_entity": "3M Company",
-      "confidence": 0.6,
+      "confidence": 0.5,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "3M Company produces a wide range of consumer and industrial products, including packaged goods. While 3M is not exclusively a consumer packaged goods company, it fits the semantic description to a moderate degree."
+      "reasoning": "'Consumer packaged goods company' is a general description. 3M Company produces consumer goods but is more diversified and not exclusively known as a consumer packaged goods company. The match is possible but less certain, so confidence is medium."
     },
     {
       "article_id": "tier5_industrial_001",
@@ -2018,7 +2018,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "The names 'General Electric' and 'General Electric' are an exact match, referring to the same entity."
+      "reasoning": "Both names are 'General Electric', which is an exact match with no ambiguity."
     },
     {
       "article_id": "tier5_industrial_001",
@@ -2026,26 +2026,26 @@
       "watched_entity": "General Electric",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "initial",
-      "reasoning": "'GE' is a widely recognized initialism for 'General Electric.' High confidence due to common usage."
+      "match_type": "nickname",
+      "reasoning": "'GE' is a widely recognized abbreviation and nickname for 'General Electric', indicating a strong match."
+    },
+    {
+      "article_id": "tier5_industrial_001",
+      "extracted_entity": "industrial conglomerate",
+      "watched_entity": "3M Company",
+      "confidence": 0.3,
+      "is_match": false,
+      "match_type": "semantic",
+      "reasoning": "While both 'industrial conglomerate' and '3M Company' refer to large diversified companies, 'industrial conglomerate' is a generic term and does not specifically refer to 3M Company in this context."
     },
     {
       "article_id": "tier5_industrial_001",
       "extracted_entity": "industrial conglomerate",
       "watched_entity": "General Electric",
-      "confidence": 0.7,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Industrial conglomerate' is a descriptive term that can refer to General Electric, which is known as a major industrial conglomerate. Medium confidence due to possible ambiguity."
-    },
-    {
-      "article_id": "tier5_industrial_001",
-      "extracted_entity": "industrial conglomerate",
-      "watched_entity": "United Technologies Corporation",
-      "confidence": 0.5,
-      "is_match": false,
-      "match_type": "semantic",
-      "reasoning": "'Industrial conglomerate' is a generic term that could refer to United Technologies Corporation, but without more context, it is ambiguous. Medium confidence, but not a match based on available information."
+      "reasoning": "'industrial conglomerate' is a generic descriptor, but in the context of 'General Electric', it is a well-known industrial conglomerate, making this a likely semantic match."
     },
     {
       "article_id": "tier5_industrial_001",
@@ -2054,7 +2054,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'GE Corporation' and 'Microsoft Corporation' are distinct entities with no known connection. Very low confidence for a match."
+      "reasoning": "'GE Corporation' and 'Microsoft Corporation' are distinct entities with no evidence of overlap; the names and industries are different."
     },
     {
       "article_id": "tier5_industrial_001",
@@ -2062,8 +2062,8 @@
       "watched_entity": "General Electric",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "exact",
-      "reasoning": "'GE Corporation' is a common abbreviation for 'General Electric.' Both refer to the same entity, with 'GE' being the widely recognized acronym for 'General Electric.'"
+      "match_type": "semantic",
+      "reasoning": "'GE Corporation' and 'General Electric' refer to the same entity, with 'GE' being a common abbreviation for 'General Electric.' The context supports this as both are referenced as key organizations."
     },
     {
       "article_id": "tier5_industrial_001",
@@ -2072,16 +2072,16 @@
       "confidence": 0.6,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Multinational conglomerate' is a generic descriptor, but United Technologies Corporation is a well-known multinational conglomerate. The match is possible but ambiguous due to the generic nature of the query."
+      "reasoning": "'Multinational conglomerate' is a generic descriptor, but United Technologies Corporation fits this description. The match is possible but not certain without more context."
     },
     {
       "article_id": "tier5_industrial_001",
       "extracted_entity": "Multinational conglomerate",
-      "watched_entity": "General Electric",
-      "confidence": 0.8,
+      "watched_entity": "3M Company",
+      "confidence": 0.5,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Multinational conglomerate' is a generic descriptor, but General Electric is a prominent multinational conglomerate. The context suggests the query refers to such organizations, making this a likely match."
+      "reasoning": "'Multinational conglomerate' could refer to 3M Company, as 3M is a well-known multinational conglomerate. However, the term is generic, so the match is ambiguous."
     },
     {
       "article_id": "tier5_aerospace_001",
@@ -2096,10 +2096,10 @@
       "article_id": "tier5_aerospace_001",
       "extracted_entity": "UTC",
       "watched_entity": "United Technologies Corporation",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'UTC' is a widely recognized initialism for 'United Technologies Corporation.' Strong evidence for a match."
+      "reasoning": "'UTC' is a widely recognized initialism for 'United Technologies Corporation.' Context supports this abbreviation."
     },
     {
       "article_id": "tier5_aerospace_001",
@@ -2108,16 +2108,16 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "semantic",
-      "reasoning": "'3M Company' is not known as an aerospace company; it is primarily a manufacturing and technology company. Very weak evidence for a match."
+      "reasoning": "'3M Company' is not primarily known as an aerospace company, making it unlikely to be the intended entity."
     },
     {
       "article_id": "tier5_aerospace_001",
       "extracted_entity": "aerospace company",
-      "watched_entity": "Amazon.com Inc",
-      "confidence": 0.1,
-      "is_match": false,
+      "watched_entity": "United Technologies Corporation",
+      "confidence": 0.8,
+      "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Amazon.com Inc' is not an aerospace company; it is an e-commerce and cloud computing company. Very weak evidence for a match."
+      "reasoning": "'United Technologies Corporation' is a major aerospace company, so the generic term 'aerospace company' likely refers to it in this context."
     },
     {
       "article_id": "tier5_aerospace_001",
@@ -2126,7 +2126,7 @@
       "confidence": 0.85,
       "is_match": true,
       "match_type": "nickname",
-      "reasoning": "'United Tech' is a common shortened or nickname form for 'United Technologies Corporation.' High likelihood they refer to the same entity."
+      "reasoning": "'United Tech' is a common shortened form or nickname for 'United Technologies Corporation.'"
     },
     {
       "article_id": "tier5_aerospace_001",
@@ -2135,7 +2135,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "The query 'Aerospace and defense contractor' semantically matches 'United Technologies Corporation', which is a well-known aerospace and defense contractor."
+      "reasoning": "'Aerospace and defense contractor' is a semantic description that accurately fits United Technologies Corporation, which is known for its aerospace and defense operations."
     },
     {
       "article_id": "tier5_aerospace_001",
@@ -2144,7 +2144,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Microsoft Corporation is primarily a technology company and not known as an aerospace and defense contractor, making this an unlikely match."
+      "reasoning": "Microsoft Corporation is primarily a technology and software company, not an aerospace and defense contractor. The semantic description does not match Microsoft."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2153,7 +2153,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are '3M Company', which is an exact match with identical wording and formatting."
+      "reasoning": "Both names are exactly the same, including the company designation. This is a clear exact match."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2161,8 +2161,8 @@
       "watched_entity": "3M Company",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "missing_components",
-      "reasoning": "'3M' is a common abbreviation for '3M Company'. The candidate name contains the full company name, making this a missing components match with high confidence."
+      "match_type": "exact",
+      "reasoning": "'3M' is a widely recognized abbreviation for '3M Company.' In this context, they refer to the same entity. This is treated as an exact match due to common usage."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2171,7 +2171,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'3M' and 'Amazon.com Inc' are completely different companies with no overlap in name or context, making this an unlikely match."
+      "reasoning": "'3M' and 'Amazon.com Inc' are completely different companies with no overlap in name or context. This is an unlikely match."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2179,8 +2179,8 @@
       "watched_entity": "3M Company",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "missing_components",
-      "reasoning": "'Minnesota Mining and Manufacturing company' is the full legal name for '3M Company'. This is a missing components match with high confidence."
+      "match_type": "exact",
+      "reasoning": "'Minnesota Mining and Manufacturing company' is the full legal name for '3M Company.' This is a well-known equivalence and thus an exact match."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2189,7 +2189,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Minnesota Mining and Manufacturing company' and 'General Electric' are distinct companies with no name similarity, making this an unlikely match."
+      "reasoning": "'Minnesota Mining and Manufacturing company' and 'General Electric' are distinct companies with no name or contextual overlap. This is an unlikely match."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2198,7 +2198,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "'3M Corporation' and '3M Company' refer to the same entity, with only a minor difference in the suffix. Both are widely recognized as the same organization."
+      "reasoning": "'3M Corporation' and '3M Company' refer to the same entity with minor variation in the suffix. Both are commonly used names for the same organization."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2207,7 +2207,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'3M Corporation' and 'Microsoft Corporation' are distinct companies with no semantic or naming overlap."
+      "reasoning": "'3M Corporation' and 'Microsoft Corporation' are distinct companies with no evidence of overlap or ambiguity."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2216,7 +2216,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Post-it maker' is a well-known semantic reference to '3M Company', which manufactures Post-it products."
+      "reasoning": "'Post-it maker' is a well-known description for '3M Company', which manufactures Post-it notes. This is a strong semantic match."
     },
     {
       "article_id": "tier5_manufacturing_001",
@@ -2225,7 +2225,7 @@
       "confidence": 0.05,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Post-it maker' refers to 3M Company, not 'Twitter Inc', which has no connection to Post-it products."
+      "reasoning": "'Post-it maker' refers to 3M Company, not 'Twitter Inc.' There is no known connection between Twitter and Post-it products."
     },
     {
       "article_id": "tier5_cross_cultural_001",
@@ -2243,7 +2243,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The only difference is the omission of the accent on 'José.' This is a common cultural/orthographic variation, and the names otherwise match exactly."
+      "reasoning": "The only difference is the omission of the accent on 'José.' This is a common cultural variation and does not change the identity. High confidence match."
     },
     {
       "article_id": "tier5_cross_cultural_001",
@@ -2252,7 +2252,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Former Spanish PM' is a title/role that refers to José María Aznar, who is known for holding that position. Strong contextual evidence supports the match."
+      "reasoning": "'Former Spanish PM' is a title/role that refers to José María Aznar, who held that position. Strong contextual evidence supports the match."
     },
     {
       "article_id": "tier5_cross_cultural_001",
@@ -2270,16 +2270,16 @@
       "confidence": 0.85,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'José M. Aznar' uses an initial for the middle name, while 'José María Aznar' spells it out. This is a common initial match pattern."
+      "reasoning": "'José M. Aznar' uses an initial for the middle name, while 'José María Aznar' spells it out. This is a common abbreviation and likely refers to the same person."
     },
     {
       "article_id": "tier5_cross_cultural_001",
       "extracted_entity": "Spanish politician",
       "watched_entity": "José María Aznar",
-      "confidence": 0.8,
+      "confidence": 0.6,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "The query 'Spanish politician' is a general description, while 'José María Aznar' is a specific individual who is a well-known Spanish politician. The semantic relationship is strong, as Aznar fits the description provided."
+      "reasoning": "'Spanish politician' is a general description, while 'José María Aznar' is a specific individual who is a well-known Spanish politician. The semantic link is strong but not unique, as there are many Spanish politicians."
     },
     {
       "article_id": "tier5_international_political_001",
@@ -2297,16 +2297,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The only difference is the omission of the cedilla in 'Francois' vs 'François', a common cultural/diacritical variation. Context supports they are the same person."
+      "reasoning": "The only difference is the omission of the accent in 'Francois.' This is a common cultural/orthographic variation and does not change the identity."
     },
     {
       "article_id": "tier5_international_political_001",
       "extracted_entity": "former French President",
       "watched_entity": "François Hollande",
-      "confidence": 0.85,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Former French President' is a title that refers to François Hollande, who held that position. Context confirms the match."
+      "reasoning": "'Former French President' is a title that refers to François Hollande, who held that position. Context supports this association."
     },
     {
       "article_id": "tier5_international_political_001",
@@ -2315,25 +2315,25 @@
       "confidence": 0.2,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Former French President' could refer to multiple people, but Emmanuel Macron is not a former president; he is the current president as of the context date. Unlikely match."
+      "reasoning": "'Former French President' could refer to multiple people, but Emmanuel Macron is the current president, not a former one. Therefore, unlikely to be the same entity."
     },
     {
       "article_id": "tier5_international_political_001",
       "extracted_entity": "F. Hollande",
       "watched_entity": "François Hollande",
-      "confidence": 0.9,
+      "confidence": 0.85,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'F. Hollande' is an initial-based abbreviation for 'François Hollande'. Context supports they are the same person."
+      "reasoning": "'F. Hollande' is a common initial-based abbreviation for 'François Hollande.' Context supports this match."
     },
     {
       "article_id": "tier5_international_political_001",
       "extracted_entity": "French politician",
       "watched_entity": "François Hollande",
-      "confidence": 0.9,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "The query 'French politician' is a semantic description that matches François Hollande, who is a well-known French politician and former President of France. The context about international political leaders further supports this match."
+      "reasoning": "'French politician' is a semantic description that matches François Hollande, who is a well-known French politician and former President of France. The context of international political leaders further supports this match."
     },
     {
       "article_id": "tier5_international_political_002",
@@ -2342,7 +2342,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Angela Merkel', which is an exact match."
+      "reasoning": "Both names are 'Angela Merkel', which is an exact match with high confidence."
     },
     {
       "article_id": "tier5_international_political_002",
@@ -2351,7 +2351,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'A. Merkel' uses the initial for the first name and the full last name, matching 'Angela Merkel'."
+      "reasoning": "'A. Merkel' uses the initial for the first name and matches the full name 'Angela Merkel'. This is a common initial match pattern."
     },
     {
       "article_id": "tier5_international_political_002",
@@ -2360,34 +2360,34 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'former German Chancellor' is a well-known title for Angela Merkel, especially in the context of international political leaders."
+      "reasoning": "'former German Chancellor' is a well-known title referring to Angela Merkel, especially in the context of international political leaders."
     },
     {
       "article_id": "tier5_international_political_002",
       "extracted_entity": "former German Chancellor",
       "watched_entity": "Vladimir Putin",
-      "confidence": 0.1,
+      "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'former German Chancellor' does not refer to Vladimir Putin, who was never German Chancellor."
+      "reasoning": "'former German Chancellor' refers to Angela Merkel, not Vladimir Putin, who was never German Chancellor. This is an unlikely match."
     },
     {
       "article_id": "tier5_international_political_002",
       "extracted_entity": "Merkel",
       "watched_entity": "Angela Merkel",
-      "confidence": 0.85,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Merkel' is the last name and matches 'Angela Merkel', especially in a context discussing political leaders."
+      "reasoning": "'Merkel' is the last name and matches 'Angela Merkel'. This is a partial last name match with high confidence due to the unique surname in context."
     },
     {
       "article_id": "tier5_international_political_002",
       "extracted_entity": "Merkel",
       "watched_entity": "Emmanuel Macron",
-      "confidence": 0.1,
+      "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Merkel' and 'Emmanuel Macron' are distinct names with no apparent overlap in first or last names, and refer to different individuals (German vs French political leaders)."
+      "reasoning": "'Merkel' and 'Emmanuel Macron' are distinct names referring to different individuals. Macron is the President of France, while Merkel is a German surname associated with Angela Merkel, former Chancellor of Germany."
     },
     {
       "article_id": "tier5_international_political_002",
@@ -2396,7 +2396,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'German politician' is a descriptive phrase that semantically refers to Angela Merkel, who is a well-known German politician. The context supports this match."
+      "reasoning": "'German politician' is a descriptive phrase that semantically refers to Angela Merkel, who is a well-known German politician. The context of international political leaders supports this match."
     },
     {
       "article_id": "tier5_international_political_003",
@@ -2414,7 +2414,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'N. Modi' uses the initial for the first name and the full last name, matching 'Narendra Modi.'"
+      "reasoning": "N. Modi uses the initial for the first name and the full last name, which matches Narendra Modi."
     },
     {
       "article_id": "tier5_international_political_003",
@@ -2423,7 +2423,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Indian Prime Minister' is a title that refers to Narendra Modi in the given context."
+      "reasoning": "Indian Prime Minister is a title that refers to Narendra Modi in the given context."
     },
     {
       "article_id": "tier5_international_political_003",
@@ -2432,7 +2432,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Indian Prime Minister' and 'Justin Trudeau' do not refer to the same entity; Trudeau is the Prime Minister of Canada."
+      "reasoning": "Indian Prime Minister refers to the leader of India, while Justin Trudeau is the Prime Minister of Canada. They are not the same entity."
     },
     {
       "article_id": "tier5_international_political_003",
@@ -2441,16 +2441,16 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Modi' is the last name and can refer to 'Narendra Modi' in this context."
+      "reasoning": "Modi is the last name and matches Narendra Modi, indicating a likely match."
     },
     {
       "article_id": "tier5_international_political_003",
       "extracted_entity": "Modi",
       "watched_entity": "الشيخ محمد",
-      "confidence": 0.2,
+      "confidence": 0.3,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Modi' is an Indian surname, while 'الشيخ محمد' is an Arabic name meaning 'Sheikh Mohammed.' There is no evidence these refer to the same entity, and they are culturally and linguistically distinct."
+      "reasoning": "'Modi' is an Indian surname, while 'الشيخ محمد' (Sheikh Mohammed) is an Arabic name. There is no evidence to suggest they refer to the same entity, especially given the cultural and linguistic differences."
     },
     {
       "article_id": "tier5_international_political_003",
@@ -2459,16 +2459,16 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Indian leader' is a semantic reference to the current Prime Minister of India, Narendra Modi, especially in the context of international political leaders. High confidence match."
+      "reasoning": "'Indian leader' is a generic title, and 'Narendra Modi' is the current Prime Minister of India. In the context of international political leaders, it is highly likely that 'Indian leader' refers to Narendra Modi."
     },
     {
       "article_id": "tier5_international_political_003",
       "extracted_entity": "Indian leader",
-      "watched_entity": "Xi Jinping",
-      "confidence": 0.1,
+      "watched_entity": "ダライ・ラマ",
+      "confidence": 0.2,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Indian leader' refers to a leader from India, while 'Xi Jinping' is the President of China. These are different nationalities and roles, making a match highly unlikely."
+      "reasoning": "'Indian leader' could refer to several prominent figures, but 'ダライ・ラマ' (Dalai Lama) is a Tibetan spiritual leader, not an Indian political leader. The context does not support a match."
     },
     {
       "article_id": "tier5_international_political_004",
@@ -2477,7 +2477,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Justin Trudeau', which is an exact match. Context supports this as well."
+      "reasoning": "Both names are exactly the same, referring to the same individual."
     },
     {
       "article_id": "tier5_international_political_004",
@@ -2486,25 +2486,25 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'J. Trudeau' uses the initial for 'Justin' and the full last name. This is a common abbreviation and context supports the match."
+      "reasoning": "'J. Trudeau' uses the initial for the first name and the full last name, which matches 'Justin Trudeau.' Context supports they are the same person."
     },
     {
       "article_id": "tier5_international_political_004",
       "extracted_entity": "Canadian Prime Minister",
       "watched_entity": "Justin Trudeau",
-      "confidence": 0.85,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Canadian Prime Minister' is a title that refers to Justin Trudeau in the given context. The article is about international political leaders, supporting the match."
+      "reasoning": "'Canadian Prime Minister' is a title that refers to 'Justin Trudeau' in the given context."
     },
     {
       "article_id": "tier5_international_political_004",
       "extracted_entity": "Canadian Prime Minister",
       "watched_entity": "Narendra Modi",
-      "confidence": 0.1,
+      "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Canadian Prime Minister' is a title, but Narendra Modi is the Prime Minister of India, not Canada. Context makes this match highly unlikely."
+      "reasoning": "'Canadian Prime Minister' and 'Narendra Modi' are unlikely to refer to the same entity, as Modi is the Prime Minister of India."
     },
     {
       "article_id": "tier5_international_political_004",
@@ -2513,7 +2513,7 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Trudeau' is the last name of 'Justin Trudeau'. In the context of political leaders, this is likely a match."
+      "reasoning": "'Trudeau' is the last name and matches 'Justin Trudeau.' Context supports they are the same person."
     },
     {
       "article_id": "tier5_international_political_004",
@@ -2522,7 +2522,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Trudeau' and 'François Hollande' are different individuals; Trudeau refers to the Canadian leader, while François Hollande is a former French president."
+      "reasoning": "'Trudeau' and 'François Hollande' are different individuals; Trudeau refers to a Canadian leader, while François Hollande is a former French president."
     },
     {
       "article_id": "tier5_international_political_004",
@@ -2531,16 +2531,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Canadian leader' is a semantic reference to Justin Trudeau, who is the current Prime Minister of Canada."
+      "reasoning": "'Canadian leader' is a semantic reference to the head of Canada, and 'Justin Trudeau' is the current Canadian Prime Minister. Context supports this match."
     },
     {
       "article_id": "tier5_international_political_004",
       "extracted_entity": "Canadian leader",
-      "watched_entity": "Rev. Martin Luther King Jr",
-      "confidence": 0.05,
+      "watched_entity": "ダライ・ラマ",
+      "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Canadian leader' and 'Rev. Martin Luther King Jr' do not refer to the same entity; King was an American civil rights leader, not a Canadian leader."
+      "reasoning": "'Canadian leader' and 'ダライ・ラマ' (Dalai Lama) refer to leaders of different countries and contexts; there is no overlap."
     },
     {
       "article_id": "tier5_international_political_005",
@@ -2549,7 +2549,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical, referring to the same individual."
+      "reasoning": "Both names are identical and refer to the same individual, Jacinda Ardern."
     },
     {
       "article_id": "tier5_international_political_005",
@@ -2558,7 +2558,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'J. Ardern' uses the initial for the first name and the full last name, matching 'Jacinda Ardern.' Context supports this match."
+      "reasoning": "'J. Ardern' uses the initial for the first name and the full last name, which matches 'Jacinda Ardern.' Context supports this match."
     },
     {
       "article_id": "tier5_international_political_005",
@@ -2567,7 +2567,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'former New Zealand PM' is a well-known title for Jacinda Ardern. Context about international political leaders supports this match."
+      "reasoning": "'former New Zealand PM' is a title/role that refers to Jacinda Ardern, who is known for holding this position."
     },
     {
       "article_id": "tier5_international_political_005",
@@ -2582,10 +2582,10 @@
       "article_id": "tier5_international_political_005",
       "extracted_entity": "Ardern",
       "watched_entity": "Jacinda Ardern",
-      "confidence": 0.7,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Ardern' is the last name of 'Jacinda Ardern.' Context about political leaders supports this partial match."
+      "reasoning": "'Ardern' is the last name and matches the candidate's last name, 'Jacinda Ardern.' Context supports this match."
     },
     {
       "article_id": "tier5_international_political_005",
@@ -2594,7 +2594,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Ardern and Johnson & Johnson are unrelated; one is a surname of a political leader, the other is a company name. No evidence of connection."
+      "reasoning": "'Ardern' and 'Johnson & Johnson' are unrelated; one is a surname of a political leader, the other is a company name."
     },
     {
       "article_id": "tier5_international_political_005",
@@ -2603,16 +2603,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'New Zealand leader' is a semantic reference to Jacinda Ardern, who was the Prime Minister of New Zealand at the time. Strong contextual match."
+      "reasoning": "'New Zealand leader' is a semantic reference to 'Jacinda Ardern', who is known as the leader of New Zealand in the given context."
     },
     {
       "article_id": "tier5_international_political_005",
       "extracted_entity": "New Zealand leader",
       "watched_entity": "Xi Jinping",
-      "confidence": 0.05,
+      "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'New Zealand leader' and 'Xi Jinping' are not the same entity; Xi Jinping is the leader of China, not New Zealand."
+      "reasoning": "'New Zealand leader' and 'Xi Jinping' are unlikely to refer to the same entity, as Xi Jinping is the leader of China, not New Zealand."
     },
     {
       "article_id": "tier5_advanced_transliteration_001",
@@ -2621,7 +2621,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "cultural",
-      "reasoning": "The query is the Russian full name (with patronymic) for Vladimir Putin, while the candidate is the Anglicized version. This is a strong cultural match."
+      "reasoning": "'Владимир Владимирович Путин' is the Russian spelling of 'Vladimir Putin.' The patronymic is commonly omitted in English. High confidence due to direct transliteration and context."
     },
     {
       "article_id": "tier5_advanced_transliteration_001",
@@ -2629,8 +2629,8 @@
       "watched_entity": "Vladimir Putin",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "cultural",
-      "reasoning": "The query uses the full Russian name including patronymic, and the candidate is the common English version. This is a strong cultural match."
+      "match_type": "missing_components",
+      "reasoning": "'Vladimir Vladimirovich Putin' includes the patronymic, while 'Vladimir Putin' omits it. Both refer to the same individual, with the shorter form commonly used in English."
     },
     {
       "article_id": "tier5_advanced_transliteration_001",
@@ -2639,7 +2639,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "The query is Vladimir Putin's full name, while the candidate is Emmanuel Macron, a different individual. No evidence of a match."
+      "reasoning": "'Vladimir Vladimirovich Putin' and 'Emmanuel Macron' are distinct individuals (Russian and French presidents, respectively). No evidence of overlap."
     },
     {
       "article_id": "tier5_advanced_transliteration_001",
@@ -2648,7 +2648,7 @@
       "confidence": 0.85,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "The query uses the initial and last name, which matches the candidate's full name. This is a common abbreviation."
+      "reasoning": "'V. Putin' is an abbreviated form of 'Vladimir Putin.' The initial and last name match, which is a common abbreviation."
     },
     {
       "article_id": "tier5_advanced_transliteration_001",
@@ -2657,7 +2657,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Russian President' is a title that refers to Vladimir Putin in the given context."
+      "reasoning": "'Russian President' is a title that currently refers to 'Vladimir Putin' in the context of recent events."
     },
     {
       "article_id": "tier5_advanced_transliteration_001",
@@ -2666,7 +2666,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Emmanuel Macron is the President of France, not Russia. 'Russian President' refers to the leader of Russia, which is not Emmanuel Macron."
+      "reasoning": "'Russian President' refers to the head of state of Russia, while 'Emmanuel Macron' is the President of France. These are different individuals with different roles."
     },
     {
       "article_id": "tier5_advanced_transliteration_001",
@@ -2675,7 +2675,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "'Putin' is the commonly used surname for 'Vladimir Putin,' who is the President of Russia. This is an exact match."
+      "reasoning": "'Putin' is a direct reference to 'Vladimir Putin', who is widely known as the President of Russia. This is an exact match."
     },
     {
       "article_id": "tier5_advanced_transliteration_001",
@@ -2684,7 +2684,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Putin' refers to Vladimir Putin, the Russian President, while Emmanuel Macron is the President of France. These are different individuals."
+      "reasoning": "'Putin' refers to Vladimir Putin, the President of Russia, while 'Emmanuel Macron' is the President of France. These are different individuals."
     },
     {
       "article_id": "tier5_japanese_transliteration_001",
@@ -2711,16 +2711,16 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Former Japanese PM' is a title that refers to '安倍晋三' in the context of Japanese politics."
+      "reasoning": "'Former Japanese PM' is a title that refers to '安倍晋三', who is a former Prime Minister of Japan."
     },
     {
       "article_id": "tier5_japanese_transliteration_001",
       "extracted_entity": "Former Japanese PM",
-      "watched_entity": "トヨタ自動車",
+      "watched_entity": "Vladimir Putin",
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Former Japanese PM' refers to a political leader, while 'トヨタ自動車' is Toyota Motor Corporation, a company. They are not the same entity."
+      "reasoning": "'Former Japanese PM' and 'Vladimir Putin' refer to different individuals from different countries and roles."
     },
     {
       "article_id": "tier5_japanese_transliteration_001",
@@ -2729,7 +2729,7 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "partial_last",
-      "reasoning": "'Abe' is the surname and a partial match to '安倍晋三', which is the full name in Japanese. Context supports the match."
+      "reasoning": "'Abe' is the surname of '安倍晋三', and in context, likely refers to the same individual."
     },
     {
       "article_id": "tier5_japanese_transliteration_001",
@@ -2738,7 +2738,7 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Abe' and 'Amazon.com Inc' do not share any semantic, phonetic, or cultural similarity. 'Abe' is a personal name, while 'Amazon.com Inc' is a company name. No evidence suggests they refer to the same entity."
+      "reasoning": "'Abe' and 'Amazon.com Inc' are unrelated; one is a personal name, the other is a company. No evidence of connection."
     },
     {
       "article_id": "tier5_japanese_transliteration_001",
@@ -2747,16 +2747,16 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Japanese leader' is a semantic description that matches '安倍晋三' (Shinzo Abe), who is a well-known Japanese political leader. The context supports this match."
+      "reasoning": "'Japanese leader' is a semantic reference to a prominent Japanese political figure. '安倍晋三' (Shinzo Abe) was a well-known Japanese leader, making this a strong semantic match."
     },
     {
       "article_id": "tier5_japanese_transliteration_001",
       "extracted_entity": "Japanese leader",
       "watched_entity": "Xi Jinping",
-      "confidence": 0.1,
+      "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Japanese leader' does not refer to 'Xi Jinping', who is the leader of China, not Japan. The context is about Japanese business and politics, making this match highly unlikely."
+      "reasoning": "'Japanese leader' and 'Xi Jinping' do not refer to the same entity. Xi Jinping is the leader of China, not Japan."
     },
     {
       "article_id": "tier5_historical_name_changes_001",
@@ -2765,34 +2765,34 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are exactly the same, referring to the same company with identical formatting."
+      "reasoning": "Both names are exactly the same, referring to the same company. No ambiguity."
     },
     {
       "article_id": "tier5_historical_name_changes_001",
       "extracted_entity": "Meta Platforms Inc",
       "watched_entity": "Facebook Inc",
-      "confidence": 0.8,
+      "confidence": 0.7,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "Meta Platforms Inc is the new name for Facebook Inc; they refer to the same company, with Meta being the rebranded name. Strong semantic connection."
+      "reasoning": "Meta Platforms Inc is the new name for Facebook Inc. They refer to the same company, but the names are not identical. Semantic match with high confidence due to well-known rebranding."
     },
     {
       "article_id": "tier5_historical_name_changes_001",
       "extracted_entity": "social media company",
       "watched_entity": "Twitter Inc",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Social media company' is a generic description, but Twitter Inc is a well-known social media company. Medium-high confidence due to context."
+      "reasoning": "'Social media company' is a generic description, but in this context, it refers to Twitter Inc. Medium confidence due to possible ambiguity with other companies."
     },
     {
       "article_id": "tier5_historical_name_changes_001",
       "extracted_entity": "social media company",
       "watched_entity": "Facebook Inc",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Social media company' is a generic description, but Facebook Inc is a prominent social media company. Medium-high confidence due to context."
+      "reasoning": "'Social media company' is a generic description, but in this context, it refers to Facebook Inc. Medium confidence due to possible ambiguity with other companies."
     },
     {
       "article_id": "tier5_historical_name_changes_001",
@@ -2801,7 +2801,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "nickname",
-      "reasoning": "'FB' is a common abbreviation/nickname for Facebook Inc. High confidence due to widespread usage."
+      "reasoning": "'FB' is a common abbreviation or nickname for Facebook Inc. High confidence due to widespread usage."
     },
     {
       "article_id": "tier5_historical_name_changes_001",
@@ -2810,16 +2810,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "Mark Zuckerberg is widely known as the CEO and founder of Facebook Inc. The query refers to the company associated with Mark Zuckerberg, which is Facebook Inc. This is a title_role match with high confidence."
+      "reasoning": "'Mark Zuckerberg's company' refers to the company led by Mark Zuckerberg, who is the CEO of Facebook Inc. This is a title_role match with high confidence."
     },
     {
       "article_id": "tier5_historical_name_changes_001",
       "extracted_entity": "Mark Zuckerberg's company",
-      "watched_entity": "Amazon.com Inc",
-      "confidence": 0.05,
+      "watched_entity": "Microsoft Corporation",
+      "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Mark Zuckerberg is not associated with Amazon.com Inc. There is no evidence linking him to Amazon, making this an unlikely match with very low confidence."
+      "reasoning": "Mark Zuckerberg is not associated with Microsoft Corporation. There is no evidence to suggest that 'Mark Zuckerberg's company' refers to Microsoft. This is an unlikely match."
     },
     {
       "article_id": "tier5_historical_name_changes_002",
@@ -2828,16 +2828,16 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Twitter Inc' with identical formatting. This is an exact match."
+      "reasoning": "Both names are exactly the same, referring to the same organization."
     },
     {
       "article_id": "tier5_historical_name_changes_002",
       "extracted_entity": "X Corp",
       "watched_entity": "Twitter Inc",
-      "confidence": 0.9,
+      "confidence": 0.7,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'X Corp' is the new legal name for the company formerly known as 'Twitter Inc.' In context, these refer to the same entity."
+      "reasoning": "X Corp is the new legal name for Twitter Inc, and they refer to the same entity in recent contexts."
     },
     {
       "article_id": "tier5_historical_name_changes_002",
@@ -2846,7 +2846,7 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'microblogging service' is a common descriptor for Twitter Inc. In this context, it semantically refers to Twitter Inc."
+      "reasoning": "'Microblogging service' is a common descriptor for Twitter Inc, especially in media and technology contexts."
     },
     {
       "article_id": "tier5_historical_name_changes_002",
@@ -2855,7 +2855,7 @@
       "confidence": 0.2,
       "is_match": false,
       "match_type": "semantic",
-      "reasoning": "While 'microblogging service' is a general term, Google LLC is not primarily known as a microblogging service. Low likelihood of referring to the same entity."
+      "reasoning": "'Microblogging service' could refer to several companies, but Google LLC is not commonly known as a microblogging service."
     },
     {
       "article_id": "tier5_historical_name_changes_002",
@@ -2864,7 +2864,7 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Social media platform' is a common descriptor for Twitter Inc. In this context, it semantically refers to Twitter Inc."
+      "reasoning": "'Social media platform' is a common descriptor for Twitter Inc, especially in news and technology contexts."
     },
     {
       "article_id": "tier5_historical_name_changes_002",
@@ -2873,7 +2873,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Bird app' is a widely recognized nickname and semantic reference to Twitter Inc, especially in media and tech contexts. The connection is strong due to the association with Twitter's bird logo and branding."
+      "reasoning": "'Bird app' is a widely recognized nickname or semantic reference to Twitter Inc, due to the company's bird logo and branding."
     },
     {
       "article_id": "tier5_corporate_restructuring_001",
@@ -2882,7 +2882,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Google LLC', which is an exact match with identical formatting and spelling."
+      "reasoning": "Both names are identical, including the legal suffix. This is an exact match."
     },
     {
       "article_id": "tier5_corporate_restructuring_001",
@@ -2891,34 +2891,34 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Alphabet Inc', which is an exact match with identical formatting and spelling."
+      "reasoning": "Both names are identical, including the legal suffix. This is an exact match."
     },
     {
       "article_id": "tier5_corporate_restructuring_001",
       "extracted_entity": "search engine company",
       "watched_entity": "Google LLC",
-      "confidence": 0.9,
+      "confidence": 0.8,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'search engine company' is a common descriptor for Google LLC, which is widely known as a search engine company. Strong semantic evidence."
+      "reasoning": "'search engine company' is a common descriptor for Google LLC, which is widely known as a search engine company. High confidence due to strong semantic association."
     },
     {
       "article_id": "tier5_corporate_restructuring_001",
       "extracted_entity": "search engine company",
-      "watched_entity": "Amazon.com Inc",
-      "confidence": 0.2,
-      "is_match": false,
+      "watched_entity": "Alphabet Inc",
+      "confidence": 0.6,
+      "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'search engine company' does not refer to Amazon.com Inc, which is primarily known as an e-commerce company, not a search engine."
+      "reasoning": "'search engine company' could refer to Alphabet Inc. as the parent company of Google, but the association is less direct. Medium confidence due to ambiguity."
     },
     {
       "article_id": "tier5_corporate_restructuring_001",
       "extracted_entity": "GOOGL",
       "watched_entity": "Google LLC",
-      "confidence": 0.8,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'GOOGL' is the stock ticker for Google LLC, representing the same entity with a different identifier."
+      "reasoning": "'GOOGL' is the stock ticker symbol for Google LLC. Strong evidence for a match, but not an exact name match."
     },
     {
       "article_id": "tier5_corporate_restructuring_001",
@@ -2927,16 +2927,16 @@
       "confidence": 0.2,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Mountain View company' is a generic reference to a company located in Mountain View, California. 3M Company is headquartered in Minnesota, not Mountain View, so there is no evidence these refer to the same entity."
+      "reasoning": "'Mountain View company' is a generic description. 3M Company is not headquartered in Mountain View and is not commonly referred to as such. There is no strong evidence linking 3M Company to this description."
     },
     {
       "article_id": "tier5_corporate_restructuring_001",
       "extracted_entity": "Mountain View company",
-      "watched_entity": "Amazon.com Inc",
-      "confidence": 0.2,
-      "is_match": false,
-      "match_type": "unlikely",
-      "reasoning": "'Mountain View company' refers to a company based in Mountain View, California. Amazon.com Inc is headquartered in Seattle, Washington, not Mountain View, so these do not refer to the same entity."
+      "watched_entity": "Google LLC",
+      "confidence": 0.9,
+      "is_match": true,
+      "match_type": "semantic",
+      "reasoning": "Google LLC is headquartered in Mountain View, California, and is commonly referred to as 'the Mountain View company' in media and industry contexts. The semantic link is strong."
     },
     {
       "article_id": "tier5_business_diversification_001",
@@ -2945,7 +2945,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical, including the corporate suffix. This is an exact match."
+      "reasoning": "Both names are formatted identically and refer to the same company, Amazon.com Inc. This is an exact match."
     },
     {
       "article_id": "tier5_business_diversification_001",
@@ -2954,34 +2954,34 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "'Amazon' is a common shorthand for 'Amazon.com Inc.' in both business and media contexts. High confidence exact match."
+      "reasoning": "'Amazon' is a common shorthand for 'Amazon.com Inc.' in business contexts. The context supports that both refer to the same entity."
     },
     {
       "article_id": "tier5_business_diversification_001",
       "extracted_entity": "e-commerce giant",
       "watched_entity": "Amazon.com Inc",
-      "confidence": 0.85,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'e-commerce giant' is a widely used descriptor for Amazon.com Inc. in media and industry contexts. Strong semantic association."
+      "reasoning": "'e-commerce giant' is a widely used descriptor for Amazon.com Inc., especially in technology and business articles. The context supports this semantic match."
     },
     {
       "article_id": "tier5_business_diversification_001",
       "extracted_entity": "e-commerce giant",
       "watched_entity": "Alphabet Inc",
-      "confidence": 0.2,
+      "confidence": 0.1,
       "is_match": false,
       "match_type": "semantic",
-      "reasoning": "While 'e-commerce giant' could refer to Alphabet Inc. in some contexts, it is much more commonly associated with Amazon. Low confidence match, likely not the same entity."
+      "reasoning": "While 'e-commerce giant' could refer to several companies, Alphabet Inc is not typically described this way. The context does not support a match."
     },
     {
       "article_id": "tier5_business_diversification_001",
       "extracted_entity": "AMZN",
       "watched_entity": "Amazon.com Inc",
-      "confidence": 0.9,
+      "confidence": 0.95,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "'AMZN' is the stock ticker for Amazon.com Inc. This is a strong exact match in financial and business contexts."
+      "reasoning": "'AMZN' is the stock ticker for Amazon.com Inc. In financial and business contexts, this is an exact match."
     },
     {
       "article_id": "tier5_business_diversification_001",
@@ -2990,16 +2990,16 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Jeff Bezos' company' refers to the company led or founded by Jeff Bezos, which is Amazon.com Inc. This is a title_role match with high confidence due to the well-known association."
+      "reasoning": "'Jeff Bezos' company' refers to the company led or founded by Jeff Bezos, which is Amazon.com Inc. This is a title_role match with high confidence."
     },
     {
       "article_id": "tier5_business_diversification_001",
       "extracted_entity": "Jeff Bezos' company",
-      "watched_entity": "General Electric",
+      "watched_entity": "Microsoft Corporation",
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "General Electric is not associated with Jeff Bezos. There is no evidence or common knowledge linking Jeff Bezos to General Electric, making this an unlikely match with low confidence."
+      "reasoning": "Jeff Bezos is not associated with Microsoft Corporation. There is no evidence to suggest 'Jeff Bezos' company' refers to Microsoft. This is an unlikely match with low confidence."
     },
     {
       "article_id": "tier5_complex_professional_titles_001",
@@ -3008,7 +3008,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Dr. Anthony Fauci' with identical formatting and titles. This is an exact match."
+      "reasoning": "Both names are 'Dr. Anthony Fauci', which is an exact match including title and full name."
     },
     {
       "article_id": "tier5_complex_professional_titles_001",
@@ -3016,8 +3016,8 @@
       "watched_entity": "Dr. Anthony Fauci",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "title_role",
-      "reasoning": "'Anthony Fauci' and 'Dr. Anthony Fauci' refer to the same person, with 'Dr.' being a professional title. High confidence due to unique name and context."
+      "match_type": "missing_components",
+      "reasoning": "'Anthony Fauci' matches 'Dr. Anthony Fauci'; the only difference is the missing title, which does not change the identity."
     },
     {
       "article_id": "tier5_complex_professional_titles_001",
@@ -3026,7 +3026,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Anthony Fauci' and 'Justin Trudeau' are completely different names with no overlap. Unlikely to be the same entity."
+      "reasoning": "'Anthony Fauci' and 'Justin Trudeau' are completely different names with no overlap; they do not refer to the same entity."
     },
     {
       "article_id": "tier5_complex_professional_titles_001",
@@ -3035,7 +3035,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'NIAID Director' is a title that refers to the person holding that position, which is 'Dr. Anthony Fauci' in the given context. High confidence due to unique role and context."
+      "reasoning": "'NIAID Director' is a title that refers to 'Dr. Anthony Fauci', who is known for holding that position."
     },
     {
       "article_id": "tier5_complex_professional_titles_001",
@@ -3044,34 +3044,34 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'NIAID Director' and 'Prof. Stephen Hawking' are unrelated; Stephen Hawking was not NIAID Director. No evidence of overlap."
+      "reasoning": "'NIAID Director' and 'Prof. Stephen Hawking' do not refer to the same entity; Hawking was not the NIAID Director."
     },
     {
       "article_id": "tier5_complex_professional_titles_001",
       "extracted_entity": "Chief Medical Advisor",
       "watched_entity": "الدكتور أحمد",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Chief Medical Advisor' is a title, while 'الدكتور أحمد' is a personal name in Arabic. Without further context linking الدكتور أحمد to the title, it is unlikely they refer to the same entity."
+      "reasoning": "'Chief Medical Advisor' is a title or role, while 'الدكتور أحمد' (Dr. Ahmed) is a personal name. Without additional context linking Dr. Ahmed to the title, it is unlikely they refer to the same entity."
     },
     {
       "article_id": "tier5_complex_professional_titles_001",
       "extracted_entity": "Chief Medical Advisor",
-      "watched_entity": "Dr. Anthony Fauci",
-      "confidence": 0.9,
-      "is_match": true,
-      "match_type": "title_role",
-      "reasoning": "'Chief Medical Advisor' is a title that is commonly associated with Dr. Anthony Fauci, especially in the context of academic and professional leadership. High confidence match based on role-title association."
+      "watched_entity": "Johnson & Johnson",
+      "confidence": 0.2,
+      "is_match": false,
+      "match_type": "unlikely",
+      "reasoning": "'Chief Medical Advisor' is a title or role, while 'Johnson & Johnson' is a company name. There is no direct connection between the title and the company as an individual entity."
     },
     {
       "article_id": "tier5_complex_professional_titles_001",
       "extracted_entity": "Medical expert",
       "watched_entity": "Dr. Anthony Fauci",
-      "confidence": 0.8,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Medical expert' is a general title, but in the context of the article and the candidate being Dr. Anthony Fauci, it is highly likely that they refer to the same entity due to Fauci's prominence as a medical expert."
+      "reasoning": "'Medical expert' is a general role or title, and 'Dr. Anthony Fauci' is a well-known medical expert. In the context of an article discussing research priorities, it is highly likely that 'Medical expert' refers to Dr. Anthony Fauci."
     },
     {
       "article_id": "tier5_academic_titles_001",
@@ -3080,7 +3080,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Prof. Stephen Hawking' with identical formatting and title. This is an exact match."
+      "reasoning": "Both names are 'Prof. Stephen Hawking' with identical titles and full names. This is an exact match."
     },
     {
       "article_id": "tier5_academic_titles_001",
@@ -3089,7 +3089,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Stephen Hawking' and 'Prof. Stephen Hawking' refer to the same person, with 'Prof.' being a professional title. High confidence due to unique name and context."
+      "reasoning": "'Stephen Hawking' and 'Prof. Stephen Hawking' refer to the same person, with the candidate including a professional title. This is a title_role match with high confidence."
     },
     {
       "article_id": "tier5_academic_titles_001",
@@ -3098,7 +3098,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Stephen Hawking' and 'Dr. Anthony Fauci' are two distinct, well-known individuals in different fields. No evidence of overlap."
+      "reasoning": "'Stephen Hawking' and 'Dr. Anthony Fauci' are completely different names with no overlap. This is an unlikely match."
     },
     {
       "article_id": "tier5_academic_titles_001",
@@ -3107,34 +3107,34 @@
       "confidence": 0.85,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'theoretical physicist' is a well-known descriptor for Stephen Hawking, especially in academic contexts. High confidence due to strong semantic association."
+      "reasoning": "'theoretical physicist' is a well-known descriptor for Stephen Hawking, especially in academic contexts. This is a semantic match with high confidence."
     },
     {
       "article_id": "tier5_academic_titles_001",
       "extracted_entity": "theoretical physicist",
       "watched_entity": "Dr. Anthony Fauci",
-      "confidence": 0.0,
+      "confidence": 0.1,
       "is_match": false,
-      "match_type": "unlikely",
-      "reasoning": "'theoretical physicist' does not describe Dr. Anthony Fauci, who is known for his work in medicine and immunology. No semantic overlap."
-    },
-    {
-      "article_id": "tier5_academic_titles_001",
-      "extracted_entity": "Cambridge professor",
-      "watched_entity": "Prof. Stephen Hawking",
-      "confidence": 0.8,
-      "is_match": true,
-      "match_type": "title_role",
-      "reasoning": "'Cambridge professor' is a title/role description, and 'Prof. Stephen Hawking' is a specific individual known for being a professor at Cambridge. The context supports this association."
+      "match_type": "semantic",
+      "reasoning": "'theoretical physicist' does not describe Dr. Anthony Fauci, who is known as an immunologist. This is a semantic non-match with low confidence."
     },
     {
       "article_id": "tier5_academic_titles_001",
       "extracted_entity": "Cambridge professor",
       "watched_entity": "פרופסור דוד",
-      "confidence": 0.2,
+      "confidence": 0.3,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Cambridge professor' is a general title/role, but 'פרופסור דוד' (Professor David, in Hebrew) is a different individual. There is no evidence linking them as the same entity."
+      "reasoning": "'Cambridge professor' is a generic title, while 'פרופסור דוד' (Professor David, in Hebrew) is a specific person. There is no evidence to suggest they refer to the same entity, especially without a matching name or additional context."
+    },
+    {
+      "article_id": "tier5_academic_titles_001",
+      "extracted_entity": "Cambridge professor",
+      "watched_entity": "Prof. Stephen Hawking",
+      "confidence": 0.9,
+      "is_match": true,
+      "match_type": "title_role",
+      "reasoning": "'Cambridge professor' is a title/role that accurately describes 'Prof. Stephen Hawking,' who was a well-known professor at Cambridge. The context supports this match."
     },
     {
       "article_id": "tier5_academic_titles_001",
@@ -3143,7 +3143,7 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Cosmologist' is a professional role, and 'Prof. Stephen Hawking' is a renowned cosmologist. The context supports this association."
+      "reasoning": "'Cosmologist' is a professional role that describes 'Prof. Stephen Hawking,' who was a renowned cosmologist. The context supports this match."
     },
     {
       "article_id": "tier5_military_political_titles_001",
@@ -3152,7 +3152,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Gen. Colin Powell' with identical formatting and title. This is an exact match."
+      "reasoning": "Both names are identical, including the title 'Gen.' and the full name 'Colin Powell'. This is an exact match."
     },
     {
       "article_id": "tier5_military_political_titles_001",
@@ -3160,8 +3160,8 @@
       "watched_entity": "Gen. Colin Powell",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "title_role",
-      "reasoning": "'Colin Powell' and 'Gen. Colin Powell' refer to the same person, with the candidate including a military title. This is a title_role match with high confidence."
+      "match_type": "missing_components",
+      "reasoning": "'Colin Powell' and 'Gen. Colin Powell' refer to the same person, with the only difference being the presence of the military title. High confidence due to unique name and context."
     },
     {
       "article_id": "tier5_military_political_titles_001",
@@ -3170,7 +3170,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Colin Powell' and 'Tim Cook' are distinct individuals with no overlap in name or role. This is an unlikely match."
+      "reasoning": "'Colin Powell' and 'Tim Cook' are completely different names with no overlap. No evidence they refer to the same entity."
     },
     {
       "article_id": "tier5_military_political_titles_001",
@@ -3179,7 +3179,7 @@
       "confidence": 0.8,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'former Secretary of State' is a title that refers to Colin Powell, who held that position. This is a title_role match with high confidence."
+      "reasoning": "'former Secretary of State' is a well-known title held by Colin Powell. Given the context and candidate, this is a title_role match with high confidence."
     },
     {
       "article_id": "tier5_military_political_titles_001",
@@ -3188,7 +3188,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'former Secretary of State' and 'Xi Jinping' do not refer to the same entity; Xi Jinping has never held that title. This is an unlikely match."
+      "reasoning": "'former Secretary of State' and 'Xi Jinping' do not refer to the same entity. Xi Jinping is not known to have held this title."
     },
     {
       "article_id": "tier5_military_political_titles_001",
@@ -3197,7 +3197,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'General Powell' and 'Gen. Colin Powell' both refer to the same individual, with 'General' as the title and 'Colin Powell' as the full name. The context of international political leaders supports this match."
+      "reasoning": "'General Powell' and 'Gen. Colin Powell' both refer to the same individual, with 'General' being a title and 'Colin Powell' the full name. The context of international political leaders supports this."
     },
     {
       "article_id": "tier5_military_political_titles_001",
@@ -3206,25 +3206,25 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'General Powell' is a person, while 'General Electric' is a company. There is no reasonable connection between the two entities in this context."
+      "reasoning": "'General Powell' and 'General Electric' are not the same entity. One is a person (military leader), the other is a corporation. The context makes this match highly unlikely."
+    },
+    {
+      "article_id": "tier5_military_political_titles_001",
+      "extracted_entity": "Military leader",
+      "watched_entity": "Gen. Colin Powell",
+      "confidence": 0.85,
+      "is_match": true,
+      "match_type": "title_role",
+      "reasoning": "'Military leader' is a role that fits 'Gen. Colin Powell,' especially in the context of international political leaders. High confidence due to clear role alignment."
     },
     {
       "article_id": "tier5_military_political_titles_001",
       "extracted_entity": "Military leader",
       "watched_entity": "Xi Jinping",
-      "confidence": 0.6,
-      "is_match": true,
+      "confidence": 0.3,
+      "is_match": false,
       "match_type": "semantic",
-      "reasoning": "'Military leader' is a role, and Xi Jinping is the head of China's armed forces as President and Chairman of the Central Military Commission. The context supports a semantic match, though not uniquely identifying him as the only possible match."
-    },
-    {
-      "article_id": "tier5_military_political_titles_001",
-      "extracted_entity": "Military leader",
-      "watched_entity": "Kim Jong-un",
-      "confidence": 0.7,
-      "is_match": true,
-      "match_type": "semantic",
-      "reasoning": "'Military leader' is a role, and Kim Jong-un is the Supreme Commander of North Korea's armed forces. The context supports a semantic match, though not uniquely identifying him as the only possible match."
+      "reasoning": "'Military leader' is a general term, and while Xi Jinping is the leader of China and has military authority, he is not primarily known as a military leader. The match is weak and ambiguous."
     },
     {
       "article_id": "tier5_religious_civil_rights_titles_001",
@@ -3233,7 +3233,7 @@
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are identical, including honorific and suffix. High confidence exact match."
+      "reasoning": "Both names are identical, including honorific and suffix. This is an exact match."
     },
     {
       "article_id": "tier5_religious_civil_rights_titles_001",
@@ -3242,7 +3242,7 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "missing_components",
-      "reasoning": "The query omits the honorific 'Rev.' but otherwise matches the candidate exactly. High confidence missing components match."
+      "reasoning": "The only difference is the presence of the honorific 'Rev.' in the candidate. Both refer to the same individual, with one omitting the title."
     },
     {
       "article_id": "tier5_religious_civil_rights_titles_001",
@@ -3251,7 +3251,7 @@
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "The names are completely different, with no overlap in components. Unlikely to be the same entity."
+      "reasoning": "The names are completely different, referring to two distinct historical figures."
     },
     {
       "article_id": "tier5_religious_civil_rights_titles_001",
@@ -3260,34 +3260,34 @@
       "confidence": 0.9,
       "is_match": true,
       "match_type": "semantic",
-      "reasoning": "'Civil rights leader' is a well-known descriptor for Rev. Martin Luther King Jr. High confidence semantic match."
+      "reasoning": "'Civil rights leader' is a well-known descriptor for Rev. Martin Luther King Jr. The context supports this semantic match."
     },
     {
       "article_id": "tier5_religious_civil_rights_titles_001",
       "extracted_entity": "civil rights leader",
-      "watched_entity": "Justin Trudeau",
+      "watched_entity": "ダライ・ラマ",
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Civil rights leader' is a generic term, but Justin Trudeau is not commonly known as a civil rights leader. Very low confidence unlikely match."
+      "reasoning": "While 'civil rights leader' is a general term, the candidate is the Dalai Lama, who is not primarily known as a civil rights leader in the context of the article."
     },
     {
       "article_id": "tier5_religious_civil_rights_titles_001",
       "extracted_entity": "Dr. King",
       "watched_entity": "Rev. Martin Luther King Jr",
-      "confidence": 0.9,
+      "confidence": 0.85,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Dr. King' and 'Rev. Martin Luther King Jr' both refer to the same individual, with different titles (Doctor and Reverend). The context of religious leadership supports this match."
+      "reasoning": "'Dr. King' and 'Rev. Martin Luther King Jr' both reference the same individual, with different titles (Dr. vs Rev.) and a full name. Context about religious leaders supports this match."
     },
     {
       "article_id": "tier5_religious_civil_rights_titles_001",
       "extracted_entity": "Dr. King",
-      "watched_entity": "الدكتور أحمد",
+      "watched_entity": "Dr. Anthony Fauci",
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Dr. King' and 'الدكتور أحمد' are different individuals, as the candidate name is in Arabic and refers to a different person. No evidence of overlap in identity."
+      "reasoning": "'Dr. King' and 'Dr. Anthony Fauci' are different individuals with different last names and professional backgrounds. Context does not suggest a connection."
     },
     {
       "article_id": "tier5_religious_civil_rights_titles_001",
@@ -3295,8 +3295,8 @@
       "watched_entity": "Rev. Martin Luther King Jr",
       "confidence": 0.95,
       "is_match": true,
-      "match_type": "initial",
-      "reasoning": "'MLK Jr' is a common initialism for 'Martin Luther King Jr'. The context and initials strongly support a match."
+      "match_type": "nickname",
+      "reasoning": "'MLK Jr' is a widely recognized nickname/abbreviation for 'Rev. Martin Luther King Jr.' Context about religious leaders further supports this match."
     },
     {
       "article_id": "tier5_office_vs_person_001",
@@ -3305,43 +3305,43 @@
       "confidence": 0.95,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Russian president' is a title that refers to Vladimir Putin, who is the current Russian president. The context supports this association."
+      "reasoning": "'Russian president' is a title referring to the individual who holds the office, which is Vladimir Putin according to the context. This is a title_role match with high confidence."
     },
     {
       "article_id": "tier5_office_vs_person_001",
       "extracted_entity": "Russian president",
       "watched_entity": "Emmanuel Macron",
-      "confidence": 0.0,
+      "confidence": 0.05,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Emmanuel Macron is the president of France, not Russia. There is no reasonable connection between 'Russian president' and Emmanuel Macron."
+      "reasoning": "Emmanuel Macron is the President of France, not Russia. 'Russian president' and 'Emmanuel Macron' are highly unlikely to refer to the same entity."
     },
     {
       "article_id": "tier5_office_vs_person_001",
       "extracted_entity": "office of the Russian president",
       "watched_entity": "Vladimir Putin",
-      "confidence": 0.85,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Office of the Russian president' refers to the position or office held by Vladimir Putin. The context is about the Russian presidential office, supporting this match."
+      "reasoning": "'Office of the Russian president' refers to the position or institution led by Vladimir Putin. This is a title_role match with high confidence."
     },
     {
       "article_id": "tier5_office_vs_person_001",
       "extracted_entity": "office of the Russian president",
       "watched_entity": "Emmanuel Macron",
-      "confidence": 0.0,
+      "confidence": 0.05,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "Emmanuel Macron is not associated with the office of the Russian president. He is the president of France."
+      "reasoning": "Emmanuel Macron is not associated with the office of the Russian president. This is an unlikely match."
     },
     {
       "article_id": "tier5_office_vs_person_001",
       "extracted_entity": "Russian presidential office",
       "watched_entity": "Vladimir Putin",
-      "confidence": 0.85,
+      "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Russian presidential office' refers to the office held by Vladimir Putin. The context is about the Russian presidential office, supporting this match."
+      "reasoning": "'Russian presidential office' refers to the institution led by Vladimir Putin. This is a title_role match with high confidence."
     },
     {
       "article_id": "tier5_office_vs_person_001",
@@ -3350,13 +3350,13 @@
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Russian presidential office' refers to the executive office of Russia, while 'Angela Merkel' is a former Chancellor of Germany. There is no semantic, title, or other match between these entities."
+      "reasoning": "'Russian presidential office' refers to the office or institution of the President of Russia, while 'Angela Merkel' is a specific individual who served as Chancellor of Germany. There is no overlap in role, title, or semantic meaning."
     }
   ],
-  "timestamp": "2026-01-08T22:53:12.073335Z",
+  "timestamp": "2026-01-20T17:38:38.641785Z",
   "metadata": {
-    "pipeline": "ultimate_challenge_v3",
+    "pipeline": "ultimate_challenge_v4",
     "dataset": "tier5_ultimate_challenge",
-    "source": "05_ultimate_challenge_v3.ipynb"
+    "source": "05_ultimate_challenge_v4.ipynb"
   }
 }

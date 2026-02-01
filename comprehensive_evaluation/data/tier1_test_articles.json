@@ -48,19 +48,19 @@
   },
   {
     "id": "article_semantic_context_001",
-    "title": "Russian Leader Context Test",
-    "content": "The Russian leader met with international officials to discuss global security. The Russian president emphasized the importance of diplomatic relations.",
+    "title": "Russian author Context Test",
+    "content": "The Russian author met with international officials to discuss global security. The Russian author emphasized the importance of diplomatic relations.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Russian president",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       }
     ],
@@ -112,18 +112,18 @@
   {
     "id": "article_multilingual_001",
     "title": "Multilingual Names Test",
-    "content": "The Russian president met with international leaders. Владимир Путин discussed global security issues.",
+    "content": "The Russian author met with international leaders. Лев Толстой discussed global security issues.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Russian president",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Владимир Путин",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Лев Толстой",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "multilingual"
       }
     ],
@@ -154,7 +154,7 @@
   {
     "id": "article_combined_001",
     "title": "Combined Test Article 1",
-    "content": "Will Johnson met with Dr. Sarah Williams to discuss medical research. The Russian leader also participated in the international conference.",
+    "content": "Will Johnson met with Dr. Sarah Williams to discuss medical research. The Russian author also participated in the international conference.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
@@ -169,8 +169,8 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       }
     ],
@@ -206,7 +206,7 @@
   {
     "id": "article_combined_003",
     "title": "Combined Test Article 3",
-    "content": "Bill Johnson, a doctor, met with the Russian leader to discuss healthcare. The electric car company is also involved in medical technology.",
+    "content": "Bill Johnson, a doctor, met with the Russian author to discuss healthcare. The electric car company is also involved in medical technology.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
@@ -216,8 +216,8 @@
         "match_type": "nickname"
       },
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic_context"
       },
       {

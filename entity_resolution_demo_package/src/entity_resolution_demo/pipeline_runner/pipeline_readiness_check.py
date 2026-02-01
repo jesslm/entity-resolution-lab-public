@@ -43,17 +43,19 @@ def check_elasticsearch_connection(config: Dict[str, Any]) -> Tuple[bool, Dict[s
     
     try:
         # Get Elasticsearch settings from environment variables
+        es_endpoint = os.getenv('ELASTIC_ENDPOINT')
         es_cloud_id = os.getenv('ELASTIC_CLOUD_ID')
         es_api_key = os.getenv('ELASTIC_API_KEY')
         
+        print_info(f"ELASTIC_ENDPOINT: {'Set' if es_endpoint else 'Not set'}")
         print_info(f"ELASTIC_CLOUD_ID: {'Set' if es_cloud_id else 'Not set'}")
         print_info(f"ELASTIC_API_KEY: {'Set' if es_api_key else 'Not set'}")
         
-        if not es_cloud_id or not es_api_key:
+        if not (es_endpoint or es_cloud_id) or not es_api_key:
             print_error("Elasticsearch credentials not found in environment variables")
             return False, {
                 "error": "Missing Elasticsearch credentials",
-                "details": "ELASTIC_CLOUD_ID and ELASTIC_API_KEY must be set in environment variables"
+                "details": "ELASTIC_API_KEY and either ELASTIC_ENDPOINT or ELASTIC_CLOUD_ID must be set in environment variables"
             }
         
         # Initialize Elasticsearch client

@@ -5,11 +5,11 @@ Notebook-first demo repo for a blog series on **entity resolution** using **Elas
 ## Start here
 
 - **Onboarding (authoritative)**: `NEW_USERS_START_HERE.md`
-- **Notebooks (authoritative)**: `notebooks/01_entity_preparation_v3.ipynb` → `notebooks/05_ultimate_challenge_v3.ipynb`
+- **Notebooks (authoritative)**: `notebooks/01_entity_preparation_v4.ipynb` → `notebooks/05_ultimate_challenge_v4.ipynb`
 
 ## Repo layout (public)
 
-- `notebooks/`: v3 notebooks + minimal starter datasets
+- `notebooks/`: v4 notebooks + minimal starter datasets (v3 notebooks archived in `notebooks/archive/`)
 - `comprehensive_evaluation/data/`: tiered datasets (Tier 0–5)
 - `pipeline_state/`: generated outputs (plus `golden_standard.json`)
 - `entity_resolution_demo_package/`: installable Python package powering the notebooks
@@ -25,7 +25,7 @@ cd ..
 jupyter lab
 ```
 
-Then open: `notebooks/01_entity_preparation_v3.ipynb`
+Then open: `notebooks/01_entity_preparation_v4.ipynb`
 
 Launch Jupyter from the repo root; notebooks assume repo-root relative paths.
 

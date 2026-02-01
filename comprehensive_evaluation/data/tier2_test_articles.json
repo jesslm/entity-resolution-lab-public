@@ -93,19 +93,19 @@
   },
   {
     "id": "article_semantic_context_001",
-    "title": "Russian Leader Context Test",
-    "content": "The Russian leader met with international officials to discuss global security. The Russian president emphasized the importance of diplomatic relations.",
+    "title": "Russian author Context Test",
+    "content": "The Russian author met with international officials to discuss global security. The Russian author emphasized the importance of diplomatic relations.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Russian leader",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic"
       },
       {
-        "extracted_entity": "Russian president",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "semantic"
       }
     ],
@@ -157,13 +157,13 @@
   {
     "id": "article_multilingual_001",
     "title": "Multilingual Names Test",
-    "content": "Vladimir Putin and \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041f\u0443\u0442\u0438\u043d are the same person in different languages. The system should handle multilingual names.",
+    "content": "Leo Tolstoy and \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041f\u0443\u0442\u0438\u043d are the same person in different languages. The system should handle multilingual names.",
     "source": "Test Data",
     "language": "mixed",
     "expected_matches": [
       {
         "extracted_entity": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u041f\u0443\u0442\u0438\u043d",
-        "watch_list_entity": "Vladimir Putin",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "cultural"
       }
     ],
@@ -189,13 +189,13 @@
   {
     "id": "article_combined_001",
     "title": "Combined Test Article 1",
-    "content": "The Russian leader (Vladimir Putin) met with the Chinese president (Xi Jinping) to discuss international cooperation. Dr. Sarah Williams provided medical support.",
+    "content": "The Russian author (Leo Tolstoy) met with the Chinese president (Xi Jinping) to discuss international cooperation. Dr. Sarah Williams provided medical support.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
@@ -236,13 +236,13 @@
   {
     "id": "article_combined_003",
     "title": "Combined Test Article 3",
-    "content": "The Russian leader emphasized the importance of electric vehicles. Tesla Inc, the EV manufacturer, announced new partnerships.",
+    "content": "The Russian author emphasized the importance of electric vehicles. Tesla Inc, the EV manufacturer, announced new partnerships.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {

@@ -21,3 +21,6 @@ __pycache__/
 .venv/
 venv/
 
+
+# Backup directories (containing removed content)
+backup_putin_removal/

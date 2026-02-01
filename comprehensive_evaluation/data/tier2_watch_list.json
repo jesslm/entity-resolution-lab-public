@@ -23,15 +23,15 @@
       "explicit_context": "Dr. Sarah Williams is a medical professional and healthcare provider who has earned a doctoral degree in medicine. She represents the medical community and healthcare sector, where professional titles and honorifics are important for establishing credibility and authority in patient care and medical practice."
     },
     {
-      "name": "Vladimir Putin",
+      "name": "Leo Tolstoy",
       "entity_type": "person",
-      "description": "Russian President",
+      "description": "Russian author",
       "aliases": [
-        "Putin",
-        "Владимир Путин",
-        "V. Putin"
+        "Tolstoy",
+        "Лев Толстой",
+        "L. Tolstoy"
       ],
-      "explicit_context": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, and previously from 2000 to 2008. He was also Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012, making him one of the longest-serving leaders in modern Russian history."
+      "explicit_context": "Leo Nikolayevich Tolstoy (born 9 September 1828, died 20 November 1910) was a Russian writer and philosopher, regarded as one of the greatest authors of all time. He is best known for his novels War and Peace and Anna Karenina. Tolstoy was a member of the Russian nobility and is considered a master of realistic fiction and one of the world's greatest novelists."
     },
     {
       "name": "Xi Jinping",

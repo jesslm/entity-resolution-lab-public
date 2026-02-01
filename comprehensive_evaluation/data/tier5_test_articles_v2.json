@@ -974,30 +974,30 @@
     "test_category": "hebrew_transliteration"
   },
   {
-    "id": "tier5_cross_script_putin_001",
+    "id": "tier5_cross_script_tolstoy_001",
     "title": "Recent Developments Highlight Key Figures and Organizations",
-    "content": "International business and political relations have been shaped by key figures and organizations across different regions. Владимир Путин has been involved in recent developments. Vladimir Putin has been involved in recent developments. V. Putin has been mentioned in recent discussions. The president's policy decisions have been widely discussed. These developments have been closely watched by international observers. President Putin has been mentioned in recent reports.",
+    "content": "International business and cultural relations have been shaped by key figures and organizations across different regions. Лев Толстой has been involved in recent developments. Leo Tolstoy has been involved in recent developments. L. Tolstoy has been mentioned in recent discussions. The author's literary works have been widely discussed. These developments have been closely watched by international observers. Count Tolstoy has been mentioned in recent reports.",
     "source": "Tier5 Challenge Data",
     "language": "ru",
     "expected_matches": [
       {
-        "extracted_entity": "Владимир Путин",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Лев Толстой",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "cyrillic_variation"
       },
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "V. Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "L. Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "abbreviation"
       },
       {
-        "extracted_entity": "President Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Count Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "title_variation"
       }
     ],
@@ -1100,18 +1100,18 @@
   {
     "id": "tier5_cross_script_combined_001",
     "title": "Recent Developments Highlight Key Figures and Organizations",
-    "content": "International business and political relations have been shaped by key figures and organizations across different regions. Владимир Путин has been involved in recent developments. Vladimir Putin has been involved in recent developments. 习近平 has been involved in recent developments. Xi Jinping has been involved in recent developments. Elon Musk has been involved in recent developments. Tim Cook has been involved in recent developments. These developments have been closely watched by international observers.",
+    "content": "International business and cultural relations have been shaped by key figures and organizations across different regions. Лев Толстой has been involved in recent developments. Leo Tolstoy has been involved in recent developments. 习近平 has been involved in recent developments. Xi Jinping has been involved in recent developments. Elon Musk has been involved in recent developments. Tim Cook has been involved in recent developments. These developments have been closely watched by international observers.",
     "source": "Tier5 Challenge Data",
     "language": "mixed",
     "expected_matches": [
       {
-        "extracted_entity": "Владимир Путин",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Лев Толстой",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "cyrillic_variation"
       },
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
@@ -1141,18 +1141,18 @@
   {
     "id": "tier5_cross_script_transliteration_001",
     "title": "Recent Developments Highlight Key Figures and Organizations",
-    "content": "International business and political relations have been shaped by key figures and organizations across different regions. Vladimir Putin has been involved in recent developments. В. Путин has been involved in recent developments. Xi Jinping has been involved in recent developments. 习主席 has been involved in recent developments. These developments have been closely watched by international observers.",
+    "content": "International business and cultural relations have been shaped by key figures and organizations across different regions. Leo Tolstoy has been involved in recent developments. Л. Толстой has been involved in recent developments. Xi Jinping has been involved in recent developments. 习主席 has been involved in recent developments. These developments have been closely watched by international observers.",
     "source": "Tier5 Challenge Data",
     "language": "mixed",
     "expected_matches": [
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "В. Путин",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Л. Толстой",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "cyrillic_abbreviation"
       },
       {
@@ -1640,33 +1640,33 @@
   {
     "id": "tier5_advanced_transliteration_001",
     "title": "Recent Developments Highlight Key Figures and Organizations",
-    "content": "Recent developments have highlighted important figures and organizations across various sectors. Владимир Владимирович Путин has been involved in recent developments. Vladimir Vladimirovich Putin has been involved in recent developments. V. Putin has been involved in recent developments. Russian President has been involved in recent developments. Putin has been involved in recent developments. These developments have been closely watched by international observers.",
+    "content": "Recent developments have highlighted important figures and organizations across various sectors. Лев Николаевич Толстой has been involved in recent developments. Leo Nikolayevich Tolstoy has been involved in recent developments. L. Tolstoy has been involved in recent developments. Russian author has been involved in recent developments. Tolstoy has been involved in recent developments. These developments have been closely watched by international observers.",
     "source": "Tier5 Ultimate Challenge Data",
     "language": "ru",
     "expected_matches": [
       {
-        "extracted_entity": "Владимир Владимирович Путин",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "Лев Николаевич Толстой",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Vladimir Vladimirovich Putin",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "Leo Nikolayevich Tolstoy",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "full_transliteration"
       },
       {
-        "extracted_entity": "V. Putin",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "L. Tolstoy",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "abbreviated_transliteration"
       },
       {
-        "extracted_entity": "Russian President",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "title_reference"
       },
       {
-        "extracted_entity": "Putin",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "Tolstoy",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "last_name_variation"
       }
     ],

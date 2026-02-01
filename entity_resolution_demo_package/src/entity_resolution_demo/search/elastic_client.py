@@ -12,8 +12,13 @@ from pathlib import Path
 from typing import Dict, Any, Optional, List, Union
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
-from sentence_transformers import SentenceTransformer
 import numpy as np
+
+# Optional dependency: only needed for the DEVELOPMENT fallback embeddings mode.
+try:
+    from sentence_transformers import SentenceTransformer  # type: ignore
+except ImportError:  # pragma: no cover
+    SentenceTransformer = None  # type: ignore
 
 class ElasticClient:
     """Advanced Elasticsearch client with latest semantic search capabilities
@@ -47,6 +52,9 @@ class ElasticClient:
         
         # Load configuration
         self.config = config or {}
+        # Be robust when instantiated without a config (e.g., setup scripts).
+        # Many call sites expect `config["elasticsearch"]` to exist.
+        self.config.setdefault("elasticsearch", {})
         
         # Initialize Elasticsearch client
         self.es = self._create_elasticsearch_client()
@@ -76,6 +84,11 @@ class ElasticClient:
             # WARNING: This fallback should NOT be used in production!
             # Production systems should always use Elasticsearch native embeddings via semantic_text fields
             try:
+                if SentenceTransformer is None:
+                    raise ImportError(
+                        "sentence-transformers is not installed. "
+                        "Install it to use the local embeddings fallback: pip install sentence-transformers"
+                    )
                 # Use multilingual E5 model for consistency with Elasticsearch inference endpoint
                 self.encoder = SentenceTransformer('intfloat/multilingual-e5-small')
                 self.embedding_model = self.encoder  # Add alias for compatibility
@@ -93,9 +106,23 @@ class ElasticClient:
         Returns:
             Elasticsearch: Configured Elasticsearch client
         """
-        # Check for cloud credentials
-        cloud_id = os.environ.get('ELASTIC_CLOUD_ID')
-        api_key = os.environ.get('ELASTIC_API_KEY')
+        es_cfg = (self.config or {}).get("elasticsearch", {}) if isinstance(self.config, dict) else {}
+
+        # Check for credentials (env vars take precedence over config)
+        endpoint = os.environ.get("ELASTIC_ENDPOINT") or es_cfg.get("endpoint")
+        cloud_id = os.environ.get("ELASTIC_CLOUD_ID") or es_cfg.get("cloud_id")
+        api_key = os.environ.get("ELASTIC_API_KEY") or es_cfg.get("api_key")
+
+        # Prefer endpoint-based config if present (common in Searchlabs content)
+        if endpoint and api_key:
+            self.logger.info("Connecting to Elasticsearch via ELASTIC_ENDPOINT...")
+            return Elasticsearch(
+                hosts=[endpoint],
+                api_key=api_key,
+                request_timeout=60,  # Increase timeout for operations
+                max_retries=3,       # Allow retries for transient errors
+                retry_on_timeout=True  # Retry on timeout errors
+            )
         
         # Try to connect to Elastic Cloud
         if cloud_id and api_key:

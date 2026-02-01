@@ -223,8 +223,15 @@ def setup_environment_variables(project_root: Path) -> bool:
         print("ℹ️ No .env file found")
 
     # Check if all required environment variables are set
-    required_vars = ['ELASTIC_CLOUD_ID', 'ELASTIC_API_KEY', 'OPENAI_API_KEY']
+    # Require ELASTIC_API_KEY + OPENAI_API_KEY, and either ELASTIC_ENDPOINT or ELASTIC_CLOUD_ID
+    required_vars = ['ELASTIC_API_KEY', 'OPENAI_API_KEY']
     missing_vars = []
+
+    has_elastic_location = bool(os.getenv('ELASTIC_ENDPOINT') or os.getenv('ELASTIC_CLOUD_ID'))
+    print(f"   {'✅' if os.getenv('ELASTIC_ENDPOINT') else '❌'} ELASTIC_ENDPOINT: {'SET' if os.getenv('ELASTIC_ENDPOINT') else 'NOT SET'}")
+    print(f"   {'✅' if os.getenv('ELASTIC_CLOUD_ID') else '❌'} ELASTIC_CLOUD_ID: {'SET' if os.getenv('ELASTIC_CLOUD_ID') else 'NOT SET'}")
+    if not has_elastic_location:
+        missing_vars.append('ELASTIC_ENDPOINT/ELASTIC_CLOUD_ID')
 
     for var in required_vars:
         if os.getenv(var):
@@ -241,6 +248,23 @@ def setup_environment_variables(project_root: Path) -> bool:
         print("(You can also create a .env file in the project root with these variables)")
         
         for var in missing_vars:
+            if var == 'ELASTIC_ENDPOINT/ELASTIC_CLOUD_ID':
+                print(f"\n📝 Elasticsearch location:")
+                print("   Provide either ELASTIC_ENDPOINT (preferred) or ELASTIC_CLOUD_ID")
+                print("   ELASTIC_ENDPOINT example: https://your-deployment.es.eastus.azure.elastic-cloud.com:9243")
+                print("   ELASTIC_CLOUD_ID example: my-deployment:dXMtY2VudHJhbDEuZ2NwLmVsYXN0aWMuY2xvdWQk...")
+                endpoint = input("   Enter your ELASTIC_ENDPOINT (or leave blank to use ELASTIC_CLOUD_ID): ").strip()
+                if endpoint:
+                    os.environ['ELASTIC_ENDPOINT'] = endpoint
+                    print("   ✅ ELASTIC_ENDPOINT set")
+                    continue
+                cloud_id = input("   Enter your ELASTIC_CLOUD_ID: ").strip()
+                if cloud_id:
+                    os.environ['ELASTIC_CLOUD_ID'] = cloud_id
+                    print("   ✅ ELASTIC_CLOUD_ID set")
+                else:
+                    print("   ❌ Neither ELASTIC_ENDPOINT nor ELASTIC_CLOUD_ID provided")
+                continue
             if var == 'ELASTIC_CLOUD_ID':
                 print(f"\n📝 {var}:")
                 print("   This is your Elastic Cloud deployment ID")
@@ -268,6 +292,13 @@ def setup_environment_variables(project_root: Path) -> bool:
     # Final verification
     print(f"\n🔍 Final Verification:")
     all_set = True
+    has_elastic_location = bool(os.getenv('ELASTIC_ENDPOINT') or os.getenv('ELASTIC_CLOUD_ID'))
+    if has_elastic_location:
+        print("   ✅ Elasticsearch location: SET (ELASTIC_ENDPOINT or ELASTIC_CLOUD_ID)")
+    else:
+        print("   ❌ Elasticsearch location: NOT SET (need ELASTIC_ENDPOINT or ELASTIC_CLOUD_ID)")
+        all_set = False
+
     for var in required_vars:
         if os.getenv(var):
             print(f"   ✅ {var}: SET")

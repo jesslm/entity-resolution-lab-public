@@ -804,30 +804,30 @@
     "test_category": "hebrew_transliteration"
   },
   {
-    "id": "tier5_cross_script_putin_001",
-    "title": "Cross-Script Putin Challenge",
-    "content": "Владимир Путин выступил на саммите. Vladimir Putin spoke at the summit. V. Putin emphasized cooperation. President Putin met with leaders.",
+    "id": "tier5_cross_script_tolstoy_001",
+    "title": "Cross-Script Tolstoy Challenge",
+    "content": "Лев Толстой выступил на саммите. Leo Tolstoy spoke at the summit. L. Tolstoy emphasized cooperation. Count Tolstoy met with leaders.",
     "source": "Tier5 Challenge Data",
     "language": "ru",
     "expected_matches": [
       {
-        "extracted_entity": "Владимир Путин",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Лев Толстой",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "cyrillic_variation"
       },
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "V. Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "L. Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "abbreviation"
       },
       {
-        "extracted_entity": "President Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Count Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "title_variation"
       }
     ],
@@ -992,18 +992,18 @@
   {
     "id": "tier5_cross_script_combined_001",
     "title": "Cross-Script Combined Challenge",
-    "content": "Владимир Путин и习近平会面了。Vladimir Putin and Xi Jinping met. Elon Musk和Tim Cook讨论了技术。Elon Musk and Tim Cook discussed technology.",
+    "content": "Лев Толстой и习近平会面了。Leo Tolstoy and Xi Jinping met. Elon Musk和Tim Cook讨论了技术。Elon Musk and Tim Cook discussed technology.",
     "source": "Tier5 Challenge Data",
     "language": "mixed",
     "expected_matches": [
       {
-        "extracted_entity": "Владимир Путин",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Лев Толстой",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "cyrillic_variation"
       },
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
@@ -1033,18 +1033,18 @@
   {
     "id": "tier5_cross_script_transliteration_001",
     "title": "Cross-Script Transliteration Challenge",
-    "content": "Vladimir Putin spoke in Russian. В. Путин говорил по-русски. Xi Jinping spoke in Chinese. 习主席用中文讲话。",
+    "content": "Leo Tolstoy spoke in Russian. Л. Толстой говорил по-русски. Xi Jinping spoke in Chinese. 习主席用中文讲话。",
     "source": "Tier5 Challenge Data",
     "language": "mixed",
     "expected_matches": [
       {
-        "extracted_entity": "Vladimir Putin",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Leo Tolstoy",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "В. Путин",
-        "watch_list_entity": "Vladimir Putin",
+        "extracted_entity": "Л. Толстой",
+        "watch_list_entity": "Leo Tolstoy",
         "match_type": "cyrillic_abbreviation"
       },
       {
@@ -1568,33 +1568,33 @@
   {
     "id": "tier5_advanced_transliteration_001",
     "title": "Advanced Transliteration Challenge",
-    "content": "Владимир Владимирович Путин выступил на саммите. Vladimir Vladimirovich Putin spoke at the summit. V. Putin emphasized cooperation. Russian President addressed global leaders. Putin discussed international relations.",
+    "content": "Лев Николаевич Толстой выступил на саммите. Vladimir Vladimirovich Tolstoy spoke at the summit. L. Tolstoy emphasized cooperation. Russian author addressed global leaders. Tolstoy discussed international relations.",
     "source": "Tier5 Ultimate Challenge Data",
     "language": "ru",
     "expected_matches": [
       {
-        "extracted_entity": "Владимир Владимирович Путин",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "Лев Николаевич Толстой",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Vladimir Vladimirovich Putin",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "Vladimir Vladimirovich Tolstoy",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "full_transliteration"
       },
       {
-        "extracted_entity": "V. Putin",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "L. Tolstoy",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "abbreviated_transliteration"
       },
       {
-        "extracted_entity": "Russian President",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "Russian author",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "title_reference"
       },
       {
-        "extracted_entity": "Putin",
-        "watch_list_entity": "Владимир Владимирович Путин",
+        "extracted_entity": "Tolstoy",
+        "watch_list_entity": "Лев Николаевич Толстой",
         "match_type": "last_name_variation"
       }
     ],

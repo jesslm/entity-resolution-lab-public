@@ -38,6 +38,8 @@ DEFAULT_CONFIG = {
     # Elasticsearch configuration
     "elasticsearch": {
         "use_cloud": True,
+        # Support either ELASTIC_ENDPOINT or ELASTIC_CLOUD_ID
+        "endpoint": os.environ.get("ELASTIC_ENDPOINT", ""),
         "cloud_id": os.environ.get("ELASTIC_CLOUD_ID", ""),
         "api_key": os.environ.get("ELASTIC_API_KEY", ""),
         "index_prefix": f"demo_entity_resolution_{timestamp}_",
@@ -123,8 +125,8 @@ def load_config(config_path=None):
             logger.error(f"Error loading configuration from {config_path}: {e}")
     
     # Check for required environment variables
-    if not config["elasticsearch"]["cloud_id"]:
-        logger.warning("ELASTIC_CLOUD_ID environment variable not set")
+    if not (config["elasticsearch"].get("endpoint") or config["elasticsearch"].get("cloud_id")):
+        logger.warning("Neither ELASTIC_ENDPOINT nor ELASTIC_CLOUD_ID environment variable is set")
     
     if not config["elasticsearch"]["api_key"]:
         logger.warning("ELASTIC_API_KEY environment variable not set")
