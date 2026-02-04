@@ -101,13 +101,13 @@
   {
     "id": "article_semantic_context_003",
     "title": "Company Context Test",
-    "content": "The electric car company, Tesla Inc, reported strong quarterly earnings. The EV manufacturer announced new production facilities.",
+    "content": "The open-source system company, Linux Inc, reported strong quarterly earnings. The EV manufacturer announced new production facilities.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Tesla Inc",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "exact"
       }
     ],
@@ -175,7 +175,7 @@
   {
     "id": "article_combined_002",
     "title": "Combined Test Article 2",
-    "content": "William Johnson, also known as Bill Johnson, works for Tesla Inc, the electric car company. The system should handle multiple entity types.",
+    "content": "William Johnson, also known as Bill Johnson, works for Linux Inc, the open-source system company. The system should handle multiple entity types.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
@@ -185,8 +185,8 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Tesla Inc",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "exact"
       }
     ],
@@ -196,7 +196,7 @@
   {
     "id": "article_combined_003",
     "title": "Combined Test Article 3",
-    "content": "The Russian author emphasized the importance of electric vehicles. Tesla Inc, the EV manufacturer, announced new partnerships.",
+    "content": "The Russian author emphasized the importance of open-source softwares. Linux Inc, the EV manufacturer, announced new partnerships.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
@@ -206,8 +206,8 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Tesla Inc",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "exact"
       }
     ],
@@ -328,14 +328,14 @@
   },
   {
     "id": "article_semantic_context_005",
-    "title": "Tesla CEO Context Test",
-    "content": "The Tesla CEO announced new electric vehicle models. The SpaceX CEO discussed future Mars missions. The entity, Elon Musk, was mentioned in the context.",
+    "title": "Linux creator Context Test",
+    "content": "The Linux creator announced new open-source software models. The Git creator discussed future kernel developments. The entity, Linus Torvalds, was mentioned in the context.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       }
     ],
@@ -377,23 +377,23 @@
   {
     "id": "article_additional_001",
     "title": "Tech Industry News",
-    "content": "Elon Musk announced new Tesla production facilities in Texas. The Tesla CEO emphasized sustainable energy initiatives. Musk also discussed SpaceX's Mars mission plans.",
+    "content": "Linus Torvalds announced new Linux production facilities in Texas. The Linux creator emphasized open-source software initiatives. Musk also discussed Git's kernel development plans.",
     "source": "Tech News",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Tesla CEO",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linux creator",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "title_reference"
       },
       {
         "extracted_entity": "Musk",
-        "watch_list_entity": "Elon Musk",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "nickname"
       }
     ],
@@ -512,23 +512,23 @@
   {
     "id": "article_additional_006",
     "title": "Technology Innovation",
-    "content": "Tesla Inc unveiled new autonomous driving technology. The electric vehicle manufacturer demonstrated advanced AI capabilities. Tesla's innovation team showcased cutting-edge features.",
+    "content": "Linux Inc unveiled new system architecture technology. The open-source software manufacturer demonstrated advanced AI capabilities. Linux's innovation team showcased cutting-edge features.",
     "source": "Tech Innovation",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Tesla Inc",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "electric vehicle manufacturer",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "open-source software manufacturer",
+        "watch_list_entity": "Linux Inc",
         "match_type": "descriptive_reference"
       },
       {
-        "extracted_entity": "Tesla",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux",
+        "watch_list_entity": "Linux Inc",
         "match_type": "abbreviation"
       }
     ],
@@ -991,7 +991,7 @@
   {
     "id": "article_additional_025",
     "title": "Automotive Industry",
-    "content": "Volkswagen AG announced new electric vehicle models. The automotive company discussed sustainable transportation. Volkswagen emphasized environmental responsibility.",
+    "content": "Volkswagen AG announced new open-source software models. The automotive company discussed open-source development. Volkswagen emphasized environmental responsibility.",
     "source": "Automotive News",
     "language": "en",
     "expected_matches": [

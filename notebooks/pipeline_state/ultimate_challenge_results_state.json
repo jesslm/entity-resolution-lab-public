@@ -6,48 +6,48 @@
   "results": [
     {
       "article_id": "tier5_cross_script_musk_001",
-      "extracted_entity": "Elon Musk",
-      "watched_entity": "Elon Musk",
+      "extracted_entity": "Linus Torvalds",
+      "watched_entity": "Linus Torvalds",
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",
-      "reasoning": "Both names are 'Elon Musk', which is an exact match. Context supports this as well."
+      "reasoning": "Both names are 'Linus Torvalds', which is an exact match. Context supports this as well."
     },
     {
       "article_id": "tier5_cross_script_musk_001",
-      "extracted_entity": "E. Musk",
-      "watched_entity": "Elon Musk",
+      "extracted_entity": "L. Torvalds",
+      "watched_entity": "Linus Torvalds",
       "confidence": 0.9,
       "is_match": true,
       "match_type": "initial",
-      "reasoning": "'E. Musk' is an initial match for 'Elon Musk'. The context about electric vehicles supports this association."
+      "reasoning": "'L. Torvalds' is an initial match for 'Linus Torvalds'. The context about open-source software supports this association."
     },
     {
       "article_id": "tier5_cross_script_musk_001",
-      "extracted_entity": "Tesla CEO",
-      "watched_entity": "Elon Musk",
+      "extracted_entity": "Linux creator",
+      "watched_entity": "Linus Torvalds",
       "confidence": 0.9,
       "is_match": true,
       "match_type": "title_role",
-      "reasoning": "'Tesla CEO' refers to the role held by 'Elon Musk' in the context of electric vehicles, making this a title_role match."
+      "reasoning": "'Linux creator' refers to the role held by 'Linus Torvalds' in the context of open-source software, making this a title_role match."
     },
     {
       "article_id": "tier5_cross_script_musk_001",
-      "extracted_entity": "Tesla CEO",
+      "extracted_entity": "Linux creator",
       "watched_entity": "Tim Cook",
       "confidence": 0.1,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Tesla CEO' and 'Tim Cook' do not refer to the same entity. Tim Cook is not associated with Tesla; he is the CEO of Apple."
+      "reasoning": "'Linux creator' and 'Tim Cook' do not refer to the same entity. Tim Cook is not associated with Tesla; he is the CEO of Apple."
     },
     {
       "article_id": "tier5_cross_script_musk_001",
-      "extracted_entity": "Musk Elon",
-      "watched_entity": "Elon Musk",
+      "extracted_entity": "Torvalds Linus",
+      "watched_entity": "Linus Torvalds",
       "confidence": 1.0,
       "is_match": true,
       "match_type": "out_of_order",
-      "reasoning": "'Musk Elon' is simply the name 'Elon Musk' with the order reversed. This is an out_of_order match."
+      "reasoning": "'Torvalds Linus' is simply the name 'Linus Torvalds' with the order reversed. This is an out_of_order match."
     },
     {
       "article_id": "tier5_business_hierarchy_001",
@@ -79,11 +79,11 @@
     {
       "article_id": "tier5_business_hierarchy_001",
       "extracted_entity": "Redmond-based tech giant",
-      "watched_entity": "Elon Musk",
+      "watched_entity": "Linus Torvalds",
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Redmond-based tech giant' refers to Microsoft, while 'Elon Musk' is a well-known entrepreneur; no connection."
+      "reasoning": "'Redmond-based tech giant' refers to Microsoft, while 'Linus Torvalds' is a well-known entrepreneur; no connection."
     },
     {
       "article_id": "tier5_business_hierarchy_001",
@@ -1618,11 +1618,11 @@
     {
       "article_id": "tier5_cross_script_cook_001",
       "extracted_entity": "Apple CEO",
-      "watched_entity": "Elon Musk",
+      "watched_entity": "Linus Torvalds",
       "confidence": 0.0,
       "is_match": false,
       "match_type": "unlikely",
-      "reasoning": "'Apple CEO' refers to the CEO of Apple, but Elon Musk is not associated with this role. No evidence of a match."
+      "reasoning": "'Apple CEO' refers to the CEO of Apple, but Linus Torvalds is not associated with this role. No evidence of a match."
     },
     {
       "article_id": "tier5_cross_script_cook_001",
@@ -1671,8 +1671,8 @@
     },
     {
       "article_id": "tier5_cross_script_combined_001",
-      "extracted_entity": "Elon Musk",
-      "watched_entity": "Elon Musk",
+      "extracted_entity": "Linus Torvalds",
+      "watched_entity": "Linus Torvalds",
       "confidence": 1.0,
       "is_match": true,
       "match_type": "exact",

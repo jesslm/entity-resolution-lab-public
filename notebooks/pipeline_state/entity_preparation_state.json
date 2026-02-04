@@ -23,7 +23,7 @@
       ]
     },
     {
-      "name": "Elon Musk",
+      "name": "Linus Torvalds",
       "entity_context": "Elon Reeve Musk is a business magnate and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect and former chairman of Tesla, Inc.",
       "confidence_score": 0.95,
       "enrichment_source": "Explicit Context",
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "name": "Elon Musk",
+      "name": "Linus Torvalds",
       "entity_context": "Elon Reeve Musk is a business magnate and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect and former chairman of Tesla, Inc.",
       "confidence_score": 0.95,
       "enrichment_source": "Explicit Context",

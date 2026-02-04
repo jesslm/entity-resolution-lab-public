@@ -45,15 +45,15 @@
       "explicit_context": "Xi Jinping (born 15 June 1953) is a Chinese politician who has been serving as the General Secretary of the Chinese Communist Party (CCP) and President of the People's Republic of China since 2012. He is the paramount leader of China and has been described as the most powerful Chinese leader since Mao Zedong, overseeing China's economic growth and international relations."
     },
     {
-      "name": "Tesla Inc",
+      "name": "Linux",
       "entity_type": "organization",
-      "description": "Electric vehicle company",
+      "description": "Open-source operating system kernel",
       "aliases": [
-        "Tesla",
-        "TSLA",
-        "Tesla Motors"
+        "Linux kernel",
+        "Linux OS",
+        "GNU/Linux"
       ],
-      "explicit_context": "Tesla, Inc. is an American electric vehicle and clean energy company founded by Elon Musk in 2003. The company is known for its electric cars, energy storage systems, and solar panels, and has become one of the world's most valuable automakers by market capitalization, revolutionizing the automotive industry with sustainable transportation solutions."
+      "explicit_context": "Linux is an open-source operating system kernel created by Linus Torvalds in 1991. The Linux kernel is the foundation of many operating systems and is used in servers, supercomputers, embedded systems, and mobile devices. Linux has become one of the most widely used operating system kernels in the world, powering a significant portion of the internet and computing infrastructure."
     },
     {
       "name": "Mary Ellen Smith",
@@ -133,16 +133,16 @@
       "explicit_context": "Apple Inc. is an American multinational technology company founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976. The company is known for its consumer electronics, software, and services, including the iPhone, iPad, Mac computers, and various software products, and is one of the world's most valuable companies."
     },
     {
-      "name": "Elon Musk",
+      "name": "Linus Torvalds",
       "entity_type": "person",
-      "description": "CEO of Tesla and SpaceX",
+      "description": "CEO of Linux and Git",
       "aliases": [
         "Musk",
         "Elon",
-        "Tesla CEO",
-        "SpaceX CEO"
+        "Linux creator",
+        "Git creator"
       ],
-      "explicit_context": "Elon Reeve Musk (born 28 June 1971) is a South African-born American entrepreneur and business magnate who is the founder, CEO, and chief engineer of SpaceX, CEO and product architect of Tesla, Inc., and founder of The Boring Company and Neuralink. He is known for his ambitious projects in space exploration, electric vehicles, and sustainable energy."
+      "explicit_context": "Linus Benedict Torvalds (born 28 December 1969) is a Finnish-American software engineer who is the creator and principal developer of the Linux kernel and the distributed version control system Git. He is known for his contributions to open-source software development and is widely recognized as one of the most influential figures in the history of computing."
     },
     {
       "name": "Emmanuel Macron",

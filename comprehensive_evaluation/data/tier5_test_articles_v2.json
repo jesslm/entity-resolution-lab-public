@@ -1,29 +1,29 @@
 [
   {
-    "id": "tier5_cross_script_musk_001",
+    "id": "tier5_cross_script_torvalds_001",
     "title": "Electric Vehicle Manufacturer Announces Sustainable Energy Expansion",
-    "content": "The electric vehicle manufacturer's CEO announced plans to expand into sustainable energy during a quarterly earnings call. The tech entrepreneur, known for his ambitious timelines and innovative approach, discussed the company's latest technological breakthroughs in battery technology and autonomous driving systems. Industry analysts noted that the executive's vision has transformed multiple industries, from automotive to space exploration. The company's stock price surged following the announcement, reflecting investor confidence in the strategic direction. E. Musk, the founder of SpaceX, emphasized the importance of sustainable transportation solutions. The Tesla CEO's presentation highlighted significant progress in manufacturing efficiency and cost reduction. In a separate interview, Elon Musk discussed the company's long-term vision for sustainable energy. The presentation by Musk Elon at the technology conference received widespread attention from industry leaders.",
+    "content": "The open-source operating system's creator announced plans to expand into open-source software during a quarterly earnings call. The software engineer, known for his ambitious timelines and innovative approach, discussed the project's latest technological breakthroughs in kernel technology and system architecture systems. Industry analysts noted that the creator's vision has transformed multiple industries, from automotive to software development. The company's stock price surged following the announcement, reflecting investor confidence in the strategic direction. L. Torvalds, the founder of Git, emphasized the importance of open-source development solutions. The Linux creator's presentation highlighted significant progress in manufacturing efficiency and cost reduction. In a separate interview, Linus Torvalds discussed the project's long-term vision for open-source software. The presentation by Torvalds Linus at the technology conference received widespread attention from industry leaders.",
     "source": "Tier5 Challenge Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "E. Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "L. Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "abbreviation"
       },
       {
-        "extracted_entity": "Tesla CEO",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linux creator",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "title_variation"
       },
       {
-        "extracted_entity": "Musk Elon",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Torvalds Linus",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "name_order_variation"
       }
     ],
@@ -172,7 +172,7 @@
   {
     "id": "tier5_japanese_company_names_001",
     "title": "Automotive Industry Announces Major Technology Breakthrough",
-    "content": "The global automotive industry witnessed a significant announcement from one of Japan's leading manufacturers. Toyota Motor Corporation reported strong sales figures for the latest quarter, exceeding analyst expectations. The company's latest innovations in hybrid and electric vehicle technology have positioned it as a leader in sustainable transportation. Industry experts noted that トヨタ has consistently demonstrated commitment to environmental responsibility through its research and development initiatives. The automotive manufacturer's expansion into new markets has been met with positive reception from consumers worldwide. Toyota's announcement of new technology platforms has generated significant interest from investors and industry analysts. The company's strategic direction continues to focus on innovation and sustainability. During the announcement, トヨタ自動車 executives highlighted the company's commitment to sustainable transportation solutions.",
+    "content": "The global software industry witnessed a significant announcement from one of Japan's leading manufacturers. Toyota Motor Corporation reported strong sales figures for the latest quarter, exceeding analyst expectations. The company's latest innovations in hybrid and open-source software technology have positioned it as a leader in open-source development. Industry experts noted that トヨタ has consistently demonstrated commitment to environmental responsibility through its research and development initiatives. The automotive manufacturer's expansion into new markets has been met with positive reception from consumers worldwide. Toyota's announcement of new technology platforms has generated significant interest from investors and industry analysts. The company's strategic direction continues to focus on innovation and sustainability. During the announcement, トヨタ自動車 executives highlighted the project's commitment to open-source development solutions.",
     "source": "Tier5 Challenge Data",
     "language": "ja",
     "expected_matches": [
@@ -265,7 +265,7 @@
   {
     "id": "tier5_japanese_sony_001",
     "title": "Electronics Giant Reports Strong Quarterly Performance",
-    "content": "The Japanese electronics manufacturer announced impressive quarterly results, with revenue growth across multiple product categories. Sony Corporation launched new products in the gaming and entertainment sectors, demonstrating continued innovation in consumer technology. The company's latest earnings report showed strong performance in both hardware and software divisions. Industry analysts noted that ソニー株式会社 has successfully adapted to changing market conditions while maintaining its commitment to technological excellence. Sony Corp reported strong earnings, exceeding market expectations and demonstrating the company's resilience in a competitive industry. The technology company's strategic investments in research and development have positioned it well for future growth.",
+    "content": "The Japanese electronics manufacturer announced impressive quarterly results, with revenue growth across multiple product categories. Sony Corporation launched new products in the gaming and entertainment sectors, demonstrating continued innovation in consumer technology. The company's latest earnings report showed strong performance in both hardware and software divisions. Industry analysts noted that ソニー株式会社 has successfully adapted to changing market conditions while maintaining its commitment to technological excellence. Sony Corp reported strong earnings, exceeding market expectations and demonstrating the project's resilience in a competitive industry. The technology company's strategic investments in research and development have positioned it well for future growth.",
     "source": "Tier5 Challenge Data",
     "language": "ja",
     "expected_matches": [
@@ -296,7 +296,7 @@
   {
     "id": "tier5_japanese_combined_001",
     "title": "Japanese Prime Minister Visits Major Manufacturing Facilities",
-    "content": "The Japanese Prime Minister conducted a series of visits to major manufacturing facilities across the country, highlighting the importance of industrial innovation and economic growth. Shinzo Abe visited Toyota Motor Corporation's production facility, where he observed the latest advances in automotive manufacturing technology. The visit emphasized the government's commitment to supporting the automotive industry's transition to sustainable transportation solutions. During the tour, 安倍晋三 discussed policy initiatives aimed at strengthening Japan's position as a global leader in manufacturing excellence. The prime minister also visited トヨタ自動車's main production facility, where he observed the latest advances in automotive manufacturing technology. The prime minister also met with executives from the technology sector, including representatives from Sony. 田中太郎さん attended a technology conference where industry leaders discussed innovation strategies. Tanaka Taro participated in discussions about the future of Japanese technology companies in the global market. During the conference, executives from ソニー discussed the company's latest innovations in consumer technology.",
+    "content": "The Japanese Prime Minister conducted a series of visits to major manufacturing facilities across the country, highlighting the importance of industrial innovation and economic growth. Shinzo Abe visited Toyota Motor Corporation's production facility, where he observed the latest advances in automotive manufacturing technology. The visit emphasized the government's commitment to supporting the software industry's transition to open-source development solutions. During the tour, 安倍晋三 discussed policy initiatives aimed at strengthening Japan's position as a global leader in manufacturing excellence. The prime minister also visited トヨタ自動車's main production facility, where he observed the latest advances in automotive manufacturing technology. The prime minister also met with executives from the technology sector, including representatives from Sony. 田中太郎さん attended a technology conference where industry leaders discussed innovation strategies. Tanaka Taro participated in discussions about the future of Japanese technology companies in the global market. During the conference, executives from ソニー discussed the project's latest innovations in consumer technology.",
     "source": "Tier5 Challenge Data",
     "language": "ja",
     "expected_matches": [
@@ -1100,7 +1100,7 @@
   {
     "id": "tier5_cross_script_combined_001",
     "title": "Recent Developments Highlight Key Figures and Organizations",
-    "content": "International business and cultural relations have been shaped by key figures and organizations across different regions. Лев Толстой has been involved in recent developments. Leo Tolstoy has been involved in recent developments. 习近平 has been involved in recent developments. Xi Jinping has been involved in recent developments. Elon Musk has been involved in recent developments. Tim Cook has been involved in recent developments. These developments have been closely watched by international observers.",
+    "content": "International business and cultural relations have been shaped by key figures and organizations across different regions. Лев Толстой has been involved in recent developments. Leo Tolstoy has been involved in recent developments. 习近平 has been involved in recent developments. Xi Jinping has been involved in recent developments. Linus Torvalds has been involved in recent developments. Tim Cook has been involved in recent developments. These developments have been closely watched by international observers.",
     "source": "Tier5 Challenge Data",
     "language": "mixed",
     "expected_matches": [
@@ -1125,8 +1125,8 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {

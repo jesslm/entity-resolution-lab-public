@@ -80,16 +80,16 @@
       "unique_entities": "{'Peking'}"
     },
     {
-      "article": "Article(id='article9', title='Tech Leadership Changes', content='Tesla CEO Elon Musk announced new initiatives while Apple CEO Tim Cook discussed market strategies.', source='tech_news', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-30T13:46:14.821325')",
+      "article": "Article(id='article9', title='Tech Leadership Changes', content='Linux creator Linus Torvalds announced new initiatives while Apple CEO Tim Cook discussed market strategies.', source='tech_news', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-30T13:46:14.821325')",
       "extracted_entities": [
-        "ExtractedEntity(name='Tesla CEO', entity_type='COMPOUND_TITLE', confidence=0.9, context='Tesla CEO Elon Musk announced new initiatives while Apple C', position=0, extraction_method='compound_entity')",
-        "ExtractedEntity(name='Elon Musk', entity_type='PERSON', confidence=0.9999927268319876, context='Tesla CEO Elon Musk announced new initiatives while Apple CEO Tim Coo', position=10, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')",
+        "ExtractedEntity(name='Linux creator', entity_type='COMPOUND_TITLE', confidence=0.9, context='Linux creator Linus Torvalds announced new initiatives while Apple C', position=0, extraction_method='compound_entity')",
+        "ExtractedEntity(name='Linus Torvalds', entity_type='PERSON', confidence=0.9999927268319876, context='Linux creator Linus Torvalds announced new initiatives while Apple CEO Tim Coo', position=10, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')",
         "ExtractedEntity(name='Apple CEO', entity_type='ORGANIZATIONAL_TITLE', confidence=0.9, context=\"Compound entity combining 'Apple' and 'CEO'\", position=52, extraction_method='compound_validation')",
         "ExtractedEntity(name='Tim Cook', entity_type='PERSON', confidence=0.9999945509027722, context='on Musk announced new initiatives while Apple CEO Tim Cook discussed market strategies.', position=62, extraction_method='elasticsearch_ner_facebookai__xlm-roberta-large-finetuned-conll03-english')"
       ],
       "processing_time": 0.28113293647766113,
       "total_entities_found": 4,
-      "unique_entities": "{'Apple CEO', 'Tim Cook', 'Elon Musk', 'Tesla CEO'}"
+      "unique_entities": "{'Apple CEO', 'Tim Cook', 'Linus Torvalds', 'Linux creator'}"
     },
     {
       "article": "Article(id='article10', title='Government Appointments', content='The President announced new cabinet members. The Secretary of State and the Prime Minister of Canada attended the ceremony.', source='political_news', published_date=None, url=None, language='en', metadata={}, processed_date='2026-01-30T13:46:14.821327')",

@@ -66,12 +66,12 @@ except Exception as e:
                     )
                     matches.append(match)
                     
-                elif extracted_entity.name == "Elon Musk" or "Tesla" in extracted_entity.name:
+                elif extracted_entity.name == "Linus Torvalds" or "Tesla" in extracted_entity.name:
                     watched_entity = WatchedEntity(
                         id="elon_musk_000",
-                        name="Elon Musk",
+                        name="Linus Torvalds",
                         entity_type="PERSON",
-                        description="CEO of Tesla and SpaceX",
+                        description="CEO of Tesla and Git",
                         priority="high"
                     )
                     match = EntityMatch(
@@ -192,7 +192,7 @@ except Exception as e:
                 # Create extracted and watched entities
                 extracted_entity = ExtractedEntity(
                     name=item['query_name'],
-                    entity_type="PERSON" if item['query_name'] in ["Joe Biden", "Elon Musk", "Taylor Swift"] else "ORGANIZATION",
+                    entity_type="PERSON" if item['query_name'] in ["Joe Biden", "Linus Torvalds", "Taylor Swift"] else "ORGANIZATION",
                     confidence=0.9,
                     context=item['context'],
                     start_pos=0,
@@ -202,7 +202,7 @@ except Exception as e:
                 watched_entity = WatchedEntity(
                     id=item['candidate_name'].lower().replace(' ', '_') + "_000",
                     name=item['candidate_name'],
-                    entity_type="PERSON" if item['candidate_name'] in ["Joe Biden", "Elon Musk", "Taylor Swift"] else "ORGANIZATION",
+                    entity_type="PERSON" if item['candidate_name'] in ["Joe Biden", "Linus Torvalds", "Taylor Swift"] else "ORGANIZATION",
                     description="",
                     priority="high"
                 )

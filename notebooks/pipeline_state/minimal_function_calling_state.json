@@ -188,28 +188,28 @@
       "article_id": "article9",
       "matches_found": [
         {
-          "query_name": "Tesla CEO",
-          "candidate_name": "Elon Musk",
+          "query_name": "Linux creator",
+          "candidate_name": "Linus Torvalds",
           "confidence": 0.95,
           "is_match": true,
           "match_type": "title_role",
-          "reasoning": "The query 'Tesla CEO' refers to the person holding the CEO position at Tesla, and the candidate is 'Elon Musk', who is widely known as the CEO of Tesla. The context also directly links Elon Musk to the title. This is a strong title_role match."
+          "reasoning": "The query 'Linux creator' refers to the person holding the CEO position at Tesla, and the candidate is 'Linus Torvalds', who is widely known as the CEO of Tesla. The context also directly links Linus Torvalds to the title. This is a strong title_role match."
         },
         {
-          "query_name": "Elon Musk",
-          "candidate_name": "Elon Musk",
+          "query_name": "Linus Torvalds",
+          "candidate_name": "Linus Torvalds",
           "confidence": 1.0,
           "is_match": true,
           "match_type": "exact",
-          "reasoning": "Both the query and candidate are 'Elon Musk', which is an exact match of the full name. High confidence due to unique name and direct match."
+          "reasoning": "Both the query and candidate are 'Linus Torvalds', which is an exact match of the full name. High confidence due to unique name and direct match."
         },
         {
           "query_name": "Apple CEO",
-          "candidate_name": "Elon Musk",
+          "candidate_name": "Linus Torvalds",
           "confidence": 0.1,
           "is_match": false,
           "match_type": "unlikely",
-          "reasoning": "The query 'Apple CEO' refers to the CEO of Apple, while the candidate is 'Elon Musk', who is not associated with Apple. The context does not support a connection. This is an unlikely match."
+          "reasoning": "The query 'Apple CEO' refers to the CEO of Apple, while the candidate is 'Linus Torvalds', who is not associated with Apple. The context does not support a connection. This is an unlikely match."
         },
         {
           "query_name": "Apple CEO",

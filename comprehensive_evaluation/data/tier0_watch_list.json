@@ -45,15 +45,15 @@
       "explicit_context": "Xi Jinping is an entity."
     },
     {
-      "name": "Tesla Inc",
+      "name": "Linux Inc",
       "entity_type": "organization",
       "description": "Electric vehicle company",
       "aliases": [
-        "Tesla",
-        "Tesla Motors",
-        "Tesla, Inc."
+        "Linux",
+        "Linux Motors",
+        "Linux, Inc."
       ],
-      "explicit_context": "Tesla Inc is an entity."
+      "explicit_context": "Linux Inc is an entity."
     }
   ]
 }

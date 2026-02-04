@@ -91,18 +91,18 @@
   {
     "id": "article_semantic_context_003",
     "title": "Company Context Test",
-    "content": "The electric car company announced new battery technology. The EV manufacturer is leading innovation in sustainable transportation.",
+    "content": "The open-source system company announced new kernel technology. The EV manufacturer is leading innovation in open-source development.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "electric car company",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "open-source system company",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic_context"
       },
       {
         "extracted_entity": "EV manufacturer",
-        "watch_list_entity": "Tesla Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic_context"
       }
     ],
@@ -180,7 +180,7 @@
   {
     "id": "article_combined_002",
     "title": "Combined Test Article 2",
-    "content": "The Chinese president and Tesla CEO discussed electric vehicle technology. The EV manufacturer is expanding globally.",
+    "content": "The Chinese president and Linux creator discussed open-source software technology. The EV manufacturer is expanding globally.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
@@ -190,13 +190,13 @@
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Tesla CEO",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux creator",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic_context"
       },
       {
         "extracted_entity": "EV manufacturer",
-        "watch_list_entity": "Tesla Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic_context"
       }
     ],
@@ -206,7 +206,7 @@
   {
     "id": "article_combined_003",
     "title": "Combined Test Article 3",
-    "content": "Bill Johnson, a doctor, met with the Russian author to discuss healthcare. The electric car company is also involved in medical technology.",
+    "content": "Bill Johnson, a doctor, met with the Russian author to discuss healthcare. The open-source system company is also involved in medical technology.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
@@ -221,8 +221,8 @@
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "electric car company",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "open-source system company",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic_context"
       }
     ],

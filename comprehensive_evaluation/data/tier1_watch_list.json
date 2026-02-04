@@ -45,15 +45,15 @@
       "explicit_context": "Xi Jinping (born 15 June 1953) is a Chinese politician who has been serving as the General Secretary of the Chinese Communist Party (CCP) and President of the People's Republic of China since 2012. He is the paramount leader of China and has been described as the most powerful Chinese leader since Mao Zedong, overseeing China's economic growth and international relations."
     },
     {
-      "name": "Tesla Inc",
+      "name": "Linux",
       "entity_type": "organization",
-      "description": "Electric vehicle company",
+      "description": "Open-source operating system kernel",
       "aliases": [
-        "Tesla",
-        "Tesla Motors",
-        "Tesla, Inc."
+        "Linux kernel",
+        "Linux OS",
+        "GNU/Linux"
       ],
-      "explicit_context": "Tesla, Inc. is an American electric vehicle and clean energy company founded by Elon Musk in 2003. The company is known for its electric cars, energy storage systems, and solar panels, and has become one of the world's most valuable automakers by market capitalization, revolutionizing the automotive industry with sustainable transportation solutions."
+      "explicit_context": "Linux is an open-source operating system kernel created by Linus Torvalds in 1991. The Linux kernel is the foundation of many operating systems and is used in servers, supercomputers, embedded systems, and mobile devices. Linux has become one of the most widely used operating system kernels in the world, powering a significant portion of the internet and computing infrastructure."
     }
   ],
   "enrichment": {
