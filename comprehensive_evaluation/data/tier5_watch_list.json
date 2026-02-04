@@ -406,7 +406,7 @@
         "Windows maker",
         "Office creator"
       ],
-      "explicit_context": "Microsoft Corporation is an American multinational technology corporation founded by Bill Gates and Paul Allen in 1975. The company produces computer software, consumer electronics, personal computers, and related services, and is known for its Windows operating system, Office productivity suite, and cloud computing services, making it one of the world's largest technology companies.",
+      "explicit_context": "Microsoft Corporation is an American multinational technology corporation founded in 1975. The company produces computer software, consumer electronics, personal computers, and related services, and is known for its Windows operating system, Office productivity suite, and cloud computing services, making it one of the world's largest technology companies.",
       "script": "Latin",
       "challenge_type": "complex_business_hierarchy"
     },
