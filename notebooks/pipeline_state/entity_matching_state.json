@@ -515,8 +515,8 @@
       "total_entities_extracted": 0,
       "matches_found": [
         {
-          "extracted_entity": "Tesla CEO",
-          "watched_entity": "Elon Musk",
+          "extracted_entity": "Linux creator",
+          "watched_entity": "Linus Torvalds",
           "confidence": 0.0,
           "match_type": "error",
           "reasoning": "Error occurred during match evaluation",
@@ -527,8 +527,8 @@
           "risk_factors": []
         },
         {
-          "extracted_entity": "Elon Musk",
-          "watched_entity": "Elon Musk",
+          "extracted_entity": "Linus Torvalds",
+          "watched_entity": "Linus Torvalds",
           "confidence": 0.0,
           "match_type": "error",
           "reasoning": "Error occurred during match evaluation",
@@ -540,7 +540,7 @@
         },
         {
           "extracted_entity": "Apple CEO",
-          "watched_entity": "Elon Musk",
+          "watched_entity": "Linus Torvalds",
           "confidence": 0.0,
           "match_type": "error",
           "reasoning": "Error occurred during match evaluation",

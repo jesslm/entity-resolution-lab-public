@@ -327,7 +327,7 @@ watch_list = EntityWatchList()
 # Add some entities to the watch list
 entities = [
     {"name": "Joe Biden", "entity_type": "PERSON", "description": "President of the United States", "priority": "high"},
-    {"name": "Elon Musk", "entity_type": "PERSON", "description": "CEO of Tesla and SpaceX", "priority": "high"},
+    {"name": "Linus Torvalds", "entity_type": "PERSON", "description": "CEO of Tesla and Git", "priority": "high"},
     {"name": "Taylor Swift", "entity_type": "PERSON", "description": "American singer-songwriter", "priority": "medium"},
     {"name": "Microsoft", "entity_type": "ORGANIZATION", "description": "Technology company", "priority": "high"}
 ]
@@ -473,7 +473,7 @@ sample_article = Article(
     id="article1",
     title="Tech Leaders Meet at Global Summit",
     content="Tech industry leaders gathered at the Global Technology Summit in San Francisco yesterday. "
-           "Microsoft CEO Satya Nadella discussed the company's AI initiatives, while Tesla CEO Elon Musk "
+           "Microsoft CEO Satya Nadella discussed the company's AI initiatives, while Linux creator Linus Torvalds "
            "presented his vision for sustainable energy. The event was also attended by Apple representatives "
            "and several government officials including US President Joe Biden, who emphasized the importance "
            "of technological innovation for economic growth. "

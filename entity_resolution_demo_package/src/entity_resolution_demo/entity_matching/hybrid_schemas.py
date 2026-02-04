@@ -43,7 +43,7 @@ HYBRID_INDIVIDUAL_FUNCTION_DEFINITIONS = [
 **PARTIAL LAST NAME MATCHES:**
 - "Smith" vs "John Smith" (last name vs full name)
 - "Johnson" vs "Robert Johnson" (last name vs full name)
-- "Gates" vs "Bill Gates" (last name vs full name)
+- "Berners-Lee" vs "Tim Berners-Lee" (last name vs full name)
 
 **INITIAL MATCHES:**
 - "J. Smith" vs "John Smith" (initial vs full name)
@@ -156,7 +156,7 @@ HYBRID_BATCH_FUNCTION_DEFINITIONS = [
 **PARTIAL LAST NAME MATCHES:**
 - "Smith" vs "John Smith" (last name vs full name)
 - "Johnson" vs "Robert Johnson" (last name vs full name)
-- "Gates" vs "Bill Gates" (last name vs full name)
+- "Berners-Lee" vs "Tim Berners-Lee" (last name vs full name)
 
 **INITIAL MATCHES:**
 - "J. Smith" vs "John Smith" (initial vs full name)

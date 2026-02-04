@@ -303,20 +303,20 @@
   {
     "id": "article_semantic_context_003",
     "title": "Company Context Test",
-    "content": "The electric car company reported strong quarterly earnings. The EV manufacturer announced new production facilities and expansion plans.",
+    "content": "The open-source system company reported strong quarterly earnings. The EV manufacturer announced new production facilities and expansion plans.",
     "source": "Test Data",
     "language": "en",
     "complexity": "high",
     "test_category": "semantic_context",
     "expected_matches": [
       {
-        "extracted_entity": "electric car company",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "open-source system company",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic_context"
       },
       {
         "extracted_entity": "EV manufacturer",
-        "watch_list_entity": "Tesla Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic_context"
       }
     ]
@@ -345,20 +345,20 @@
   {
     "id": "article_semantic_context_005",
     "title": "Technology Leader Context Test",
-    "content": "The Tesla CEO announced new initiatives. The electric vehicle company's leader discussed innovation and sustainability goals.",
+    "content": "The Linux creator announced new initiatives. The open-source software company's leader discussed innovation and sustainability goals.",
     "source": "Test Data",
     "language": "en",
     "complexity": "high",
     "test_category": "semantic_context",
     "expected_matches": [
       {
-        "extracted_entity": "Tesla CEO",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linux creator",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "title_reference"
       },
       {
-        "extracted_entity": "electric vehicle company's leader",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "open-source software company's leader",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "semantic_context"
       }
     ]
@@ -507,7 +507,7 @@
   {
     "id": "article_combined_002",
     "title": "Combined Test Article 2",
-    "content": "William Johnson, also known as Bill Johnson, works for Tesla Inc, the electric car company. The system should handle multiple entity types effectively.",
+    "content": "William Johnson, also known as Bill Johnson, works for Linux Inc, the open-source system company. The system should handle multiple entity types effectively.",
     "source": "Test Data",
     "language": "en",
     "complexity": "medium",
@@ -524,13 +524,13 @@
         "match_type": "nickname"
       },
       {
-        "extracted_entity": "Tesla Inc",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "electric car company",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "open-source system company",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic_context"
       }
     ]
@@ -574,20 +574,20 @@
   {
     "id": "article_combined_004",
     "title": "Combined Test Article 4",
-    "content": "The Tesla CEO (Elon Musk) announced partnerships with Apple Inc. The electric vehicle company's leader discussed collaboration with the technology giant.",
+    "content": "The Linux creator (Linus Torvalds) announced partnerships with Apple Inc. The open-source software company's leader discussed collaboration with the technology giant.",
     "source": "Test Data",
     "language": "en",
     "complexity": "high",
     "test_category": "combined",
     "expected_matches": [
       {
-        "extracted_entity": "Tesla CEO",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linux creator",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "title_reference"
       },
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {
@@ -596,8 +596,8 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "electric vehicle company's leader",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "open-source software company's leader",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "semantic_context"
       },
       {
@@ -688,7 +688,7 @@
   {
     "id": "article_business_004",
     "title": "Business Entities Test 4",
-    "content": "Volkswagen AG announced new electric vehicles. The automotive company discussed sustainability. VW emphasized innovation and environmental responsibility.",
+    "content": "Volkswagen AG announced new open-source softwares. The automotive company discussed sustainability. VW emphasized innovation and environmental responsibility.",
     "source": "Test Data",
     "language": "en",
     "complexity": "medium",
@@ -766,25 +766,25 @@
   {
     "id": "article_executive_002",
     "title": "Executive References Test 2",
-    "content": "Elon Musk discussed space exploration. The Tesla CEO announced new projects. Musk emphasized innovation and sustainability.",
+    "content": "Linus Torvalds discussed software development. The Linux creator announced new projects. Musk emphasized innovation and sustainability.",
     "source": "Test Data",
     "language": "en",
     "complexity": "medium",
     "test_category": "executive_references",
     "expected_matches": [
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Tesla CEO",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linux creator",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "title_reference"
       },
       {
         "extracted_entity": "Musk",
-        "watch_list_entity": "Elon Musk",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "last_name"
       }
     ]
@@ -1272,7 +1272,7 @@
   {
     "id": "article_business_complex_001",
     "title": "Complex Business Scenario Test",
-    "content": "Volkswagen AG announced new electric vehicles. The automotive company discussed sustainability. VW emphasized innovation and environmental responsibility.",
+    "content": "Volkswagen AG announced new open-source softwares. The automotive company discussed sustainability. VW emphasized innovation and environmental responsibility.",
     "source": "Test Data",
     "language": "en",
     "complexity": "medium",
@@ -1420,17 +1420,17 @@
     "expected_matches": [
       {
         "extracted_entity": "technology leader",
-        "watch_list_entity": "Elon Musk",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "semantic_context"
       },
       {
         "extracted_entity": "tech CEO",
-        "watch_list_entity": "Elon Musk",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "semantic_context"
       },
       {
         "extracted_entity": "industry leader",
-        "watch_list_entity": "Elon Musk",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "semantic_context"
       }
     ]
@@ -1516,7 +1516,7 @@
   {
     "id": "article_combined_005",
     "title": "Combined Test Article 5",
-    "content": "The technology leader (Elon Musk) met with the business leader (Tim Cook) to discuss innovation partnerships. Dr. Sarah Williams provided medical support during the meeting.",
+    "content": "The technology leader (Linus Torvalds) met with the business leader (Tim Cook) to discuss innovation partnerships. Dr. Sarah Williams provided medical support during the meeting.",
     "source": "Test Data",
     "language": "en",
     "complexity": "high",
@@ -1524,12 +1524,12 @@
     "expected_matches": [
       {
         "extracted_entity": "technology leader",
-        "watch_list_entity": "Elon Musk",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "semantic_context"
       },
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {
@@ -1593,25 +1593,25 @@
   {
     "id": "article_executive_004",
     "title": "Executive References Test 4",
-    "content": "The Tesla CEO discussed electric vehicle innovation. Elon Musk announced new battery technology. The electric car company's leader emphasized sustainability.",
+    "content": "The Linux creator discussed open-source software innovation. Linus Torvalds announced new kernel technology. The open-source system company's leader emphasized sustainability.",
     "source": "Test Data",
     "language": "en",
     "complexity": "medium",
     "test_category": "executive_references",
     "expected_matches": [
       {
-        "extracted_entity": "Tesla CEO",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linux creator",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "title_reference"
       },
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "electric car company's leader",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "open-source system company's leader",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "semantic_context"
       }
     ]

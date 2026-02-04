@@ -48,7 +48,7 @@
         "Toyota Jidosha",
         "Toyota Motors"
       ],
-      "explicit_context": "Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan, founded in 1937. The company is the world's largest automobile manufacturer by production and is known for its reliable vehicles and hybrid technology, including the Prius, representing innovation in automotive technology and sustainable transportation.",
+      "explicit_context": "Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan, founded in 1937. The company is the world's largest automobile manufacturer by production and is known for its reliable vehicles and hybrid technology, including the Prius, representing innovation in automotive technology and open-source development.",
       "script": "Japanese",
       "challenge_type": "company_name_variations"
     },
@@ -292,15 +292,15 @@
       "challenge_type": "political_titles"
     },
     {
-      "name": "Elon Musk",
+      "name": "Linus Torvalds",
       "entity_type": "person",
       "description": "Test case for business_titles",
       "aliases": [
-        "Elon Reeve Musk",
-        "E. Musk",
-        "Musk Elon"
+        "Linus Benedict Torvalds",
+        "L. Torvalds",
+        "Torvalds Linus"
       ],
-      "explicit_context": "Elon Reeve Musk (born 28 June 1971) is a South African-born American entrepreneur and business magnate who is the founder, CEO, and chief engineer of SpaceX, CEO and product architect of Tesla, Inc., and founder of The Boring Company and Neuralink. He is known for his ambitious projects in space exploration, electric vehicles, and sustainable energy.",
+      "explicit_context": "Linus Benedict Torvalds (born 28 December 1969) is a Finnish-American software engineer who is the creator and principal developer of the Linux kernel and the distributed version control system Git. He is known for his contributions to open-source software development and is widely recognized as one of the most influential figures in the history of computing.",
       "script": "Latin",
       "challenge_type": "business_titles"
     },
@@ -353,7 +353,7 @@
         "MSFT",
         "Microsoft Inc"
       ],
-      "explicit_context": "Microsoft Corporation is an American multinational technology corporation founded by Bill Gates and Paul Allen in 1975. The company produces computer software, consumer electronics, personal computers, and related services, and is known for its Windows operating system, Office productivity suite, and cloud computing services, making it one of the world's largest technology companies.",
+      "explicit_context": "Microsoft Corporation is an American multinational technology corporation founded in 1975. The company produces computer software, consumer electronics, personal computers, and related services, and is known for its Windows operating system, Office productivity suite, and cloud computing services, making it one of the world's largest technology companies.",
       "script": "Latin",
       "challenge_type": "complex_business_hierarchy"
     },

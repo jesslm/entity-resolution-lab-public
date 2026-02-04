@@ -520,11 +520,11 @@ if __name__ == "__main__":
     
     # Test with a sample entity
     test_entity = watch_list.create_entity(
-        name="Elon Musk",
+        name="Linus Torvalds",
         entity_type="person",
-        description="CEO of Tesla and SpaceX",
+        description="CEO of Tesla and Git",
         priority="HIGH",
-        aliases=["E. Musk", "Elon Reeve Musk"]
+        aliases=["L. Torvalds", "Linus Benedict Torvalds"]
     )
     
     # Enrich and index the entity
@@ -535,7 +535,7 @@ if __name__ == "__main__":
     print(f"Entity indexing: {'✅ Success' if success else '❌ Failed'}")
     
     # Test semantic search
-    semantic_results = indexer.search_entities("Tesla CEO", use_semantic=True)
+    semantic_results = indexer.search_entities("Linux creator", use_semantic=True)
     print(f"Semantic search results: {len(semantic_results)} entities found")
     
     # Test keyword search

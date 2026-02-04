@@ -136,18 +136,18 @@
   {
     "id": "article_semantic_context_003",
     "title": "Company Context Test",
-    "content": "The electric car company reported strong quarterly earnings. The EV manufacturer announced new production facilities.",
+    "content": "The open-source system company reported strong quarterly earnings. The EV manufacturer announced new production facilities.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "electric car company",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "open-source system company",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic"
       },
       {
         "extracted_entity": "EV manufacturer",
-        "watch_list_entity": "Tesla Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "semantic"
       }
     ],
@@ -215,7 +215,7 @@
   {
     "id": "article_combined_002",
     "title": "Combined Test Article 2",
-    "content": "William Johnson, also known as Bill Johnson, works for Tesla Inc, the electric car company. The system should handle multiple entity types.",
+    "content": "William Johnson, also known as Bill Johnson, works for Linux Inc, the open-source system company. The system should handle multiple entity types.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
@@ -225,8 +225,8 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Tesla Inc",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "exact"
       }
     ],
@@ -236,7 +236,7 @@
   {
     "id": "article_combined_003",
     "title": "Combined Test Article 3",
-    "content": "The Russian author emphasized the importance of electric vehicles. Tesla Inc, the EV manufacturer, announced new partnerships.",
+    "content": "The Russian author emphasized the importance of open-source softwares. Linux Inc, the EV manufacturer, announced new partnerships.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
@@ -246,8 +246,8 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Tesla Inc",
-        "watch_list_entity": "Tesla Inc",
+        "extracted_entity": "Linux Inc",
+        "watch_list_entity": "Linux Inc",
         "match_type": "exact"
       }
     ],
@@ -368,14 +368,14 @@
   },
   {
     "id": "article_semantic_context_005",
-    "title": "Tesla CEO Context Test",
-    "content": "The Tesla CEO announced new electric vehicle models. The SpaceX CEO discussed future Mars missions.",
+    "title": "Linux creator Context Test",
+    "content": "The Linux creator announced new open-source software models. The Git creator discussed future kernel developments.",
     "source": "Test Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       }
     ],

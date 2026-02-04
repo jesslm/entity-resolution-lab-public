@@ -255,7 +255,7 @@ def check_elasticsearch_models(config: Dict[str, Any]) -> Tuple[bool, Dict[str, 
             results["ner_model"]["name"] = ner_model_id
             
             # Test NER model with a simple extraction
-            test_text = "Elon Musk is the CEO of Tesla and SpaceX."
+            test_text = "Linus Torvalds is the CEO of Tesla and Git."
             entities = ner_extractor.extract_entities_from_text(test_text)
             
             if entities and len(entities) > 0:

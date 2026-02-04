@@ -866,30 +866,30 @@
     "test_category": "cross_script_chinese"
   },
   {
-    "id": "tier5_cross_script_musk_001",
-    "title": "Cross-Script Elon Musk Challenge",
-    "content": "Elon Musk announced new technology. E. Musk discussed innovation. Tesla CEO emphasized sustainability. Musk Elon founded SpaceX.",
+    "id": "tier5_cross_script_torvalds_001",
+    "title": "Cross-Script Linus Torvalds Challenge",
+    "content": "Linus Torvalds announced new technology. L. Torvalds discussed innovation. Linux creator emphasized sustainability. Torvalds Linus founded Git.",
     "source": "Tier5 Challenge Data",
     "language": "en",
     "expected_matches": [
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {
-        "extracted_entity": "E. Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "L. Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "abbreviation"
       },
       {
-        "extracted_entity": "Tesla CEO",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linux creator",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "title_variation"
       },
       {
-        "extracted_entity": "Musk Elon",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Torvalds Linus",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "name_order_variation"
       }
     ],
@@ -992,7 +992,7 @@
   {
     "id": "tier5_cross_script_combined_001",
     "title": "Cross-Script Combined Challenge",
-    "content": "Лев Толстой и习近平会面了。Leo Tolstoy and Xi Jinping met. Elon Musk和Tim Cook讨论了技术。Elon Musk and Tim Cook discussed technology.",
+    "content": "Лев Толстой и习近平会面了。Leo Tolstoy and Xi Jinping met. Linus Torvalds和Tim Cook讨论了技术。Linus Torvalds and Tim Cook discussed technology.",
     "source": "Tier5 Challenge Data",
     "language": "mixed",
     "expected_matches": [
@@ -1017,8 +1017,8 @@
         "match_type": "exact"
       },
       {
-        "extracted_entity": "Elon Musk",
-        "watch_list_entity": "Elon Musk",
+        "extracted_entity": "Linus Torvalds",
+        "watch_list_entity": "Linus Torvalds",
         "match_type": "exact"
       },
       {

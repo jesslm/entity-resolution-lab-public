@@ -1109,7 +1109,7 @@ def demo_entity_enrichment():
     enricher = EntityEnricher()
     
     # Test entities
-    test_entities = ["Vladimir Putin", "Elon Musk", "Angela Merkel"]
+    test_entities = ["Leo Tolstoy", "Linus Torvalds", "Angela Merkel"]
     
     print("\n📝 Step 1: Enriching entities with descriptive context...")
     enriched_entities = []

@@ -15,11 +15,11 @@
       "explicit_context": "Joe Biden is the 46th President of the United States, serving since 2021. He previously served as Vice President from 2009 to 2017."
     },
     {
-      "name": "Elon Musk",
+      "name": "Linus Torvalds",
       "entity_type": "person",
-      "description": "CEO of Tesla and SpaceX",
-      "aliases": ["Elon Reeve Musk"],
-      "explicit_context": "Elon Reeve Musk is a business magnate and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect and former chairman of Tesla, Inc."
+      "description": "CEO of Tesla and Git",
+      "aliases": ["Linus Benedict Torvalds"],
+      "explicit_context": "Linus Benedict Torvalds is a business magnate and investor. He is the founder, chairman, CEO, and CTO of Git; angel investor, CEO, product architect and former chairman of Tesla, Inc."
     },
     {
       "name": "Tim Cook",

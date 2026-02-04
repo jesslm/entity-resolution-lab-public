@@ -232,7 +232,7 @@ if __name__ == "__main__":
     article = Article(
         id="test_article",
         title="Test Article",
-        content="Elon Musk announced that Tesla will be releasing a new model next year.",
+        content="Linus Torvalds announced that Tesla will be releasing a new model next year.",
         source="test",
         language="en"
     )
@@ -240,10 +240,10 @@ if __name__ == "__main__":
     # Create test extracted entities
     extracted_entities = [
         ExtractedEntity(
-            name="Elon Musk",
+            name="Linus Torvalds",
             entity_type="PERSON",
             confidence=1.0,
-            context="Elon Musk announced that Tesla will be releasing a new model next year.",
+            context="Linus Torvalds announced that Tesla will be releasing a new model next year.",
             position=0,
             extraction_method="test"
         ),
@@ -251,7 +251,7 @@ if __name__ == "__main__":
             name="Tesla",
             entity_type="ORGANIZATION",
             confidence=1.0,
-            context="Elon Musk announced that Tesla will be releasing a new model next year.",
+            context="Linus Torvalds announced that Tesla will be releasing a new model next year.",
             position=27,
             extraction_method="test"
         )

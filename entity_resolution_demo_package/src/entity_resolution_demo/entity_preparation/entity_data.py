@@ -56,10 +56,10 @@ ENTITIES = [
     
     # Business leaders - for role-based and contextual matching
     {
-        "name": "Elon Musk",
+        "name": "Linus Torvalds",
         "entity_type": "person",
-        "description": "CEO of Tesla and SpaceX",
-        "aliases": ["E. Musk", "イーロン・マスク", "Elon Reeve Musk", "Tesla CEO"]
+        "description": "Creator of Linux and Git",
+        "aliases": ["L. Torvalds", "リーナス・トーバルズ", "Linus Benedict Torvalds", "Linux creator", "Git creator"]
     },
     {
         "name": "Satya Nadella",
@@ -132,10 +132,10 @@ ENTITIES = [
     
     # Companies - for business context matching
     {
-        "name": "Tesla, Inc.",
+        "name": "Linux, Inc.",
         "entity_type": "organization",
-        "description": "American electric vehicle and clean energy company",
-        "aliases": ["Tesla", "Tesla Motors", "テスラ", "特斯拉"]
+        "description": "American open-source software and clean energy company",
+        "aliases": ["Linux", "Linux Motors", "テスラ", "特斯拉"]
     },
     {
         "name": "Microsoft Corporation",
@@ -335,7 +335,7 @@ ENTITIES = [
         "entity_type": "person",
         "description": "Professor of Chemistry at Stanford University",
         "aliases": ["Professor Jane Wilson", "Jane Wilson, PhD", "Dr. Wilson"],
-        "explicit_context": "Dr. Jane Wilson (born April 8, 1972) is a distinguished Professor of Chemistry at Stanford University, where she has taught since 2003. She earned her Ph.D. from Harvard University in 1998 and completed her postdoctoral research at MIT. Wilson's pioneering work in sustainable catalysis has revolutionized industrial chemical processes, significantly reducing environmental impact while improving efficiency. Her research group at Stanford focuses on developing novel catalysts for renewable energy applications, particularly in hydrogen fuel cell technology. In 2018, she received the Presidential Early Career Award for Scientists and Engineers, and in 2022, she was elected to the National Academy of Sciences. Wilson has published over 150 peer-reviewed papers, holds 12 patents, and has mentored more than 40 Ph.D. students. Her groundbreaking work on metal-organic frameworks for carbon capture has applications in sustainable energy development and has attracted over $15 million in research funding."
+        "explicit_context": "Dr. Jane Wilson (born April 8, 1972) is a distinguished Professor of Chemistry at Stanford University, where she has taught since 2003. She earned her Ph.D. from Harvard University in 1998 and completed her postdoctoral research at MIT. Wilson's pioneering work in sustainable catalysis has revolutionized industrial chemical processes, significantly reducing environmental impact while improving efficiency. Her research group at Stanford focuses on developing novel catalysts for renewable energy applications, particularly in hydrogen fuel cell technology. In 2018, she received the Presidential Early Career Award for Scientists and Engineers, and in 2022, she was elected to the National Academy of Sciences. Wilson has published over 150 peer-reviewed papers, holds 12 patents, and has mentored more than 40 Ph.D. students. Her groundbreaking work on metal-organic frameworks for carbon capture has applications in open-source software development and has attracted over $15 million in research funding."
     },
     {
         "name": "James Williams",
